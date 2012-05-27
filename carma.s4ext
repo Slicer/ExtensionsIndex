@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/carma-center/carma_slicer_extension.git
-scmrevision e17bd85dac37396918126d6b352d0951cf734ead
+scmrevision f855820f76dbc405bb538d83a83dc785d85a0614
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -28,7 +28,7 @@ contributors Alan Morris (CARMA), Danny Perry (CARMA), Josh Cates (CARMA), Rob M
 category    CARMA
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://viewvc.slicer.org/viewvc.cgi/Slicer4/trunk/Extensions/Testing/LoadableExtensionTemplate/Resources/Icons/LoadableExtensionTemplate.png?revision=19437&view=co
+iconurl     https://github.com/carma-center/carma_slicer_extension/raw/master/carma-logo-128.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
