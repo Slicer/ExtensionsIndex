@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/millerjv/FacetedVisualizer.git
-scmrevision 0ec1299
+scmrevision 1875fcf
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
