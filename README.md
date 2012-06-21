@@ -449,7 +449,7 @@ License
 * [3D Slicer license](http://viewvc.slicer.org/viewvc.cgi/Slicer4/trunk/License.txt?view=co)
 
 [fork]: http://help.github.com/forking/
-[ExtensionsIndex tracker]: https://github.com/Slicer/ExtensionsIndex/issues
+[Slicer/ExtensionsIndex tracker]: https://github.com/Slicer/ExtensionsIndex/issues
 
 [CDash]: http://slicer.cdash.org/index.php?project=Slicer4
 
