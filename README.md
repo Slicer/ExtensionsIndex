@@ -31,7 +31,7 @@ Contributing
 
 To contribute an extension description file, consider the following check list:
 
-1. Extension belongs to `Category 1` or `Category 2` as described in [Slicer requirements](http://www.slicer.org/slicerWiki/index.php/Documentation/4.1/SlicerApplication/ExtensionCatalogPolicies)
+1. Extension belongs to `Category 1` or `Category 2` as described in [Slicer requirements](http://www.slicer.org/slicerWiki/index.php/Documentation/4.1/Extensions/CatalogPolicies)
 2. [Set up an account on the extension server and obtain an API key][extensions-server-api-key-setup]
 3. Extension has been built and tested on the following platform: Linux, MacOSX and Windows. You could for example do an `ExperimentalUpload` and make sure the extension can be installed successfully. See [manual build](#manual-build)
 4. [Fork][] ExtensionIndex
