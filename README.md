@@ -31,14 +31,22 @@ Contributing
 
 To contribute an extension description file, consider the following check list:
 
-1. Extension belongs to `Category 1` or `Category 2` as described in [Slicer requirements](http://www.slicer.org/slicerWiki/index.php/Documentation/4.1/SlicerApplication/ExtensionCatalogPolicies)
-2. Extension has been built and tested on the following platform: Linux, MacOSX and Windows
-3. [Fork][] ExtensionIndex
-3. Create an issue on [ExtensionsIndex tracker][]. Issue title should be `<ExtensionName> - Add extension`, issue description should provide details about the extension
-4. Create a topic named `<IssueNumber>-add-<ExtensionName>`
-5. Commit your description file. Commit title should be `Add <ExtensionName> extension` and the the issue number should be reference adding `See issue #<issuenumber>` at the end of the commit message.
-6. Push the topic to your fork and Slicer folks will be automatically notified
-7. That's it !
+1. Extension belongs to `Category 1` or `Category 2` as described in [Slicer requirements](http://www.slicer.org/slicerWiki/index.php/Documentation/4.1/Extensions/CatalogPolicies)
+2. [Set up an account on the extension server and obtain an API key][extensions-server-api-key-setup]
+3. Extension has been built and tested on the following platform: Linux, MacOSX and Windows. You could for example do an `ExperimentalUpload` and make sure the extension can be installed successfully. See [manual build](#manual-build)
+4. [Fork][] ExtensionIndex
+5. Create an issue on [Slicer/ExtensionsIndex tracker][] (). Issue title should be `<ExtensionName> - Add extension`, issue description should provide details about the extension
+6. Clone your fork, then create a topic named `<IssueNumber>-add-<ExtensionName>`
+  
+  ```
+  git clone git@github.com:<yourlogin>/ExtensionsIndex SlicerExtensionsIndex
+  cd SlicerExtensionsIndex
+  git checkout -b <IssueNumber>-add-<ExtensionName>
+  ```
+  
+7. Commit your description file. Commit title should be `Add <ExtensionName> extension` and the the issue number should be reference adding `See issue #<issuenumber>` at the end of the commit message.
+8. Push the topic to your fork and Slicer folks will be automatically notified
+9. That's it !
 
 Remarks:
 
@@ -449,7 +457,7 @@ License
 * [3D Slicer license](http://viewvc.slicer.org/viewvc.cgi/Slicer4/trunk/License.txt?view=co)
 
 [fork]: http://help.github.com/forking/
-[ExtensionsIndex tracker]: https://github.com/Slicer/ExtensionsIndex/issues
+[Slicer/ExtensionsIndex tracker]: https://github.com/Slicer/ExtensionsIndex/issues
 
 [CDash]: http://slicer.cdash.org/index.php?project=Slicer4
 
