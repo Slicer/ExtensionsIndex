@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://subversion.assembla.com/svn/slicerrt/trunk/SlicerRt/src
-scmrevision 200
+scmrevision 208
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -38,7 +38,7 @@ status      Beta
 description Extensions for radiotherapy research (DICOM-RT import, dose volume histogram, dose accumulation, etc.
 
 # Space separated list of urls
-screenshoturls https://www.assembla.com/spaces/slicerrt/documents/bhB--4vSSr4BSNacwqjQWU/download/bhB--4vSSr4BSNacwqjQWU?notinline=true
+screenshoturls http://wiki.slicer.org/slicerWiki/images/thumb/f/f1/SlicerRT-0.2_screenshot.png/800px-SlicerRT-0.2_screenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
