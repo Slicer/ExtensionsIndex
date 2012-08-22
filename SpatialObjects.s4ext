@@ -1,0 +1,38 @@
+#
+# SpatialObject Extension
+#
+
+# Source code manager
+scm git
+scmurl https://github.com/michael-jeulinl/SpatialObjectsExtension.git
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends     NA
+
+# Homepage
+homepage    http://www.itk.org/Doxygen/html/group__ITKSpatialObjects.html
+
+# Contributors
+contributors Michael Jeulin-L (Kitware Inc.)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category    Surface Models
+
+# url to icon (png, size 128x128 pixels)
+# TODO - Change Icon
+iconurl     http://wiki.slicer.org/slicerWiki/images/f/f2/SlicerRtExtensionLogo.png
+
+# Extension develpment status
+status      Beta
+
+# One line stating what the module does
+description The SpatialObjects extension will allow the user to load and adjust display parameters of spatial object data.
+
+# Space separated list of urls
+# TODO - Create and upload the screen-shots refering to the extension
+# screenshoturls http://wiki.slicer.org/slicerWiki/images/thumb/f/f1/SlicerRT-0.2_screenshot.png/800px-SlicerRT-0.2_screenshot.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
