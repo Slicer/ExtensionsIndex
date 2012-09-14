@@ -21,8 +21,7 @@ contributors Michael Jeulin-L (Kitware Inc.)
 category    Surface Models
 
 # url to icon (png, size 128x128 pixels)
-# TODO - Change Icon
-iconurl     http://wiki.slicer.org/slicerWiki/images/f/f2/SlicerRtExtensionLogo.png
+iconurl     http://wiki.slicer.org/slicerWiki/images/5/5f/SOV_Icon_128.png
 
 # Extension develpment status
 status      Beta
