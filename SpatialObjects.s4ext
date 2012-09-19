@@ -5,6 +5,7 @@
 # Source code manager
 scm git
 scmurl https://github.com/chrismullins/SpatialObjectsExtension.git
+scmrevision 8c37468c1e
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
