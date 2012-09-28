@@ -14,7 +14,7 @@ scmurl git://github.com/openigtlink/VolumeResliceDriver.git
 depends NA
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/4.1/Extensions/IGTLRemote
+homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/4.1/Modules/VolumeResliceDriver
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -24,7 +24,7 @@ contributors Junichi Tokuda (BWH)
 category    IGT
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://viewvc.slicer.org/viewvc.cgi/Slicer4/trunk/Extensions/Testing/LoadableExtensionTemplate/Resources/Icons/LoadableExtensionTemplate.png?revision=19437&view=co
+iconurl     http://www.slicer.org/slicerWiki/images/1/1d/VolumeResliceDriverIcon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -34,4 +34,4 @@ status      Beta
 description This is an example of Qt loadable module built as an extension
 
 # Space separated list of urls
-screenshoturls http://wiki.slicer.org/slicerWiki/images/4/42/Slicer-r19441-LoadableExtensionTemplate-screenshot.png
+screenshoturls http://www.slicer.org/slicerWiki/images/2/2d/Slicer4-VolumeResliceDriver-GUI.png
