@@ -8,6 +8,8 @@
 scm svn
 scmurl https://www.nitrc.org/svn/abc/trunk
 scmrevision 64
+svnusername slicerbot
+svnpassword slicer
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
