@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/paulcm/LongPETCT.git
-scmrevision f1365e2
+scmurl git://github.com/paulcm/LongitudinalPETCT.git
+scmrevision 3320495
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,27 +18,27 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://wiki.slicer.org/slicerWiki/index.php/Documentation/4.1/Modules/Reporting
+homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/LongitudinalPETCT
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Paul Mercea (University of Heidelberg), Andrey Fedorov (SPL)
+contributors Paul Mercea (University of Heidelberg), Andrey Fedorov(Surgical Planning Lab)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Informatics
+category    Examples
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://github.com/fedorov/Reporting/raw/master/Resources/Icons/ReportingLogo128px.png
+iconurl     http://www.slicer.org/slicerWiki/images/0/08/LongitudinalPETCTLogo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      Work in progress
+status      
 
 # One line stating what the module does
-description The purpose of the Reporting module is to provide Slicer interface for creating image annotations/markup that are stored in a structured form, and can be exported into Annotation Image Markup (AIM) XML-based format. The documentation is available at this location: http://wiki.slicer.org/slicerWiki/index.php/Documentation/4.1/Extensions/Reporting
+description This is an example of extension bundling a scripted loadable module
 
 # Space separated list of urls
-screenshoturls https://github.com/fedorov/Reporting/raw/master/Resources/Screenshots/ReportingGUI-prostate.png https://github.com/fedorov/Reporting/raw/master/Resources/Screenshots/ReportingGUI-LUT.png https://github.com/fedorov/Reporting/raw/master/Resources/Screenshots/ReportingGUI-TreeWidgetMenu.png
+screenshoturls http://www.slicer.org/slicerWiki/images/3/31/LongitudinalPETCT_Screenshot.jpg
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
