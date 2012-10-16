@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/paulcm/LongitudinalPETCT.git
-scmrevision f1f10dc
+scmrevision e44a686
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -25,7 +25,7 @@ homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Ext
 contributors Paul Mercea (University of Heidelberg), Andrey Fedorov(Surgical Planning Lab)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Examples
+category    Informatics
 
 # url to icon (png, size 128x128 pixels)
 iconurl     http://www.slicer.org/slicerWiki/images/0/08/LongitudinalPETCTLogo.png
@@ -35,7 +35,7 @@ iconurl     http://www.slicer.org/slicerWiki/images/0/08/LongitudinalPETCTLogo.p
 status      
 
 # One line stating what the module does
-description This is an example of extension bundling a scripted loadable module
+description The purpose of the Longitudinal PET/CT Analysis module is to provide a user friendly Slicer interface for quantification of DICOM PET/CT image data by computing the standardized uptake value (SUV) based on bodyweight for different regions of interest and for different timepoints.
 
 # Space separated list of urls
 screenshoturls http://www.slicer.org/slicerWiki/images/3/31/LongitudinalPETCT_Screenshot.jpg
