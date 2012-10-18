@@ -31,7 +31,7 @@ iconurl     http://www.slicer.org/slicerWiki/images/1/1d/VolumeResliceDriverIcon
 status      Beta
 
 # One line stating what the module does
-description The VolumeResliceDriver extension allows reslicing a 3D image by a plane along a tracked surgical tool.
+description The VolumeResliceDriver extension allows reslicing a 3D image by the plane along a tracked surgical tool.
 
 # Space separated list of urls
 screenshoturls http://www.slicer.org/slicerWiki/images/2/2d/Slicer4-VolumeResliceDriver-GUI.png
