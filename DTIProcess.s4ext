@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://www.nitrc.org/svn/dtiprocess/branches/Slicer4Extension
-scmrevision 90
+scmrevision 91
 svnusername slicerbot
 svnpassword slicer
 
@@ -30,7 +30,7 @@ contributors Aditya Gupta (NIRAL, University Of North Carolina), Clement Vachet 
 category    Diffusion
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.nitrc.org/project/screenshot.php?group_id=297&screenshot_id=573
+iconurl     http://www.nitrc.org/project/screenshot.php?group_id=312&screenshot_id=575
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
