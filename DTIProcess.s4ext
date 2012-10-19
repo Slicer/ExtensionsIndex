@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://www.nitrc.org/svn/dtiprocess/branches/Slicer4Extension
-scmrevision 91
+scmrevision 92
 svnusername slicerbot
 svnpassword slicer
 
@@ -17,7 +17,7 @@ svnpassword slicer
 depends     NA
 
 # Inner build directory (default is .)
-build_subdirectory dtiprocess-build/bin/
+build_subdirectory .
 
 # homepage
 homepage    http://www.nitrc.org/projects/dtiprocess/
