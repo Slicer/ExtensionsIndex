@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/paulcm/LongitudinalPETCT.git
-scmrevision 3f3ed03
+scmurl https://github.com/paulcm/LongitudinalPETCT
+scmrevision ddea840
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
