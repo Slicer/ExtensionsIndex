@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/fedorov/Reporting.git
-scmrevision 1ddf163
+scmrevision ad3b14d
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -28,7 +28,7 @@ contributors Andrey Fedorov (SPL), Nicole Aucoin (SPL), Steve Pieper (SPL)
 category    Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://github.com/fedorov/Reporting/raw/master/Resources/Icons/ReportingLogo128px.png
+iconurl     http://wiki.slicer.org/slicerWiki/images/3/31/ReportingLogo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -38,7 +38,7 @@ status      Work in progress
 description The purpose of the Reporting module is to provide Slicer interface for creating image annotations/markup that are stored in a structured form, and can be exported into Annotation Image Markup (AIM) XML-based format. The documentation is available at this location: http://wiki.slicer.org/slicerWiki/index.php/Documentation/4.1/Extensions/Reporting
 
 # Space separated list of urls
-screenshoturls https://github.com/fedorov/Reporting/raw/master/Resources/Screenshots/ReportingGUI-prostate.png https://github.com/fedorov/Reporting/raw/master/Resources/Screenshots/ReportingGUI-LUT.png https://github.com/fedorov/Reporting/raw/master/Resources/Screenshots/ReportingGUI-TreeWidgetMenu.png
+screenshoturls 
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
