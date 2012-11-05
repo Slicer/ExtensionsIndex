@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/millerjv/FacetedVisualizer.git
-scmrevision b3438e7
+scmrevision 7beba23
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -28,7 +28,7 @@ contributors Harini Veeraraghavan (GE)
 category    Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://github.com/millerjv/FacetedVisualizer/blob/960b9540cb84431dae1258b7234af0ced462e815/Resources/Icons/FacetedVisualizer.png
+iconurl     http://wiki.slicer.org/slicerWiki/images/9/9b/FacetedVisualizer.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
