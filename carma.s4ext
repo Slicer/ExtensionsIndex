@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/carma-center/carma_slicer_extension.git
-scmrevision 7a7157f6a42c2949834e2f39690ab7c1cf252e94
+scmrevision cb23eeb
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
