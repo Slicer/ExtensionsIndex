@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/chrismullins/TubeTK.git
-scmrevision fcd03e98c23a2fc33016931a63c6b4110d1c75ad
+scmrevision 71f0844040c236f5dcb21ae2eaafe978845f8963
 
 #list dependencies
 # - These should be names of other modules that have .s4ext files
