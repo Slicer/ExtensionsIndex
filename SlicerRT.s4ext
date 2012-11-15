@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm svn
-scmurl https://subversion.assembla.com/svn/slicerrt/trunk/SlicerRt/src
-scmrevision 421
+scmurl https://subversion.assembla.com/svn/slicerrt/branches/4.2
+scmrevision 459
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
