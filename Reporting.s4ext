@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/fedorov/Reporting.git
-scmrevision e48459d
+scmrevision 6a62237
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
