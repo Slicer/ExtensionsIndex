@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/4.1/Extensions/iGynePy
+homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/4.2/Extensions/iGynePy
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Guillaume Pernelle, Xiaojun Chen, Yi Gao, Carolina Vale, Jan Egger,
 category    IGT
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://viewvc.slicer.org/viewvc.cgi/Slicer4/trunk/Extensions/Testing/iGynePy/Resources/Icons/iGynePy.png?revision=19437&view=co
+iconurl     https://raw.github.com/gpernelle/iGynePy/master/Resources/Icons/icon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -38,7 +38,7 @@ status
 description iGyne is an open source software for MR-Guided Interstitial Gynecologic Brachytherapy. It enables on-time processing of the intra-operative MRI data via a DICOM connection to the scanner followed by a multi-stage registration of CAD models of the template and the obturator to the patient images. This allows the virtual placement of interstitial needles during the intervention.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/9/94/IGyne_1.0_needle_visualization.png
+screenshoturls http://www.slicer.org/slicerWiki/images/5/5d/IGyne-labelingResult.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
