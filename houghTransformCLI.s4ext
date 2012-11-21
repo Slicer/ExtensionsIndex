@@ -28,7 +28,7 @@ contributors Guillaume Pernelle
 category    Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl     
+iconurl  http://www.slicer.org/slicerWiki/images/6/6e/HtIcon.png   
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -38,7 +38,7 @@ status
 description Performs circle detection in volume using an Hough Transform
 
 # Space separated list of urls
-screenshoturls 
+screenshoturls http://www.slicer.org/slicerWiki/images/7/70/CirclesDetectionHoughTransform-result.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
