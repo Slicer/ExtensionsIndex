@@ -5,9 +5,9 @@
 #
 
 # This is source code manager (i.e. svn)
-scm svn
-scmurl https://subversion.assembla.com/svn/slicerrt/trunk/SlicerRt/src
-scmrevision 478
+scm git
+scmurl https://github.com/paulcm/LongitudinalPETCT
+scmrevision 9b6d4b8
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -15,30 +15,30 @@ scmrevision 478
 depends     NA
 
 # Inner build directory (default is .)
-build_subdirectory inner-build
+build_subdirectory .
 
 # homepage
-homepage    https://www.assembla.com/spaces/slicerrt
+homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/LongitudinalPETCT
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Csaba Pinter (PerkLab, Queen's University), Andras Lasso (PerkLab, Queen's University), Kevin Wang (Radiation Medicine Program, Princess Margaret Hospital, University Health Network Toronto)
+contributors Paul Mercea (University of Heidelberg), Andrey Fedorov(Surgical Planning Lab)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Radiotherapy
+category    Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://wiki.slicer.org/slicerWiki/images/f/f2/SlicerRtExtensionLogo.png
+iconurl     http://www.slicer.org/slicerWiki/images/0/08/LongitudinalPETCTLogo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      Beta
+status      
 
 # One line stating what the module does
-description Extensions for radiotherapy research (DICOM-RT import, dose volume histogram, dose accumulation, etc.) Version 0.6.0
+description The purpose of the Longitudinal PET/CT Analysis module is to provide a user friendly Slicer interface for quantification of DICOM PET/CT image data by computing the standardized uptake value (SUV) based on bodyweight for different regions of interest and for different timepoints.
 
 # Space separated list of urls
-screenshoturls https://www.assembla.com/spaces/slicerrt/documents/bEOgkoaZmr4Op-acwqjQWU/download/bEOgkoaZmr4Op-acwqjQWU
+screenshoturls http://www.slicer.org/slicerWiki/images/3/31/LongitudinalPETCT_Screenshot.jpg
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
