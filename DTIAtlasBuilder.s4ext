@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/NIRALUser/DTIAtlasBuilder.git
-scmrevision 83557cb6a9374ead09cd956e13bab7194a2187a6
+scmrevision ed3502ba8f0718d8fc6c78efae6656056b432a6a
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -28,7 +28,7 @@ contributors Adrien Kaiser (UNC)
 category    Diffusion
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.nitrc.org/project/screenshot.php?group_id=312&screenshot_id=575
+iconurl     http://www.nitrc.org/project/screenshot.php?group_id=636&screenshot_id=607
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
