@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://www.nitrc.org/svn/fvlight/trunk
-scmrevision 36
+scmrevision 46
 svnusername slicerbot
 svnpassword slicer
 
@@ -17,7 +17,7 @@ svnpassword slicer
 depends     NA
 
 # Inner build directory (default is .)
-build_subdirectory fvlight-build
+build_subdirectory FiberViewerLight-build
 
 #homepage
 homepage http://www.nitrc.org/projects/fvlight/
