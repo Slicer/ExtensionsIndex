@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/NIRALUser/DTIAtlasBuilder.git
-scmrevision c1e1cbb367f0863523aa889af9d3999d9a25199e
+scmrevision ecac39cafca59624c7c23c76f113a760f953f2b2
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
