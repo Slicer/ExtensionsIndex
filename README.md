@@ -43,7 +43,7 @@ To contribute an extension description file, consider the following check list:
   git checkout -b add-<ExtensionName>
   ```
   
-7. Commit your description file. Commit title should be `Add <ExtensionName> extension` and the conent should provide details about the extension
+7. Commit your description file. Commit title should be `Add <ExtensionName> extension` and the content should provide details about the extension
 8. Push the topic to your fork, then click on "Pull Request" button displayed on your github fork. Slicer folks will be automatically notified.
 9. That's it !
 
