@@ -35,27 +35,21 @@ To contribute an extension description file, consider the following check list:
 2. [Set up an account on the extension server and obtain an API key][extensions-server-api-key-setup]
 3. Extension has been built and tested on the following platform: Linux, MacOSX and Windows. You could for example do an `ExperimentalUpload` and make sure the extension can be installed successfully. See [manual build](#manual-build)
 4. [Fork][] ExtensionIndex
-5. Create an issue on [Slicer/ExtensionsIndex tracker][] (). Issue title should be `<ExtensionName> - Add extension`, issue description should provide details about the extension
-6. Clone your fork, then create a topic named `<IssueNumber>-add-<ExtensionName>`
+5. Clone your fork, then create a topic named `add-<ExtensionName>`
   
   ```
   git clone git@github.com:<yourlogin>/ExtensionsIndex SlicerExtensionsIndex
   cd SlicerExtensionsIndex
-  git checkout -b <IssueNumber>-add-<ExtensionName>
+  git checkout -b add-<ExtensionName>
   ```
   
-7. Commit your description file. Commit title should be `Add <ExtensionName> extension` and the the issue number should be reference adding `See issue #<issuenumber>` at the end of the commit message.
-8. Push the topic to your fork and Slicer folks will be automatically notified
+7. Commit your description file. Commit title should be `Add <ExtensionName> extension` and the conent should provide details about the extension
+8. Push the topic to your fork, then click on "Pull Request" button displayed on your github fork. Slicer folks will be automatically notified.
 9. That's it !
 
 Remarks:
 
-* `<IssueNumber>` and `<ExtensionName>` should be replaced with their actual value.
-
-
-To contribute fixes associated to your extension, consider the following check list:
-
-TBD 
+* `<ExtensionName>` should be replaced with its actual value.
 
 ### Dashboard submissions
 
