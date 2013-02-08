@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://www.nitrc.org/svn/dtiprocess/branches/Slicer4Extension
-scmrevision 111
+scmrevision 161
 svnusername slicerbot
 svnpassword slicer
 
