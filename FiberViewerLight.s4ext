@@ -1,0 +1,40 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
+scm svn
+scmurl https://www.nitrc.org/svn/fvlight/trunk
+scmrevision 53
+svnusername slicerbot
+svnpassword slicer
+
+#list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends     NA
+
+# Inner build directory (default is .)
+build_subdirectory FiberViewerLight-build
+
+#homepage
+homepage http://www.nitrc.org/projects/fvlight/
+
+contributors Francois Budin (UNC)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category FiberViewer
+
+# url to icon (png, size 128x128 pixels)
+iconurl http://www.nitrc.org/project/screenshot.php?group_id=534&screenshot_id=598
+
+# Extension development status
+status Beta
+
+# One line stating what the module does
+description FiberViewerLight is an open-source software to visualize and edit fibers
+
+# 0 or 1: Define if the extension should be enabled after its installation
+enabled 1
