@@ -6,13 +6,13 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/chrismullins/TubeTK.git
-scmrevision 71f0844040c236f5dcb21ae2eaafe978845f8963
+scmurl git://tubetk.org/TubeTK.git
+scmrevision e03906fd07c024d65d0d4a8fe4741a12586c7d95
 
 #list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     NA
+depends JsonCpp
 
 # Inner build directory (default is .)
 build_subdirectory .
