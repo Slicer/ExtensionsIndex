@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/sunilk-wustl/XNATSlicer.git
-scmrevision 7c07ee2a0acf5944476a4544aa06b27e5fcf761e
+scmrevision 961a9fa
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -22,20 +22,20 @@ homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/4.2/Extensi
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Sunil Kumar (Washington University in St. Louis), Dan Marcus (Washington University in St. Louis), Steve Pieper (SPL)
+contributors Sunil Kumar (Washington University in St. Louis), Dan Marcus (Washington University in St. Louis), Steve Pieper (Isomics)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Infrastructure
+category    Remote
 
 # url to icon (png, size 128x128 pixels)
 iconurl     http://wiki.slicer.org/slicerWiki/images/e/e1/XNATSlicerIcon.jpg
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      Win64 only. Working.  In need of more testers.  
+status      
 
 # One line stating what the module does
-description Secure GUI-based file IO with any XNAT server. Documentation: http://www.slicer.org/slicerWiki/index.php/Documentation/4.2/Extensions/XNATSlicer
+description Secure GUI-based IO with any XNAT server. Powered by PyXNAT. Win64 for now.
 
 # Space separated list of urls
 screenshoturls http://www.slicer.org/slicerWiki/images/4/4c/XNATSlicer-Panel.png
