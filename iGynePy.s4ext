@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/gpernelle/iGynePy.git
-scmrevision b546883
+scmrevision 849f7e6
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -28,7 +28,7 @@ contributors Guillaume Pernelle, Xiaojun Chen, Yi Gao, Carolina Vale, Jan Egger,
 category    IGT
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/9/96/Icon.png
+iconurl     http://www.slicer.org/slicerWiki/images/9/96/IGynePyIcon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
