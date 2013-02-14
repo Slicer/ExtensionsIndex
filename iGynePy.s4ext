@@ -28,7 +28,7 @@ contributors Guillaume Pernelle, Xiaojun Chen, Yi Gao, Carolina Vale, Jan Egger,
 category    IGT
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/9/96/IGynePyIcon.png
+iconurl     http://www.slicer.org/slicerWiki/images/9/90/IGynePyIcon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
