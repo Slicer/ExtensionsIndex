@@ -1,0 +1,7 @@
+scm git
+scmurl git://github.com/ryppl/boost-svn.git
+
+depends     NA
+build_subdirectory .
+
+homepage  https://github.com/ryppl/boost-svn
