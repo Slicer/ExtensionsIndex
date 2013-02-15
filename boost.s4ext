@@ -1,0 +1,8 @@
+scm git
+scmurl git://github.com/ryppl/boost-svn.git
+scmrevision Boost_1_52_0
+
+depends     NA
+build_subdirectory .
+
+homepage  https://github.com/ryppl/boost-svn
