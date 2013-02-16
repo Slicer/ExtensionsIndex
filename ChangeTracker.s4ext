@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/fedorov/ChangeTrackerPy.git
-scmrevision 209a7d6
+scmrevision 1d40764
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
