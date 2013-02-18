@@ -33,7 +33,7 @@ To contribute an extension description file, consider the following check list:
 
 1. Extension belongs to `Category 1` or `Category 2` as described in [Slicer requirements](http://www.slicer.org/slicerWiki/index.php/Documentation/4.1/Extensions/CatalogPolicies)
 2. [Set up an account on the extension server and obtain an API key][extensions-server-api-key-setup]
-3. Extension has been built and tested on the following platform: Linux, MacOSX and Windows. You could for example do an `ExperimentalUpload` and make sure the extension can be installed successfully. See [manual build](#manual-build)
+3. Extension has been built and tested on the following platform: Linux, MacOSX and Windows. You could for example do an `ExperimentalExtensionUpload` and make sure the extension can be installed successfully. See [manual build](#manual-build)
 4. [Fork][] ExtensionIndex
 5. Clone your fork, then create a topic named `add-<ExtensionName>`
   
@@ -153,12 +153,12 @@ Then, to submit the configure/build/test results on [CDash](http://slicer.cdash.
 and upload the extension on the [extensions server][] of your choice, 
 there are two options:
 
-1. [Build the target `ExperimentalUpload` associated with each extensions](#extension-build-test-package-and-upload-using-experimentalupload-target)
+1. [Build the target `ExperimentalExtensionUpload` associated with each extensions](#extension-build-test-package-and-upload-using-experimentalupload-target)
 2. [Configure (or re-configure) the project passing the options `Slicer_UPLOAD_EXTENSIONS`, 
 `MIDAS_PACKAGE_URL`, `MIDAS_PACKAGE_EMAIL` and `MIDAS_PACKAGE_API_KEY`](#extensions-build-test-package-and-upload-using-slicer_upload_extensions-option)
 
 
-###### Extension build, test, package and upload using `ExperimentalUpload` target
+###### Extension build, test, package and upload using `ExperimentalExtensionUpload` target
 
 <pre>
 $ cd SlicerExtensionsCustomIndex-build
@@ -166,7 +166,7 @@ $ cd foo-build
 $ cmake -DMIDAS_PACKAGE_URL:STRING=http://slicer.kitware.com/midas3 \
  -DMIDAS_PACKAGE_EMAIL:STRING=jchris.fillionr@kitware.com \
  -DMIDAS_PACKAGE_API_KEY:STRING=a0b012c0123d012abc01234a012345a0 .
-$ make ExperimentalUpload
+$ make ExperimentalExtensionUpload
 </pre>
 
 <img width="70%" src="http://www.slicer.org/slicerWiki/images/7/74/SlicerExtensionsCustomIndex-CDash-Foo-Extension-ExperimentalUpload.png"/>
