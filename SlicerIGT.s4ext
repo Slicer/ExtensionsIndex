@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/SlicerIGT/SlicerIGT.git
-scmrevision 0144d48
+scmrevision b74b23d
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -35,7 +35,7 @@ iconurl     http://www.slicer.org/slicerWiki/images/2/2b/SlicerIGTLogo.png
 status      
 
 # One line stating what the module does
-description Extensions for image-guided interventions
+description This extension contains modules that enable rapid prototyping of applications for image-guided interventions. Intended users should have real-time imaging and/or tracking hardware (e.g. tracked ultrasound) connected to 3D Slicer through OpenIGTLink network. Specific modules allow patient registration to the navigation coordinate system in 3D Slicer, and real-time update of tracked models and images.
 
 # Space separated list of urls
 screenshoturls http://www.slicer.org/slicerWiki/images/7/78/SlicerIGTScreenshot.png
