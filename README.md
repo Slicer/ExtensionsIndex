@@ -295,22 +295,7 @@ See http://www.slicer.org/slicerWiki/index.php?title=Documentation/Nightly/Devel
 
 ### Setting up an account and obtaining an API key
 
-In order to upload extensions on the [slicer extensions server][], it is required to:
-
-1. Create an account by [registering][slicer extensions server]
-
-  <img width="70%" src="http://www.slicer.org/slicerWiki/images/7/7c/Slicer-midas-extensions-server-registration.png"/>
-
-2. [Join the NA-MIC community](http://slicer.kitware.com/midas3/community/23)
-
-3. Send an email on the [slicer developers list][] presenting your extension(s) and asking 
-to be granted write permission on the [experimental folder](http://slicer.kitware.com/midas3/folder/253).
-
-4. Then, you should be able to retrieve your API key looking at your account details. Note that 
-any one of the API key associated with a given user account is valid. It's the user role to manage 
-its keys.
-
-<img width="70%" src="http://www.slicer.org/slicerWiki/images/3/34/Slicer-midas-extensions-server-obtaining-api-key.png"/>
+See http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Developers/Tutorials/ObtainExtensionServerApiKey
 
 ### Install your own extensions server
 
