@@ -291,17 +291,7 @@ and install available extensions:
 Extensions server
 ----------------
 
-* An extensions server is a [MIDAS][] instance having the plugins <code>[slicerpackages][]</code>
- and <code>[slicerappstore][]</code> installed.
-
-* Assuming you [install your own extensions server](#install-your-own-extensions-server), 
- it is possible to manage, serve and distribute extensions yourself. As depicted on the image below, 
- Slicer users will have to set a different extensions server 
- in `Edit -> Application Settings -> Extensions`.
-
-![Slicer Extensions settings](http://www.slicer.org/slicerWiki/images/e/e4/Slicer-r20312-Extensions-Settings.png)
-
-* The authoritative slicer extensions server is <http://slicer.kitware.com/midas3>
+See http://www.slicer.org/slicerWiki/index.php?title=Documentation/Nightly/Developers/Extensions/Server
 
 ### Setting up an account and obtaining an API key
 
