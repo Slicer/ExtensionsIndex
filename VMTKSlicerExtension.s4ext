@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com:haehn/VMTKSlicerExtension.git
+scmurl git://github.com/haehn/VMTKSlicerExtension.git
 scmrevision 65eac28
 
 # list dependencies
