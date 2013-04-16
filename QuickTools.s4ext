@@ -1,0 +1,57 @@
+#============================================================================
+#
+# Library: QuickTools
+#
+# Copyright (c) Kitware Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0.txt
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+#============================================================================
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
+scm local
+scmurl git://github.com/finetjul/QuickTools.git
+scmrevision 0336fbbf5b7db325cc5e0e689ac114df5059a78b
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends     NA
+
+# homepage
+homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/QuickTools
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Julien Finet (Kitware)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category    Developer Tools
+
+# url to icon (png, size 128x128 pixels)
+iconurl     http://www.slicer.org/slicerWiki/images/e/e5/QuickToolsLogo.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand beind?
+status      Beta
+
+# One line stating what the module does
+description This extension contains a collection of modules useful for the Slicer developer.
+
+# Space separated list of urls
+screenshoturls http://www.slicer.org/slicerWiki/images/8/81/ImageMaker.png
