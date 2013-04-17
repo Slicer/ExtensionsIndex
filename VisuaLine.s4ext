@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/SlicerIGT/VisuaLine.git
-scmrevision 820bf1fba18471d799662b1333836df723efe5eb
+scmrevision 6ecbe65d3c29e71ed0710aca4230e890b52bae33
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
