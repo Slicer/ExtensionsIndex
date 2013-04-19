@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/millerjv/PkModeling.git
-scmrevision 882e1ed
+scmrevision 0c62939
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -28,7 +28,7 @@ contributors Yingxuan Zhu (GE), Jim Miller (GE), Ming-ching Chang (GE), Mahnaz M
 category    Quantification
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://cloud.github.com/downloads/millerjv/PkModeling/PkModeling.png
+iconurl     http://wiki.slicer.org/slicerWiki/images/3/34/PkModeling.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
