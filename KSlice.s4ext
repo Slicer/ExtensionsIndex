@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git@github.com:pkarasev3/kslice.git
-scmrevision cd324bd
+scmrevision 188c572
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,11 +18,11 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/4.2/Modules/KSliceInteractiveSegmentor
+homepage    http://wiki.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/KSliceInteractiveSegmenter
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Ivan Kolesov (GT), Peter Karasev (GT), Allen Tannenbaum (UAB), Karl Fritscher (BWH & MGH)
+contributors Ivan Kolesov (GT), Peter Karasev (GT), Patricio Vela (GT), Allen Tannenbaum (UAB), Karl Fritscher (BWH & MGH), Steve Pieper (Isomics)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Segmentation
