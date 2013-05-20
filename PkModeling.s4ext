@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/millerjv/PkModeling.git
-scmrevision 0c62939
+scmrevision a054b71
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -22,7 +22,7 @@ homepage    https://github.com/millerjv/PkModeling/wiki/PkModeling
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Yingxuan Zhu (GE), Jim Miller (GE), Ming-ching Chang (GE), Mahnaz Maddah (SRI)
+contributors Yingxuan Zhu (GE), Jim Miller (GE), Andriy Fedorov (BWH), Ming-ching Chang (GE), Mahnaz Maddah (SRI)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Quantification
