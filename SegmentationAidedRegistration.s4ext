@@ -29,7 +29,8 @@ contributors Yi Gao (BWH/UAB), Josh Cates (Utah), Liang-Jia Zhu (UAB), Alan Morr
 category    Registration
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.na-mic.org/Wiki/index.php/File:SegAidedRegSquareFocus128.png
+iconurl     http://www.slicer.org/slicerWiki/images/b/ba/SegAidedRegSquareFocus128.png
+
 
 
 # Give people an idea what to expect from this code
@@ -40,7 +41,7 @@ status      Beta
 description The registration module that utilizes segmentation to improve accuracy at the organ of interest
 
 # Space separated list of urls
-screenshoturls http://www.na-mic.org/Wiki/index.php/File:SegmentationAidedRegistrationUsageScreenShot.png
+screenshoturls http://www.slicer.org/slicerWiki/images/b/ba/SegmentationAidedRegistrationUsageScreenShot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
