@@ -18,7 +18,8 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://www.na-mic.org/Wiki/index.php/Projects:AFibSegmentationRegistration#Registration
+homepage    http://www.na-mic.org/Wiki/index.php/SegmentationAidedRegistration
+
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +29,7 @@ contributors Yi Gao (BWH/UAB), Josh Cates (Utah), Liang-Jia Zhu (UAB), Alan Morr
 category    Registration
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://github.com/gaoyi/SegmentationAidedRegistration/blob/master/segAidedRegSquareFocus128.png
+iconurl     http://www.na-mic.org/Wiki/index.php/File:SegAidedRegSquareFocus128.png
 
 
 # Give people an idea what to expect from this code
@@ -39,7 +40,7 @@ status      Beta
 description The registration module that utilizes segmentation to improve accuracy at the organ of interest
 
 # Space separated list of urls
-screenshoturls https://github.com/gaoyi/SegmentationAidedRegistration/blob/master/SegmentationAidedRegistrationUsageScreenShot.png
+screenshoturls http://www.na-mic.org/Wiki/index.php/File:SegmentationAidedRegistrationUsageScreenShot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
