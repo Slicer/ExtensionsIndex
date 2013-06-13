@@ -6,18 +6,15 @@ Overview
 
 Think of the ExtensionsIndex as a repository containing a list of [extension description file][]s 
 (*.s4ext) used by the [Slicer][] [extensions build system][] to build, test, package and upload 
-[extension][]s on an [extensions server][].
+extensions on an [extensions server][].
 
-Once uploaded on an [extensions server][], within Slicer, [extension][]s can be [installed](http://www.slicer.org/slicerWiki/index.php/Documentation/4.1/SlicerApplication/ExtensionsManager#Installing_an_extension) using the [extensions manager][].
+Once uploaded on an [extensions server][], within Slicer, extensions can be installed using the [extensions manager][].
 
-An [extensions catalog][] provides Slicer users with a convenient way to access the [extension][]s
+An [extensions catalog][] provides Slicer users with a convenient way to access the extensions
 previously uploaded on the [extensions server][]:
 
 * from within Slicer with the help of the [extensions manager][]
 * from the web: http://slicer.kitware.com/midas3/slicerappstore
-
-The rest of this document will provide the developer with detailed documentation, step-by-step 
-instruction and also examples allowing to successfully test, package and upload [extension][]s.
 
 The following diagram depicts how [extensions catalog][], [extensions server][], [CDash][] and the 
 slicer factory interact.
@@ -26,30 +23,6 @@ slicer factory interact.
 
 Contributing
 ------------
-
-### Extension description files
-
-To contribute an extension description file, consider the following check list:
-
-1. Extension belongs to `Category 1` or `Category 2` as described in [Slicer requirements](http://www.slicer.org/slicerWiki/index.php/Documentation/4.1/Extensions/CatalogPolicies)
-2. [Set up an account on the extension server and obtain an API key][extensions-server-api-key-setup]
-3. Extension has been built and tested on the following platform: Linux, MacOSX and Windows. You could for example do an `ExperimentalUpload` and make sure the extension can be installed successfully. See [manual build](#manual-build)
-4. [Fork][] ExtensionIndex
-5. Clone your fork, then create a topic named `add-<ExtensionName>`
-  
-  ```
-  git clone git@github.com:<yourlogin>/ExtensionsIndex SlicerExtensionsIndex
-  cd SlicerExtensionsIndex
-  git checkout -b add-<ExtensionName>
-  ```
-  
-7. Commit your description file. Commit title should be `Add <ExtensionName> extension` and the content should provide details about the extension
-8. Push the topic to your fork, then click on "Pull Request" button displayed on your github fork. Slicer folks will be automatically notified.
-9. That's it !
-
-Remarks:
-
-* `<ExtensionName>` should be replaced with its actual value.
 
 ### Dashboard submissions
 
@@ -330,7 +303,7 @@ License
 [slicer developers list]: http://massmail.bwh.harvard.edu/mailman/listinfo/slicer-devel
 [slicer extensions server]: http://slicer.kitware.com
 
-[extensions manager]: http://www.slicer.org/slicerWiki/index.php/Documentation/4.1/SlicerApplication/ExtensionsManager
+[extensions manager]: http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/SlicerApplication/ExtensionsManager
 
 [extension description file]: #extension-description-file
 [extension]: #extension
