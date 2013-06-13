@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/lchauvin/DiceComputation.git
-scmrevision 7a58a74761f0019e0f1ee2b3b7f045b2769a226a 
+scmrevision d83101597fc71da6274e92f1089fbfb44530ee32
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
