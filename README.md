@@ -57,7 +57,7 @@ Relying on manual build provides a convenient way to:
 * upload one or more extensions once to check that Slicer can download and install them
 
 Given a directory containing one or more [extension description file][]s, it is possible to manually 
-configure and build the associated [extension][]s specifying the following CMake options:
+configure and build the associated extensions specifying the following CMake options:
 
 <table>
   <tr>
@@ -242,16 +242,6 @@ and nightly builds of Slicer extensions associated to both Slicer trunk and Slic
 <img width="70%" src="http://www.slicer.org/slicerWiki/images/1/17/Slicer-Extensions-build-system-nightly.png"/>
 <img width="70%" src="http://www.slicer.org/slicerWiki/images/5/52/Slicer-Extensions-build-system-continuous.png"/>
 
-Extension description file
-----------------------------
-
-See https://github.com/Slicer/ExtensionsIndex/wiki/Extension-description-file
-
-Extension
----------
-
-A extension bundles one or multiple [slicer modules](http://www.slicer.org/slicerWiki/index.php/Documentation/4.1/Developers/Modules).
-
 Extensions Catalog
 ------------------
 
@@ -260,23 +250,6 @@ and install available extensions:
 
  * from within Slicer with the help of the [extensions manager][]
  * from the web: http://slicer.kitware.com/midas3/slicerappstore
-
-Extensions server
-----------------
-
-See http://www.slicer.org/slicerWiki/index.php?title=Documentation/Nightly/Developers/Extensions/Server
-
-### Setting up an account and obtaining an API key
-
-See http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Developers/Tutorials/ObtainExtensionServerApiKey
-
-### Install your own extensions server
-
-To understand what are the steps required to install and manage your own extensions server, 
-consider reading [MIDAS server installation instructions](http://www.kitware.com/midaswiki/index.php/Documentation/Latest/User/Introduction).
-
-Make also sure to install and configure the plugins <code>[slicerpackages][]</code>
- and <code>[slicerappstore][]</code>.
 
 Meta
 ----
@@ -305,11 +278,10 @@ License
 
 [extensions manager]: http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/SlicerApplication/ExtensionsManager
 
-[extension description file]: #extension-description-file
-[extension]: #extension
+[extension description file]: http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Developers/Extensions/DescriptionFile
 [extensions build system]: #extensions-build-system
 [extensions catalog]: #extensions-catalog
-[extensions server]: #extensions-server
+[extensions server]: http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Developers/Extensions/Server
 [extensions build system source code]: https://github.com/Slicer/Slicer/tree/master/Extensions/CMake
 [extension template dashboard script]: https://github.com/Slicer/Slicer/blob/master/Extensions/CMake/SlicerExtensionsDashboardScript.TEMPLATE.cmake
 
