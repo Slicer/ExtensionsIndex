@@ -242,15 +242,6 @@ and nightly builds of Slicer extensions associated to both Slicer trunk and Slic
 <img width="70%" src="http://www.slicer.org/slicerWiki/images/1/17/Slicer-Extensions-build-system-nightly.png"/>
 <img width="70%" src="http://www.slicer.org/slicerWiki/images/5/52/Slicer-Extensions-build-system-continuous.png"/>
 
-Extensions Catalog
-------------------
-
-* The extensions catalog provides Slicer users with a convenient web site allowing to browse, download 
-and install available extensions:
-
- * from within Slicer with the help of the [extensions manager][]
- * from the web: http://slicer.kitware.com/midas3/slicerappstore
-
 Meta
 ----
 
@@ -280,7 +271,7 @@ License
 
 [extension description file]: http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Developers/Extensions/DescriptionFile
 [extensions build system]: #extensions-build-system
-[extensions catalog]: #extensions-catalog
+[extensions catalog]: http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/Catalog
 [extensions server]: http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Developers/Extensions/Server
 [extensions build system source code]: https://github.com/Slicer/Slicer/tree/master/Extensions/CMake
 [extension template dashboard script]: https://github.com/Slicer/Slicer/blob/master/Extensions/CMake/SlicerExtensionsDashboardScript.TEMPLATE.cmake
