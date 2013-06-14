@@ -6,39 +6,40 @@
 
 # This is source code manager (i.e. svn)
 scm svn
-scmurl http://subversion.assembla.com/svn/slicerigt/trunk/Slicer4
-scmrevision 174
+scmurl https://www.nitrc.org/svn/dtiprep/trunk
+scmrevision 240
+svnusername slicerbot
+svnpassword slicer
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     NA
+depends    NA
 
 # Inner build directory (default is .)
-build_subdirectory .
+build_subdirectory DTIPrepTools-build
 
 # homepage
-homepage    https://www.assembla.com/spaces/slicerigt
+homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/DTIPrep
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Tamas Ungi (Queen's University)
+contributors Francois Budin (UNC)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    IGT
+category    Diffusion
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://wiki.slicer.org/slicerWiki/images/2/2f/PerkNavLogo.png
+iconurl    http://www.nitrc.org/project/screenshot.php?group_id=283&screenshot_id=608
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
 status      
 
-# One line stating what the module does
-description Extensions for image-guided interventions
+# One line stating what the module does description This extension provides the tool DTIProcess integrated in Slicer
 
 # Space separated list of urls
-screenshoturls http://wiki.slicer.org/slicerWiki/images/b/bf/PerkNavScreenshot.png
+screenshoturls http://www.nitrc.org/project/screenshot.php?group_id=283&screenshot_id=609 http://www.nitrc.org/project/screenshot.php?group_id=283&screenshot_id=610
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

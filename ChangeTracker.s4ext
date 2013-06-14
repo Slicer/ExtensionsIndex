@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/paulcm/LongitudinalPETCT
-scmrevision 9b6d4b8
+scmurl https://github.com/fedorov/ChangeTrackerPy.git
+scmrevision 47aca45
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,27 +18,27 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/LongitudinalPETCT
+homepage    http://wiki.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/ChangeTracker
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Paul Mercea (University of Heidelberg), Andrey Fedorov(Surgical Planning Lab)
+contributors Andrey Fedorov (SPL), Kilian Pohl (SPL), Peter Black (BWH), Jean-Christophe Fillion-Robin (Kitware), Ron Kikinis (SPL)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Informatics
+category    Wizards
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/0/08/LongitudinalPETCTLogo.png
+iconurl     http://www.slicer.org/slicerWiki/images/b/b9/ChangeTracker_logo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      
+status      Work in progress
 
 # One line stating what the module does
-description The purpose of the Longitudinal PET/CT Analysis module is to provide a user friendly Slicer interface for quantification of DICOM PET/CT image data by computing the standardized uptake value (SUV) based on bodyweight for different regions of interest and for different timepoints.
+description ChangeTracker is a software tool for quantification of the subtle changes in pathology. The module provides a workflow pipeline that combines user input with the medical data. As a result we provide quantitative volumetric measurements of growth/shrinkage together with the volume rendering of the tumor and color-coded visualization of the tumor growth/shrinkage.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/3/31/LongitudinalPETCT_Screenshot.jpg
+screenshoturls http://www.slicer.org/slicerWiki/images/8/8e/Slicer4_ChangeTracker_Ad.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

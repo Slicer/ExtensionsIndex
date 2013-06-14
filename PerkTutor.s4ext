@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/paulcm/LongitudinalPETCT
-scmrevision 9b6d4b8
+scmurl https://github.com/PerkTutor/PerkTutor.git
+scmrevision 8d174a7
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -15,30 +15,30 @@ scmrevision 9b6d4b8
 depends     NA
 
 # Inner build directory (default is .)
-build_subdirectory .
+build_subdirectory inner-build
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/LongitudinalPETCT
+homepage    https://github.com/PerkTutor/PerkTutor/wiki
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Paul Mercea (University of Heidelberg), Andrey Fedorov(Surgical Planning Lab)
+contributors Tamas Ungi, Matthew S. Holden (Queen's University)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Informatics
+category    IGT
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/0/08/LongitudinalPETCTLogo.png
+iconurl     http://www.slicer.org/slicerWiki/images/2/21/PerkTutorLogo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
 status      
 
 # One line stating what the module does
-description The purpose of the Longitudinal PET/CT Analysis module is to provide a user friendly Slicer interface for quantification of DICOM PET/CT image data by computing the standardized uptake value (SUV) based on bodyweight for different regions of interest and for different timepoints.
+description This extension holds modules for training of needle interventions and analysis of operator performance.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/3/31/LongitudinalPETCT_Screenshot.jpg
+screenshoturls http://www.slicer.org/slicerWiki/images/2/28/PerkTutorScreenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

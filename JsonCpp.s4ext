@@ -1,0 +1,10 @@
+scm git
+scmurl git://github.com/TubeTK/jsoncpp-cmake.git
+scmrevision e2cfe02abc7a2715f8f44fe0ef1ae46e7d6aa92e
+
+depends NA
+build_subdirectory .
+
+homepage http://www.github.com/TubeTK/jsoncpp-cmake
+
+

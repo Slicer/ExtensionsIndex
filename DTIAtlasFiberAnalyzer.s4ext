@@ -5,34 +5,36 @@
 #
 
 # This is source code manager (i.e. svn)
-scm git
-scmurl git://tubetk.org/TubeTK.git
-scmrevision 2a5ff750a4aa81182dfa6a10bce770e6b3dcec27
+scm svn
+scmurl https://www.nitrc.org/svn/dti_tract_stat/trunk/
+scmrevision 105
+svnusername slicerbot
+svnpassword slicer
 
 #list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends JsonCpp
+depends     DTIProcess
 
 # Inner build directory (default is .)
-build_subdirectory .
+build_subdirectory dti_tract_stat-build
 
 #homepage
-homepage http://www.tubetk.org
+homepage http://www.nitrc.org/projects/dti_tract_stat
 
-contributors Stephen Aylward (Kitware, Inc.), Jean-Christophe Fillion-Robin (Kitware, Inc.), Christopher Mullins (Kitware, Inc.)
+contributors Francois Budin (UNC)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category Segmentation
+category Diffusion
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://wiki.slicer.org/slicerWiki/images/7/74/TubeTK-scaled.png
+iconurl http://www.nitrc.org/project/screenshot.php?group_id=403&screenshot_id=606
 
 # Extension development status
 status Beta
 
 # One line stating what the module does
-description TubeTK is an open-source toolkit for the segmentation, registration, and analysis of tubes and surfaces in images.
+description DTIAtlasFiberAnalyzer allows the user to study the behavior of water diffusion (using DTI data) along the length of the white matter fiber-tracts.
 
 # 0 or 1: Define if the extension should be enabled after its installation
 enabled 1
