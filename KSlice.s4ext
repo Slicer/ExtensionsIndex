@@ -4,10 +4,10 @@
 # - the value can be blank
 #
 
-# This is source code manager. Rev: 4 June 2013
+# This is source code manager (i.e. svn)
 scm git
-scmurl git@github.com:pkarasev3/kslice.git
-scmrevision af93fe8
+scmurl git://github.com/pkarasev3/kslice.git
+scmrevision 1117fca
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
