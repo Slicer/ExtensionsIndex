@@ -28,7 +28,7 @@ contributors Jun LIN, Xiaojun CHEN
 category    Surface Models
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://viewvc.slicer.org/viewvc.cgi/Slicer4/trunk/Extensions/Testing/ModelClip/Resources/Icons/ModelClip.png?revision=19437&view=co
+iconurl     http://www.slicer.org/slicerWiki/index.php/File:ModelClipIcon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -38,7 +38,7 @@ status
 description This work was part of the dissertation of my bachelor from SJTU.
 
 # Space separated list of urls
-screenshoturls http://wiki.slicer.org/slicerWiki/images/4/42/Slicer-r19441-ModelClip-screenshot.png
+screenshoturls http://www.slicer.org/slicerWiki/index.php/File:ModelClipScreenShot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
