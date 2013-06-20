@@ -35,7 +35,7 @@ iconurl     http://www.slicer.org/slicerWiki/index.php/File:ModelClipIcon.png
 status      
 
 # One line stating what the module does
-description This work was part of the dissertation of my bachelor from SJTU.
+description This module allows to clip models with multiple planes.
 
 # Space separated list of urls
 screenshoturls http://www.slicer.org/slicerWiki/index.php/File:ModelClipScreenShot.png
