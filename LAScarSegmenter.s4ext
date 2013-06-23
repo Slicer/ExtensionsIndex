@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/ljzhu/LAScarSegmenter.git
-scmrevision 2055d53
+scmrevision 61a4c5f
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -28,7 +28,7 @@ contributors LiangJia Zhu (UAB), Yi Gao (BWH), Josh Cates (Utah), Alan Morris (U
 category    Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://viewvc.slicer.org/viewvc.cgi/Slicer4/trunk/Extensions/Testing/LAScarSegmenter/LAScarSegmenter.png?revision=21745&view=co
+iconurl     http://www.slicer.org/slicerWiki/images/5/56/LAScarSegmenter.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -38,7 +38,7 @@ status      Beta
 description This is an module performing the LA scar segmentation
 
 # Space separated list of urls
-screenshoturls http://wiki.slicer.org/slicerWiki/images/a/ab/Slicer-r19441-LAScarSegmenter-screenshot.png http://wiki.slicer.org/slicerWiki/images/1/1e/Slicer-r19441-LAScarSegmenter-screenshot-2.png
+screenshoturls http://www.slicer.org/slicerWiki/index.php/File:LAScarSegmenterScreenShot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
