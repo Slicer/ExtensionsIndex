@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/carma-center/carma_slicer_extension.git
-scmrevision 58a27e5
+scmurl git://github.com/lorensen/SwissSkullStripperExtension.git
+scmrevision 48bc70a
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,27 +18,27 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://www.carmacenter.org
+homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SwissSkullStripper
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Alan Morris (CARMA), Salma Bengali (CARMA), Josh Cates (CARMA), Rob MacLeod (CARMA), Eugene Kholmovski (CARMA)
+contributors Bill Lorensen (Noware), Stefan Bauer (University of Bern), Thomas Fejes (University of Bern), Mauricio Reyes (University of Bern), Arnaud Gelas (Crisalix)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    CARMA
+category    Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.na-mic.org/Wiki/images/a/ac/Carma-logo-128.png
+iconurl     http://www.slicer.org/slicerWiki/images/c/cd/SwissSkullStripper.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      Beta
+status      seeking input from users
 
 # One line stating what the module does
-description The CARMA extension includes modules for the Utah Afib DBP
+description Atlas-driven skull stripping for MR and CT head studies.
 
 # Space separated list of urls
-screenshoturls http://wiki.na-mic.org/Wiki/images/d/d1/Carma_afib_inhomogeneity_correction.png http://wiki.na-mic.org/Wiki/images/7/7a/Carma_afib_auto_scar.png
+screenshoturls http://www.slicer.org/slicerWiki/images/0/01/SwissSkullStripperResults1.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

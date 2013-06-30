@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/millerjv/PkModeling.git
-scmrevision 0364a32
+scmurl git://github.com/gohn03/ThingiverseBrowser.git
+scmrevision c99ac85192b32717f7b04f0d81d3f47f14b5bd5f
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,27 +18,24 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    https://github.com/millerjv/PkModeling/wiki/PkModeling
+homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/ThingiverseBrowser
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Yingxuan Zhu (GE), Jim Miller (GE), Andriy Fedorov (BWH), Ming-ching Chang (GE), Mahnaz Maddah (SRI)
+contributors Nigel Goh (UWA)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Quantification
+category    Utilities
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://wiki.slicer.org/slicerWiki/images/3/34/PkModeling.png
+iconurl     http://www.slicer.org/slicerWiki/images/1/17/Thingiverse.PNG
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      Beta
+status      Alpha
 
 # One line stating what the module does
-description PkModeling is a Slicer4 Extension that provides pharmacokinetic modeling for dynamic contrast enhanced MRI (DCE MRI).
-
-# Space separated list of urls
-screenshoturls  
+description An extension to browse and download from http://thingiverse.com
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
