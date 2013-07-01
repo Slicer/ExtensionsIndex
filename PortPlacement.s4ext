@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/giogadi/PortPlacement.git
+scmurl git://github.com/giogadi/PortPlacement.git
 scmrevision cf1265a
 
 # list dependencies
@@ -28,7 +28,7 @@ contributors Luis G. Torres (UNC)
 category    Port Placement
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://viewvc.slicer.org/viewvc.cgi/Slicer4/trunk/Extensions/Testing/PortPlacement/PortPlacement.png?revision=21747&view=co
+iconurl     http://www.slicer.org/slicerWiki/images/a/a7/Portplacement_icon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -38,7 +38,7 @@ status      This extension is intended for public use and we expect to fully mai
 description Assists in the planning of surgical port placement in a laparoscopic procedure.
 
 # Space separated list of urls
-screenshoturls http://wiki.slicer.org/slicerWiki/images/e/e2/Slicer-r19441-PortPlacement-screenshot.png
+screenshoturls http://www.slicer.org/slicerWiki/images/3/32/Portplacement.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
