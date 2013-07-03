@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/giogadi/PortPlacement.git
-scmrevision cf1265a
+scmrevision 0dd35b09c5c34126d917cc3c0c86cb265a908919
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -25,7 +25,7 @@ homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Ext
 contributors Luis G. Torres (UNC)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Port Placement
+category    IGT
 
 # url to icon (png, size 128x128 pixels)
 iconurl     http://www.slicer.org/slicerWiki/images/a/a7/Portplacement_icon.png
