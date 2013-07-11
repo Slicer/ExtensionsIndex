@@ -22,7 +22,7 @@ homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Ext
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Luis G. Torres (UNC)
+contributors Andinet Enquobahrie (Kitware), Luis G. Torres (UNC)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    IGT
