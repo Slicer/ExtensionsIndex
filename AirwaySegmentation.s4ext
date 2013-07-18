@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/PietroNardelli/AirwaySegmentation.git
-scmrevision 351f04f
+scmurl git://github.com/PietroNardelli/Slicer-AirwaySegmentation.git
+scmrevision ae46b13
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -28,7 +28,7 @@ contributors Pietro Nardelli (University College Cork)
 category    Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/index.php/File:Slicer4_AirwaySegmentation-LOGO.png
+iconurl     http://www.slicer.org/slicerWiki/images/7/7d/AirwaySegmentation-ICON.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -38,7 +38,7 @@ status
 description CLI module for airway segmentation of chest CT images
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/index.php/File:Slicer4-AirwaySegmentation-GUI.png
+screenshoturls http://www.slicer.org/slicerWiki/images/2/24/Slicer4-AirwaySegmentation-GUI.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
