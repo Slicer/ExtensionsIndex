@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://subversion.assembla.com/svn/plusremote/trunk/PlusRemote/src
-scmrevision 7
+scmrevision 8
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    https://www.assembla.com/spaces/plusremote
+homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/PlusRemote
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
