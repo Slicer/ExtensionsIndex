@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/millerjv/PkModeling.git
-scmrevision a054b71
+scmrevision b42f574dc512c9
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -38,7 +38,7 @@ status      Beta
 description PkModeling is a Slicer4 Extension that provides pharmacokinetic modeling for dynamic contrast enhanced MRI (DCE MRI).
 
 # Space separated list of urls
-screenshoturls  
+screenshoturls
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

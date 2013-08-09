@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://subversion.assembla.com/svn/slicerrt/trunk/SlicerRt/src
-scmrevision 862
+scmrevision 1021
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -35,7 +35,7 @@ iconurl     http://www.slicer.org/slicerWiki/images/2/28/SlicerRT_Logo_2.0_128x1
 status      Beta
 
 # One line stating what the module does
-description Extensions for radiotherapy research (DICOM-RT import, dose volume histogram, dose accumulation, etc.) Version 0.10.2
+description Extensions for radiotherapy research (DICOM-RT import, dose volume histogram, dose accumulation, etc.) Version 0.10.4
 
 # Space separated list of urls
 screenshoturls http://www.slicer.org/slicerWiki/images/8/8b/SlicerRT0.8_EntLoaded_Beams_ThresholdedDose.png http://www.slicer.org/slicerWiki/images/7/75/SlicerRT0.9_Gamma.png http://www.slicer.org/slicerWiki/images/8/86/SlicerRT0.8_DVH_Comparison_Whole.png

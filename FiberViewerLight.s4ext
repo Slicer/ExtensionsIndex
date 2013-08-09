@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://www.nitrc.org/svn/fvlight/trunk
-scmrevision 55
+scmrevision 60
 svnusername slicerbot
 svnpassword slicer
 

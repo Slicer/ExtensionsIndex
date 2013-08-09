@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git@github.com:finetjul/ImageMaker
-scmrevision cc397cb
+scmurl git://github.com/finetjul/ImageMaker
+scmrevision af683e4
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
