@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/anry123/SobolevSegmenter.git
-scmrevision c052d72
+scmrevision a67800a
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
