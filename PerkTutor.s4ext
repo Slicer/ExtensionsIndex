@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/PerkTutor/PerkTutor.git
-scmrevision 8d174a7
+scmrevision d7ad1d8
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory inner-build
 
 # homepage
-homepage    https://github.com/PerkTutor/PerkTutor/wiki
+homepage    http://www.perktutor.org/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)

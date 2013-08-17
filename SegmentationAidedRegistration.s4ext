@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/NIRALUser/DTIAtlasBuilder.git
-scmrevision 70eab4fe1058c79ada560989f4dba0c5842435d5
+scmurl git://github.com/gaoyi/SegmentationAidedRegistration.git
+scmrevision 305c6baf0b5539a5f7bb667edf986200a9757336
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -15,30 +15,30 @@ scmrevision 70eab4fe1058c79ada560989f4dba0c5842435d5
 depends     NA
 
 # Inner build directory (default is .)
-build_subdirectory DTIAtlasBuilder-build
+build_subdirectory .
 
 # homepage
-homepage    http://www.nitrc.org/projects/dtiatlasbuilder
+homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/SegmentationAidedRegistration
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Adrien Kaiser (UNC)
+contributors Yi Gao (BWH/UAB), Liang-Jia Zhu (UAB), Josh Cates (Utah), Alan Morris (Utah), Danny Perry (Utah), Greg Gardner (Utah), Rob MacLeod (Utah), Sylvain Bouix (BWH), Allen Tannenbaum (UAB)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Diffusion
+category    Registration
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.nitrc.org/project/screenshot.php?group_id=636&screenshot_id=607
+iconurl     http://www.slicer.org/slicerWiki/images/b/ba/SegAidedRegSquareFocus128.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      Beta
+status      1.0
 
 # One line stating what the module does
-description A tool to create a DTI Atlas Image from a set of DTI Images
+description Performe the registration with the aid from segmentation so that the segmented regions have close match.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/thumb/b/b8/DTIEstim-B0-crop.png/193px-DTIEstim-B0-crop.png http://www.slicer.org/slicerWiki/images/thumb/9/90/FiberTrack-fibers.png/138px-FiberTrack-fibers.png
+screenshoturls http://www.slicer.org/slicerWiki/images/b/ba/SegmentationAidedRegistrationUsageScreenShot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

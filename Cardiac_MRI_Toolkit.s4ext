@@ -6,32 +6,39 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/openigtlink/VolumeResliceDriver.git
+scmurl git://github.com/carma-center/carma_slicer_extension.git
+scmrevision 4f05ac9
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends NA
+depends     NA
+
+# Inner build directory (default is .)
+build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/VolumeResliceDriver
+homepage    http://capulet.med.utah.edu/namic
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Junichi Tokuda (BWH)
+contributors Alan Morris (CARMA), Salma Bengali (CARMA), Josh Cates (CARMA), Rob MacLeod (CARMA), Eugene Kholmovski (CARMA)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    IGT
+category    Cardiac MRI toolkit
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/1/1d/VolumeResliceDriverIcon.png
+iconurl     http://capulet.med.utah.edu/namic/images/CMRTK-logo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
 status      Beta
 
 # One line stating what the module does
-description The VolumeResliceDriver extension allows reslicing a 3D image by the plane along a tracked surgical tool.
+description The Cardiac MRI Toolkit includes modules for the Utah Afib DBP
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/2/2d/Slicer4-VolumeResliceDriver-GUI.png
+screenshoturls http://wiki.na-mic.org/Wiki/images/d/d1/Carma_afib_inhomogeneity_correction.png http://wiki.na-mic.org/Wiki/images/7/7a/Carma_afib_auto_scar.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
