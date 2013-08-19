@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/fedorov/WindowLevelEffect.git
-scmrevision e243e7c6
+scmrevision 536a174
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -32,7 +32,7 @@ iconurl     http://www.slicer.org/slicerWiki/images/3/39/WindowLevelEffectLogo.p
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      As Is
+status      Experimental
 
 # One line stating what the module does
 description Use this tool to change window/level of background/foreground volumes based on the intensity range of the selected rectangle. Normal mode: use primary mouse button to adjust window level. Depending on the selection, Foreground, Background or both layers are affected. Rectangle mode: Left Click and Drag: sweep out an outline that will draw when the button is released. The outline will define the rectangle for calculating the new window/level settings for the selected layers.
