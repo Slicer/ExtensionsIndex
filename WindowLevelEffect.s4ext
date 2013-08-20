@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/fedorov/WindowLevelEffect.git
-scmrevision 130303ac1
+scmrevision 6a847032
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
