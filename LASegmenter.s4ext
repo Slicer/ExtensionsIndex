@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/ljzhu/LASegmenter.git
-scmrevision 3a8296d
+scmrevision 3571ad6
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -38,7 +38,7 @@ status
 description This module performs segmentation of the left atrium from MR images
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/c/c1/LASegmenterScreenShot.png
+screenshoturls http://www.slicer.org/slicerWiki/images/a/a7/LeftAtriumSegmenterScreenShot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
