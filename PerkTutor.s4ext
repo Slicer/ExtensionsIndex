@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/PerkTutor/PerkTutor.git
-scmrevision d7ad1d8
+scmrevision 185ce96
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -25,7 +25,7 @@ homepage    http://www.perktutor.org/
 contributors Tamas Ungi, Matthew S. Holden (Queen's University)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    IGT
+category    Training
 
 # url to icon (png, size 128x128 pixels)
 iconurl     http://www.slicer.org/slicerWiki/images/2/21/PerkTutorLogo.png
