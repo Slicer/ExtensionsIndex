@@ -1,0 +1,44 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
+scm git
+scmurl git@github.com:gaoyi/RSSExtension.git
+scmrevision ad3dbed0c9925f490356d2951878bc004ed533d3
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends     NA
+
+# Inner build directory (default is .)
+build_subdirectory .
+
+# homepage
+homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/RobustStatisticsSegmenter
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Yi Gao (UAB), Sylvain Bouix (BWH), Ron Kikinis (BWH), Allen Tannenbaum (SBU)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category    Segmentation
+
+# url to icon (png, size 128x128 pixels)
+iconurl     http://www.slicer.org/slicerWiki/images/b/ba/SegAidedRegSquareFocus128.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand beind?
+status      0.9
+
+# One line stating what the module does
+description User draw some initial seeds, this module perform an interative segmentation in 3D volume.
+
+# Space separated list of urls
+screenshoturls http://www.slicer.org/slicerWiki/images/f/f1/MeningiomaCase1RSSLabel.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
