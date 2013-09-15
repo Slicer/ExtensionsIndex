@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/pkarasev3/kslice.git
-scmrevision 0b69e0e
+scmrevision 0e191e5
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
