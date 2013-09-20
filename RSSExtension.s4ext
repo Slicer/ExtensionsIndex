@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git@github.com:gaoyi/RSSExtension.git
+scmurl git://github.com/gaoyi/RSSExtension.git
 scmrevision 611d981ec4f96d04c4f7c2da99d17086454a8db9
 
 # list dependencies
