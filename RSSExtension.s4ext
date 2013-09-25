@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/gaoyi/RSSExtension.git
-scmrevision 2be89dfac932bfae034ee43c87b6383782c1fb33
+scmrevision 6c9dc8f8519ba93ff9ef7c220366856f7fa66e43
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
