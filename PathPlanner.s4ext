@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/SlicerIGT/PathPlanner.git
-scmrevision 6b218bcd46474e21d549cf24484ecc3374a269e0
+scmrevision da391f324d595b75889ec68f0d6f55501231d262
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
