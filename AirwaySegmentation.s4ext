@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/PietroNardelli/Slicer-AirwaySegmentation
+scmurl git://github.com/PietroNardelli/Slicer-AirwaySegmentation.git
 scmrevision a90d675
 
 # list dependencies
