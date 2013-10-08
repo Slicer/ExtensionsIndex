@@ -1,0 +1,44 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
+scm git
+scmurl https://github.com/Slicer/Slicer-DataStore.git
+scmrevision ee9a94a
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends     NA
+
+# Inner build directory (default is .)
+build_subdirectory .
+
+# homepage
+homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/DataStore
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Charles Marion, Jean-Baptiste Berger and Jean-Christophe Fillion-Robin (Kitware)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category    Informatics
+
+# url to icon (png, size 128x128 pixels)
+iconurl     http://wiki.slicer.org/slicerWiki/images/a/a9/DataStoreIcon_128.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand beind?
+status      
+
+# One line stating what the module does
+description This module allows users to download and upload datasets from a common database.
+
+# Space separated list of urls
+screenshoturls http://www.slicer.org/slicerWiki/images/thumb/d/da/DownloadFile_2.jpg/800px-DownloadFile_2.jpg http://www.slicer.org/slicerWiki/images/thumb/8/85/DownloadFile_3.jpg/800px-DownloadFile_3.jpg http://www.slicer.org/slicerWiki/images/thumb/5/54/UploadFile_2.jpg/800px-UploadFile_2.jpg
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
