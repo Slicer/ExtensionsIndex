@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/Slicer/Slicer-DataStore.git
-scmrevision 1d3a724
+scmrevision ee9a94a
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -28,7 +28,7 @@ contributors Charles Marion, Jean-Baptiste Berger and Jean-Christophe Fillion-Ro
 category    Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://wiki.slicer.org/slicerWiki/images/thumb/6/61/DataStoreIcon.png/541px-DataStoreIcon.png
+iconurl     http://wiki.slicer.org/slicerWiki/images/a/a9/DataStoreIcon_128.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
