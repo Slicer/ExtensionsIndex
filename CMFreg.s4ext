@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/viboen/CMFreg.git
-scmrevision 1714e28
+scmurl https://github.com/viboen/CMFreg
+scmrevision 2afe04e
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
