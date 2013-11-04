@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://subversion.assembla.com/svn/slicerrt/trunk/SlicerRt/src
-scmrevision 1132
+scmrevision 1260
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -22,7 +22,7 @@ homepage    http://slicerrt.org
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Csaba Pinter (PerkLab, Queen's University), Andras Lasso (PerkLab, Queen's University), Kevin Wang (Radiation Medicine Program, Princess Margaret Hospital, University Health Network Toronto)
+contributors Csaba Pinter (PerkLab, Queen's University), Andras Lasso (PerkLab, Queen's University), Kevin Wang (Radiation Medicine Program, Princess Margaret Hospital, University Health Network Toronto), Greg Sharp (Massachusetts General Hospital)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Radiotherapy
@@ -35,7 +35,7 @@ iconurl     http://www.slicer.org/slicerWiki/images/2/28/SlicerRT_Logo_2.0_128x1
 status      Beta
 
 # One line stating what the module does
-description Extensions for radiotherapy research (DICOM-RT import, dose volume histogram, dose accumulation, etc.) Version 0.11.1
+description Extensions for radiotherapy research (DICOM-RT import/export, dose volume histogram, dose accumulation, contour comparison, etc.) Version 0.12.0
 
 # Space separated list of urls
 screenshoturls http://www.slicer.org/slicerWiki/images/8/8b/SlicerRT0.8_EntLoaded_Beams_ThresholdedDose.png http://www.slicer.org/slicerWiki/images/8/86/SlicerRT0.8_DVH_Comparison_Whole.png http://www.slicer.org/slicerWiki/images/4/40/SlicerRtFundingSources.png
