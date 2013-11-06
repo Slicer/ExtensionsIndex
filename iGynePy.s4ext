@@ -40,5 +40,5 @@ description iGyne is an open source software for MR-Guided Interstitial Gynecolo
 # Space separated list of urls
 screenshoturls http://www.slicer.org/slicerWiki/images/5/5d/IGyne-labelingResult.png
 
-# 0 or 1: Define if the extension should be enabled after its installation.
+# 0 or 1: Define if the extension should be enabled after its installation..
 enabled 1
