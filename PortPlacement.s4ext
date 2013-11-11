@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/giogadi/PortPlacement.git
-scmrevision 48b20ae48fcf02ed85b7ba9abf910e0edc92a9b3
+scmrevision 9cbdb41cad988b186aab6ae3e0a0a4d23db82fe7
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
