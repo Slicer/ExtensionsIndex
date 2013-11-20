@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/SlicerIGT/SlicerIGT
-scmrevision 043fc3a
+scmurl https://github.com/SlicerIGT/SlicerIGT.git
+scmrevision 4289a6e
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
