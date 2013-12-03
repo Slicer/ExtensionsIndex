@@ -1,13 +1,13 @@
 #
 # First token of each non-comment line is the keyword and the rest of the line
 # (including spaces) is the value.
-# - the value can be blank.  SUNIL KUMAR: Test comment
+# - the value can be blank
 #
 
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/skumar221/XNATSlicer.git
-scmrevision 34a7a7f
+scmrevision 34a7a7f752
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
