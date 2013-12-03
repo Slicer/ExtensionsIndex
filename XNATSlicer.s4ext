@@ -1,7 +1,7 @@
 #
 # First token of each non-comment line is the keyword and the rest of the line
 # (including spaces) is the value.
-# - the value can be blank.  SUNIL KUMAR: Test comment
+# - the value can be blank
 #
 
 # This is source code manager (i.e. svn)
@@ -28,7 +28,7 @@ contributors Sunil Kumar (Moka Creative LLC, Washington University in St. Louis)
 category    Remote
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://raw.github.com/skumar221/XNATSlicer/master/XnatSlicer/Resources/Icons/XNATSlicer-MarketIcon.png
+iconurl     https://raw.github.com/skumar221/XNATSlicer/master/XNATSlicer/Resources/Icons/XNATSlicer-MarketIcon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -38,7 +38,7 @@ status
 description Secure GUI-based IO with any XNAT server.
 
 # Space separated list of urls
-screenshoturls https://raw.github.com/skumar221/XNATSlicer/master/XnatSlicer/Resources/Images/UserDesc_MainPanel.png
+screenshoturls https://raw.github.com/skumar221/XNATSlicer/master/XNATSlicer/Resources/Images/UserDesc_MainPanel.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
