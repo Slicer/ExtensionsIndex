@@ -8,7 +8,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/Slicer/Slicer-DataStore.git
-scmrevision a9c1bb9
+scmrevision 54c6b60
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
