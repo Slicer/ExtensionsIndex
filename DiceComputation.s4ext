@@ -7,32 +7,38 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/lchauvin/DiceComputation.git
-scmrevision 2c17cd39b01960e5c6d4f693b08a5543081e20bc
+scmrevision 05f6ac1b48b04483e45c7ccd14a555d753b8a0a6
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends NA
+depends     NA
+
+# Inner build directory (default is .)
+build_subdirectory .
 
 # homepage
 homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/DiceComputation
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Laurent Chauvin (BWH)
+contributors Laurent Chauvin (BWH), Sonia Pujol (BWH)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Quantification
 
 # url to icon (png, size 128x128 pixels)
-iconurl    http://wiki.slicer.org/slicerWiki/images/7/79/DiceSimilarityCoefficient.png
+iconurl     http://wiki.slicer.org/slicerWiki/images/7/79/DiceSimilarityCoefficient.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      Beta
+status      
 
 # One line stating what the module does
 description Compute Dice's Similarity Coefficient (DSC) for several registered label map images.
 
 # Space separated list of urls
-screenshoturls http://wiki.slicer.org/slicerWiki/images/1/1d/Slicer4-DiceComputation-GUI.png
+screenshoturls http://www.slicer.org/slicerWiki/images/1/1d/Slicer4-DiceComputation-GUI.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
