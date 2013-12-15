@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://subversion.assembla.com/svn/slicerrt/trunk/TransformVisualizer/src
-scmrevision 1072
+scmrevision 1353
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -35,7 +35,7 @@ iconurl     http://www.slicer.org/slicerWiki/images/5/55/TransformVisualizerLogo
 status      
 
 # One line stating what the module does
-description  Extension version: 0.1.0.
+description  Extension version: 0.2.0.
 
 # Space separated list of urls
 screenshoturls http://www.slicer.org/slicerWiki/images/f/f7/SlicerRT_DefFieldVisGlyphUI.png http://www.slicer.org/slicerWiki/images/a/aa/SlicerRT_DefFieldVisModels.png
