@@ -2,12 +2,12 @@
 # First token of each non-comment line is the keyword and the rest of the line
 # (including spaces) is the value.
 # - the value can be blank
-# Sunil Kumar: Commit 12-20-13
+# Sunil submit: 12-21-12, Noon
 
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/MokaCreativeLLC/XNATSlicer.git
-scmrevision e04cc3b
+scmrevision 8ce6f35
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
