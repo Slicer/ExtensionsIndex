@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://subversion.assembla.com/svn/slicerrt/trunk/MatlabBridge/src
-scmrevision 1358
+scmrevision 1363
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -35,7 +35,7 @@ iconurl     http://www.slicer.org/slicerWiki/images/e/e8/MatlabBridgeLogo.png
 status      
 
 # One line stating what the module does
-description The Matlab Bridge extension allows running Matlab scripts as command-line interface (CLI) modules directly from 3D Slicer. The only prerequisites for running Matlab scripts are having this extension and Matlab installed on the 3D Slicer computer (building of 3D Slicer, MEX files, etc. is not needed). Extension version: 0.10.0.
+description The Matlab Bridge extension allows running Matlab scripts as command-line interface (CLI) modules directly from 3D Slicer. The only prerequisites for running Matlab scripts are having this extension and Matlab installed on the 3D Slicer computer (building of 3D Slicer, MEX files, etc. is not needed). Extension version: 0.11.0.
 
 # Space separated list of urls
 screenshoturls http://www.slicer.org/slicerWiki/images/2/2f/MatlabBridgeScreenshot1.png http://www.slicer.org/slicerWiki/images/1/16/MatlabBridgeScreenshot2.png http://www.slicer.org/slicerWiki/images/b/b9/MatlabBridgeScreenshot3.png
