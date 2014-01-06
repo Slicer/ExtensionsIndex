@@ -5,7 +5,7 @@
 #
 
 # This is source code manager (i.e. svn)
-scm git://
+scm git
 scmurl https://xiaofengliu@github.com/BrainMeasurement/MultiAtlas.git
 scmrevision 229ed97
 
