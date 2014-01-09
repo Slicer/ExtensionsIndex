@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://xiaofengliu@github.com/BrainMeasurement/MultiAtlas.git
-scmrevision 229ed97
+scmrevision bd5f83e
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -22,13 +22,13 @@ homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Ext
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Xiaofeng Liu, Minjeong Kim, Dinggang Shen, Jim Miller
+contributors Xiaofeng Liu (GE GLobal Research), Minjeong Kim (UNC), Dinggang Shen (UNC), Jim Miller (GE GLobal Research)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://viewvc.slicer.org/viewvc.cgi/Slicer4/trunk/Extensions/Testing/SlicerExtensions/SlicerExtensions.png?revision=21745&view=co
+iconurl     http://viewvc.slicer.org/viewvc.cgi/Slicer4/trunk/Extensions/Testing/CLIExtensionTemplate/CLIExtensionTemplate.png?revision=19437&view=co
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -38,7 +38,7 @@ status
 description Multi-Atlas Based Group Segmentation
 
 # Space separated list of urls
-screenshoturls http://wiki.slicer.org/slicerWiki/images/a/ab/Slicer-r19441-SlicerExtensions-screenshot.png http://wiki.slicer.org/slicerWiki/images/1/1e/Slicer-r19441-SlicerExtensions-screenshot-2.png
+screenshoturls http://wiki.slicer.org/slicerWiki/images/a/ab/Slicer-r19441-CLIExtensionTemplate-screenshot.png http://wiki.slicer.org/slicerWiki/images/1/1e/Slicer-r19441-CLIExtensionTemplate-screenshot-2.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
