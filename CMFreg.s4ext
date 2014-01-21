@@ -7,14 +7,14 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/viboen/CMFreg
-scmrevision bc45119
+scmrevision 9757d01
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
 depends     NA
 
-# Inner build directory (default is .)
+# Inner build directory (default is ".")
 build_subdirectory .
 
 # homepage
