@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/SlicerIGT/TrackerStabilizer.git
-scmrevision 6b8242da47e0d13c6c8347de26dc24a2470cd605
+scmrevision bdac32ccc2f29ccc4836555798d770455026a907
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
