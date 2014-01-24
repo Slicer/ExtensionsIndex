@@ -1,0 +1,46 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
+scm svn
+scmurl https://www.nitrc.org/svn/spharm-pdm
+scmrevision 215
+svnusername slicerbot
+svnpassword slicer
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends     NA
+
+# Inner build directory (default is .)
+build_subdirectory SPHARM-PDM-build
+
+# homepage
+homepage    http://www.nitrc.org/projects/spharm-pdm
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Beatriz Paniagua (UNC), Francois Budin (UNC), Martin Styner (UNC)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category    Shape Analysis
+
+# url to icon (png, size 128x128 pixels)
+iconurl     http://www.na-mic.org/Wiki/images/a/ad/Spharm-pdm-icon.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand beind?
+status      
+
+# One line stating what the module does
+description SPHARM-PDM is a tool that computes point-based models using a parametric boundary description for the computing of Shape Analysis.
+
+# Space separated list of urls
+screenshoturls http://www.na-mic.org/Wiki/images/3/34/Spharm-pdm-snapshot.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
