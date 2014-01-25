@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/BrainMeasurement/MultiAtlas
-scmrevision d3fc2a8
+scmrevision f03f62e
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
