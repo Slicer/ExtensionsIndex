@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/QIICR/TCIABrowser.git
-scmrevision ccbbae8bcf
+scmrevision c51eace
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -28,7 +28,7 @@ contributors Alireza Mehrtash(SPL and BWH), Andrey Fedorov (SPL and BWH)
 category    Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl     
+iconurl     https://raw2.github.com/QIICR/TCIABrowser/master/TCIABrowser.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
