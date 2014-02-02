@@ -7,7 +7,8 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/MokaCreativeLLC/XNATSlicer.git
-scmrevision af97dc9
+scmrevision 4ea7628
+            
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
