@@ -1,0 +1,13 @@
+build_subdirectory .
+category Examples
+contributors Matthew Woehlke (Kitware)
+depends NA
+description This is an example of a simple extension
+enabled 1
+homepage https://github.com/mwoehlke-kitware/SlicerTestExtension
+iconurl https://raw.github.com/mwoehlke-kitware/SlicerTestExtension/master/SlicerTestExtension.png
+scm git
+scmrevision 366c666093ea39de087ce67fc2388698cebaf0a8
+scmurl https://github.com/mwoehlke-kitware/SlicerTestExtension.git
+screenshoturls http://www.example.com/Slicer/Extensions/SlicerTestExtension/Screenshots/1.png
+status
