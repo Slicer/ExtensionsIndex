@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/lpfang/GyroGuide
-scmrevision 03a466e9f0a8b5c439b7f4aac2b63efce67fc2eb
+scmurl https://github.com/lpfang/GyroGuide.git
+scmrevision 66badd2
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
