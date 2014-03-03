@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/MokaCreativeLLC/XNATSlicer.git
-scmrevision 3c2b0a576d469d1a5038defbb06c98a26d578a10
+scmrevision d8b1e2dd7eddd59ab49d55b50089cdac405856ee
             
 
 # list dependencies
