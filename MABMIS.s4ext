@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/pkarasev3/kslice.git
-scmrevision f8865c5
+scmurl https://github.com/BrainMeasurement/MultiAtlas
+scmrevision f03f62e
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,27 +18,27 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://wiki.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/KSliceInteractiveSegmenter
+homepage    http://wiki.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/MABMIS
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Ivan Kolesov (GT), Peter Karasev (GT), Patricio Vela (GT), Allen Tannenbaum (UAB), Karl Fritscher (BWH & MGH), Steve Pieper (Isomics)
+contributors Xiaofeng Liu (GE GLobal Research), Minjeong Kim (UNC), Dinggang Shen (UNC), Jim Miller (GE GLobal Research)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/b/bc/KSliceEffect.png
+iconurl     http://wiki.slicer.org/slicerWiki/images/e/e2/MABMIS_Icon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      Beta
+status      
 
 # One line stating what the module does
-description This extension provides an interactive 3D segmentation tool.
+description Multi-Atlas Based Group Segmentation
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/thumb/2/2c/DrawLabel.png/500px-DrawLabel.png  http://www.na-mic.org/Wiki/images/thumb/d/d0/TendonSegment.png/800px-TendonSegment.png  http://www.na-mic.org/Wiki/images/thumb/b/b8/FiducialSnapshotX.png/800px-FiducialSnapshotX.png
+screenshoturls http://wiki.slicer.org/slicerWiki/images/2/2c/MABMIS_trainning_GUI.png http://wiki.slicer.org/slicerWiki/images/6/64/MABMIS_testing_GUI.png http://wiki.slicer.org/slicerWiki/images/c/c3/MABMIS_algorithm.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

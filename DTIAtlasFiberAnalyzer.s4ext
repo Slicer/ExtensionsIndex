@@ -7,14 +7,14 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://www.nitrc.org/svn/dti_tract_stat/trunk/
-scmrevision 105
+scmrevision 131
 svnusername slicerbot
 svnpassword slicer
 
 #list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     DTIProcess
+depends  NA
 
 # Inner build directory (default is .)
 build_subdirectory dti_tract_stat-build

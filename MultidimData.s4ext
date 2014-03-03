@@ -5,9 +5,9 @@
 #
 
 # This is source code manager (i.e. svn)
-scm git
-scmurl https://github.com/fedorov/WindowLevelEffect.git
-scmrevision 04f0b7ee
+scm svn
+scmurl https://subversion.assembla.com/svn/slicerrt/trunk/MultidimData/src
+scmrevision 1497
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,27 +18,27 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/WindowLevelEffect
+homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/MultidimData
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Andrey Fedorov (SPL), Steve Pieper (SPL)
+contributors Andras Lasso (PerkLab, Queen's), Matthew Holden (PerkLab, Queen's), Kevin Wang (PMH)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Editor Effects
+category    Multidimensional data
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/3/39/WindowLevelEffectLogo.png
+iconurl     http://www.slicer.org/slicerWiki/images/c/cc/MultidimDataLogo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      Experimental
+status      
 
 # One line stating what the module does
-description Use this tool to change window/level of background/foreground volumes based on the intensity range of the selected rectangle. Normal mode: use primary mouse button to adjust window level. Depending on the selection, Foreground, Background or both layers are affected. Rectangle mode: Left Click and Drag: sweep out an outline that will draw when the button is released. The outline will define the rectangle for calculating the new window/level settings for the selected layers.
+description A set of modules for generic multidimensional data management in Slicer (0.1.1)
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/c/c1/WindowLevelEffectScreenShot.png
+screenshoturls http://www.slicer.org/slicerWiki/images/1/17/CardiacCtReplay.gif http://www.slicer.org/slicerWiki/images/0/0f/UltrasoundToolGuidance3dOnly.gif http://www.slicer.org/slicerWiki/images/e/ea/ShapeModelSequenceBrowsing3dOnly.gif http://www.slicer.org/slicerWiki/images/thumb/5/5b/SequenceEditor.png/504px-SequenceEditor.png http://www.slicer.org/slicerWiki/images/thumb/e/ef/SequenceBrowser.png/397px-SequenceBrowser.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

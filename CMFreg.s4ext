@@ -2,44 +2,43 @@
 # First token of each non-comment line is the keyword and the rest of the line
 # (including spaces) is the value.
 # - the value can be blank
-# Sunil Commmit (2-14-14)
+#
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/MokaCreativeLLC/XNATSlicer.git
-scmrevision 3c2b0a576d469d1a5038defbb06c98a26d578a10
-            
+scmurl https://github.com/viboen/CMFreg
+scmrevision bc45119
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
 depends     NA
 
-# Inner build directory (default is ".")
+# Inner build directory (default is .)
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/XNATSlicer
+homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/4.3/Extensions/CMFreg
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Sunil Kumar (Moka Creative LLC, Washington University in St. Louis), Dan Marcus (Washington University in St. Louis), Steve Pieper (Isomics)
+contributors Vinicius Boen (Univ of Michigan), Manson Winsauer(UNC)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Remote
+category    Registration
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://raw.github.com/MokaCreativeLLC/XNATSlicer/master/XNATSlicer/Resources/Icons/XNATSlicer-MarketIcon.png
+iconurl     http://www.slicer.org/slicerWiki/images/b/bc/BaselineFollowupSCANRegisteredCMFreg2.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
 status      
 
 # One line stating what the module does
-description Secure GUI-based IO with any XNAT server.
+description Tools package for the cranio-maxillofacial registration
 
 # Space separated list of urls
-screenshoturls https://raw.github.com/MokaCreativeLLC/XNATSlicer/master/XNATSlicer/Resources/Images/UserDesc_MainPanel.png
+screenshoturls http://www.slicer.org/slicerWiki/images/1/15/BaselineFollowupSCANCMFreg.png http://www.slicer.org/slicerWiki/images/0/0b/GrowingInterface.png http://www.slicer.org/slicerWiki/images/4/4a/InputSegToExtractionCMFreg.png http://www.slicer.org/slicerWiki/images/4/46/BaselineSegmentationMaskCMFreg.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
