@@ -7,22 +7,22 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/SlicerIGT/SlicerIGT.git
-scmrevision 00341f1
+scmrevision 70a6e75
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
 depends     NA
 
-# Inner build directory (default is .)
+# Inner build directory (default is ".")
 build_subdirectory inner-build
 
 # homepage
-homepage    http://www.slicerigt.org
+homepage    http://slicerigt.github.com/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Tamas Ungi (Queen's University)
+contributors Tamas Ungi (Queen's University), Junichi Tokuda (Brigham and Women's Hospital)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    IGT
