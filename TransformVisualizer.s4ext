@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://subversion.assembla.com/svn/slicerrt/trunk/TransformVisualizer/src
-scmrevision 1353
+scmrevision 1570
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
