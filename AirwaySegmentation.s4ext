@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/PietroNardelli/Slicer-AirwaySegmentation.git
-scmrevision 1eea619
+scmurl https://github.com/PietroNardelli/Slicer-AirwaySegmentation
+scmrevision 461abf5
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
