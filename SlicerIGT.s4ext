@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/SlicerIGT/SlicerIGT.git
-scmrevision 70a6e75
+scmrevision fbe53d8
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -30,7 +30,7 @@ category    IGT
 iconurl     http://www.slicer.org/slicerWiki/images/2/2b/SlicerIGTLogo.png
 
 # Give people an idea what to expect from this code
-#  - Is it just a test or something you stand beind?
+#  - Is it just a test or something you stand behind?
 status      
 
 # One line stating what the module does
