@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/gpernelle/iGynePy.git
-scmrevision 849f7e6
+scmurl https://github.com/gpernelle/iGyne.git
+scmrevision 23a83bc2a9ee145569ee509ce33ea55f30c8e61e
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,11 +18,11 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/4.2/Extensions/iGynePy
+homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/4.3/Extensions/iGyne
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Guillaume Pernelle, Xiaojun Chen, Yi Gao, Carolina Vale, Jan Egger, Tobias Penzkofer, Sandy Wells, Sam Song, Antonio Damato, Tina Kapur, Akila Viswanathan
+contributors Guillaume Pernelle,  Alireza Mehrtash, Lauren Barber, Nabgha Fahrat, Jan Egger, Tobias Penzkofer, Sandy Wells, Sam Song, Xiaojun Chen, Yi Gao, Antonio Damato, Tina Kapur, Akila Viswanathan
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    IGT
