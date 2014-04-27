@@ -2,12 +2,12 @@ build_subdirectory .
 category IGT
 contributors Guillaume Pernelle,  Alireza Mehrtash, Lauren Barber, Nabgha Fahrat, Jan Egger, Tobias Penzkofer, Sandy Wells, Sam Song, Xiaojun Chen, Yi Gao, Antonio Damato, Tina Kapur, Akila Viswanathan
 depends NA
-description NeedleFinder: fast interactive needle detection. It is an open source software for MR-Guided Interstitial Gynecologic Brachytherapy. It enables on-time processing of the intra-operative MRI data via a DICOM connection to the scanner followed by a multi-stage registration of CAD models of the template and the obturator to the patient images. This allows the virtual placement of interstitial needles during the intervention, as well as the detection/labeling of needles in MR images
+description NeedleFinder: fast interactive needle detection. It provides interactive tools to segment needles in MR/CT images. It has been mostly tested on MRI from gynelogical brachytherapy cases. Cf <<Validation of Catheter Segmentation for MR-Guided Gynecologic Cancer Brachytherapy.>> MICCAI 2013
 enabled 1
 homepage https://github.com/gpernelle/NeedleFinder
 iconurl https://raw.github.com/gpernelle/NeedleFinder/master/NeedleFinder.png
 scm git
-scmrevision 104d82ee1330a9f2133acdf544d8dfa30f6e150a
+scmrevision 20be144faa409ecefb5db249b3c02c3c9a1ccbb3
 scmurl https://github.com/gpernelle/NeedleFinder.git
-screenshoturls https://raw.github.com/gpernelle/NeedleFinder/master/LabelingResult.png
+screenshoturls https://raw.github.com/gpernelle/NeedleFinder/master/screenshot.png
 status
