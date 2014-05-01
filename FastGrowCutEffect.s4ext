@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/ljzhu/FastGrowCut.git
-scmrevision d64f744
+scmrevision f3cf8f0
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
