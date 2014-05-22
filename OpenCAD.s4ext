@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/vnarayan13/Slicer-OpenCAD.git
-scmrevision d8c858195f09a760e6b05cd283997ba33d00130c
+scmrevision fe5e41e5002ee984d5726c82964ed9ae42be38e1
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage http://www.slicer.org/slicerWiki/index.php/Documentation/4.3/Extensions/OpenCAD
+homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/OpenCAD
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 contributors Vivek Narayan (BWH), Jayender Jagadeesan (BWH)
