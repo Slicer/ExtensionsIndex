@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://www.nitrc.org/svn/fvlight/trunk
-scmrevision 70
+scmrevision 76
 svnusername slicerbot
 svnpassword slicer
 
@@ -30,7 +30,7 @@ contributors Francois Budin (UNC)
 category    Diffusion
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.nitrc.org/project/screenshot.php?group_id=534&screenshot_id=598
+iconurl    http://www.nitrc.org/project/screenshot.php?group_id=534&screenshot_id=767
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -40,7 +40,7 @@ status      Beta
 description FiberViewerLight is an open-source software to visualize and edit fibers
 
 # Space separated list of urls
-screenshoturls http://www.nitrc.org/project/list_screenshots.php?group_id=534&screenshot_id=599 http://www.nitrc.org/project/list_screenshots.php?group_id=534&screenshot_id=597
+screenshoturls http://wiki.slicer.org/slicerWiki/images/thumb/b/b9/FiberViewerLight1.2-ScreenShot.png/670px-FiberViewerLight1.2-ScreenShot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
