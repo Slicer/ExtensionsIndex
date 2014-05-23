@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://www.nitrc.org/svn/dtiprocess/trunk
-scmrevision 214
+scmrevision 222
 svnusername slicerbot
 svnpassword slicer
 
@@ -20,7 +20,7 @@ depends     NA
 build_subdirectory DTIProcess-build
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/DTIProcess
+homepage    http://www.nitrc.org/projects/dtiprocess
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -30,7 +30,7 @@ contributors Francois Budin (UNC)
 category    Diffusion
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.nitrc.org/project/screenshot.php?group_id=312&screenshot_id=575
+iconurl    http://www.nitrc.org/project/screenshot.php?group_id=312&screenshot_id=771
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
