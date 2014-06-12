@@ -25,7 +25,7 @@ homepage    http://www.nitrc.org/projects/shapepopviewer
 contributors Alexis Girault (NIRAL, UNC)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Surface Models
+category    Shape Analysis
 
 # url to icon (png, size 128x128 pixels)
 iconurl     https://www.nitrc.org/project/screenshot.php?group_id=759&screenshot_id=704
