@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/SCIInstitute/Slicer-CleaverExtension
-scmrevision a1c64f3ed67e4670e411ecb60c6ae9b4e568ab94
+scmrevision b0eb1c43af3a11c469f0a1d0f1d483e69a30a25e
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
