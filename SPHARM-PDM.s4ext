@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://www.nitrc.org/svn/spharm-pdm
-scmrevision 216
+scmrevision 226
 svnusername slicerbot
 svnpassword slicer
 
