@@ -1,0 +1,13 @@
+build_subdirectory SPHARM-PDM-build
+category Shape Analysis
+contributors Beatriz Paniagua (UNC), Francois Budin (UNC), Martin Styner (UNC)
+depends NA
+description SPHARM-PDM is a tool that computes point-based models using a parametric boundary description for the computing of Shape Analysis.
+enabled 1
+homepage http://www.nitrc.org/projects/spharm-pdm
+iconurl http://www.na-mic.org/Wiki/images/a/ad/Spharm-pdm-icon.png
+scm svn
+scmrevision 228
+scmurl https://www.nitrc.org/svn/spharm-pdm
+screenshoturls http://www.na-mic.org/Wiki/images/3/34/Spharm-pdm-snapshot.png
+status
