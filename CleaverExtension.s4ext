@@ -1,0 +1,13 @@
+build_subdirectory .
+category Mesh Generation
+contributors Jonathan Bronson (SCI Institute), Brig Bagley (SCI Institute)
+depends NA
+description This extension bundles the Cleaver meshing tool as a CLI module.
+enabled 1
+homepage http://www.slicer.org/slicerWiki/index.php/Documentation/4.3/Extensions/${EXTENSION_NAME}
+iconurl CleaverExtension.png
+scm git
+scmrevision 5158e0bcbaa24406878472a4f537d5379ceb11de
+scmurl https://github.com/SCIInstitute/Slicer-CleaverExtension
+screenshoturls )screenshot1.jpeg screenshot2.jpeg screenshot3.jpeg screenshot4.jpeg
+status
