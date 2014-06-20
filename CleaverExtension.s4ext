@@ -7,7 +7,7 @@ enabled 1
 homepage http://www.slicer.org/slicerWiki/index.php/Documentation/4.3/Extensions/${EXTENSION_NAME}
 iconurl CleaverExtension.png
 scm git
-scmrevision e0d40929abbd4c21b6b0486956b0618419130efe
+scmrevision e4c047d5df4bfe302878f2afc063135bc70300ef
 scmurl https://github.com/SCIInstitute/Slicer-CleaverExtension
 screenshoturls )screenshot1.jpeg screenshot2.jpeg screenshot3.jpeg screenshot4.jpeg
 status
