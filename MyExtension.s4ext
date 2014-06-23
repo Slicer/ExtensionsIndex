@@ -1,0 +1,13 @@
+build_subdirectory .
+category Examples
+contributors John Doe (AnyWare Corp.)
+depends NA
+description This is an example of a simple extension
+enabled 1
+homepage https://github.com/jcfr/MyExtension
+iconurl https://raw.github.com/jcfr/MyExtension/master/MyExtension.png
+scm git
+scmrevision d52dbd0857113362d53e572be336dac0212f11ae
+scmurl https://github.com/jcfr/MyExtension.git
+screenshoturls http://www.example.com/Slicer/Extensions/MyExtension/Screenshots/1.png
+status
