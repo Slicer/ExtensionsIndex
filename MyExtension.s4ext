@@ -1,0 +1,13 @@
+build_subdirectory .
+category Examples
+contributors Jc (Kitware)
+depends NA
+description This is an example of a simple extension. Yeahh
+enabled 1
+homepage https://github.com/jcfr/MyExtension
+iconurl https://raw.github.com/jcfr/MyExtension/master/MyExtension.png
+scm git
+scmrevision ca622a72fce67b2be88dddf9125f19808b086b67
+scmurl https://github.com/jcfr/MyExtension.git
+screenshoturls http://www.example.com/Slicer/Extensions/MyExtension/Screenshots/1.png
+status
