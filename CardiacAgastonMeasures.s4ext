@@ -1,0 +1,13 @@
+build_subdirectory .
+category Cardiac
+contributors Jessica Forbes (UIowa), Hans Johnson (UIowa)
+depends NA
+description This module will auto-segment the coronary calcium in Cardiac CT scans and then calculate the Agatston score and label statistics
+enabled 1
+homepage http://www.example.com/Slicer/Extensions/CardiacAgastonMeasures
+iconurl http://www.example.com/Slicer/Extensions/CardiacAgastonMeasures/CardiacAgastonMeasures.png
+scm git
+scmrevision 95df8079afe2fa6be05801c8c72f70065e4860e3
+scmurl git://github.com/BRAINSia/CardiacAgastonMeasures.git
+screenshoturls http://www.na-mic.org/Wiki/images/6/63/CardiacAgatstonMeasuresModuleScreenshot.jpg
+status
