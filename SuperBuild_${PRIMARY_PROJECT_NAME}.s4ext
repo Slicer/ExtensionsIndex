@@ -1,0 +1,13 @@
+build_subdirectory .
+category Diffusion.Tractography
+contributors Yogesh Rathi, Stefan Lienhard, Yinpeng Li, Martin Styner, Ipek Oguz, Yundi Shi, Christian Baumgartner
+depends Eigen
+description This module traces fibers in a DWI Volume using the multiple tensor unscented Kalman Filter methology.
+enabled 1
+homepage http://www.nitrc.org/plugins/mwiki/index.php/ukftractography:MainPage
+iconurl http://viewvc.slicer.org/viewvc.cgi/Slicer4/trunk/Extensions/Testing/CLIExtensionTemplate/CLIExtensionTemplate.png?revision=19437&view=co
+scm git
+scmrevision a7db3c07dc85bf07b7735132a3a7f058d1be92ac
+scmurl git://github.com/pnlbwh/ukftractography.git
+screenshoturls http://wiki.slicer.org/slicerWiki/images/a/ab/Slicer-r19441-CLIExtensionTemplate-screenshot.png http://wiki.slicer.org/slicerWiki/images/1/1e/Slicer-r19441-CLIExtensionTemplate-screenshot-2.png
+status Alpha
