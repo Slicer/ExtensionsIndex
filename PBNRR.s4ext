@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/fdrakopo/PBNRR.git
-scmrevision 181656b
+scmrevision 0891355
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
