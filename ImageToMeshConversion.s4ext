@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/fdrakopo/ImageToMeshConversion.git
-scmrevision a5875c6
+scmrevision 2c39a67
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
