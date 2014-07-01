@@ -28,7 +28,7 @@ contributors Demian Wassermann, Antonio Tristán-Vega, Alex Yarmarkovich (Isomics
 category    Tractography
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://raw.githubusercontent.com/ayarmarkovich/SlicerFinslerTractography/master/finsler.png
+iconurl     http://www.example.com/Slicer/Extensions/TemplateKey.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
