@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/ayarmarkovich/SlicerFinslerTractography.git
+scmurl git://github.com/ayarmarkovich/SlicerFinslerTractography
 scmrevision 3fb1533
 
 # list dependencies
@@ -22,7 +22,7 @@ homepage    http://www.nitrc.org/projects/finslertract/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Antonio Tristán-Vega, Demian Wassermann, Alex Yarmarkovich (Isomics)
+contributors Antonio Tristán-Vega, Alex Yarmarkovich (Isomics)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Tractography
