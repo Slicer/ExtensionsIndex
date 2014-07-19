@@ -8,7 +8,7 @@
 scm git
 scmurl git://github.com/pnlbwh/ukftractography.git
 
-scmrevision 53b72b9
+scmrevision b101af8
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -23,8 +23,7 @@ homepage  http://www.nitrc.org/projects/ukftractography/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Yogesh Rathi (yogesh@bwh.harvard.edu), Stefan Lienhard, Yinpeng Li, Martin
-Styner, Ipek Oguz, Yundi Shi, Christian Baumgartner (c.f.baumgartner@gmail.com), Ryan Eckbo
+contributors Yogesh Rathi (yogesh@bwh.harvard.edu), Stefan Lienhard, Yinpeng Li, Martin Styner, Ipek Oguz, Yundi Shi, Christian Baumgartner, Ryan Eckbo, Hans Johnson, Kent Williams, Peter Savadjiev, Carl-Fredrik Westin.
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Tractography

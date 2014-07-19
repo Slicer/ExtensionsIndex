@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/haehn/VMTKSlicerExtension.git
-scmrevision e7e7bbc2b815ed5f5fe051467c42d76bbce54915
+scmurl git://github.com/NIRALUser/3DMetricTools.git
+scmrevision 3f4a9be5b2cd4a36ac502a276a9a32d82c33dbd3
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -15,30 +15,30 @@ scmrevision e7e7bbc2b815ed5f5fe051467c42d76bbce54915
 depends     NA
 
 # Inner build directory (default is .)
-build_subdirectory SlicerVmtk-build
+build_subdirectory .
 
 # homepage
-homepage    http://slicer.vmtk.org/
+homepage    https://www.nitrc.org/projects/meshmetric3d/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Daniel Haehn (Boston Childrens Hospital), Luca Antiga (Orobix), Steve Pieper (Isomics)
+contributors Francois Budin (UNC), Juliette Pera (UNC), Beatriz Paniagua (UNC)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Vascular Modeling Toolkit
+category    Shape Analysis
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.nitrc.org/project/screenshot.php?group_id=196&screenshot_id=269
+iconurl     http://slicer.org/slicerWiki/images/4/43/Slicer4ExtensionModelToModelDistance.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      Beta
+status      
 
 # One line stating what the module does
-description The Vascular Modeling Toolkit as a 3D Slicer4 extension.
+description This extension computes the distance between two 3D models
 
 # Space separated list of urls
-screenshoturls http://www.nitrc.org/project/screenshot.php?group_id=196&screenshot_id=126 http://www.nitrc.org/project/screenshot.php?group_id=196&screenshot_id=227 http://www.nitrc.org/project/screenshot.php?group_id=196&screenshot_id=228 http://www.nitrc.org/project/screenshot.php?group_id=196&screenshot_id=229
+screenshoturls 
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

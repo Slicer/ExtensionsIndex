@@ -5,40 +5,39 @@
 #
 
 # This is source code manager (i.e. svn)
-scm svn
-scmurl https://subversion.assembla.com/svn/Scoliosis/trunk/Scoliosis/src
-scmrevision 51
+scm git
+scmurl git://github.com/vnarayan13/Slicer-OpenCAD.git
+scmrevision fe5e41e5002ee984d5726c82964ed9ae42be38e1
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     NA
+depends NA
 
 # Inner build directory (default is .)
 build_subdirectory .
 
 # homepage
-homepage    https://www.assembla.com/spaces/Scoliosis/wiki
+homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/OpenCAD
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
-# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Franklin King (PerkLab, Queen's University), Tamas Ungi (PerkLab, Queen's University)
+contributors Vivek Narayan (BWH), Jayender Jagadeesan (BWH)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Scoliosis
+category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/2/2b/ScoliosisLogo.png
+iconurl http://www.slicer.org/slicerWiki/images/2/2e/OpenCAD.PNG
 
 # Give people an idea what to expect from this code
-#  - Is it just a test or something you stand beind?
-status      Experimental
+# - Is it just a test or something you stand beind?
+status Beta
 
 # One line stating what the module does
-description Extensions pertaining to scoliosis analysis
+description The SegmentCAD module segments DCE-MRI volumes and generates a label map of the tumor
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/d/d1/ScoliosisScreenshot.png
+screenshoturls http://www.slicer.org/slicerWiki/images/e/ef/SegmentCAD-Output.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

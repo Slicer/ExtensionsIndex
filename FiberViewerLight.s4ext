@@ -7,11 +7,11 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://www.nitrc.org/svn/fvlight/trunk
-scmrevision 68
+scmrevision 76
 svnusername slicerbot
 svnpassword slicer
 
-#list dependencies
+# list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
 depends     NA
@@ -19,22 +19,28 @@ depends     NA
 # Inner build directory (default is .)
 build_subdirectory FiberViewerLight-build
 
-#homepage
-homepage http://www.nitrc.org/projects/fvlight/
+# homepage
+homepage    http://www.nitrc.org/projects/fvlight/
 
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
 contributors Francois Budin (UNC)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category FiberViewer
+category    Diffusion
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.nitrc.org/project/screenshot.php?group_id=534&screenshot_id=598
+iconurl    http://www.nitrc.org/project/screenshot.php?group_id=534&screenshot_id=767
 
-# Extension development status
-status Beta
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand beind?
+status      Beta
 
 # One line stating what the module does
 description FiberViewerLight is an open-source software to visualize and edit fibers
 
-# 0 or 1: Define if the extension should be enabled after its installation
+# Space separated list of urls
+screenshoturls http://wiki.slicer.org/slicerWiki/images/thumb/b/b9/FiberViewerLight1.2-ScreenShot.png/670px-FiberViewerLight1.2-ScreenShot.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
