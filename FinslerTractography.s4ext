@@ -1,44 +1,13 @@
-#
-# First token of each non-comment line is the keyword and the rest of the line
-# (including spaces) is the value.
-# - the value can be blank
-#
-
-# This is source code manager (i.e. svn)
-scm git
-scmurl git://github.com/ayarmarkovich/SlicerFinslerTractography.git
-scmrevision 3fb1533
-
-# list dependencies
-# - These should be names of other modules that have .s4ext files
-# - The dependencies will be built first
-depends     NA
-
-# Inner build directory (default is ".")
 build_subdirectory .
-
-# homepage
-homepage    http://www.nitrc.org/projects/finslertract/
-
-# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
-# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+category Tractography-foo
 contributors Demian Wassermann, Antonio Tristán-Vega, Alex Yarmarkovich (Isomics)
-
-# Match category in the xml description of the module (where it shows up in Modules menu)
-category    Tractography
-
-# url to icon (png, size 128x128 pixels)
-iconurl     https://raw.githubusercontent.com/ayarmarkovich/SlicerFinslerTractography/master/finsler.png
-
-# Give people an idea what to expect from this code
-#  - Is it just a test or something you stand behind?
-status      
-
-# One line stating what the module does
+depends NA
 description This module implements the Finsler tractography method with HARDI data described by J. Melonakos et al.
-
-# Space separated list of urls
-screenshoturls http://www.nitrc.org/project/list_screenshots.php?group_id=464&screenshot_id=402
-
-# 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
+homepage http://www.nitrc.org/projects/finslertract/
+iconurl https://raw.githubusercontent.com/ayarmarkovich/SlicerFinslerTractography/master/finsler.png
+scm git
+scmrevision b16b2abbebae5d162dbf6ffbb65a104a638f3d9c
+scmurl git://github.com/ayarmarkovich/SlicerFinslerTractography.git
+screenshoturls http://www.nitrc.org/project/list_screenshots.php?group_id=464&screenshot_id=402
+status
