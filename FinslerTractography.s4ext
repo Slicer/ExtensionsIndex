@@ -35,7 +35,7 @@ iconurl     https://raw.githubusercontent.com/ayarmarkovich/SlicerFinslerTractog
 status      
 
 # One line stating what the module does
-description This module implements the Finsler tractography method with HARDI data described by J. Melonakos et al.
+description This module implements the Finsler tractography method with HARDI data as described by J. Melonakos et al., "Finsler Active Contours", IEEE Trans PAMI, 30(3):412-423, 2008. See also:<br>O'Donnell et al., "New approaches to estimation of white matter connectivity in diffusion tensor MRI: Elliptic pdes and geodesics in a tensor-warped space.", MICCAI 2002;459-466.<br>Pichon et al., "A Hamilton-Jacobi-Bellman approach to high angular resolution diffusion tractography", MICCAI 2005;180-187.<br><br>Supported by NIH grants R01 MH092862 (PIs Westin and Verma), R01 MH074794 (PI Westin) and P41 EB015902 (PI Kikinis), as well as by grant number FMECD-2010/71131616E from the Spanish Ministry of Education/Fulbright Committee.
 
 # Space separated list of urls
 screenshoturls http://www.nitrc.org/project/list_screenshots.php?group_id=464&screenshot_id=402
