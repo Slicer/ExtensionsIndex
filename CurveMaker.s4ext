@@ -7,7 +7,7 @@ enabled 1
 homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/CurveMaker
 iconurl http://www.slicer.org/slicerWiki/images/b/b7/CurveMakerIcon.png
 scm git
-scmrevision 157e68dd7ca08727fb0f3142746f6788e6b3898f
+scmrevision 50f5458b947e81e85d7ce695c311c17c2aa35e0e
 scmurl https://github.com/tokjun/CurveMaker.git
 screenshoturls http://www.slicer.org/slicerWiki/images/0/0b/Slicer4-CurveMaker-GUI.png
 status
