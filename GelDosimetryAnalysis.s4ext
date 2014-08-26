@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://subversion.assembla.com/svn/slicerrt/trunk/GelDosimetryAnalysis/src
-scmrevision 1469
+scmrevision 1944
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -31,7 +31,7 @@ category    Radiotherapy
 iconurl     http://www.slicer.org/slicerWiki/images/f/f1/GelDosimetry_Logo_128x128.png
 
 # Give people an idea what to expect from this code
-#  - Is it just a test or something you stand beind?
+#  - Is it just a test or something you stand behind?
 status      
 
 # One line stating what the module does
