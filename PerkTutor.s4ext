@@ -7,14 +7,14 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/PerkTutor/PerkTutor.git
-scmrevision 185ce96
+scmrevision ed73de6
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
 depends     NA
 
-# Inner build directory (default is .)
+# Inner build directory (default is ".")
 build_subdirectory inner-build
 
 # homepage
@@ -31,7 +31,7 @@ category    Training
 iconurl     http://www.slicer.org/slicerWiki/images/2/21/PerkTutorLogo.png
 
 # Give people an idea what to expect from this code
-#  - Is it just a test or something you stand beind?
+#  - Is it just a test or something you stand behind?
 status      
 
 # One line stating what the module does
