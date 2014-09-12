@@ -1,0 +1,13 @@
+build_subdirectory .
+category IGT
+contributors Atsushi Yamada (Shiga University of Medical Science, Japan)
+depends NA
+description This is an module to display annotations, time count, node elements on each panels on the Slicer user interface
+enabled 1
+homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/CornerAnnotation
+iconurl http://www.slicer.org/slicerWiki/images/e/e1/CornerAnnotationIcon.png
+scm git
+scmrevision 0b381ea5a9d634e721f3e3acb731f3b5417f7658
+scmurl https://ayamada0614@github.com/ayamada0614/CornerAnnotation.git
+screenshoturls http://www.slicer.org/slicerWiki/images/2/2a/CA-1.png
+status
