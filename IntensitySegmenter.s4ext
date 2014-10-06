@@ -6,8 +6,10 @@
 
 # This is source code manager (i.e. svn)
 scm svn
-scmurl https://subversion.assembla.com/svn/Scoliosis/trunk/Scoliosis/src
-scmrevision 51
+scmurl https://www.nitrc.org/svn/dentaltools/Applications/IntensitySegmenter/
+scmrevision 12
+svnusername slicerbot
+svnpassword slicer
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,27 +20,27 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    https://www.assembla.com/spaces/Scoliosis/wiki
+homepage   http://www.nitrc.org/projects/dentaltools/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Franklin King (PerkLab, Queen's University), Tamas Ungi (PerkLab, Queen's University)
+contributors Pengdong Xiao (Department of Orthodontics, UNC), Beatriz Paniagua (Department of Orthodontics, UNC), Francois Budin (NIRAL, UNC)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Scoliosis
+category    Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/2/2b/ScoliosisLogo.png
+iconurl     http://wiki.slicer.org/slicerWiki/images/f/f6/IntensitySegmenterIcon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      Experimental
+status  beta  
 
 # One line stating what the module does
-description Extensions pertaining to scoliosis analysis
+description IntensitySegmenter is a simple tool that segments an image according to intensity value. It is mainly used to segment CT scans using the Hounsfield scale but the ranges of intensities and their corresponding labels can be specified in an input text file. 
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/d/d1/ScoliosisScreenshot.png
+screenshoturls http://wiki.slicer.org/slicerWiki/images/7/7c/IntensitySegmenter-OutputScreenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
