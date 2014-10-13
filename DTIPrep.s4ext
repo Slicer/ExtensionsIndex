@@ -5,11 +5,9 @@
 #
 
 # This is source code manager (i.e. svn)
-scm svn
-scmurl https://www.nitrc.org/svn/dtiprep/trunk
-scmrevision 297
-svnusername slicerbot
-svnpassword slicer
+scm git
+scmurl https://github.com/NIRALUser/DTIPrep.git
+scmrevision 6d9fdc556d5b20be7ab6bd141bf7a187ab7933a7
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
