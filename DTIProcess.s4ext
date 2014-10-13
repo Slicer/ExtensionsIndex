@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/NIRALUser/DTIPrep.git
-scmrevision 6d9fdc556d5b20be7ab6bd141bf7a187ab7933a7
+scmurl https://github.com/NIRALUser/DTIProcessToolkit.git
+scmrevision bd769325ba85f42c6fe9400746077ae9d2a33d4f
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
