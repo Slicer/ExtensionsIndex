@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/vnarayan13/Slicer-OpenCAD.git
-scmrevision e45e858bb2e18c63a1ee63b99ed4e797198d32ed
+scmrevision 27ade9ac3715131ea41d8f877f8ab07680fb0fc0
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
