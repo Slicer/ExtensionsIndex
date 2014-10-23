@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/ikolesov/CarreraSlice.git
-scmrevision fab8d83
+scmurl https://github.com/ikolesov/CarreraSlice.git
+scmrevision 228c21d
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
