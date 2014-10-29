@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://www.nitrc.org/svn/dentaltools/Applications/IntensitySegmenter/
-scmrevision 12
+scmrevision 13
 svnusername slicerbot
 svnpassword slicer
 
