@@ -1,0 +1,13 @@
+build_subdirectory .
+category Examples
+contributors John Doe (AnyWare Corp.)
+depends NA
+description This is an example of a simple extension
+enabled 1
+homepage https://github.com/fedorov/SlicerWExtTest
+iconurl https://raw.github.com/fedorov/SlicerWExtTest/master/SlicerWExtTest.png
+scm git
+scmrevision 48fe5de07125af8d839695f753216afaa7478e20
+scmurl https://github.com/fedorov/SlicerWExtTest.git
+screenshoturls http://www.example.com/Slicer/Extensions/SlicerWExtTest/Screenshots/1.png
+status
