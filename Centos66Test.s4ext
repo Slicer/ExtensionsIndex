@@ -1,0 +1,13 @@
+build_subdirectory .
+category Examples
+contributors John Doe (AnyWare Corp.)
+depends NA
+description This is a test of a simple extension
+enabled 1
+homepage https://github.com/fedorov/Centos66Test
+iconurl https://raw.github.com/fedorov/Centos66Test/master/Centos66Test.png
+scm git
+scmrevision 064db4eaf533fedad701489e41f16e55e56ccbee
+scmurl https://github.com/fedorov/Centos66Test.git
+screenshoturls http://www.example.com/Slicer/Extensions/Centos66Test/Screenshots/1.png
+status
