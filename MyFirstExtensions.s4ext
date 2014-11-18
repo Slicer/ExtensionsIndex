@@ -1,0 +1,13 @@
+build_subdirectory .
+category Learning
+contributors Kashyap (The University of Iowa)
+depends NA
+description This is an example in developer as part of the tutorial.
+enabled 1
+homepage https://github.com/hawkeyedesi/MyFirstExtensions
+iconurl https://raw.github.com/hawkeyedesi/MyFirstExtensions/master/MyFirstExtensions.png
+scm git
+scmrevision d996de7eb0d623d5b147648c48d0a2cf55ce591a
+scmurl https://github.com/hawkeyedesi/MyFirstExtensions.git
+screenshoturls http://www.example.com/Slicer/Extensions/MyFirstExtensions/Screenshots/1.png
+status
