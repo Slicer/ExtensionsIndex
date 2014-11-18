@@ -1,0 +1,13 @@
+build_subdirectory .
+category Learning
+contributors Kit (IIBI)
+depends NA
+description This extension is developed as part of tutorial
+enabled 1
+homepage https://github.com/lkm5454/MyFirstSlicerExtension
+iconurl https://raw.github.com/lkm5454/MyFirstSlicerExtension/master/MyFirstSlicerExtension.png
+scm git
+scmrevision f922d6f50d8b58b14847d13fd8805200db2efae7
+scmurl https://github.com/lkm5454/MyFirstSlicerExtension.git
+screenshoturls http://www.example.com/Slicer/Extensions/MyFirstSlicerExtension/Screenshots/1.png
+status
