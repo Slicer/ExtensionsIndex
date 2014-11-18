@@ -1,0 +1,13 @@
+build_subdirectory .
+category Learning
+contributors Jessica Forbes (AnyWare Corp.), Ali Ghayoor
+depends NA
+description This is an tutorial of a simple extension
+enabled 1
+homepage https://github.com/aghayoor/MyFirstSlicerExtension
+iconurl https://raw.github.com/aghayoor/MyFirstSlicerExtension/master/MyFirstSlicerExtension.png
+scm git
+scmrevision 4e4f7a1bce58ad556f48842d5e386ff4f7c0725c
+scmurl https://github.com/aghayoor/MyFirstSlicerExtension.git
+screenshoturls http://www.example.com/Slicer/Extensions/MyFirstSlicerExtension/Screenshots/1.png
+status
