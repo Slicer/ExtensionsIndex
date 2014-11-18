@@ -1,0 +1,13 @@
+build_subdirectory .
+category Learning
+contributors Li Zhang (UI)
+depends NA
+description This is an example of a simple extension
+enabled 1
+homepage https://github.com/zlscz/MyExtension
+iconurl https://raw.github.com/zlscz/MyExtension/master/MyExtension.png
+scm git
+scmrevision 80ffcdec327b11a3aee1d3b12b58428bb7e1d02d
+scmurl https://github.com/zlscz/MyExtension.git
+screenshoturls http://www.example.com/Slicer/Extensions/MyExtension/Screenshots/1.png
+status
