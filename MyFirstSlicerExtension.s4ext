@@ -1,0 +1,13 @@
+build_subdirectory .
+category Learning
+contributors Andrey Fedorov (BWH)
+depends NA
+description This extension is developed as part of Slicer extension writing tutorial
+enabled 1
+homepage https://github.com/fedorov/MyFirstSlicerExtension
+iconurl https://raw.github.com/fedorov/MyFirstSlicerExtension/master/MyFirstSlicerExtension.png
+scm git
+scmrevision 5bcc3f1451f547f21e0fa08c321983955df79ffe
+scmurl https://github.com/fedorov/MyFirstSlicerExtension.git
+screenshoturls http://www.example.com/Slicer/Extensions/MyFirstSlicerExtension/Screenshots/1.png
+status
