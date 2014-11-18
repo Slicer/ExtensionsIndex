@@ -1,0 +1,13 @@
+build_subdirectory .
+category Learning
+contributors Andrey Fedorov (BWH)
+depends NA
+description This extension is developed as part of tutorial
+enabled 1
+homepage https://github.com/fedorov/MyFirstSlicrExtension
+iconurl https://raw.github.com/fedorov/MyFirstSlicrExtension/master/MyFirstSlicrExtension.png
+scm git
+scmrevision 84b5b684f7ed15b6bef84a33350541171e611d9b
+scmurl https://github.com/fedorov/MyFirstSlicrExtension.git
+screenshoturls http://www.example.com/Slicer/Extensions/MyFirstSlicrExtension/Screenshots/1.png
+status
