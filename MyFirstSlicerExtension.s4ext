@@ -1,0 +1,16 @@
+build_subdirectory .
+category Learning
+contributors John Doe (AnyWare Corp.)
+depends NA
+description This is an example of a simple extension
+
+Hrvoje Bogunovic
+UIowa
+enabled 1
+homepage https://github.com/hbogunovic/MyFirstSlicerExtension
+iconurl https://raw.github.com/hbogunovic/MyFirstSlicerExtension/master/MyFirstSlicerExtension.png
+scm git
+scmrevision f54a78be35bb85a9c9f2ecd5a01d12b8593b724e
+scmurl https://github.com/hbogunovic/MyFirstSlicerExtension.git
+screenshoturls http://www.example.com/Slicer/Extensions/MyFirstSlicerExtension/Screenshots/1.png
+status
