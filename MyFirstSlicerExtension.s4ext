@@ -1,0 +1,13 @@
+build_subdirectory .
+category Learning
+contributors Parker Koch (University of Iowa)
+depends NA
+description This extension is developed as part of a tutorial.
+enabled 1
+homepage https://github.com/pakoch/MyFirstSlicerExtension
+iconurl https://raw.github.com/pakoch/MyFirstSlicerExtension/master/MyFirstSlicerExtension.png
+scm git
+scmrevision 5a22feac906a9786963d42c12e4bfaf7177a1751
+scmurl https://github.com/pakoch/MyFirstSlicerExtension.git
+screenshoturls http://www.example.com/Slicer/Extensions/MyFirstSlicerExtension/Screenshots/1.png
+status
