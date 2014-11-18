@@ -1,0 +1,13 @@
+build_subdirectory .
+category Learning
+contributors Tim Dougherty (University of Iowa)
+depends NA
+description This extension is developed as part of a tutorial
+enabled 1
+homepage https://github.com/tdougherty27/MyFirstSlicerExtension
+iconurl https://raw.github.com/tdougherty27/MyFirstSlicerExtension/master/MyFirstSlicerExtension.png
+scm git
+scmrevision bc5d3a3372ccff62e20f84703c46d2f0d8f5b024
+scmurl https://github.com/tdougherty27/MyFirstSlicerExtension.git
+screenshoturls http://www.example.com/Slicer/Extensions/MyFirstSlicerExtension/Screenshots/1.png
+status
