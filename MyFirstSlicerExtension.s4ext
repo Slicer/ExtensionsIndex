@@ -1,0 +1,13 @@
+build_subdirectory .
+category Learning
+contributors Sampada Bhave (UIOWA)
+depends NA
+description This extension is developd as a part of tutorial
+enabled 1
+homepage https://github.com/sampada02/MyFirstSlicerExtension
+iconurl https://raw.github.com/sampada02/MyFirstSlicerExtension/master/MyFirstSlicerExtension.png
+scm git
+scmrevision 5228202ea2de806f6a749d8179511c7e78539b25
+scmurl https://github.com/sampada02/MyFirstSlicerExtension.git
+screenshoturls http://www.example.com/Slicer/Extensions/MyFirstSlicerExtension/Screenshots/1.png
+status
