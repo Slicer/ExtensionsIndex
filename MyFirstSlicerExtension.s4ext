@@ -1,0 +1,13 @@
+build_subdirectory .
+category Learning
+contributors Davy Crockett (The Alamo inc.)
+depends NA
+description This is an example of a simple extension. It is an awesome extension for learning purposes. It might be the best extension ever.
+enabled 1
+homepage https://github.com/dgellis90/MyFirstSlicerExtension
+iconurl https://raw.github.com/dgellis90/MyFirstSlicerExtension/master/MyFirstSlicerExtension.png
+scm git
+scmrevision 84ed555342ff2d5bdcf25e62f76cb1e3872f6a68
+scmurl https://github.com/dgellis90/MyFirstSlicerExtension.git
+screenshoturls http://www.example.com/Slicer/Extensions/MyFirstSlicerExtension/Screenshots/1.png
+status
