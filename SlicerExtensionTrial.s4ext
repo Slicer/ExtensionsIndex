@@ -1,0 +1,13 @@
+build_subdirectory .
+category Learning
+contributors KP (UIowa)
+depends NA
+description Trial extension created during NAMIC Iowa workshop
+enabled 1
+homepage https://github.com/kpabhis/SlicerExtensionTrial
+iconurl https://raw.github.com/kpabhis/SlicerExtensionTrial/master/SlicerExtensionTrial.png
+scm git
+scmrevision 644bca0e49694c0e7094b5c54e22cf7f4eaf76f0
+scmurl https://github.com/kpabhis/SlicerExtensionTrial.git
+screenshoturls http://www.example.com/Slicer/Extensions/SlicerExtensionTrial/Screenshots/1.png
+status
