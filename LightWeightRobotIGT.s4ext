@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/SNRLab/LightWeightRobotIGT.git
-scmrevision 75e1e75
+scmrevision 65f5414
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
