@@ -7,7 +7,7 @@ enabled 1
 homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/PercutaneousApproachAnalysis
 iconurl http://www.slicer.org/slicerWiki/images/a/ac/PAAlogo-small.png
 scm git
-scmrevision 773e8ace5aa1fd32a80550980ec452608bb6162a
-scmurl https://github.com/SNRLab/PercutaneousApproachAnalysis.git
+scmrevision a2a7615ff20ae45462b854172c41cf233b401e30
+scmurl https://github.com/SNRLab/PercutaneousApproachAnalysis
 screenshoturls http://www.slicer.org/slicerWiki/images/4/42/Accessibility_clinical.png
 status
