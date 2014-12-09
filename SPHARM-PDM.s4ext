@@ -5,11 +5,9 @@
 #
 
 # This is source code manager (i.e. svn)
-scm svn
-scmurl https://www.nitrc.org/svn/spharm-pdm
-scmrevision 228
-svnusername slicerbot
-svnpassword slicer
+scm git
+scmurl git@github.com:NIRALUser/SPHARM-PDM.git
+scmrevision 8a9aabcd2b287d0f1c3578802f15c6bfd970d9b6
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
