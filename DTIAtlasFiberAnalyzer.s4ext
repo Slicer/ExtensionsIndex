@@ -5,11 +5,9 @@
 #
 
 # This is source code manager (i.e. svn)
-scm svn
-scmurl https://www.nitrc.org/svn/dti_tract_stat/trunk/
-scmrevision 140
-svnusername slicerbot
-svnpassword slicer
+scm git
+scmurl https://github.com/NIRALUser/DTIFiberTractStatistics.git
+scmrevision 33a26083b19c4f85b6c60d2944f2a9508b10d648
 
 #list dependencies
 # - These should be names of other modules that have .s4ext files
