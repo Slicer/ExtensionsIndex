@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git@github.com:NIRALUser/SPHARM-PDM.git
+scmurl https://github.com/NIRALUser/SPHARM-PDM.git
 scmrevision 8a9aabcd2b287d0f1c3578802f15c6bfd970d9b6
 
 # list dependencies
