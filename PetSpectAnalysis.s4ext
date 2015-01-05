@@ -28,7 +28,7 @@ contributors Martin Bertran, Natalia Martinez Gil, Guillermo Carbajal, Alvaro Go
 category    Nuclear Medicine
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.example.com/Slicer/Extensions/PetSpectAnalysis.png
+iconurl     http://www.slicer.org/slicerWiki/images/b/b1/DPetBrainQuantification.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description First Version of the Pet Spect Analysis Extension
 
 # Space separated list of urls
-screenshoturls http://www.example.com/Slicer/Extensions/PetSpectAnalysis/Screenshots/1.png
+screenshoturls http://www.slicer.org/slicerWiki/images/e/e4/ProcessingBlocks.png http://www.slicer.org/slicerWiki/images/7/76/InformationPanel.png http://www.slicer.org/slicerWiki/images/2/2a/VisualizationPanel.png http://www.slicer.org/slicerWiki/images/2/24/CarotidSegmentation.png http://www.slicer.org/slicerWiki/images/b/bb/CarotidSegmentationROI.png http://www.slicer.org/slicerWiki/images/5/51/PTACEstimationIDIF.png http://www.slicer.org/slicerWiki/images/9/98/PTACEstimationPBIF.png http://www.slicer.org/slicerWiki/images/9/90/KMap.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
