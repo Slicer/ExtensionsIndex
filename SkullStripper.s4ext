@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/Slicer/SkullStripper.git
-scmrevision 80c7e69
+scmrevision 280121d6d1b5
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
