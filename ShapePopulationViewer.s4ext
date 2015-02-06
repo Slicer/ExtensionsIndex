@@ -1,13 +1,44 @@
-build_subdirectory .
-category Shape Analysis
-contributors Alexis Girault (NIRAL, UNC)
-depends NA
-description Visualize and interact with multiple surfaces at the same time to easily compare them
-enabled 1
-homepage https://www.nitrc.org/projects/shapepopviewer/
-iconurl https://www.nitrc.org/project/screenshot.php?group_id=759&screenshot_id=704
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
 scm git
-scmrevision 415a5b3fb54784f45a2f33fc990a73200c8edbbe
 scmurl git://github.com/NIRALUser/ShapePopulationViewer.git
+scmrevision 63fc395
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends     NA
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# homepage
+homepage    https://www.nitrc.org/projects/shapepopviewer/
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Alexis Girault (NIRAL, UNC), Francois Budin (NIRAL, UNC)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category    Shape Analysis
+
+# url to icon (png, size 128x128 pixels)
+iconurl     https://www.nitrc.org/project/screenshot.php?group_id=759&screenshot_id=704
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand behind?
+status      
+
+# One line stating what the module does
+description Visualize and interact with multiple surfaces at the same time to easily compare them
+
+# Space separated list of urls
 screenshoturls http://wiki.na-mic.org/Wiki/images/8/81/Screenshot1.png http://wiki.na-mic.org/Wiki/images/1/13/SPVscreenshot2.png
-status
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
