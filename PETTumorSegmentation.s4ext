@@ -6,8 +6,9 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/chribaue/PETTumorSegmentation.git
-scmrevision efa7062
+scmurl https://github.com/QIICR/PETTumorSegmentation.git
+-scmrevision efa7062
++scmrevision 68b087ab8936f95c900a3e1ac46d0c3cd6890125
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -22,13 +23,13 @@ homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Ext
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Christian Bauer (University of Iowa), Markus van Tol (University of Iowa), Ethan Ulrich (University of Iowa), Reinhard Beichel (University of Iowa), John Buatti (University of Iowa)
+contributors Christian Bauer (University of Iowa), Markus van Tol (University of Iowa), Andrey Fedorov (SPL), Ethan Ulrich (University of Iowa), Reinhard Beichel (University of Iowa), John Buatti (University of Iowa)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://raw.githubusercontent.com/chribaue/PETTumorSegmentation/master/PETTumorSegmentation.png
+iconurl     https://raw.githubusercontent.com/QIICR/PETTumorSegmentation/master/PETTumorSegmentation.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
