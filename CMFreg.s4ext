@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/DCBIA-OrthoLab/CMFreg.git
-scmrevision a2d6aa7584d583f474457a0ed96e30953c97691d
+scmrevision 962a22c091679d37116a63eb1ca0d1ea9336d601
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
