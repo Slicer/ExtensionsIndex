@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/viboen/CMFreg
+scmurl https://github.com/DCBIA-OrthoLab/CMFreg.git
 scmrevision a2d6aa7584d583f474457a0ed96e30953c97691d
 
 # list dependencies
