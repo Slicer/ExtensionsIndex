@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://www.nitrc.org/svn/abc/trunk
-scmrevision 64
+scmrevision 69
 svnusername slicerbot
 svnpassword slicer
 
@@ -24,7 +24,7 @@ homepage    http://www.nitrc.org/projects/abc
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Marcel Prastawa (University of Utah)
+contributors Marcel Prastawa (GE)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Segmentation
