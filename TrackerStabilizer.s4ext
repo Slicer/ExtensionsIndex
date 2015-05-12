@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/SlicerIGT/TrackerStabilizer.git
-scmrevision cae960ae5c21b4a238781bf17a1421a0e56ca1a4
+scmrevision 72d4babb070e96fd9a3e1753c57ad953ed035c04
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -19,7 +19,7 @@ homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Ext
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Laurent Chauvin (BWH), Jayender Jagadeesan (BWH), Andras Lasso
+contributors Laurent Chauvin (BWH), Jayender Jagadeesan (BWH), Andras Lasso (Queen's University)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    IGT
