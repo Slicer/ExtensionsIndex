@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/SlicerProstate/SlicerProstate.git
-scmrevision bf4a50bfa96373c2930c9410049a9bd0dddcaea7
+scmrevision fb8073ede
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -22,7 +22,7 @@ homepage http://wiki.slicer.org/slicerWiki/index.php/Documentation/Nightly/Exten
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Andrey Fedorov (Brigham and Women's Hospital), Andras Lasso (Queen's University)
+contributors Andrey Fedorov (Brigham and Women's Hospital), Andras Lasso (Queen's University), Alireza Mehrtash (Brigham and Women's Hospital)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Informatics
