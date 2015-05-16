@@ -1,0 +1,13 @@
+build_subdirectory .
+category IGT
+contributors Laurent Chauvin (BWH), Jayender Jagadeesan (BWH), Andras Lasso (Queen's University)
+depends NA
+description Smooth Linear Transforms
+enabled 1
+homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/TrackerStabilizer
+iconurl https://raw.github.com/lchauvin/Slicer-TrackerStabilizer/master/Slicer-TrackerStabilizer.png
+scm git
+scmrevision d3d981cc16f90491b0e776d62e0924d9106ccfbd
+scmurl https://github.com/lchauvin/Slicer-TrackerStabilizer.git
+screenshoturls http://www.slicer.org/slicerWiki/images/7/7c/Slicer4-TrackerStabilizer-GUI.png
+status
