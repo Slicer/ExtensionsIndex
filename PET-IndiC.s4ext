@@ -28,7 +28,7 @@ contributors Ethan Ulrich (University of Iowa), Christian Bauer (University of I
 category    Quantification
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://raw.githubusercontent.com/QIICR/PET-IndiC/Nightly/PET-IndiC.png
+iconurl     https://raw.githubusercontent.com/QIICR/PET-IndiC/master/PET-IndiC.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
