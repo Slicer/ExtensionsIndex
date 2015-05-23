@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/QIICR/TCIABrowser.git
-scmrevision c014353a5
+scmrevision ac34f59929ce3e340823995e54e70bf45809ade6
 
 
 # list dependencies
