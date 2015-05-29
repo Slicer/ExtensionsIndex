@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/QIICR/TCIABrowser.git
-scmrevision 5b4fc239983d6a99566f1e16f0f4fc150e1f8b17
+scmrevision 317b79a8b0b959544c8d4284cb0fbf10e458caed
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
