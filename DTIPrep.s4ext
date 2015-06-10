@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/NIRALUser/DTIPrep.git
-scmrevision 338927cf7392cf960af1071381dc8927e2b809f2
+scmrevision 9a0abb0f9f4ec1c82d3faa044a3af41c614bfe64
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
