@@ -1,0 +1,44 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
+scm git
+scmurl https://github.com/NIRALUser/ResampleDTIlogEuclidean.git
+scmrevision 5b110a6fb94f54e19985215200cf3099103a46dd
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends     NA
+
+# Inner build directory (default is .)
+build_subdirectory .
+
+# homepage
+homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/ResampleDTIlogEuclidean
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Francois Budin (UNC)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category    Diffusion
+
+# url to icon (png, size 128x128 pixels)
+iconurl   https://raw.githubusercontent.com/NIRALUser/ResampleDTIlogEuclidean/master/ResampleDTIlogEuclidean.png  
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand beind?
+status      Release
+
+# One line stating what the module does
+description This resamples Diffusion Tensor Images (DTI) in the log-euclidean framework
+
+# Space separated list of urls
+screenshoturls http://www.slicer.org/slicerWiki/images/4/41/ResampleDTI-Slice_extracted_from_a_real_Diffusion_Tensor_Image_-_No_transformation.png http://www.slicer.org/slicerWiki/images/8/87/ResampleDTI-Real_DTI_transformed_with_a_45deg_rotation_-_Linear_interpolation.png http://www.slicer.org/slicerWiki/images/1/14/ResampleDTI-Real_DTI_upscaled_with_a_factor_2_-_Linear_interpolation.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
