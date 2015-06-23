@@ -1,0 +1,15 @@
+build_subdirectory .
+category Shape Analysis
+contributors Julia Lopinto (University of Michigan)
+depends NA
+description This Module is used to clip one or different 3D Models according to a predetermined plane.
+Plane can be saved to be reused for other models.
+After clipping, the models are closed and can be saved as new 3D Models.
+enabled 1
+homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/EasyClip
+iconurl https://raw.githubusercontent.com/JuliaLopinto/EasyClip-Extension/master/EasyClip.png
+scm git
+scmrevision b5fee5f35084357a9f5667c14a38cb169fc2661f
+scmurl git://github.com/JuliaLopinto/EasyClip-Extension.git
+screenshoturls http://www.slicer.org/slicerWiki/images/1/1b/EasyClipPlanePosition.png
+status
