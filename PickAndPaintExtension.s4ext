@@ -1,0 +1,13 @@
+build_subdirectory .
+category Shape Analysis
+contributors Lucie Macron (University of Michigan)
+depends NA
+description Pick 'n Paint tool allows users to select ROIs on a reference model and to propagate it over different time point models.
+enabled 1
+homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/PickAndPaint
+iconurl https://raw.githubusercontent.com/luciemac/PickAndPaintExtension/master/PickAndPaint/Resources/Icons/PickAndPaint.png
+scm git
+scmrevision 6639bd1ecabb2f0a79e505f6d736f78118ee1865
+scmurl git://github.com/luciemac/PickAndPaintExtension.git
+screenshoturls http://www.slicer.org/slicerWiki/images/a/ac/Pick%27NPaint_Interface.png
+status
