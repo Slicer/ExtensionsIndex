@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/gti-fing/SlicerPetSpectAnalysis.git
-scmrevision dfb28c6
+scmrevision 7ae1c31
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -35,7 +35,7 @@ iconurl     http://www.slicer.org/slicerWiki/images/b/b1/DPetBrainQuantification
 status      
 
 # One line stating what the module does
-description First Version of the Pet Spect Analysis Extension
+description Version that works with Slicer 4.4 stable release
 
 # Space separated list of urls
 screenshoturls http://www.slicer.org/slicerWiki/images/e/e4/ProcessingBlocks.png http://www.slicer.org/slicerWiki/images/7/76/InformationPanel.png http://www.slicer.org/slicerWiki/images/2/2a/VisualizationPanel.png http://www.slicer.org/slicerWiki/images/2/24/CarotidSegmentation.png http://www.slicer.org/slicerWiki/images/b/bb/CarotidSegmentationROI.png http://www.slicer.org/slicerWiki/images/5/51/PTACEstimationIDIF.png http://www.slicer.org/slicerWiki/images/9/98/PTACEstimationPBIF.png http://www.slicer.org/slicerWiki/images/9/90/KMap.png
