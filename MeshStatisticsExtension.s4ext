@@ -1,0 +1,13 @@
+build_subdirectory .
+category Shape Analysis
+contributors Lucie Macron (University of Michigan)
+depends ModelToModelDistance
+description Mesh Statistics allows users to compute descriptive statistics over specific and predefined regions
+enabled 1
+homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/MeshStatistics
+iconurl https://raw.githubusercontent.com/DCBIA-OrthoLab/MeshStatisticsExtension/master/MeshStatistics/Resources/Icons/MeshStatistics.png
+scm git
+scmrevision c678719dd660e73ac6199a6ca12c88305d876401
+scmurl git://github.com/luciemac/MeshStatisticsExtension.git
+screenshoturls http://www.slicer.org/slicerWiki/index.php/File:MeshStatistics_Interface.png
+status
