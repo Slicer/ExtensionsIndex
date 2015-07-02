@@ -7,7 +7,7 @@ enabled 1
 homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/MeshStatistics
 iconurl https://raw.githubusercontent.com/DCBIA-OrthoLab/MeshStatisticsExtension/master/MeshStatistics/Resources/Icons/MeshStatistics.png
 scm git
-scmrevision c678719dd660e73ac6199a6ca12c88305d876401
+scmrevision 06222bdcf54fd6263abcba8e52f81a2ce0b95462
 scmurl git://github.com/luciemac/MeshStatisticsExtension.git
 screenshoturls http://www.slicer.org/slicerWiki/index.php/File:MeshStatistics_Interface.png
 status
