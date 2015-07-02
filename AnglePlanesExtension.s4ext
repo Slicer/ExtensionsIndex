@@ -1,0 +1,13 @@
+build_subdirectory .
+category Shape Analysis
+contributors Julia Lopinto (University of Michigan)
+depends NA
+description This Module is used to calculate the angle between two planes by using the normals. The user gets the choice to use two planes which are already implemented on Slicer or they can define a plane by using landmarks (at least 3 landmarks). Plane can also be saved to be reused for other models.
+enabled 1
+homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/AnglePlanes
+iconurl https://raw.githubusercontent.com/JuliaLopinto/AnglePlanes-Extension/master/AnglePlanes.png
+scm git
+scmrevision 6b2ebe150d896ec233d706b626db224157ea91fe
+scmurl git://github.com/JuliaLopinto/AnglePlanes-Extension.git
+screenshoturls http://www.slicer.org/slicerWiki/images/b/ba/Interface_AnglePlanes.png
+status
