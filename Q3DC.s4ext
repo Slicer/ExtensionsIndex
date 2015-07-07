@@ -7,7 +7,7 @@ enabled 1
 homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/Q3DC
 iconurl https://raw.githubusercontent.com/DCBIA-OrthoLab/Q3DCExtension/master/Q3DC.png
 scm git
-scmrevision 9f19cf4b1e7b261588d0ca2d4a8c5dc2283a3d2a 
+scmrevision 380579b665048f7640c20f71b24233264fafaaf5 
 scmurl git://github.com/DCBIA-OrthoLab/Q3DCExtension.git
 screenshoturls http://www.slicer.org/slicerWiki/index.php/File:Q3DC_Interface.png
 status
