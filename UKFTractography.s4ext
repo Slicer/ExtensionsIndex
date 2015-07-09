@@ -8,7 +8,7 @@
 scm git
 scmurl git://github.com/pnlbwh/ukftractography.git
 
-scmrevision 53196d7
+scmrevision d765799
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
