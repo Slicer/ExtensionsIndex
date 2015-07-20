@@ -6,8 +6,13 @@
 
 # This is source code manager (i.e. svn)
 scm git
+<<<<<<< HEAD
 scmurl https://github.com/DaphneCD/GraphCutSegmentExtension.git
 scmrevision 1cf3d67
+=======
+scmurl git://github.com/DaphneCD/Test.git
+scmrevision 3cab77f
+>>>>>>> 85a70adb899fd92319c6e2b6f93c01d8bf873c03
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
