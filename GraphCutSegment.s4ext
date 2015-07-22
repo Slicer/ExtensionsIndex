@@ -6,13 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-<<<<<<< HEAD
 scmurl https://github.com/DaphneCD/GraphCutSegmentExtension.git
 scmrevision 1cf3d67
-=======
-scmurl git://github.com/DaphneCD/Test.git
-scmrevision 3cab77f
->>>>>>> 85a70adb899fd92319c6e2b6f93c01d8bf873c03
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -23,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://www.example.com/Slicer/Extensions/GraphCutSegment
+homepage    https://raw.githubusercontent.com/DaphneCD/GraphCutSegmentExtension/master/Documentation.txt
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -33,7 +28,7 @@ contributors Daphne Chen (Western University)
 category    Examples
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.example.com/Slicer/Extensions/GraphCutSegment.png
+iconurl     https://raw.githubusercontent.com/DaphneCD/GraphCutSegmentExtension/master/GraphCutSegment.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
