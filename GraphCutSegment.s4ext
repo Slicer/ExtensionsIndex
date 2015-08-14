@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    https://raw.githubusercontent.com/DaphneCD/GraphCutSegmentExtension/master/CMakeLists.txt
+homepage    http://publish.uwo.ca/~dchen285/GraphCutSegment/GraphCutSegment.html
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -38,7 +38,7 @@ status
 description This is a segment extension using graph cut algorithm.
 
 # Space separated list of urls
-screenshoturls http://www.example.com/Slicer/Extensions/GraphCutSegment/Screenshots/1.png
+screenshoturls  https://raw.githubusercontent.com/DaphneCD/GraphCutSegmentExtension/master/screenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
