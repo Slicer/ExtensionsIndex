@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/QIICR/TCIABrowser.git
-scmrevision 16f3a2a5f
+scmrevision 317b79a8b0b959544c8d4284cb0fbf10e458caed
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -35,10 +35,10 @@ iconurl    http://wiki.slicer.org/slicerWiki/images/9/92/TCIABrowser_logo.png
 status      
 
 # One line stating what the module does
-description A Module to connect to TCIA archive, browse the collections, patients and studies and download DICOM files to 3D Slicer.
+description A Module to connect to the TCIA archive, browse the collections, patients and studies and download DICOM files to 3D Slicer.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/b/bf/TCIABrowser-screenshot.png
+screenshoturls https://raw.githubusercontent.com/QIICR/TCIABrowser/master/TCIABrowser/Resources/Screenshot/screenshot1.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

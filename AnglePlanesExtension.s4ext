@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/stevedaxiao/T1_Mapping.git
-scmrevision 7c96d50
+scmurl git://github.com/DCBIA-OrthoLab/AnglePlanes-Extension.git
+scmrevision c43f2e6729fe9aca3c2aac579829c6e80c6c1a20
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,27 +18,27 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://wiki.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/T1_Mapping
+homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/AnglePlanes
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Xiao Da (MGH), Artem Mamonov (MGH), Jayashree Kalpathy-Cramer (MGH), Andriy Fedorov (BWH)
+contributors Julia Lopinto (University of Michigan)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Quantification
+category    Shape Analysis
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://wiki.slicer.org/slicerWiki/images/3/32/T1_Mapping_Logo_Resized.png
+iconurl     https://raw.githubusercontent.com/DCBIA-OrthoLab/AnglePlanes-Extension/master/AnglePlanes.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
 status      
 
 # One line stating what the module does
-description Estimate effective T1 from multi-spectral FLASH MRI scans with arbitrary number of flip angles
+description This Module is used to calculate the angle between two planes by using the normals. The user gets the choice to use two planes which are already implemented on Slicer or they can define a plane by using landmarks (at least 3 landmarks). Plane can also be saved to be reused for other models.
 
 # Space separated list of urls
-screenshoturls http://wiki.slicer.org/slicerWiki/images/4/4c/T1_Mapping_GUI.png
+screenshoturls http://www.slicer.org/slicerWiki/images/b/ba/Interface_AnglePlanes.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

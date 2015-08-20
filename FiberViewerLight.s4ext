@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/NIRALUser/FiberViewerLight.git
-scmrevision 1be1b6973f1167be50838846c1903ade98ee50a2
+scmrevision 0a19267f47f664462dd415dce23b82d35f3b5706
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files

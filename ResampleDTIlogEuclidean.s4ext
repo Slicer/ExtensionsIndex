@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/NIRALUser/MeshToLabelMap.git
-scmrevision 101bbadb07d57d57cb36ceea5e4f2e20bebdca37
+scmurl https://github.com/NIRALUser/ResampleDTIlogEuclidean.git
+scmrevision 3842355f700fddad40d97b985d9aac42d21ea42b
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,27 +18,27 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage   http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/MeshToLabelMap
+homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/ResampleDTIlogEuclidean
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
 contributors Francois Budin (UNC)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Shape Analysis
+category    Diffusion
 
 # url to icon (png, size 128x128 pixels)
-iconurl    https://raw.githubusercontent.com/NIRALUser/MeshToLabelMap/master/icons/MeshToLabelMapIcon128x128.png
+iconurl   https://raw.githubusercontent.com/NIRALUser/ResampleDTIlogEuclidean/master/ResampleDTIlogEuclidean.png  
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status   Release
+status      Release
 
 # One line stating what the module does
-description This extension computes a label map from a 3D model
+description This resamples Diffusion Tensor Images (DTI) in the log-euclidean framework
 
 # Space separated list of urls
-screenshoturls http://slicer.org/slicerWiki/images/thumb/5/54/MeshToLabelMapScreenshot.png/800px-MeshToLabelMapScreenshot.png
+screenshoturls http://www.slicer.org/slicerWiki/images/4/41/ResampleDTI-Slice_extracted_from_a_real_Diffusion_Tensor_Image_-_No_transformation.png http://www.slicer.org/slicerWiki/images/8/87/ResampleDTI-Real_DTI_transformed_with_a_45deg_rotation_-_Linear_interpolation.png http://www.slicer.org/slicerWiki/images/1/14/ResampleDTI-Real_DTI_upscaled_with_a_factor_2_-_Linear_interpolation.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
