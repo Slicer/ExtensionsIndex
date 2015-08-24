@@ -22,10 +22,10 @@ homepage    http://publish.uwo.ca/~dchen285/GraphCutSegment/GraphCutSegment.html
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Daphne Chen (Western University)
+contributors Danfeng Chen (Western University)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Examples
+category    Segmentation
 
 # url to icon (png, size 128x128 pixels)
 iconurl     https://raw.githubusercontent.com/DaphneCD/GraphCutSegmentExtension/master/GraphCutSegment.png
@@ -35,7 +35,7 @@ iconurl     https://raw.githubusercontent.com/DaphneCD/GraphCutSegmentExtension/
 status      
 
 # One line stating what the module does
-description This is a segment extension using graph cut algorithm.
+description This is a segment extension using graph cut and star shape algorithm.
 
 # Space separated list of urls
 screenshoturls  https://raw.githubusercontent.com/DaphneCD/GraphCutSegmentExtension/master/screenshot.png
