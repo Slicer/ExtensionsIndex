@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://www.nitrc.org/svn/abc/trunk
-scmrevision 70
+scmrevision 71
 svnusername slicerbot
 svnpassword slicer
 
