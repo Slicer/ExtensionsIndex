@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl NA
+scmurl https://github.com/DaphneCD/GraphCutSegmentExtension.git
 scmrevision 737bc1b
 
 # list dependencies
