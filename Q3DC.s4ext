@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/DCBIA-OrthoLab/Q3DCExtension.git
-scmrevision f62bf62f5006f0a50de1f6565e50a3c885c912df
+scmrevision 0858832bcdd086683985d067599b3238fd92bd9c
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
