@@ -15,7 +15,7 @@ scmrevision 1e847bb4b704239ce424851f92e25c2561ef5cff
 depends     NA
 
 # Inner build directory (default is .)
-build_subdirectory SPHARM-PDM-build
+build_subdirectory .
 
 # homepage
 homepage    http://www.nitrc.org/projects/spharm-pdm
