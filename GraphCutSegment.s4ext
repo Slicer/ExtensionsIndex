@@ -35,7 +35,7 @@ iconurl     https://raw.githubusercontent.com/DaphneCD/GraphCutSegmentExtension/
 status      
 
 # One line stating what the module does
-description This is a segment extension using graph cut and star shape algorithm.
+description This is a segment extension using graph cut and star shape algorithm. This extension can be used for research purposes ONLY. It can NOT be used for commercial purposes.
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/DaphneCD/GraphCutSegmentExtension/master/screenshot.png
