@@ -25,7 +25,7 @@ homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Ext
 contributors Andras Lasso (PerkLab), Steve Pieper (Isomics), Adam Rankin (Robarts), Matthew Jolley (CHOP)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Heart
+category    Cardiac
 
 # url to icon (png, size 128x128 pixels)
 iconurl     http://www.slicer.org/slicerWiki/images/f/ff/SlicerHeart_Logo_128x128.png
