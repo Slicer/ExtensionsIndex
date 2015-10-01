@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://subversion.assembla.com/svn/margincalculator/branches/Slicer-4.4/MarginCalculator
-scmrevision 45
+scmrevision HEAD
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
