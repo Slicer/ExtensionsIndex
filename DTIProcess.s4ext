@@ -15,7 +15,7 @@ scmrevision 8cd9ff04131fd2c7c7baaa64de6eee57b19d4e36
 depends     NA
 
 # Inner build directory (default is .)
-build_subdirectory DTIProcess-build
+build_subdirectory .
 
 # homepage
 homepage    http://www.nitrc.org/projects/dtiprocess
