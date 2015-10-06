@@ -8,7 +8,7 @@
 scm git
 scmurl git://github.com/pnlbwh/ukftractography.git
 
-scmrevision d765799
+scmrevision 360d4a4
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -29,7 +29,7 @@ contributors Yogesh Rathi (yogesh@bwh.harvard.edu), Stefan Lienhard, Yinpeng Li,
 category    Tractography
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.nitrc.org/docman/view.php/425/1223/2TFW_0_128.png
+iconurl https://github.com/pnlbwh/ukftractography/raw/master/UKF_icon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
