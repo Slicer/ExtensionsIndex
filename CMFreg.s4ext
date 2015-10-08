@@ -7,22 +7,22 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/DCBIA-OrthoLab/CMFreg.git
-scmrevision d04ea6b83dcf9297a0de9d788e7de5b4bc9b44d4
+scmrevision 8e33794
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
 depends     NA
 
-# Inner build directory (default is .)
+# Inner build directory (default is ".")
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/4.3/Extensions/CMFreg
+homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/4.4/Extensions/CMFreg
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Vinicius Boen (Univ of Michigan), Manson Winsauer(UNC)
+contributors Vinicius Boen (Univ of Michigan), Manson Winsauer (UNC), Jean-Baptiste Vimort (Univ of Michigan)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Registration
@@ -31,7 +31,7 @@ category    Registration
 iconurl     http://www.slicer.org/slicerWiki/images/b/bc/BaselineFollowupSCANRegisteredCMFreg2.png
 
 # Give people an idea what to expect from this code
-#  - Is it just a test or something you stand beind?
+#  - Is it just a test or something you stand behind?
 status      
 
 # One line stating what the module does
