@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/DaphneCD/GraphCutSegmentExtension.git
-scmrevision 5c9dcd9
+scmrevision ade00cb
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -22,7 +22,7 @@ homepage    http://publish.uwo.ca/~dchen285/GraphCutSegment/GraphCutSegment.html
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Daphne Chen (Western University)
+contributors Danfeng Chen (Western University)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Segmentation
@@ -39,5 +39,6 @@ description This is a segment extension using graph cut and star shape algorithm
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/DaphneCD/GraphCutSegmentExtension/master/screenshot.png
+
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
