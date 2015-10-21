@@ -7,7 +7,7 @@ enabled 1
 homepage http://www.slicer.org/slicerWiki/index.php/Documentation/4.4/Extensions/CMFreg
 iconurl http://www.slicer.org/slicerWiki/images/b/bc/BaselineFollowupSCANRegisteredCMFreg2.png
 scm git
-scmrevision 8e863b082b6c6ea6d7032f06c88e1663a1ec3065
+scmrevision d20a1b54ab3b52e3ff27f276b7e3973648566918
 scmurl git://github.com/DCBIA-OrthoLab/CMFreg.git
 screenshoturls http://www.slicer.org/slicerWiki/images/1/15/BaselineFollowupSCANCMFreg.png http://www.slicer.org/slicerWiki/images/0/0b/GrowingInterface.png http://www.slicer.org/slicerWiki/images/4/4a/InputSegToExtractionCMFreg.png http://www.slicer.org/slicerWiki/images/4/46/BaselineSegmentationMaskCMFreg.png
 status
