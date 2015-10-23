@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/NIRALUser/DTIProcessToolkit.git
-scmrevision 8cd9ff04131fd2c7c7baaa64de6eee57b19d4e36
+scmrevision 8205274f37ddbdffceb3a9b71992b2151c4259c8
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
