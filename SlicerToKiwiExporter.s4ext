@@ -7,7 +7,7 @@ enabled 1
 homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerToKiwiExporter
 iconurl http://www.slicer.org/slicerWiki/images/6/64/SlicerToKiwiExporterLogo.png
 scm git
-scmrevision 9d7341e978df954a2c875240290833d7528ef29c
+scmrevision 87d62cf5e95d2ff099b6fa8c613d8f2f1b6b31b2
 scmurl git://github.com/jcfr/SlicerToKiwiExporter.git
 screenshoturls http://www.slicer.org/slicerWiki/images/9/9e/SlicerToKiwiExporter_Kiwiviewer_8.PNG http://www.slicer.org/slicerWiki/images/a/ab/SlicerToKiwiExporter_Kiwiviewer_9.PNG http://www.slicer.org/slicerWiki/images/9/9a/SlicerToKiwiExporter_SaveDialog_Select-file-format_1.png
 status
