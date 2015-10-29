@@ -1,0 +1,15 @@
+build_subdirectory .
+category Segmentation
+contributors Thomas Lawson (MRC Harwell, Oxfordshire)
+depends NA
+description A module to perform a series of ITK watershed segmentation (without seeds) and then let the user create a label map out of selected components.
+
+An isosurface model will also be generated.
+enabled 1
+homepage https://github.com/Tomnl/Slicer-Wasp
+iconurl http://www.slicer.org/slicerWiki/images/5/5b/Slicer-Wasp.png
+scm git
+scmrevision 2be4696e0072359fd98c14cd390526c0ed6ab90e
+scmurl https://github.com/Tomnl/Slicer-Wasp.git
+screenshoturls http://wiki.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/Wasp
+status
