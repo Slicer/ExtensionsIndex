@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/NIRALUser/DTI-Reg.git
-scmrevision 3a92f71bbfdd18f91b9f17325ccc90a2ee1a2c63
+scmrevision 3161943f6b6f860d946f926330f64de62d9ee07b
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
