@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/fedorov/Reporting.git
+scmurl https://github.com/fedorov/Reporting.git
 scmrevision 48246e27b53d62e0165ce7a45e506c3bcf2054ad
 
 # list dependencies
