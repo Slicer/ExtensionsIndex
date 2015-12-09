@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/SlicerProstate/mpReview.git
-scmrevision bfa6011d027f4ad0a652fc7954b04605132e0163
+scmrevision b7711b10806b2988becea3e5da0c3950f56e93cb
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
