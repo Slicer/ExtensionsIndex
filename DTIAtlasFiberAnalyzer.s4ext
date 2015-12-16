@@ -7,15 +7,15 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/NIRALUser/DTIFiberTractStatistics.git
-scmrevision 33a26083b19c4f85b6c60d2944f2a9508b10d648
+scmrevision c70e82de464e35352e2c703c2c73bc6ddbbc7a2c
 
 #list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends  NA
+depends  DTIProcess
 
 # Inner build directory (default is .)
-build_subdirectory dti_tract_stat-build
+build_subdirectory .
 
 #homepage
 homepage http://www.nitrc.org/projects/dti_tract_stat
@@ -29,7 +29,7 @@ category Diffusion
 iconurl http://www.nitrc.org/project/screenshot.php?group_id=403&screenshot_id=606
 
 # Extension development status
-status Beta
+status 
 
 # One line stating what the module does
 description DTIAtlasFiberAnalyzer allows the user to study the behavior of water diffusion (using DTI data) along the length of the white matter fiber-tracts.

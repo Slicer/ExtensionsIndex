@@ -9,7 +9,7 @@ enabled 1
 homepage https://github.com/Tomnl/Slicer-Wasp
 iconurl http://www.slicer.org/slicerWiki/images/5/5b/Slicer-Wasp.png
 scm git
-scmrevision 2be4696e0072359fd98c14cd390526c0ed6ab90e
+scmrevision d622449c4d52cc87b4940e48b21779d1b68047d2
 scmurl https://github.com/Tomnl/Slicer-Wasp.git
 screenshoturls http://wiki.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/Wasp
 status
