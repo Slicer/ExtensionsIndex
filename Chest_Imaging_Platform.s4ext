@@ -7,7 +7,7 @@ enabled 1
 homepage http://www.chestimagingplatform.org
 iconurl https://raw.githubusercontent.com/acil-bwh/SlicerCIP/master/Resources/SlicerCIPLogo.png
 scm git
-scmrevision ead403c6eb5511669ee682fa5bec27dff4cd38d9
+scmrevision 1722e58cc1b3e097eb314aa78011bb2febed4127
 scmurl https://github.com/acil-bwh/SlicerCIP.git
 screenshoturls https://raw.githubusercontent.com/acil-bwh/SlicerCIP/master/Resources/Screenshot1.png https://raw.githubusercontent.com/acil-bwh/SlicerCIP/master/Resources/Screenshot2.png
 status Alpha
