@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/DCBIA-OrthoLab/PickAndPaintExtension.git
-scmrevision 8100cc4ca202eace942eaab29243f91f1e519bf7
+scmrevision 9c303ca835f2a9b50c45d57ca803a33efb242747
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
