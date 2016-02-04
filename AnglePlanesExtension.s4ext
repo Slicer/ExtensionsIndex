@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/DCBIA-OrthoLab/AnglePlanes-Extension.git
-scmrevision beec20b739bef12ce4e24d3eba1bfa26eaa2a1c2
+scmrevision 6d2e4c1c04b35a71f082d15a713debdd2a190966
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
