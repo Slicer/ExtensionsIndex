@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/millerjv/PkModeling.git
-scmrevision e1f8ddc
+scmrevision 2f125e7e341e445c64f493d593cb3b5df7e0cf1c
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
