@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/DCBIA-OrthoLab/MeshStatisticsExtension.git
-scmrevision 28b8e1ea5c32a4b54ee8e193310ba140c58f76cc
+scmurl git://github.com/DCBIA-OrthoLab/MeshStatisticsExtensioan.git
+scmrevision 22e40fb41123e991f5612e5852f002519c40866d
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
