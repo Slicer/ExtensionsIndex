@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/DCBIA-OrthoLab/EasyClip-Extension.git
-scmrevision db345de52d58f226871ce4954192bfbcd857568f
+scmrevision 2989822c7b46b5484e3c2482b74caec141c39bec
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
