@@ -1,0 +1,13 @@
+build_subdirectory .
+category Segmentation
+contributors Jessica Forbes (University of Iowa), Hans Johnson (University of Iowa)
+depends NA
+description This module provides a quick semi-automated method to calculate and save the waist circumference from multiple abdominal images.
+enabled 1
+homepage https://github.com/BRAINSia/WaistCircumference
+iconurl https://github.com/BRAINSia/WaistCircumference/blob/master/WaistCircumference/Resources/Icons/WaistCircumference.png
+scm git
+scmrevision edb7ea43778bbd6e2a3c37a131382e28b4391bd4
+scmurl git://github.com/BRAINSia/WaistCircumference.git
+screenshoturls https://github.com/BRAINSia/WaistCircumference/blob/master/WC_module.png https://github.com/BRAINSia/WaistCircumference/blob/master/WC_multiple_measures.png https://github.com/BRAINSia/WaistCircumference/blob/master/WC_level_tracing_effect_Editor.png https://github.com/BRAINSia/WaistCircumference/blob/master/WC_axial_slice_to_measure.png https://github.com/BRAINSia/WaistCircumference/blob/master/WC_example_input_imageList.png https://github.com/BRAINSia/WaistCircumference/blob/master/WC_example_results.png
+status
