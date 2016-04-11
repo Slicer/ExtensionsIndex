@@ -7,7 +7,7 @@ enabled 1
 homepage http://brainsia.github.io/LabelAtlasEditor
 iconurl https://github.com/BRAINSia/LabelAtlasEditor/blob/master/LabelAtlasEditor/Resources/Icons/LabelAtlasEditor.png
 scm git
-scmrevision 1c6e4be53967fbb0c7fcb856d56dd82453c49b70
-scmurl git://github.com/BRAINSia/LabelAtlasEditor.git
+scmrevision e6a8f0b7a3ca93f806b3f707cc461cc978e89ace
+scmurl https://github.com/BRAINSia/LabelAtlasEditor.git
 screenshoturls https://github.com/BRAINSia/LabelAtlasEditor/blob/master/automaticDustCleaningWidget.png https://github.com/BRAINSia/LabelAtlasEditor/blob/master/labelSuggestionWidget.png https://github.com/BRAINSia/LabelAtlasEditor/blob/master/mergeWidget.png https://github.com/BRAINSia/LabelAtlasEditor/blob/master/LabelAtlasEditor.png
 status
