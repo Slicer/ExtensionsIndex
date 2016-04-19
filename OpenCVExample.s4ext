@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/naucoin/OpenCVExample.git
-scmrevision a41ac09
+scmrevision 455c29d
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -28,7 +28,7 @@ contributors Nicole Aucoin (BWH)
 category    Examples
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://raw.githubusercontent.com/nicole/OpenCVExample/master/OpenCVExample.png
+iconurl     https://raw.githubusercontent.com/naucoin/OpenCVExample/master/OpenCVExample.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
