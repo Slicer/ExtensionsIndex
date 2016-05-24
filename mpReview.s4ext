@@ -7,12 +7,12 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/SlicerProstate/mpReview.git
-scmrevision bfa6011d027f4ad0a652fc7954b04605132e0163
+scmrevision d850720674121bc22883bd7c277996ddb1fb49e6
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     WindowLevelEffect
+depends     WindowLevelEffect, SlicerProstate
 
 # Inner build directory (default is ".")
 build_subdirectory .

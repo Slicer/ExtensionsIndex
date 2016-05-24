@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/QIICR/TCIABrowser.git
-scmrevision b2ae114c63bd1ef77225356cf41376867e681175
+scmurl git://github.com/SBU-BMI/SlicerOpenCV.git
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -15,30 +15,30 @@ scmrevision b2ae114c63bd1ef77225356cf41376867e681175
 depends     NA
 
 # Inner build directory (default is ".")
-build_subdirectory .
+build_subdirectory inner-build
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php?title=Documentation/Nightly/Extensions/TCIABrowser
+homepage    http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerOpenCV
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Alireza Mehrtash(SPL and BWH), Andrey Fedorov (SPL and BWH)
+contributors Nicole Aucoin (BWH), Andrey Fedorov (BWH), Jean-Christophe Fillion-Robin (Kitware)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Informatics
+category    Libraries
 
 # url to icon (png, size 128x128 pixels)
-iconurl    http://wiki.slicer.org/slicerWiki/images/9/92/TCIABrowser_logo.png
+iconurl     https://raw.githubusercontent.com/SBU-BMI/SlicerOpenCV/master/SlicerOpenCV.png
 
 # Give people an idea what to expect from this code
-#  - Is it just a test or something you stand beind?
+#  - Is it just a test or something you stand behind?
 status      
 
 # One line stating what the module does
-description A Module to connect to the TCIA archive, browse the collections, patients and studies and download DICOM files to 3D Slicer.
+description This extension provides a wrapper around OpenCV libraries
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/QIICR/TCIABrowser/master/TCIABrowser/Resources/Screenshot/screenshot1.png
+screenshoturls 
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

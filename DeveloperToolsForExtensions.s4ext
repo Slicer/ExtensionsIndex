@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/fbudin69500/SlicerDeveloperToolsForExtensions.git
-scmrevision 6bb336f3fcbd0819dc41edb463a7732794c58198
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files

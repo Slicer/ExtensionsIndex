@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/QIICR/TCIABrowser.git
-scmrevision b2ae114c63bd1ef77225356cf41376867e681175
+scmurl https://github.com/QIICR/DSC_Analysis.git
+scmrevision e0adf33
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,27 +18,27 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php?title=Documentation/Nightly/Extensions/TCIABrowser
+homepage    http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/DSC_MRI_Analysis
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Alireza Mehrtash(SPL and BWH), Andrey Fedorov (SPL and BWH)
+contributors Xiao Da (MGH)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Informatics
+category    Quantification
 
 # url to icon (png, size 128x128 pixels)
-iconurl    http://wiki.slicer.org/slicerWiki/images/9/92/TCIABrowser_logo.png
+iconurl     http://slicer.org/slicerWiki/images/9/92/DSC_logo_Resized.png
 
 # Give people an idea what to expect from this code
-#  - Is it just a test or something you stand beind?
-status      
+#  - Is it just a test or something you stand behind?
+status      Beta
 
 # One line stating what the module does
-description A Module to connect to the TCIA archive, browse the collections, patients and studies and download DICOM files to 3D Slicer.
+description Analysis of Dynamic Susceptibility Contrast (DSC) MRI.
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/QIICR/TCIABrowser/master/TCIABrowser/Resources/Screenshot/screenshot1.png
+screenshoturls http://slicer.org/slicerWiki/images/e/e8/DSC_GUI_V0.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

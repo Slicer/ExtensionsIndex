@@ -6,39 +6,39 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/QIICR/TCIABrowser.git
-scmrevision b2ae114c63bd1ef77225356cf41376867e681175
+scmurl git://github.com/SBU-BMI/SlicerPathology.git
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     NA
+depends     SlicerOpenCV
 
 # Inner build directory (default is ".")
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php?title=Documentation/Nightly/Extensions/TCIABrowser
+homepage    http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerPathology
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Alireza Mehrtash(SPL and BWH), Andrey Fedorov (SPL and BWH)
+contributors Erich Bremer (SBU), Nicole Aucoin (BWH), Andrey Fedorov (BWH), Jean-Christophe Fillion-Robin (Kitware), Joel Saltz (SBU)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Informatics
+category    Digital Pathology
 
 # url to icon (png, size 128x128 pixels)
-iconurl    http://wiki.slicer.org/slicerWiki/images/9/92/TCIABrowser_logo.png
+iconurl https://raw.githubusercontent.com/SBU-BMI/SlicerPathology/master/SlicerPathology.png
 
 # Give people an idea what to expect from this code
-#  - Is it just a test or something you stand beind?
-status      
+#  - Is it just a test or something you stand behind?
+status alpha
 
 # One line stating what the module does
-description A Module to connect to the TCIA archive, browse the collections, patients and studies and download DICOM files to 3D Slicer.
+description This extensionis intended to assist in segmentation of nuclei from digital pathology
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/QIICR/TCIABrowser/master/TCIABrowser/Resources/Screenshot/screenshot1.png
+screenshoturls http://wiki.na-mic.org/Wiki/images/3/3b/SlicerPathologybeginworkweek2016.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/NIRALUser/ShapePopulationViewer.git
-scmrevision a1116a4a420441a4cb2179acbd116ab67d23094f
+scmrevision bc91a12
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -22,7 +22,7 @@ homepage    https://www.nitrc.org/projects/shapepopviewer/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Alexis Girault (NIRAL, UNC), Francois Budin (NIRAL, UNC)
+contributors Alexis Girault (NIRAL, UNC), Francois Budin (NIRAL, UNC), Laura Pascal (DCBIA-OrthoLab, UofM)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Shape Analysis
