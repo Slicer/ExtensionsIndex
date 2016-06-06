@@ -1,8 +1,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/BRAINSia/eigen.git
-scmrevision 032b16f4853237fb70f20d9028ee0ad5d543b0b2
-
+scmrevision aac58c68ef2670ac6da5e690a65c96a442f026b4
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
