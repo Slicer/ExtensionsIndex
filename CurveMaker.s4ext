@@ -1,13 +1,44 @@
-build_subdirectory .
-category Informatics
-contributors Junichi Tokuda (BWH)
-depends NA
-description This is an module to generate a curve based on a list of fiducial points.
-enabled 1
-homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/CurveMaker
-iconurl http://www.slicer.org/slicerWiki/images/b/b7/CurveMakerIcon.png
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
 scm git
-scmrevision 21a65da0f3ae3cc193383075c056eabe0ff278f6
 scmurl https://github.com/tokjun/CurveMaker
+scmrevision f73dd34898c76f86c90ad1291d68c4b2053afb00
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends NA
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# homepage
+homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/CurveMaker
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Junichi Tokuda (BWH)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Informatics
+
+# url to icon (png, size 128x128 pixels)
+iconurl http://www.slicer.org/slicerWiki/images/b/b7/CurveMakerIcon.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand behind?
+status 
+
+# One line stating what the module does
+description This is a module to generate a curve based on a list of fiducial points.
+
+# Space separated list of urls
 screenshoturls http://www.slicer.org/slicerWiki/images/0/0b/Slicer4-CurveMaker-GUI.png
-status
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
