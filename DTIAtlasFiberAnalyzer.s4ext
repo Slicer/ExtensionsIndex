@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/NIRALUser/DTIFiberTractStatistics.git
-scmrevision dc57d658a5fb1185902aa02218d7047f5df22927
+scmrevision release
 
 #list dependencies
 # - These should be names of other modules that have .s4ext files
