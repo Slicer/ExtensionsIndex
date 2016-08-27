@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/Punzo/SlicerAstro.git
-scmrevision 782b67913d5ce10417d0ba8724ce25c9039bcff1
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
