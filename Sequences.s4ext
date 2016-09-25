@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/SlicerRt/Sequences.git
-scmrevision master
+scmrevision d0206c3800755d34a8b732dd0f1123fff575c2ad
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
