@@ -4,7 +4,7 @@ scmrevision master
 
 depends NA
 
-build_subdirectory .
+build_subdirectory inner-build
 
 homepage http://slicerdmri.github.io
 
