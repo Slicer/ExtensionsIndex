@@ -1,0 +1,13 @@
+build_subdirectory .
+category Filtering.Anomalous Filters
+contributors Antonio Carlos Senra Filho (University of Sao Paulo), Luiz Otavio Murta Junior (University of Sao Paulo)
+depends NA
+description This extension aims to provide several approaches in order to apply the anomalous spatial filters on medical images.
+enabled 1
+homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/AnomalousFilters
+iconurl http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/AnomalousFiltersExtension.png
+scm git
+scmrevision 97a15c4f012dd08cd3211f4055d2af40ba9c3472
+scmurl https://github.com/CSIM-Toolkits/AnomalousFiltersExtension.git
+screenshoturls http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/Screenshots/1.png
+status
