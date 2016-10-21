@@ -5,9 +5,9 @@ depends NA
 description This extension aims to provide several approaches in order to apply the anomalous spatial filters on medical images.
 enabled 1
 homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/AnomalousFilters
-iconurl http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/AnomalousFiltersExtension.png
+iconurl https://www.slicer.org/slicerWiki/images/8/89/AnomalousDiffusionExtension-logo.png
 scm git
-scmrevision 97a15c4f012dd08cd3211f4055d2af40ba9c3472
+scmrevision aa59d055480d2a4474802a36f4742bb9162bbfc9
 scmurl https://github.com/CSIM-Toolkits/AnomalousFiltersExtension.git
-screenshoturls http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/Screenshots/1.png
+screenshoturls https://www.slicer.org/slicerWiki/images/6/64/MRI_raw.png https://www.slicer.org/slicerWiki/images/e/e8/MRI_AAD.png https://www.slicer.org/slicerWiki/images/0/0d/MRI_IAD.png https://www.slicer.org/slicerWiki/images/7/7b/Aad_scalar_gui.png https://www.slicer.org/slicerWiki/images/3/39/Iad_scalar_gui.png
 status
