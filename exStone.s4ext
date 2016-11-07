@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/qimo601/exStone.git
-scmrevision 9d7311d
+scmrevision dd680fc
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -22,7 +22,7 @@ homepage    http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensi
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors LiuZhaoBang (Sibet), John Doe (AnyWare Corp.)
+contributors LiuZhaoBang (Sibet)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Examples
@@ -35,9 +35,7 @@ iconurl     http://www.example.com/Slicer/Extensions/exStone.png
 status      
 
 # One line stating what the module does
-description This is an example of a simple extension
-
-Urinary calculi analysis module
+description This extension is a software for the analysis of the density of urinary stones. The exStone can achieved the segmentation of urinary calculi from CT Image, and  automaticly extract the  slice's parameters  in any angle of the  urinary stones volume   as well as perpendicular to the X/Y/Z axis. The CT maximum, minimum, average, average optical density and integral density of each slice of the stone were calculated. At finally,it can support export  parameters to the Excel file.
 
 # Space separated list of urls
 screenshoturls http://www.example.com/Slicer/Extensions/exStone/Screenshots/1.png
