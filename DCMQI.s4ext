@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/QIICR/dcmqi.git
-scmrevision b3ea5fa05f204d2575e2c898b614159a9a56bda7
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
