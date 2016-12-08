@@ -7,7 +7,7 @@ enabled 1
 homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/AnomalousFilters
 iconurl https://www.slicer.org/slicerWiki/images/8/89/AnomalousDiffusionExtension-logo.png
 scm git
-scmrevision f3d8a68e5cc27b9a48c4a028df6f61b12862c336
+scmrevision b061f637d2ac115f3d177ec5bc75e82a2bb2f399
 scmurl https://github.com/CSIM-Toolkits/AnomalousFiltersExtension.git
 screenshoturls https://www.slicer.org/slicerWiki/images/6/64/MRI_raw.png https://www.slicer.org/slicerWiki/images/e/e8/MRI_AAD.png https://www.slicer.org/slicerWiki/images/0/0d/MRI_IAD.png https://www.slicer.org/slicerWiki/images/7/7b/Aad_scalar_gui.png https://www.slicer.org/slicerWiki/images/3/39/Iad_scalar_gui.png
 status
