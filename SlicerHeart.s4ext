@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/SlicerHeart/SlicerHeart.git
-scmrevision eb47fc40b84eccb5cef074c713c96996bb02ad0f
+scmrevision 35d8897f36f333eced9292913b912287eeb40839
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
