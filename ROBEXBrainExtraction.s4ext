@@ -7,7 +7,7 @@ enabled 1
 homepage http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/ROBEXBrainExtraction
 iconurl https://www.slicer.org/w/images/7/7a/ROBEXBrainExtraction-logo.png
 scm git
-scmrevision 91d71bc4b70276bad36b685d17d73b802d14b8ea
+scmrevision 849d34e1156bc14b8bbec645aec72fd3a03cc66b
 scmurl https://github.com/CSIM-Toolkits/ROBEXBrainExtraction.git
 screenshoturls https://www.slicer.org/w/images/c/ca/AllHeadMRI.png https://www.slicer.org/w/images/0/06/BrainMRI.png https://www.slicer.org/w/images/7/71/ROBEXBrainExtraction-GUI.png
 status
