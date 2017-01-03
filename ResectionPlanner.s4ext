@@ -7,7 +7,7 @@ enabled 1
 homepage http://www.slicer.org/slicerWiki/index.php?title=Documentation/Nightly/Extensions/ResectionPlanner
 iconurl http://wiki.slicer.org/slicerWiki/images/d/d6/ResectionPlannerLogo.png
 scm git
-scmrevision a8e15d4b6a211815c2361af06efc6fa17b7a26d5
+scmrevision master
 scmurl https://github.com/SlicerIGT/ResectionPlanner.git
 screenshoturls http://www.slicer.org/slicerWiki/index.php/File:ResectionVolume_Screenshot.png
 status
