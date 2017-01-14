@@ -5,9 +5,9 @@
 #
 
 # This is source code manager (i.e. svn)
-scm git
-scmurl https://github.com/emily-hammond/LongitudinalAnalysis
-scmrevision 5ff9f33
+scm local
+scmurl C:/Slicer-related/Multi-LevelRegistration
+scmrevision 0
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -25,7 +25,7 @@ homepage http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions
 contributors Emily Hammond (University of Iowa), Jessica C. Sieren (University of Iowa) 
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category Registratoin
+category Registration
 
 # url to icon (png, size 128x128 pixels)
 iconurl https://github.com/emily-hammond/LongitudinalAnalysis/blob/master/MultiLevelRegistrationLogo_275x235.png
