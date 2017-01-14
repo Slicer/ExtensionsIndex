@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/emily-hammond/LongitudinalAnalysis
-scmrevision b92e98c
+scmrevision 5ff9f33
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -28,7 +28,7 @@ contributors Emily Hammond (University of Iowa), Jessica C. Sieren (University o
 category Registratoin
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.example.com/Slicer/Extensions/Slicer-MyExtension.png
+iconurl https://github.com/emily-hammond/LongitudinalAnalysis/blob/master/MultiLevelRegistrationLogo_275x235.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description Perform rigid registration with increasingly smaller volumes of data defined by regions of interest focusing on a desired anatomy.
 
 # Space separated list of urls
-screenshoturls http://www.example.com/Slicer/Extensions/Slicer-MyExtension/Screenshots/1.png
+screenshoturls https://www.slicer.org/wiki/File:MultiLevelRegistrationExample.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
