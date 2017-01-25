@@ -2,7 +2,7 @@ scm git
 scmurl https://github.com/SlicerDMRI/SlicerDMRI.git
 scmrevision master
 
-depends UKFTractography
+depends NA
 
 build_subdirectory inner-build
 
