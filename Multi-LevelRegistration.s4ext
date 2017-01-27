@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm local
-scmurl C:/Slicer-related/Multi-LevelRegistration
-scmrevision 0
+scmurl https://github.com/emily-hammond/Multi-LevelRegistration
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
