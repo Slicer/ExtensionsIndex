@@ -8,6 +8,6 @@ homepage http://slicer.vmtk.org/
 iconurl http://www.nitrc.org/project/screenshot.php?group_id=196&screenshot_id=269
 scm git
 scmrevision master
-scmurl git://github.com/lassoan/SlicerExtension-VMTK.git
+scmurl git://github.com/vmtk/SlicerExtension-VMTK.git
 screenshoturls http://www.nitrc.org/project/screenshot.php?group_id=196&screenshot_id=126 http://www.nitrc.org/project/screenshot.php?group_id=196&screenshot_id=227 http://www.nitrc.org/project/screenshot.php?group_id=196&screenshot_id=228 http://www.nitrc.org/project/screenshot.php?group_id=196&screenshot_id=229
 status Beta
