@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/SBU-BMI/SlicerPathology.git
-scmrevision master
+scmrevision v1.2
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -22,7 +22,7 @@ homepage    http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensi
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Erich Bremer (SBU), Nicole Aucoin (BWH), Andrey Fedorov (BWH), Jean-Christophe Fillion-Robin (Kitware), Joel Saltz (SBU)
+contributors Erich Bremer (SBU), Nicole Aucoin (BWH), Andrey Fedorov (BWH), Jean-Christophe Fillion-Robin (Kitware), Joel Saltz (SBU), Yi Gao (SBU), Tammy DiPrima (SBU)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Digital Pathology
@@ -35,7 +35,7 @@ iconurl https://raw.githubusercontent.com/SBU-BMI/SlicerPathology/master/SlicerP
 status alpha
 
 # One line stating what the module does
-description This extensionis intended to assist in segmentation of nuclei from digital pathology
+description This extension is intended to assist in segmentation of nuclei from digital pathology
 
 # Space separated list of urls
 screenshoturls http://wiki.na-mic.org/Wiki/images/3/3b/SlicerPathologybeginworkweek2016.png
