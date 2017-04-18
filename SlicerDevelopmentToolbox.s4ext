@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage http://wiki.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerProstate
+homepage https://www.slicer.org/wiki/Documentation/Nightly/Extensions/SlicerDevelopmentToolbox
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -38,7 +38,7 @@ status      Work in progress
 description SlicerDevelopmentToolbox extension facilitates the development process of modules/extensions with a large variety of widgets, helpers, decorators, events, constants and mixin classes
 
 # Space separated list of urls
-screenshoturls
+screenshoturls https://www.slicer.org/wiki/File:SlicerDeveloplentToolbox_IncomingDataWindow.png https://www.slicer.org/wiki/File:SlicerDeveloplentToolbox_ModuleSettingsWidget.png https://www.slicer.org/wiki/File:SlicerDeveloplentToolbox_RatingWindow.png https://www.slicer.org/wiki/File:SlicerDeveloplentToolbox_TargetCreationWidget.png https://www.slicer.org/wiki/File:SlicerDeveloplentToolbox_watchbox.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
