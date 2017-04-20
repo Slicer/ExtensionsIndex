@@ -28,7 +28,7 @@ contributors Christian Herz (Brigham and Women's Hospital), Andrey Fedorov (Brig
 category    Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://raw.githubusercontent.com/QIICR/SlicerDevelopmentToolbox/master/Resources/Icons/SlicerDevelopmentToolbox.png
+iconurl http://raw.githubusercontent.com/QIICR/SlicerDevelopmentToolbox/master/Resources/Icons/SlicerDevelopmentToolbox.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status      Work in progress
 description SlicerDevelopmentToolbox extension facilitates the development process of modules/extensions with a large variety of widgets, helpers, decorators, events, constants and mixin classes
 
 # Space separated list of urls
-screenshoturls https://www.slicer.org/wiki/File:SlicerDeveloplentToolbox_IncomingDataWindow.png https://www.slicer.org/wiki/File:SlicerDeveloplentToolbox_ModuleSettingsWidget.png https://www.slicer.org/wiki/File:SlicerDeveloplentToolbox_RatingWindow.png https://www.slicer.org/wiki/File:SlicerDeveloplentToolbox_TargetCreationWidget.png https://www.slicer.org/wiki/File:SlicerDeveloplentToolbox_watchbox.png
+screenshoturls http://www.slicer.org/wiki/File:IncomingDataWindow.png http://www.slicer.org/wiki/File:ModuleSettingsWidget.png http://www.slicer.org/wiki/File:RatingWindow.png http://www.slicer.org/wiki/File:TargetCreationWidget.png http://www.slicer.org/wiki/File:Watchbox.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
