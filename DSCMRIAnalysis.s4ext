@@ -22,7 +22,7 @@ homepage    http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Andrew Beers (MGH), Xiao Da (MGH)
+contributors Andrew Beers (MGH), Jayashree Kalpathy-Cramer (MGH), Xiao Da (MGH)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Quantification
