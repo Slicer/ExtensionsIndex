@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/lorensen/SwissSkullStripperExtension.git
-scmrevision 7aeff87
+scmrevision 307bf8639e91bdeb2107a632a5aa8ac0f6f03e65
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
