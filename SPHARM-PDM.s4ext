@@ -12,17 +12,17 @@ scmrevision release
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     NA
+depends MeshToLabelMap
 
 # Inner build directory (default is .)
-build_subdirectory .
+build_subdirectory SPHARM-PDM-build
 
 # homepage
 homepage    http://www.nitrc.org/projects/spharm-pdm
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Beatriz Paniagua (UNC), Francois Budin (UNC), Martin Styner (UNC)
+contributors Beatriz Paniagua (UNC), Francois Budin (UNC), Martin Styner (UNC), Laura Pascal (Kitware), Hina Shah (Kitware)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Shape Analysis
