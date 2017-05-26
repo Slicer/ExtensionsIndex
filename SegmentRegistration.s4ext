@@ -18,7 +18,7 @@ depends SlicerProstate SlicerRT
 build_subdirectory .
 
 # homepage
-homepage 
+homepage https://github.com/SlicerRt/SegmentRegistration
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Csaba Pinter (PerkLab, Queen's University)
 category Registration
 
 # url to icon (png, size 128x128 pixels)
-iconurl 
+iconurl https://github.com/SlicerRt/SegmentRegistration/raw/master/Logo/SegmentRegistration_Logo_128.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description Segment registration is an extension that contains generic and more specialized modules for registering two delineations of the same structure, and propagating other segmented structures from one dataset to the other (also called fusion or contour propagation).
 
 # Space separated list of urls
-screenshoturls 
+screenshoturls https://www.slicer.org/w/images/a/a1/20170526_ProstatMRIUSContourPropagation.png https://www.slicer.org/w/images/1/15/20160329_MRIUS_1500.gif
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
