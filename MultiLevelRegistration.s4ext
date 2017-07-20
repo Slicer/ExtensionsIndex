@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/emily-hammond/SlicerMultiLevelRegistration.git
-scmrevision 36d445c
+scmrevision 1a7d022
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
