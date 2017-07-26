@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/QIICR/Slicer-PETDICOMExtension.git
-scmrevision 3cce7058d7b84736d79e6cc61331bba2384b351b
+scmrevision 841efab2dd7dc876fc99b19580abc828f1cea85a
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
