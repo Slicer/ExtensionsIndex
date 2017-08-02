@@ -28,7 +28,7 @@ contributors Christian Herz (SPL), Peter Behringer (SPL), Kyle MacNeil (Med-i La
 category IGT
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://wiki.slicer.org/slicerWiki/images/b/bb/SliceTracker_Logo_1.1_128x128.png
+iconurl https://www.slicer.org/w/images/b/b1/SliceTracker_Logo_1.1_128x128.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
