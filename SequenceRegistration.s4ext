@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/moselhy/SlicerSequenceRegistration
-scmrevision 51c36ce366f550a0760c4fe343ce4c0270d478a0
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -35,10 +35,10 @@ iconurl https://raw.githubusercontent.com/moselhy/SlicerSequenceRegistration/mas
 status 
 
 # One line stating what the module does
-description This will register a multi-volume sequence using Elastix.
+description This extension registers 4D volume sequences for motion compensation or motion analysis.
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/moselhy/SlicerSequenceRegistration/master/screenshot.png
+screenshoturls https://raw.githubusercontent.com/moselhy/SlicerSequenceRegistration/master/screenshot01.png https://raw.githubusercontent.com/moselhy/SlicerSequenceRegistration/master/screenshot02.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
