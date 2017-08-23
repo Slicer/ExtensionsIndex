@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/QIICR/PETTumorSegmentation.git
-scmrevision 64cce126060a05636ee40dccc60b6b214e764b7b
+scmrevision 39a07bb5bb0ed328b58ca755302ed1fbf13f5e76
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
