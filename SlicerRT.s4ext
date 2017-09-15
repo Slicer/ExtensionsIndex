@@ -5,9 +5,9 @@
 #
 
 # This is source code manager (i.e. svn)
-scm svn
-scmurl https://subversion.assembla.com/svn/slicerrt/trunk/SlicerRt/src
-scmrevision HEAD
+scm git
+scmurl https://github.com/SlicerRt/SlicerRT.git
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -32,7 +32,7 @@ iconurl http://www.slicer.org/slicerWiki/images/2/29/SlicerRT_Logo_3.0_128x128.p
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status Beta
+status Release
 
 # One line stating what the module does
 description Toolkit for radiation therapy research. Features include DICOM-RT import/export, dose volume histogram, dose accumulation, external beam planning (TPS), structure comparison and morphology, isodose line/surface generation, etc. Version 0.18.0
