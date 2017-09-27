@@ -15,7 +15,7 @@ scmrevision master
 depends     NA
 
 # Inner build directory (default is .)
-build_subdirectory .
+build_subdirectory pkmodeling-build
 
 # homepage
 homepage    https://github.com/millerjv/PkModeling/wiki/PkModeling
