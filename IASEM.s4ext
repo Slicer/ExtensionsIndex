@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/blowekamp/Slicer-IASEM.git
-scmrevision f3895471dd01d0340cbed5178dfe7ac27b745090
+scmrevision 5696e8259d80a85ef823439dbefde33bdcf17298
 
 
 # list dependencies
