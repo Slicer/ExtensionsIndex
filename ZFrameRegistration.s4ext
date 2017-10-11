@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/leochan2009/SlicerZFrameRegistration.git
-scmrevision bccf9f4
+scmrevision 087a7fd
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -22,7 +22,7 @@ homepage http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Junichi Tokuda (SPL), Simon Di Maio (SPL), Longquan Chen (SPL), Christian Herz (SPL), Andrey Fedorov (SPL)
+contributors Junichi Tokuda (SPL), Christian Herz (SPL), Simon Di Maio (SPL), Longquan Chen (SPL), Andrey Fedorov (SPL)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category IGT
