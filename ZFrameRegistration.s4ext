@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/SlicerProstate/SlicerZFrameRegistration.git
-scmrevision 087a7fd010194a874fecf20183d4b64776c50ffe
+scmrevision 075823d3d1d930f611d23d0f2a1ca22b8f183a92
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
