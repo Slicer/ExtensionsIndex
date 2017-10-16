@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/qimo601/exStone.git
-scmrevision c71cd38
+scmrevision c71cd3885f79a7240a53daa12c6f02131289d4e4
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
