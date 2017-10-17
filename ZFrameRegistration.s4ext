@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/SlicerProstate/SlicerZFrameRegistration.git
-scmrevision 2b30c7a04835dc4e5caa33dcca01cf1e44d46c84
+scmrevision 471365f77fde8c323fb01c4d372241dbcf432cd6
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -28,7 +28,7 @@ contributors Junichi Tokuda (SPL), Christian Herz (SPL), Simon Di Maio (SPL), Lo
 category IGT
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/leochan2009/SlicerZFrameRegistration/tree/master/ZFrameRegistration/Resources/Icons/ZFrameRegistration.png
+iconurl https://raw.githubusercontent.com/SlicerProstate/SlicerZFrameRegistration/master/ZFrameRegistration.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description This extension provides support for procedures with ZFrame Registration
 
 # Space separated list of urls
-screenshoturls https://github.com/leochan2009/SlicerZFrameRegistration/tree/master/Screenshots/1.png https://github.com/leochan2009/SlicerZFrameRegistration/tree/master/Screenshots/2.png
+screenshoturls https://raw.githubusercontent.com/SlicerProstate/SlicerZFrameRegistration/master/Screenshots/1.png https://raw.githubusercontent.com/SlicerProstate/SlicerZFrameRegistration/master/Screenshots/2.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
