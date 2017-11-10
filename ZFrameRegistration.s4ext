@@ -7,12 +7,12 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/SlicerProstate/SlicerZFrameRegistration.git
-scmrevision 1f05cfcbbb028ebfd69163a240cec2f00dcba246
+scmrevision afce9adcb9ec633badcddd3ea3036ed84865acf1
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends 
+depends SlicerDevelopmentToolbox
 
 # Inner build directory (default is ".")
 build_subdirectory .
