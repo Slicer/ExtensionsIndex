@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/lassoan/SlicerElastix.git
-scmrevision 01d6b26d30417071a77e596147933e2f6adb0a03
+scmrevision 4.8
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
