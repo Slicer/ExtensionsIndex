@@ -35,7 +35,7 @@ iconurl     https://github.com/gattia/Slicer-T2mapping/blob/master/T2mapping.png
 status      Calculations work. Im sure improvements to Slicer related code could be improved. 
 
 # One line stating what the module does
-T2mapping creates a T2 Map from an inputed 4D multi-echo MRI. 
+description T2mapping creates a T2 Map from an inputed 4D multi-echo MRI. 
 
 # Space separated list of urls
 
