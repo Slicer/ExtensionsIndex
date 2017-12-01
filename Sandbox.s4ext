@@ -28,7 +28,7 @@ contributors Csaba Pinter (Queen's University), Andras Lasso (Queen's University
 category Examples
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/PerkLab/SlicerSandbox/blob/master/Sandbox_Logo_128.png
+iconurl https://github.com/PerkLab/SlicerSandbox/raw/master/Sandbox_Logo_128.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
