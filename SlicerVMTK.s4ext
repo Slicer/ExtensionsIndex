@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/vmtk/SlicerExtension-VMTK
-scmrevision master
+scmurl https://github.com/jcfr/SlicerExtension-VMTK
+scmrevision 5013f532b398f7c9a983bdf65a175ec41ce3292a
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
