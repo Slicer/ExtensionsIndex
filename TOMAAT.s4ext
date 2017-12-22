@@ -1,3 +1,4 @@
+#
 # First token of each non-comment line is the keyword and the rest of the line
 # (including spaces) is the value.
 # - the value can be blank
@@ -6,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/faustomilletari/TOMAAT-Slicer.git
-scmrevision 1b731800dde80d65111d4cf11130b8d66e9f8b19
+scmrevision 87c5188966c516cdf78307b2c1891e672b56ffcc
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
