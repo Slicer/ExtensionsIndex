@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/faustomilletari/TOMAAT-Slicer.git
-scmrevision 96c8192b1fba3e173f996f0b0032d775ebe212eb
+scmrevision 28fb6a1501c84ce4f07cf088049043819ba5a21c
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
