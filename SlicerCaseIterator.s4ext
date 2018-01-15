@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/JoostJM/SlicerBatch.git
+scmurl https://github.com/JoostJM/SlicerCaseIterator.git
 scmrevision master
 
 # list dependencies
