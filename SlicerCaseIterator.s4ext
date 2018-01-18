@@ -15,7 +15,7 @@ scmrevision master
 depends NA
 
 # Inner build directory (default is ".")
-build_subdirectory inner-build
+build_subdirectory .
 
 # homepage
 homepage https://www.slicer.org/wiki/Documentation/Nightly/Extensions/SlicerCaseIterator
