@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory pkmodeling-build
 
 # homepage
-homepage    https://github.com/millerjv/PkModeling/wiki/PkModeling
+homepage    https://www.slicer.org/wiki/Documentation/Nightly/Modules/PkModeling
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
