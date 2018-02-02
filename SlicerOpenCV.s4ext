@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/SBU-BMI/SlicerOpenCV.git
-scmrevision master
+scmrevision fd72c6842c72425b7ca31588ddfa9930e0f46f75
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
