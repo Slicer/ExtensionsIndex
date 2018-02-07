@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/QIICR/Slicer-PETDICOMExtension.git
-scmrevision a097f851b67eb6271bd38386c458f9e21263a2d4
+scmrevision 5acf0d35b807c6978a56d0bce1a650b74cbdf853
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -22,7 +22,7 @@ homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Ext
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Ethan Ulrich (University of Iowa), Andrey Fedorov (BWH, SPL)
+contributors Ethan Ulrich (University of Iowa), Andrey Fedorov (BWH, SPL), Christian Bauer (University of Iowa)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Converters
