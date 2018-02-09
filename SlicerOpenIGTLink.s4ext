@@ -28,7 +28,7 @@ contributors Junichi Tokuda (SPL), Longquan Chen (SPL)
 category IGT
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/openigtlink/SlicerOpenIGTLink/blob/master/OpenIGTLinkIF.png
+iconurl https://raw.githubusercontent.com/openigtlink/SlicerOpenIGTLink/master/OpenIGTLinkIF.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description This extension adds OpenIGTLink communication interface to 3D Slicer to exchange real-time imaging, tracking, and other data.
 
 # Space separated list of urls
-screenshoturls https://github.com/openigtlink/SlicerOpenIGTLink/blob/master/Screenshots/Overview.png
+screenshoturls https://raw.githubusercontent.com/openigtlink/SlicerOpenIGTLink/master/Screenshots/Overview.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
