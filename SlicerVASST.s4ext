@@ -38,7 +38,7 @@ status Experimental
 description This extension contains a number of modules developed by the VASST laboratory at the Robarts Research Institute. It provides access to RobartsVTK, a library for visualization and image processing.
 
 # Space separated list of urls
-screenshoturls http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerVASST/1.png
+screenshoturls https://raw.githubusercontent.com/VASST/SlicerVASST/master/docs/images/screenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
