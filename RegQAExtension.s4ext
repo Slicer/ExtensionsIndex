@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/gsi-biomotion/slicer-dirqa.git
+scmurl https://github.com/gsi-biomotion/Slicer-RegQA.git
 scmrevision ada7f66
 
 # list dependencies
@@ -32,7 +32,7 @@ iconurl https://github.com/gsi-biomotion/Slicer-RegQA/blob/master/RegQA/Resource
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status Code has been developed in colaboration with GSI and UK Erlangen and should help also others with registration QA.
 
 # One line stating what the module does
 description Image registration quality assurance tool.
