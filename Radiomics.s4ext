@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/Radiomics/SlicerRadiomics.git
-scmrevision master
+scmrevision 8e5f1e885f766a2caea699d71824f0d10a2953da
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
