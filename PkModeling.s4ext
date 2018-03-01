@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/millerjv/PkModeling.git
+scmurl git://github.com/QIICR/PkModeling.git
 scmrevision master
 
 # list dependencies
@@ -22,7 +22,7 @@ homepage    https://www.slicer.org/wiki/Documentation/Nightly/Modules/PkModeling
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Yingxuan Zhu (GE), Jim Miller (GE), Andriy Fedorov (BWH), Ming-ching Chang (GE), Mahnaz Maddah (SRI)
+contributors Yingxuan Zhu (GE), Jim Miller (GE), Andriy Fedorov (BWH), Ming-ching Chang (GE), Mahnaz Maddah (SRI), Michael Schwier (BWH)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Quantification
