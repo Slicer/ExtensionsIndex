@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/QIICR/PETLiverUptakeMeasurement
-scmrevision be2e4465e8837d8612a8254997a3d7daa29922ff
+scmrevision d2550c4c375786dbd410ddddb2c7e49da978956b
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
