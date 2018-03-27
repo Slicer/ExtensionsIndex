@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/QIICR/PET-IndiC.git
-scmrevision c0a1a9a74009ed1910904a4c1de6a5213be69f02
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
