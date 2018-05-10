@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/KitwareMedical/SlicerVirtualReality.git
-scmrevision 42c2462daba87405e3c9ccff546384330f78c24b
+scmrevision 4974c301775d6c3e7db908ac048f999ce2fd9773
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
