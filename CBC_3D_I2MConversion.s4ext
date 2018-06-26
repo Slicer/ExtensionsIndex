@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/fdrakopo/ImageToMeshConversion.git
+scmurl git://github.com/jbest002/CBC3D_I2M_Conversion_SlicerExtension.git
 scmrevision 1f490c6
 
 # list dependencies
@@ -22,7 +22,7 @@ homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Ext
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Fotis Drakopoulos (CRTC), Yixun Liu (CRTC), Andrey Fedorov (CRTC), Nikos Chrisochoides (CRTC)
+contributors Fotis Drakopoulos (CRTC), Yixun Liu (CRTC), Andrey Fedorov (CRTC), Nikos Chrisochoides (CRTC), Joi Best (CRTC)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Mesh Generation
