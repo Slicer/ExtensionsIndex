@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/VASST/VASSTRegistration.git
+scmurl https://github.com/VASST/VASSTAlgorithms.git
 scmrevision master
 
 # list dependencies
@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage https://github.com/VASST/VASSTRegistration
+homepage https://github.com/VASST/VASSTAlgorithms
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 contributors Adam Rankin (Robarts Research Institute), Elvis Chen (Robarts Research Institute)
@@ -27,7 +27,7 @@ contributors Adam Rankin (Robarts Research Institute), Elvis Chen (Robarts Resea
 category Registration
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/VASST/VASSTRegistration/blob/master/VASSTRegistrationAlgo.png
+iconurl https://github.com/VASST/VASSTAlgorithms/blob/master/VASSTAlgorithms.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -37,7 +37,7 @@ status stable
 description This extension contains logic modules for registration algorithms.
 
 # Space separated list of urls
-screenshoturls http://www.example.com/Slicer/Extensions/VASSTRegistrationAlgo/Screenshots/1.png
+screenshoturls https://github.com/VASST/VASSTAlgorithms/blob/master/VASSTAlgorithms.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
