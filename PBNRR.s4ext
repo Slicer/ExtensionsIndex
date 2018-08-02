@@ -6,39 +6,39 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/fdrakopo/PBNRR.git
-scmrevision 0891355
+scmurl https://github.com/aangelos28/PBNRR.git
+scmrevision 7a8502c
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     NA
+depends NA
 
 # Inner build directory (default is ".")
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/PBNRR
+homepage https://github.com/aangelos28/PBNRR
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Fotis Drakopoulos (CRTC), Yixun Liu (CRTC), Andriy Kot (CRTC), Andrey Fedorov (SPL B&W Harvard), Olivier Clatz (Asclepios INRIA) and Nikos Chrisochoides (CRTC)
+contributors Angelos Angelopoulos (CRTC), Fotis Drakopoulos (CRTC), Yixun Liu (CRTC), Andriy Kot (CRTC), Andrey Fedorov (SPL B&W Harvard), Olivier Clatz (Asclepios INRIA), Nikos Chrisochoides (CRTC)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Registration
+category Registration
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://wiki.slicer.org/slicerWiki/images/9/92/PBNRR_logo.jpg
+iconurl https://raw.github.com/aangelos28/PBNRR/master/PBNRR.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status      
+status 
 
 # One line stating what the module does
-description This extension encapsulates a CLI module for the Physics-Based Non-Rigid Registration (PBNRR) method. The PBNRR compensates for the brain shift during the Image-Guided Neurosurgery (IGNS). The module uses a linear homogeneous bio-mechanical model to compute a dense deformation field that defines a transformation for every point in the fixed to the moving image. The PBNRR consists of three components (Feature Point Selection, Block Matching and Finite Element Solver) combine together to provide a user-friendly interface.
+description This Slicer extension non-rigid registers a moving to a fixed MRI using a linear homogeneous bio-mechanical model to compute a dense deformation field that defines a transformation for every point in the fixed to the moving image.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/6/63/Case1_input.png  http://www.slicer.org/slicerWiki/images/a/a4/Case1_output.png http://www.slicer.org/slicerWiki/images/d/db/PBNRR_panel.png
+screenshoturls http://www.slicer.org/slicerWiki/images/6/63/Case1_input.png http://www.slicer.org/slicerWiki/images/a/a4/Case1_output.png http://www.slicer.org/slicerWiki/images/d/db/PBNRR_panel.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
