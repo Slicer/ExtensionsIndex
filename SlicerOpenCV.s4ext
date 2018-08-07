@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/SBU-BMI/SlicerOpenCV.git
+scmurl git://github.com/Slicer/SlicerOpenCV.git
 scmrevision master
 
 # list dependencies
