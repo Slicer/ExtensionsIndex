@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/VASST/SlicerCamera.git
-scmrevision 57ccab548314c308cd11b8282296e5eb0ae539f3
+scmurl https://github.com/VASST/SlicerWebcams.git
+scmrevision b20749b9bce8d4df79419384b80d3b2379661c3a
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,7 +18,7 @@ depends SlicerIGT SlicerOpenCV VASSTAlgorithms
 build_subdirectory .
 
 # homepage
-homepage https://github.com/VASST/SlicerCamera
+homepage https://github.com/VASST/SlicerWebcams
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 contributors Adam Rankin (Robarts Research Institute), Elvis Chen (Robarts Research Institute)
@@ -27,7 +27,7 @@ contributors Adam Rankin (Robarts Research Institute), Elvis Chen (Robarts Resea
 category Webcams
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/VASST/SlicerCamera/blob/master/SlicerCamera.png
+iconurl https://github.com/VASST/SlicerWebcams/blob/master/SlicerWebcams_128.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -37,7 +37,7 @@ status Stable
 description This extension contains modules for interacting with cameras (calibration, capture, etc...)
 
 # Space separated list of urls
-screenshoturls http://www.example.com/Slicer/Extensions/SlicerCamera/Screenshots/1.png
+screenshoturls https://github.com/VASST/SlicerWebcams/blob/master/Documentation/screenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
