@@ -28,7 +28,7 @@ contributors Tamas Ungi (Queen's University), Junichi Tokuda (Brigham and Women'
 category    IGT
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://github.com/SlicerIGT/SlicerPathReconstruction/blob/master/PathReconstruction.png
+iconurl     https://raw.githubusercontent.com/SlicerIGT/SlicerPathReconstruction/master/PathReconstruction.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
