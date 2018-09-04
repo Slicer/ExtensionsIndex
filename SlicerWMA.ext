@@ -1,18 +1,18 @@
 scm git
-scmurl https://github.com/SlicerDMRI/whitematteranalysis
+scmurl https://github.com/SlicerDMRI/SlicerWMA
 scmrevision master
 
 depends NA
 
 build_subdirectory inner-build
 
-homepage http://slicerdmri.github.io
+homepage https://github.com/SlicerDMRI/whitematteranalysis
 
 contributors Lauren O'Donnell, Fan Zhang (Brigham & Women's Hospital), and others.
 
 category Diffusion
 
-iconurl https://gist.githubusercontent.com/ihnorton/f860e58c99015a6b1a3b04cc4c772412/raw/b2a440420cc01630b339c52b3feaa2744eae7039/SlicerWMA.png
+iconurl https://raw.githubusercontent.com/SlicerDMRI/SlicerWMA/master/SlicerWMA.png
 
 status WIP
 
