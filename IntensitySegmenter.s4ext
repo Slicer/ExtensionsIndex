@@ -5,11 +5,9 @@
 #
 
 # This is source code manager (i.e. svn)
-scm svn
-scmurl https://www.nitrc.org/svn/dentaltools/Applications/IntensitySegmenter/
-scmrevision 14
-svnusername slicerbot
-svnpassword slicer
+scm git
+scmurl https://github.com/DCBIA-OrthoLab/IntensitySegmenter.git
+scmrevision release
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
