@@ -1,0 +1,25 @@
+scm git
+scmurl https://github.com/SlicerDMRI/SlicerWMA
+scmrevision master
+
+depends NA
+
+build_subdirectory inner-build
+
+homepage https://github.com/SlicerDMRI/whitematteranalysis
+
+contributors Lauren O'Donnell, Fan Zhang (Brigham & Women's Hospital), and others.
+
+category Libraries
+
+iconurl https://raw.githubusercontent.com/SlicerDMRI/SlicerWMA/master/SlicerWMA.png
+
+status WIP
+
+# One line stating what the module does
+description SlicerWMA currently provides the WhiteMatterAnalysis (https://github.com/SlicerDMRI/whitematteranalysis) python package and dependencies installed within Slicer's Python environment.
+
+# Space separated list of urls
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 0
