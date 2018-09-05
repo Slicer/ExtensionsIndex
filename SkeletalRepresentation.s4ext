@@ -22,7 +22,7 @@ homepage http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Jared Vicory (Kitware, Inc.), Pablo Hernandez-Cerdan (Kitware, Inc.), Beatriz Paniagua (Kitware, Inc.)
+contributors Zhiyuan Liu (University of North Carolina at Chapel Hill), Junpyo Hong (University of North Carolina at Chapel Hill), Stephen M. Pizer (University of North Carolina at Chapel Hill), Jared Vicory (Kitware, Inc.), Pablo Hernandez-Cerdan (Kitware, Inc.), Beatriz Paniagua (Kitware, Inc.)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Topology, Skeletonization
