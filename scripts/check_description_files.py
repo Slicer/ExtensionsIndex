@@ -80,7 +80,7 @@ def check_git_repository_name(extension_name, metadata):
     if metadata["scm"] != "git":
         return
 
-    repo_name = urlparse.urlsplit(metadata["scmurl"]).path.split("/")[1]
+    repo_name = os.path.splitext(urlparse.urlsplit(metadata["scmurl"]).path.split("/")[-1])[0]
 
     if not repo_name.startswith("Slicer"):
 
