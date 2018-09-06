@@ -11,8 +11,19 @@ jobs:
           command: |
             ./scripts/check_filenames.sh
 
+  check-description-files:
+    docker:
+      - image: circleci/python:3.7.0-stretch
+    steps:
+      - checkout
+      - run:
+          name: Check description files
+          command: |
+            python ./scripts/check_description_files.py $(find . -name "*.s4ext")
+
 workflows:
   version: 2
   test:
     jobs:
       - check-filenames
+      - check-description-files
