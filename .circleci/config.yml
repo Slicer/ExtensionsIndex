@@ -1,18 +1,18 @@
 
 version: 2
 jobs:
-  check-description-files:
+  check-filenames:
     docker:
       - image: circleci/python:3.7.0-stretch
     steps:
       - checkout
       - run:
-          name: Check for expected filenames
+          name: Check filenames
           command: |
-            ./scripts/check_description_files.sh
+            ./scripts/check_filenames.sh
 
 workflows:
   version: 2
   test:
     jobs:
-      - check-description-files
+      - check-filenames
