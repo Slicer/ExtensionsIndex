@@ -38,7 +38,7 @@ status
 description Toolkit that provides users to establish, refine, and visualize skeletal representation of an object.
 
 # Space separated list of urls
-screenshoturls https://github.com/KitwareMedical/SRepExtension/blob/master/VisualizationScreenshot.png
+screenshoturls https://github.com/KitwareMedical/SlicerSkeletalRepresentation/blob/master/VisualizationScreenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
