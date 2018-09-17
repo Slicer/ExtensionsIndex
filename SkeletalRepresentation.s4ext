@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/KitwareMedical/SlicerSkeletalRepresentation.git
-scmrevision 3307e8c
+scmurl https://github.com/ZhiyLiu/SlicerSkeletalRepresentation.git
+scmrevision fd61f7d
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -28,7 +28,7 @@ contributors Zhiyuan Liu (University of North Carolina at Chapel Hill), Junpyo H
 category Topology, Skeletonization
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SkeletalRepresentation.png
+iconurl https://github.com/KitwareMedical/SlicerSkeletalRepresentation/blob/master/SkeletalRepresentation.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
