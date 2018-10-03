@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/KitwareMedical/SlicerVirtualReality.git
-scmrevision b93be7982adb78c98d3d9077e7d5076ba331c949
+scmrevision 05d9840800c627106653ddbf5e77a093fc847c7d
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -32,7 +32,7 @@ iconurl https://raw.githubusercontent.com/KitwareMedical/SlicerVirtualReality/ma
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description Allows user to interact with a Slicer scene using virtual reality.
