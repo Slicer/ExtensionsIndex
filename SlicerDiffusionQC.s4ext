@@ -22,4 +22,4 @@ description SlicerDiffusionQC provides a quality-estimation algorithm for diffus
 # Space separated list of urls
 
 # 0 or 1: Define if the extension should be enabled after its installation.
-enabled 0
+enabled 1
