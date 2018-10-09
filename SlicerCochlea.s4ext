@@ -30,7 +30,7 @@ contributors Ibraheem Al-Dhamari (VisSim, Koblenz-Landau University)
 category VisSimTools
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/MedicalImageAnalysisTutorials/SlicerCochlea/blob/master/SlicerCochlea.png
+iconurl https://github.com/MedicalImageAnalysisTutorials/SlicerCochlea/raw/master/SlicerCochlea.png
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
 status 
