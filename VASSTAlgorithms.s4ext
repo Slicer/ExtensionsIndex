@@ -27,7 +27,7 @@ contributors Adam Rankin (Robarts Research Institute), Elvis Chen (Robarts Resea
 category Registration
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/VASST/VASSTAlgorithms/blob/master/VASSTAlgorithms.png
+iconurl https://github.com/VASST/VASSTAlgorithms/raw/master/VASSTAlgorithms.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
