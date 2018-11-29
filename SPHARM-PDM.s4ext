@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/NIRALUser/SPHARM-PDM.git
-scmrevision release
+scmurl https://github.com/jcfr/SPHARM-PDM.git
+scmrevision f78ef12958847d35fb46c1eab3a2e2b59f22c437
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files

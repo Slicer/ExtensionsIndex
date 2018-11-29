@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/KitwareMedical/ShapeRegressionExtension.git
-scmrevision 296f3aa
+scmurl https://github.com/jcfr/ShapeRegressionExtension.git
+scmrevision c186eeb30a99a20c12cc706d2e392552992d479a
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
