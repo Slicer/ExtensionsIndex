@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/lapdMouse/lapdMouseBrowser.git
+scmurl https://github.com/lapdMouse/Slicer-lapdMouseBrowser.git
 scmrevision master
 
 # list dependencies
@@ -28,7 +28,7 @@ contributors Christian Bauer (University of Iowa), Reinhard Beichel (University 
 category    Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://raw.githubusercontent.com/lapdMouse/lapdMouseBrowser/master/lapdMouseBrowser.png
+iconurl     https://raw.githubusercontent.com/lapdMouse/Slicer-lapdMouseBrowser/master/lapdMouseBrowser.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
