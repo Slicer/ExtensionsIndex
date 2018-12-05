@@ -7,6 +7,7 @@ Python 3.x CLI for validating extension description files.
 import argparse
 import os
 import sys
+import textwrap
 import urllib.parse as urlparse
 
 from functools import wraps
@@ -88,8 +89,11 @@ def check_git_repository_name(extension_name, metadata):
 
         raise ExtensionCheckError(
             extension_name, check_name,
-            "extension repository name is '%s' but it should be 'Slicer%s' or any of these variations %s" % (
-                repo_name, repo_name, variations))
+            textwrap.dedent("""
+            extension repository name is '%s'. Please, consider changing it to 'Slicer%s' or any of
+            these variations %s.
+            """ % (
+                repo_name, repo_name, variations)))
 
 
 def main():
