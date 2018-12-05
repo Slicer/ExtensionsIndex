@@ -35,7 +35,7 @@ iconurl     https://raw.githubusercontent.com/lapdMouse/Slicer-lapdMouseBrowser/
 status      
 
 # One line stating what the module does
-description Tumor and lymph node segmentation in PET scans
+description Connect to the lapdMouse archive, browse the collection, download and visualize data files.
 
 # Space separated list of urls
 screenshoturls https://www.slicer.org/w/images/b/b2/LapdMouseDBBrowserWindow.png https://www.slicer.org/w/images/6/67/LapdMouseStandardFiles.png https://www.slicer.org/w/images/e/ed/LapdMouseNearAciniTree.png
