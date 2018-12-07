@@ -1,4 +1,4 @@
-# Update an existing extension
+# Updating an extension
 
 You can delete this whole template and just describe which extension is updated and optionally tell us in a sentence what has been changed.
 
