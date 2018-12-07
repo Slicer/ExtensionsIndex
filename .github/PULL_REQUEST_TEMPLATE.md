@@ -1,6 +1,6 @@
 # Update an existing extension
 
-You can delete this whole template and just describe which exension is updated and optionally tell us in a sentence what has been changed.
+You can delete this whole template and just describe which extension is updated and optionally tell us in a sentence what has been changed.
 
 To make extension updates easier in the future, you may consider replacing specific git hash in your s4ext file by a branch name (for example: `master` or `release` for nightly version; `(majorVersion).(minorVersion)` such as `4.10` for stable Slicer version).
 
@@ -16,7 +16,7 @@ To make sure users can find your extension, understand what it is intended for a
 - [ ] Extension URL and revision (scmurl, scmrevision) is correct, consider using a branch name (master, release, ...) instead of a specific git has to avoid re-submitting pull request whenever the extension is updated
 - [ ] Extension icon URL is correct
 - [ ] Screenshot URLs (screenshoturls) are correct, contains at least one
-- [ ] Homepage URL points to valid webpage containing the followings:
+- [ ] Homepage URL points to valid webpage containing the following:
   - [ ] Extension name
   - [ ] Short description: 1-2 sentences, which summarizes what the extension is usable for
   - [ ] At least one nice, informative image, that illustrates what the extension can do. It may be a screenshot.
