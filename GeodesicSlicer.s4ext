@@ -1,0 +1,45 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
+scm git
+scmurl https://github.com/nourryan/SlicerGeodesic.git
+scmrevision e8c0459
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends NA
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# homepage
+homepage http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/GeodesicSlicer
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Frederic Briend ((UNICAEN)), Antoine Nourry ((UMS 3408))
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Informatics
+
+# url to icon (png, size 128x128 pixels)
+iconurl http://www.example.com/Slicer/Extensions/GeodesicSlicer.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand behind?
+status 
+
+# One line stating what the module does
+description This module calculates geodesic path in 3D structure. Thanks to this geodesic path, this module could draw an EEG 10-20 system
+<li>See <a href=
+
+# Space separated list of urls
+screenshoturls http://www.example.com/Slicer/Extensions/GeodesicSlicer/Screenshots/1.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
