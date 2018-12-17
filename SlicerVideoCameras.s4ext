@@ -7,12 +7,12 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/VASST/SlicerVideoCameras.git
-scmrevision b20749b9bce8d4df79419384b80d3b2379661c3a
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends SlicerIGT SlicerOpenCV VASSTAlgorithms
+depends SlicerOpenCV VASSTAlgorithms
 
 # Inner build directory (default is ".")
 build_subdirectory .
