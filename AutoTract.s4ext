@@ -22,10 +22,10 @@ homepage  https://www.nitrc.org/projects/autotract/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Jean Yves, Fraçois Budin, Prince Ngattai Lam, Adrien Boucaud, Martin Styner, Juan Carlos Prieto
+contributors Jean Yves, François Budin, Prince Ngattai Lam, Adrien Boucaud, Martin Styner, Juan Carlos Prieto
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Diffusion, Classification, Deep Learning
+category    Diffusion
 
 # url to icon (png, size 128x128 pixels)
 iconurl https://www.nitrc.org/project/screenshot.php?thumbnail=true&group_id=948&screenshot_id=935
