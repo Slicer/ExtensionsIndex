@@ -32,8 +32,7 @@ iconurl https://www.slicer.org/w/images/d/dc/GeodesicSlicer_logo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status
-Maintained code 
+status Maintained code 
 
 # One line stating what the module does
 description This module calculates geodesic path in 3D structure. Thanks to this geodesic path, this module could draw an EEG 10-20 system
