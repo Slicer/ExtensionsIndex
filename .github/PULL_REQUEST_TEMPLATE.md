@@ -1,8 +1,6 @@
-# Updating an extension
-
-You can delete this whole template and just describe which extension is updated and optionally tell us in a sentence what has been changed.
-
-To make extension updates easier in the future, you may consider replacing specific git hash in your s4ext file by a branch name (for example: `master` or `release` for nightly version; `(majorVersion).(minorVersion)` such as `4.10` for stable Slicer version).
+Thank you for contributing to 3D Slicer!
+- If you create this pull request to update an existing extension: Please delete all text in this template and just describe which extension is updated and optionally tell us in a sentence what has been changed. To make extension updates easier in the future, you may consider replacing specific git hash in your s4ext file by a branch name (for example: `master` or `release` for nightly version; `(majorVersion).(minorVersion)` such as `4.10` for stable Slicer version).
+- If you create this pull request to add a new extension: please only keep "Updating an extension" section and remove everything else, then, if you are submit this pull request to add a new extension then only keep "Submitting a new extension" section and follow the instructions there.
 
 # Submitting a new extension
 
