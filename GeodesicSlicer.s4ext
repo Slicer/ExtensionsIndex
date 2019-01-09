@@ -18,11 +18,11 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage https://www.slicer.org/wiki/Documentation/4.8/Modules/GeodesicSlicer
+homepage https://www.slicer.org/wiki/Documentation/Nightly/Modules/GeodesicSlicer
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Frederic Briend ((UNICAEN)), Antoine Nourry ((UMS 3408))
+contributors Frederic Briend (UNICAEN), Antoine Nourry (UMS 3408)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Informatics
@@ -36,7 +36,7 @@ status Maintained code
 
 # One line stating what the module does
 description This module calculates geodesic path in 3D structure. Thanks to this geodesic path, this module could draw an EEG 10-20 system
-<li>See <a href='https://www.slicer.org/wiki/Documentation/4.8/Modules/GeodesicSlicer'>Geodesic Slicer documentation</a> for more details.</li>
+<li>See <a href='https://www.slicer.org/wiki/Documentation/Nightly/Modules/GeodesicSlicer'>Geodesic Slicer documentation</a> for more details.</li>
 
 # Space separated list of urls
 screenshoturls https://www.slicer.org/w/images/thumb/c/ce/Screen-shot_of_the_GeodesicSlicer_program._.png/300px-Screen-shot_of_the_GeodesicSlicer_program._.png
