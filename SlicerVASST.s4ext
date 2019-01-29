@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/VASST/SlicerVASST.git
+scmurl https://github.com/VASST/SlicerVASST.git
 scmrevision master
 
 # list dependencies
@@ -21,7 +21,6 @@ build_subdirectory inner-build
 homepage https://github.com/VASST/SlicerVASST
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
-# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
 contributors Adam Rankin (Robarts Research Institute), Golafsoun Ameri (Robarts Research Institute), Elvis Chen (Robarts Research Institute)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
