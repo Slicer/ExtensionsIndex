@@ -30,7 +30,6 @@ category Webcams
 iconurl https://github.com/VASST/SlicerVideoCameras/raw/master/SlicerVideoCameras_128.png
 
 # Give people an idea what to expect from this code
-#  - Is it just a test or something you stand behind?
 status Stable
 
 # One line stating what the module does

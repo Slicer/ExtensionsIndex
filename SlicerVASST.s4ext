@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/VASST/SlicerVASST.git
-scmrevision master
+scmurl https://github.com/VASST/SlicerVASST.git
+scmrevision 4.10
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -21,7 +21,6 @@ build_subdirectory inner-build
 homepage https://github.com/VASST/SlicerVASST
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
-# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
 contributors Adam Rankin (Robarts Research Institute), Golafsoun Ameri (Robarts Research Institute), Elvis Chen (Robarts Research Institute)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
@@ -31,7 +30,6 @@ category IGT
 iconurl https://raw.githubusercontent.com/VASST/SlicerVASST/master/docs/images/SlicerVASST_logo.png
 
 # Give people an idea what to expect from this code
-#  - Is it just a test or something you stand behind?
 status Experimental
 
 # One line stating what the module does
