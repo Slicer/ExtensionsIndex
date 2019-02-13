@@ -21,6 +21,7 @@ To make sure users can find your extension, understand what it is intended for a
   - [ ] Description of contained modules: at one sentence for each module
   - [ ] Tutorial: step-by-step description of at least the most typical use case, include a few screenshots, provide download links to sample input data set
   - [ ] Publication: link to publication and/or to PubMed reference (if available)
+  - [ ] License: We suggest you use the [Slicer License](https://github.com/Slicer/Slicer/blob/master/License.txt).  If you use another license please make a clear statement of the fact in your README file and describe to the extension maintainers why you require a non-standard license.  Depending on the license we may not be able to host your work.
 
 See more information about the submission process on the Slicer wiki: https://www.slicer.org/wiki/Documentation/Nightly/Developers/Tutorials/BuildTestPackageDistributeExtensions
 
