@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage  https://github.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/Doc/SlicerCervicalSpineDoc.html
+homepage  https://github.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/blob/master/docs/index.html
 
 
 
@@ -42,7 +42,7 @@ Ibraheem AL-Dhamari, Sabine Bauer, Eva Keller and Dietrich Paulus, (2019), Autom
 Ibraheem Al-Dhamari, Sabine Bauer, Dietrich Paulus, (2018), Automatic Multi-modal Cervical Spine Image Atlas Segmentation Using Adaptive Stochastic Gradient Descent, Bildverarbeitung für die Medizin 2018 pp 303-308. 
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/c.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/r1.png  https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/r2.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/s1.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/s2.png 
+screenshoturls https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CS00.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CVT01.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CVT02.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CVT03.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CVT04.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CVT05.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CST01.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CST02.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CST03.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
