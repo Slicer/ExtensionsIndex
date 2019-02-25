@@ -12,7 +12,7 @@ scmrevision master
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends SlicerIGT VASSTAlgorithms
+depends VASSTAlgorithms SlicerIGT SlicerVirtualReality Sequences
 
 # Inner build directory (default is ".")
 build_subdirectory inner-build
@@ -31,7 +31,7 @@ iconurl https://raw.githubusercontent.com/VASST/SlicerVASST/master/docs/images/S
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status Experimental
+status Stable
 
 # One line stating what the module does
 description This extension contains a number of modules developed by the VASST laboratory at the Robarts Research Institute. It provides access to RobartsVTK, a library for visualization and image processing.
