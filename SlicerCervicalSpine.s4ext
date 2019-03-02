@@ -18,7 +18,8 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage  https://medicalimageanalysistutorials.github.io/SlicerCervicalSpine/
+homepage  https://medicalimageanalysistutorials.github.io/SlicerCervicalSpine
+
 
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
