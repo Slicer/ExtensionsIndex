@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/NIRALUser/ResampleDTIlogEuclidean.git
-scmrevision 3842355f700fddad40d97b985d9aac42d21ea42b
+scmrevision release
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
