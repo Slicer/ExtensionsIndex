@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/CSIM-Toolkits/LesionSimulatorExtension.git
+scmurl https://github.com/CSIM-Toolkits/Slicer-LesionSimulatorExtension.git
 scmrevision master
 
 # list dependencies
