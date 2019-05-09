@@ -1,8 +1,10 @@
 Thank you for contributing to 3D Slicer!
-- **Update an existing extension with this pull request**: Please delete all text in this template and just describe which extension is updated and optionally tell us in a sentence what has been changed. To make extension updates easier in the future (so that you don't have to submit a new pull request after each change in your extension), you may consider replacing specific git hash in your s4ext file by a branch name (for example: `master` or `release` for nightly version; `(majorVersion).(minorVersion)` such as `4.10` for stable Slicer version).
-- **Add a new extension with this pull request**: Thank you very much for considering sharing your extension with the Slicer community. Please only keep content of "Submitting a new extension" section, and follow the instructions there.
 
-# Submitting a new extension
+- **To add a new extension with this pull request**: Please keep content of "TODO list for submitting a new extension" section and put an 'x' character in the brackets for each todo item to indicate that you have accomplished that prerequisite.
+
+- **To update an existing extension with this pull request**: Please delete all text in this template and just describe which extension is updated and optionally tell us in a sentence what has been changed. To make extension updates easier in the future (so that you don't have to submit a new pull request after each change in your extension), you may consider replacing specific git hash in your s4ext file by a branch name (for example: `master` or `release` for nightly version; `(majorVersion).(minorVersion)` such as `4.10` for stable Slicer version).
+
+# TODO list for submitting a new extension
 
 [To make sure users can find your extension, understand what it is intended for and how to use it, please complete the checklist below. You do not need to complete all the item by the time you submit the pull request, but most likely the changes will only be merged if all the tasks are done. See more information about the submission process on the Slicer wiki: https://www.slicer.org/wiki/Documentation/Nightly/Developers/Tutorials/BuildTestPackageDistributeExtensions]
 
