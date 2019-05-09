@@ -28,7 +28,7 @@ contributors Sara Rolfe (UW), Murat Maga (SCRI)
 category    SlicerMorph
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://github.com/SlicerMorph/SlicerMorph/blob/master/SlicerMorph_Color.png
+iconurl     https://raw.githubusercontent.com/SlicerMorph/SlicerMorph/master/SlicerMorph_Color.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
