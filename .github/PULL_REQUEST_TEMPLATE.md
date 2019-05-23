@@ -6,7 +6,7 @@ Thank you for contributing to 3D Slicer!
 
 # TODO list for submitting a new extension
 
-[To make sure users can find your extension, understand what it is intended for and how to use it, please complete the checklist below. You do not need to complete all the item by the time you submit the pull request, but most likely the changes will only be merged if all the tasks are done. See more information about the submission process on the Slicer wiki: https://www.slicer.org/wiki/Documentation/Nightly/Developers/Tutorials/BuildTestPackageDistributeExtensions]
+To make sure users can find your extension, understand what it is intended for and how to use it, please complete the checklist below. You do not need to complete all the item by the time you submit the pull request, but most likely the changes will only be merged if all the tasks are done. See more information about the submission process on the [Slicer wiki](https://www.slicer.org/wiki/Documentation/Nightly/Developers/Tutorials/BuildTestPackageDistributeExtensions).
 
 - [ ] Extension has a reasonable name (not too general, not too narrow, suggests what the extension is for)
 - [ ] Repository name is Slicer+ExtensionName
@@ -24,4 +24,4 @@ Thank you for contributing to 3D Slicer!
   - [ ] License: We suggest you use a permissive license that includes patent and contribution clauses.  This will help protect developers and ensure the code remains freely available.  We suggest you use the [Slicer License](https://github.com/Slicer/Slicer/blob/master/License.txt) or the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0). Always mention in your README file the license you have chosen.  If you choose a different license, explain why to the extension maintainers. Depending on the license we may not be able to host your work.
 Read [here](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) to learn more about licenses.
 
-[If you have any questions or comments then please describe them here.]
+If you have any questions or comments then please describe by commenting below.
