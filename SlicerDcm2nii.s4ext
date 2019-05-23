@@ -1,0 +1,23 @@
+scm git
+scmurl https://github.com/SlicerDMRI/SlicerDcm2nii.git
+scmrevision master
+
+depends NA
+
+build_subdirectory inner-build
+
+homepage http://slicerdmri.github.io
+
+contributors Isaiah Norton, Lauren O'Donnell (Brigham & Women's Hospital), and others.
+
+category Utilities
+
+iconurl iconurl https://raw.githubusercontent.com/SlicerDMRI/SlicerWMA/master/SlicerWMA.png
+
+status Beta
+
+# One line stating what the module does
+description SlicerDcm2nii builds and distributes dcm2niix (https://github.com/rordenlab/dcm2niix) as part of the Slicer superbuild.
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
