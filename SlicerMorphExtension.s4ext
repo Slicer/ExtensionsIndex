@@ -6,39 +6,39 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/NIRALUser/ResampleDTIlogEuclidean.git
-scmrevision 1a2208c4db872d23d335e68e3a76364aaceb3417
+scmurl https://github.com/SlicerMorph/SlicerMorph.git
+scmrevision master  
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends NA
+depends     NA
 
-# Inner build directory (default is ".")
+# Inner build directory (default is .)
 build_subdirectory .
 
 # homepage
-homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/ResampleDTIlogEuclidean
+homepage    https://slicermorph.github.io/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Francois Budin (UNC), Sylvain Bouix (PNL)
+contributors Sara Rolfe (UW), Murat Maga (SCRI)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category Diffusion
+category    SlicerMorph
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.slicer.org/slicerWiki/images/1/13/ResampleDTIlogEuclidean-128x128-icon.png
+iconurl     https://raw.githubusercontent.com/SlicerMorph/SlicerMorph/master/SlicerMorph_Color.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status      Beta
 
 # One line stating what the module does
-description ResampleDTIlogEuclidean resamples Diffusion Tensor Images (DTI) in the log-euclidean framework. More information is available in the Insight Journal: http://www.insight-journal.org/browse/publication/742
+description This extension enables retrieval, visualization, measurement and annotation of high-resolution specimen data from volumetric scans (CTs and MRs) or 3D surface scans. 
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/4/41/ResampleDTI-Slice_extracted_from_a_real_Diffusion_Tensor_Image_-_No_transformation.png
+screenshoturls https://na-mic.github.io/ProjectWeek/PW30_2019_GranCanaria/Projects/SlicerMorphGeometricMorphometricToolset/SM_screen.png https://na-mic.github.io/ProjectWeek/PW30_2019_GranCanaria/Projects/SlicerMorphGeometricMorphometricToolset/SM2.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
