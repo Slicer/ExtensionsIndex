@@ -1,4 +1,6 @@
-#
+# Slicer Cervical Spine master
+# updated: 15.6.2019
+
 # First token of each non-comment line is the keyword and the rest of the line
 # (including spaces) is the value.
 # - the value can be blank
@@ -12,13 +14,14 @@ scmrevision master
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends NA
+depends SlicerCochlea
 
 # Inner build directory (default is ".")
 build_subdirectory .
 
 # homepage
-homepage  https://medicalimageanalysistutorials.github.io/SlicerCervicalSpine/
+homepage  https://medicalimageanalysistutorials.github.io/SlicerCervicalSpine
+
 
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
