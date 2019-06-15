@@ -18,7 +18,11 @@ depends     NA
 build_subdirectory .
 
 # homepage
+<<<<<<< HEAD
 homepage    http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/lapdMouseBrowser
+=======
+homepage    http://slicer.org/slicerWiki/index.php/Documentation/4.10/Extensions/lapdMouseBrowser
+>>>>>>> 08677f802cc8a9bf3dd89a8395866b1dc324432a
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)

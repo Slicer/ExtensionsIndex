@@ -6,7 +6,11 @@
 
 # This is source code manager (i.e. svn)
 scm git
+<<<<<<< HEAD:GeodesicSlicer.s4ext
 scmurl https://github.com/nourryan/SlicerGeodesic.git
+=======
+scmurl https://github.com/FredericBr/SlicerGeodesic.git
+>>>>>>> 08677f802cc8a9bf3dd89a8395866b1dc324432a:GeodesicSlicer.s4ext
 scmrevision master
 
 # list dependencies
@@ -18,7 +22,11 @@ depends NA
 build_subdirectory .
 
 # homepage
+<<<<<<< HEAD:GeodesicSlicer.s4ext
 homepage https://www.slicer.org/wiki/Documentation/Nightly/Modules/GeodesicSlicer
+=======
+homepage https://www.slicer.org/wiki/Documentation/4.10/Modules/GeodesicSlicer
+>>>>>>> 08677f802cc8a9bf3dd89a8395866b1dc324432a:GeodesicSlicer.s4ext
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)

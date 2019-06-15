@@ -7,7 +7,11 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/VASST/SlicerVideoCameras.git
+<<<<<<< HEAD
 scmrevision master
+=======
+scmrevision 4.10
+>>>>>>> 08677f802cc8a9bf3dd89a8395866b1dc324432a
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -30,7 +34,6 @@ category Webcams
 iconurl https://github.com/VASST/SlicerVideoCameras/raw/master/SlicerVideoCameras_128.png
 
 # Give people an idea what to expect from this code
-#  - Is it just a test or something you stand behind?
 status Stable
 
 # One line stating what the module does

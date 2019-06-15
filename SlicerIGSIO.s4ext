@@ -21,7 +21,10 @@ build_subdirectory inner-build
 homepage https://github.com/IGSIO/SlicerIGSIO
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+<<<<<<< HEAD
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+=======
+>>>>>>> 08677f802cc8a9bf3dd89a8395866b1dc324432a
 contributors Kyle Sunderland (PerkLab, Queen's University), Andras Lasso (PerkLab, Queen's University)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)

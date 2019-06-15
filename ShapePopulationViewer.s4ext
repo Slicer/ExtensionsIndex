@@ -6,8 +6,13 @@
 
 # This is source code manager (i.e. svn)
 scm git
+<<<<<<< HEAD
 scmurl git://github.com/jcfr/ShapePopulationViewer.git
 scmrevision 8112d7b1253a94426b510a53779c20118e483c1a
+=======
+scmurl git://github.com/NIRALUser/ShapePopulationViewer.git
+scmrevision bf7c815816cc7c77acb7b1bb6ae2dee1df92b047
+>>>>>>> 08677f802cc8a9bf3dd89a8395866b1dc324432a
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files

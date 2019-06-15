@@ -7,7 +7,11 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/VASST/SlicerVASST.git
+<<<<<<< HEAD
 scmrevision master
+=======
+scmrevision 4.10
+>>>>>>> 08677f802cc8a9bf3dd89a8395866b1dc324432a
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -30,8 +34,12 @@ category IGT
 iconurl https://raw.githubusercontent.com/VASST/SlicerVASST/master/docs/images/SlicerVASST_logo.png
 
 # Give people an idea what to expect from this code
+<<<<<<< HEAD
 #  - Is it just a test or something you stand behind?
 status Stable
+=======
+status Experimental
+>>>>>>> 08677f802cc8a9bf3dd89a8395866b1dc324432a
 
 # One line stating what the module does
 description This extension contains a number of modules developed by the VASST laboratory at the Robarts Research Institute. It provides access to RobartsVTK, a library for visualization and image processing.
