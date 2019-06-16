@@ -1,5 +1,7 @@
-# Slicer Cervical Spine master
-# updated: 15.6.2019
+#-----------------------------------------
+#          SlicerCervicalSpine master
+#          updated: 16.6.2019
+#-----------------------------------------
 
 # First token of each non-comment line is the keyword and the rest of the line
 # (including spaces) is the value.
