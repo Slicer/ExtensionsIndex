@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/fbudin69500/SlicerDeveloperToolsForExtensions.git
+scmurl https://github.com/Slicer/SlicerDeveloperToolsForExtensions.git
 scmrevision master
 
 # list dependencies
@@ -28,11 +28,11 @@ contributors Francois Budin (UNC), Andras Lasso (PerkLab, Queen's University), J
 category    Developer Tools
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://raw.githubusercontent.com/fbudin69500/SlicerDeveloperToolsForExtensions/master/DeveloperToolsForExtensions/Resources/Icons/DeveloperToolsForExtensions.png
+iconurl     https://raw.githubusercontent.com/Slicer/SlicerDeveloperToolsForExtensions/master/DeveloperToolsForExtensions/Resources/Icons/DeveloperToolsForExtensions.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status      
+status
 
 # One line stating what the module does
 description This extension offers different tools to help developers when they create Slicer extension.
