@@ -1,8 +1,3 @@
-#-----------------------------------------
-#          SlicerCervicalSpine 4.10
-#          updated: 16.6.2019
-#-----------------------------------------
-
 # First token of each non-comment line is the keyword and the rest of the line
 # (including spaces) is the value.
 # - the value can be blank
