@@ -1,10 +1,8 @@
-<<<<<<< HEAD
-# Slicer Cervical Spine 4.10
-# updated: 15.6.2019
+#-----------------------------------------
+#          SlicerCervicalSpine 4.10
+#          updated: 16.6.2019
+#-----------------------------------------
 
-=======
-#
->>>>>>> 08677f802cc8a9bf3dd89a8395866b1dc324432a
 # First token of each non-comment line is the keyword and the rest of the line
 # (including spaces) is the value.
 # - the value can be blank
@@ -13,20 +11,12 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine
-<<<<<<< HEAD
-scmrevision 4.10.1 
-=======
-scmrevision master 
->>>>>>> 08677f802cc8a9bf3dd89a8395866b1dc324432a
+scmrevision 4.10 
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-<<<<<<< HEAD
 depends SlicerCochlea
-=======
-depends NA
->>>>>>> 08677f802cc8a9bf3dd89a8395866b1dc324432a
 
 # Inner build directory (default is ".")
 build_subdirectory .
@@ -44,11 +34,7 @@ contributors Ibraheem Al-Dhamari (VisSim, Koblenz-Landau University)
 category VisSimTools
 
 # url to icon (png, size 128x128 pixels)
-<<<<<<< HEAD
-iconurl https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/4.10.1/SlicerCervicalSpine.png
-=======
-iconurl https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/SlicerCervicalSpine.png
->>>>>>> 08677f802cc8a9bf3dd89a8395866b1dc324432a
+iconurl https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/4.10/SlicerCervicalSpine.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -60,11 +46,7 @@ Ibraheem AL-Dhamari, Sabine Bauer, Eva Keller and Dietrich Paulus, (2019), Autom
 Ibraheem Al-Dhamari, Sabine Bauer, Dietrich Paulus, (2018), Automatic Multi-modal Cervical Spine Image Atlas Segmentation Using Adaptive Stochastic Gradient Descent, Bildverarbeitung für die Medizin 2018 pp 303-308. 
 
 # Space separated list of urls
-<<<<<<< HEAD
-screenshoturls https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/4.10.1/Screenshots/CS00.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/4.10.1/Screenshots/CVT01.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/4.10.1/Screenshots/CVT02.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/4.10.1/Screenshots/CVT03.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/4.10.1/Screenshots/CVT04.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/4.10.1/Screenshots/CVT05.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/4.10.1/Screenshots/CST01.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/4.10.1/Screenshots/CST02.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/4.10.1/Screenshots/CST03.png
-=======
-screenshoturls https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CS00.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CVT01.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CVT02.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CVT03.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CVT04.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CVT05.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CST01.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CST02.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CST03.png
->>>>>>> 08677f802cc8a9bf3dd89a8395866b1dc324432a
+screenshoturls https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/4.10/Screenshots/CS00.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/4.10/Screenshots/CVT01.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/4.10/Screenshots/CVT02.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/4.10/Screenshots/CVT03.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/4.10/Screenshots/CVT04.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/4.10/Screenshots/CVT05.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/4.10/Screenshots/CST01.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/4.10/Screenshots/CST02.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/4.10/Screenshots/CST03.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

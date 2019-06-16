@@ -1,10 +1,11 @@
-# Slicer Cochlea 4.10
-# updated: 15.6.2019
-
+#-----------------------------------------
+#          Slicer Cochlea 4.10
+#          updated: 16.6.2019
+#-----------------------------------------
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/MedicalImageAnalysisTutorials/SlicerCochlea
-scmrevision 4.10.1 
+scmrevision 4.10
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -24,7 +25,7 @@ contributors Ibraheem Al-Dhamari (VisSim, Koblenz-Landau University)
 category VisSimTools
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/4.10.1/SlicerCochlea.png
+iconurl https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/4.10/SlicerCochlea.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +39,7 @@ Ibraheem Al-Dhamari, Sabine Bauer, Dietrich Paulus and Roland Jacob, (2017): Aut
 Ibraheem Al-Dhamari, Sabine Bauer, Dietrich Paulus, Friedrich Lisseck and Roland Jacob, (2017): ACIR: automatic cochlea image registration. In: Proceedings SPIE Medical Imaging 2017: Image Processing
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/4.10.1/Screenshots/c.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/4.10.1/Screenshots/r1.png  https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/4.10.1/Screenshots/r2.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/4.10.1/Screenshots/s1.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/4.10.1/Screenshots/s2.png 
+screenshoturls https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/4.10/Screenshots/c.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/4.10/Screenshots/r1.png  https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/4.10/Screenshots/r2.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/4.10/Screenshots/s1.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/4.10/Screenshots/s2.png 
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
