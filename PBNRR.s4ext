@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/aangelos28/PBNRR.git
-scmrevision 7a8502c
+scmrevision b494c1e
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -15,7 +15,7 @@ scmrevision 7a8502c
 depends NA
 
 # Inner build directory (default is ".")
-build_subdirectory .
+build_subdirectory inner-build
 
 # homepage
 homepage https://github.com/aangelos28/PBNRR
