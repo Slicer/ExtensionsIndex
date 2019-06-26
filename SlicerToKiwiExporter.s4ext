@@ -7,32 +7,32 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/jcfr/SlicerToKiwiExporter.git
-scmrevision master
+scmrevision fd3fb893585d127526413fdb76e9d559c9d1449e
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     NA
+depends NA
 
 # Inner build directory (default is ".")
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerToKiwiExporter
+homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerToKiwiExporter
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
 contributors Jean-Christophe Fillion-Robin (Kitware), Pat Marion (Kitware), Steve Pieper (Isomics), Atsushi Yamada (Shiga University of Medical Science)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Exporter
+category Exporter
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/6/64/SlicerToKiwiExporterLogo.png
+iconurl http://www.slicer.org/slicerWiki/images/6/64/SlicerToKiwiExporterLogo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status
+status 
 
 # One line stating what the module does
 description The SlicerToKiwiExporter module provides Slicer user with any easy way to export models into a KiwiViewer scene file.
