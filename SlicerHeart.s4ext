@@ -15,7 +15,7 @@ scmrevision master
 depends     Sequences
 
 # Inner build directory (default is ".")
-build_subdirectory .
+build_subdirectory inner-build
 
 # homepage
 homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerHeart
