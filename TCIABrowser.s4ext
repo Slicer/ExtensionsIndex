@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/QIICR/TCIABrowser.git
-scmrevision master
+scmrevision 4.10
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -32,7 +32,7 @@ iconurl    http://wiki.slicer.org/slicerWiki/images/9/92/TCIABrowser_logo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      
+status
 
 # One line stating what the module does
 description A Module to connect to the TCIA archive, browse the collections, patients and studies and download DICOM files to 3D Slicer.
