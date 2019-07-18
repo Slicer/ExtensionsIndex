@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://gitlab.kitware.com/iMSTK/slicerimstk.git
+scmurl https://gitlab.kitware.com/iMSTK/slicerimstk.git
 scmrevision master
 
 # list dependencies
