@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/JonathanRamos/SlicerCleverSeg.git
-scmrevision 5fe5cbc
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
