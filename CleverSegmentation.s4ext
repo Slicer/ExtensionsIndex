@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/CleverSegmentation
+homepage https://github.com/JonathanRamos/SlicerCleverSegmentation
 
 # Jonathan Ramos ([University of São Paulo - USP, ] ICMC)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
