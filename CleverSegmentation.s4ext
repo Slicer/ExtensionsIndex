@@ -5,7 +5,7 @@
 #
 
 # This is source code manager (i.e. svn)
-scm local
+scm git
 scmurl https://github.com/JonathanRamos/SlicerCleverSegmentation.git
 scmrevision master
 
