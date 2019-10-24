@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://wiscigt.powertheword.com/andrej.studen/SlicerLabkeyPythonAPI.git
+scmurl http://wiscigt.powertheword.com/andrej.studen/SlicerLabkeyPythonAPI.git
 scmrevision b7577b2843fcc3efb71a929316d1d732cc01bef7
 
 # list dependencies
