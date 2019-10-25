@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl http://wiscigt.powertheword.com/andrej.studen/SlicerLabkeyDICOMtools.git
-scmrevision c21c99a899ff383951197d167b971fa547096c13
+scmurl git://wiscigt.powertheword.com/andrej.studen/SlicerLabkeyExtension.git
+scmrevision 4150f9e3684c7e027b480e0dd4d552b2909cad28
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage http://wiscigt.powertheword.com/andrej.studen/SlicerLabkeyDICOMtools
+homepage http://wiscigt.powertheword.com/andrej.studen/SlicerLabkeyExtension
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -35,10 +35,10 @@ iconurl http://www-beta1.labkey.com/wp-content/uploads/2016/03/LK-wTAG-COLOR.png
 status 
 
 # One line stating what the module does
-description DICOM tools to assist LabKey based DICOM storage
+description Slicer LabKey extension
 
 # Space separated list of urls
-screenshoturls http://wiscigt.powertheword.com/andrej.studen/SlicerLabkeyDICOMtools
+screenshoturls http://wiscigt.powertheword.com/andrej.studen/SlicerLabkeyExtension/blob/SlicerExtensionIndex/labkeyBrowser/Resources/Screenshots/slicerLabkeyExtensionCaption.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
