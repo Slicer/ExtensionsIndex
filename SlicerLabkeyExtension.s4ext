@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://wiscigt.powertheword.com/andrej.studen/SlicerLabkeyExtension.git
+scmurl http://wiscigt.powertheword.com/andrej.studen/SlicerLabkeyExtension.git
 scmrevision 4150f9e3684c7e027b480e0dd4d552b2909cad28
 
 # list dependencies
