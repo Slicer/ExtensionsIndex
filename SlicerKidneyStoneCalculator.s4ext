@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/fredericpanthier/SlicerKidneyStoneCalculator.git
-scmrevision 84e64241212f00e400b680a70d5ded64daf037cb
+scmrevision 667aa7d8f74a50e6528a1e8aae7423d1fb66a93e
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,11 +18,11 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage http://www.slicer.org/wiki/Documentation/Nightly/Extensions/KidneyStoneCalculator
+homepage https://www.slicer.org/wiki/Documentation/Nightly/Extensions/KidneyStoneCalculator
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Frédéric Panthier, Lounès Illoul, Laurent Berthe, Steeve Doizi, Oliver Traxer
+contributors Frédéric Panthier (APHP, Paris), Lounès Illoul (PIMM lab, Paris), Laurent Berthe (PIMM lab, Paris), Steeve Doizi (APHP, Paris), Oliver Traxer (APHP, Paris)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Segmentation
