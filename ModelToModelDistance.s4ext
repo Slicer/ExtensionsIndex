@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/jcfr/3DMetricTools.git
-scmrevision a323e0bcfffd112e517cf28bf6a96dca10d32047
+scmurl git://github.com/NIRALUser/3DMetricTools.git
+scmrevision 56d288a32e95b67d76682849c8257b8f1d842ca2
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
