@@ -15,7 +15,7 @@ scmrevision master
 depends NA
 
 # Inner build directory (default is ".")
-build_subdirectory slicer-plugin
+build_subdirectory .
 
 # homepage
 homepage https://github.com/NVIDIA/ai-assisted-annotation-client/tree/master/slicer-plugin
