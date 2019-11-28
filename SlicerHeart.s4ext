@@ -7,7 +7,8 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/SlicerHeart/SlicerHeart.git
-scmrevision master
+# Do not use the master version because CardiacDeviceSimulator uses markups nodes that are not available in Slicer-4.10
+scmrevision f88040dfcde27a832f4931e9e685957ddef50f76
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
