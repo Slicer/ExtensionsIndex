@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/nourryan/SlicerGeodesic.git
+scmurl https://github.com/FredericBr/SlicerGeodesic.git
 scmrevision master
 
 # list dependencies
@@ -22,7 +22,7 @@ homepage https://www.slicer.org/wiki/Documentation/Nightly/Modules/GeodesicSlice
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Frederic Briend (UNICAEN), Antoine Nourry (UMS 3408)
+contributors Frederic Briend (UNICAEN, University of Tours), Antoine Nourry (UMS 3408)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Informatics
