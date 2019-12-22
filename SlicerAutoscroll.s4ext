@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/moselhy/SlicerAutoscroll
+scmurl https://github.com/lassoan/SlicerAutoscroll
 scmrevision master
 
 # list dependencies
@@ -18,17 +18,17 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage https://github.com/moselhy/SlicerAutoscroll
+homepage https://github.com/lassoan/SlicerAutoscroll
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Mohamed Moselhy (Western University)
+contributors Mohamed Moselhy (Western University), Andras Lasso (PerkLab)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/moselhy/SlicerAutoscroll/raw/master/Autoscroll.png
+iconurl https://github.com/lassoan/SlicerAutoscroll/raw/master/Autoscroll.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description Autoscroll through slices using slice range and speed
 
 # Space separated list of urls
-screenshoturls https://github.com/moselhy/SlicerAutoscroll/raw/master/docs/screenshot.png
+screenshoturls https://github.com/lassoan/SlicerAutoscroll/raw/master/docs/screenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
