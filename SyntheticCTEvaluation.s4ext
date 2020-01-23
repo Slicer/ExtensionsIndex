@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage   http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SyntheticCTEvaluation 
+homepage    https://www.slicer.org/wiki/Documentation/Nightly/Extensions/SyntheticCTEvaluation
 
 contributors Paolo Zaffino(Magna Graecia Univeristy of Catanzaro, Italy), Maria Francesca Spadea(Magna Graecia Univeristy of Catanzaro, Italy)
 
@@ -26,14 +26,14 @@ contributors Paolo Zaffino(Magna Graecia Univeristy of Catanzaro, Italy), Maria 
 category    Quantification
 
 # url to icon (png, size 128x128 pixels)
-iconurl    https://github.com/pzaffino/SlicerSyntheticCTEvaluation/blob/master/SyntheticCTEvaluation.png
+iconurl    https://raw.githubusercontent.com/pzaffino/SlicerSyntheticCTEvaluation/master/SyntheticCTEvaluation.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
 status      
 
 # One line stating what the module does
-description Syntethic CT evaluation.
+description This extension quantifies the similarity between a syntethic CT and the ground truth.
 
 # Space separated list of urls
 screenshoturls https://github.com/pzaffino/SlicerSyntheticCTEvaluation/blob/master/SyntheticCTEvaluation_screenshot.png
