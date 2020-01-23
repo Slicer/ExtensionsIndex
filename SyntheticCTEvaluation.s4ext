@@ -36,7 +36,7 @@ status
 description This extension quantifies the similarity between a syntethic CT and the ground truth.
 
 # Space separated list of urls
-screenshoturls https://github.com/pzaffino/SlicerSyntheticCTEvaluation/blob/master/SyntheticCTEvaluation_screenshot.png
+screenshoturls https://raw.githubusercontent.com/pzaffino/SlicerSyntheticCTEvaluation/master/SyntheticCTEvaluation_screenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
