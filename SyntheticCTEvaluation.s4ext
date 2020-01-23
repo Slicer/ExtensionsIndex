@@ -1,0 +1,42 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
+scm git
+scmurl https://github.com/pzaffino/SlicerSyntheticCTEvaluation.git
+scmrevision master
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends     NA
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# homepage
+homepage   http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SyntheticCTEvaluation 
+
+contributors Paolo Zaffino(Magna Graecia Univeristy of Catanzaro, Italy), Maria Francesca Spadea(Magna Graecia Univeristy of Catanzaro, Italy)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category    Quantification
+
+# url to icon (png, size 128x128 pixels)
+iconurl    https://github.com/pzaffino/SlicerSyntheticCTEvaluation/blob/master/SyntheticCTEvaluation.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand beind?
+status      
+
+# One line stating what the module does
+description Syntethic CT evaluation.
+
+# Space separated list of urls
+screenshoturls https://github.com/pzaffino/SlicerSyntheticCTEvaluation/blob/master/SyntheticCTEvaluation_screenshot.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
