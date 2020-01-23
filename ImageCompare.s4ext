@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/pzaffino/SlicerSyntheticCTEvaluation.git
+scmurl https://github.com/pzaffino/SlicerImageCompare.git
 scmrevision master
 
 # list dependencies
@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    https://www.slicer.org/wiki/Documentation/Nightly/Extensions/SyntheticCTEvaluation
+homepage    https://www.slicer.org/wiki/Documentation/Nightly/Extensions/ImageCompare
 
 contributors Paolo Zaffino(Magna Graecia Univeristy of Catanzaro, Italy), Maria Francesca Spadea(Magna Graecia Univeristy of Catanzaro, Italy)
 
@@ -26,17 +26,17 @@ contributors Paolo Zaffino(Magna Graecia Univeristy of Catanzaro, Italy), Maria 
 category    Quantification
 
 # url to icon (png, size 128x128 pixels)
-iconurl    https://raw.githubusercontent.com/pzaffino/SlicerSyntheticCTEvaluation/master/SyntheticCTEvaluation.png
+iconurl    https://raw.githubusercontent.com/pzaffino/SlicerImageCompare/master/ImageCompare.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
 status      
 
 # One line stating what the module does
-description This extension evaluates the similarity between a syntethic CT and a ground truth.
+description This extension compares two images such as a synthetic CT and a ground truth CT.
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/pzaffino/SlicerSyntheticCTEvaluation/master/SyntheticCTEvaluation_screenshot.png
+screenshoturls https://raw.githubusercontent.com/pzaffino/SlicerImageCompare/master/ImageCompare_screenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
