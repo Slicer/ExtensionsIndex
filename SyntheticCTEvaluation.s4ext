@@ -33,7 +33,7 @@ iconurl    https://raw.githubusercontent.com/pzaffino/SlicerSyntheticCTEvaluatio
 status      
 
 # One line stating what the module does
-description This extension quantifies the similarity between a syntethic CT and the ground truth.
+description This extension evaluates the similarity between a syntethic CT and a ground truth.
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/pzaffino/SlicerSyntheticCTEvaluation/master/SyntheticCTEvaluation_screenshot.png
