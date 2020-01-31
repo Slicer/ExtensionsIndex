@@ -1,7 +1,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/Auditory-Biophysics-Lab/SlicerBoneThicknessMappingExtension
-scmrevision 9c754f3e68b484e7d0e76b38d827fa75028fd7f4
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
