@@ -30,7 +30,7 @@ status beta
 description This module calculates and visualizes bone thickness of a volume using VTK ray-casting
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/0/0b/Slicer4-ABLBoneThickness-GUI.png
+screenshoturls https://github.com/Auditory-Biophysics-Lab/SlicerBoneThicknessMappingExtension/blob/master/Screenshot.PNG?raw=true
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
