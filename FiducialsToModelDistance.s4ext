@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/ReynoldsJ20/SlicerFiducialsToModelDistance
-scmrevision 5026c79
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -28,7 +28,7 @@ contributors Jesse Reynolds (Canterbury District Health Board) with assistance f
 category Quantification
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://raw.githubusercontent.com/ReynoldsJ20/SlicerFiducialsToModelDistance/master/FiducialtoModelDistance.png
+iconurl https://raw.githubusercontent.com/ReynoldsJ20/SlicerFiducialsToModelDistance/master/FiducialsToModelDistance.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
