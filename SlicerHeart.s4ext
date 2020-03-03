@@ -12,7 +12,7 @@ scmrevision master
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     Sequences
+depends     Sequences SlicerIGT
 
 # Inner build directory (default is ".")
 build_subdirectory inner-build
@@ -22,7 +22,7 @@ homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Ext
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Andras Lasso (PerkLab), Steve Pieper (Isomics), Adam Rankin (Robarts), Matthew Jolley (CHOP)
+contributors Andras Lasso (PerkLab), Christian Herz (CHOP), Steve Pieper (Isomics), Adam Rankin (Robarts), Matthew Jolley (CHOP)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Cardiac
@@ -32,7 +32,7 @@ iconurl     http://www.slicer.org/slicerWiki/images/f/ff/SlicerHeart_Logo_128x12
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status      
+status
 
 # One line stating what the module does
 description Modules for cardiac analysis and intervention planning and guidance
