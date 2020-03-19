@@ -35,7 +35,7 @@ iconurl https://gitlab.com/opendose/opendose4d/-/blob/develop/Dosimetry4D/Resour
 status stable
 
 # One line stating what the module does
-description This module implements the full 3D Dosimetry for molecular radiotherapy on multiple time points.
+description This module implements full 3D dosimetry for molecular radiotherapy on multiple time points.
 
 # Space separated list of urls
 screenshoturls
