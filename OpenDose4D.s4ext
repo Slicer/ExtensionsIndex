@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://gitlab.com/opendose/OpenDose4D.git
-scmrevision develop
+scmrevision master-stable
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,14 +18,14 @@ depends SlicerElastix
 build_subdirectory .
 
 # homepage
-homepage http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/OpenDose4D
+homepage https://gitlab.com/opendose/opendose4d
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
 contributors Alex Vergara Gil (INSERM, France), Janick Rueegger (KSA, Switzerland)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category Nuclear Medicine
+category Radiotherapy
 
 # url to icon (png, size 128x128 pixels)
 iconurl https://gitlab.com/opendose/opendose4d/-/blob/develop/Dosimetry4D/Resources/Icons/Dosimetry4D.png
