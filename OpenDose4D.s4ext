@@ -28,7 +28,7 @@ contributors Alex Vergara Gil (INSERM, France), Janick Rueegger (KSA, Switzerlan
 category Radiotherapy
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://gitlab.com/opendose/opendose4d/-/blob/develop/Dosimetry4D/Resources/Icons/Dosimetry4D.png
+iconurl https://opendose.org/themes/default/images/opendose_favicon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
