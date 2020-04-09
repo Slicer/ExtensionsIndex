@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/DCBIA-OrthoLab/SlicerCMF.git
-scmrevision 6e0b852144747134c686da708a2a211e616217ef
+scmrevision ded8565415e733239448e7d6511223f28152d7e8
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
