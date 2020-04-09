@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/Kitware/BoneTextureExtension.git
-scmrevision 36737528a9a76b105d0f3f03d255afd228dde3e0
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
