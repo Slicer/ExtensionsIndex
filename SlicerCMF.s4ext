@@ -35,10 +35,10 @@ iconurl https://raw.githubusercontent.com/DCBIA-OrthoLab/SlicerCMF/master/Slicer
 status 
 
 # One line stating what the module does
-description Dental image analysis to support patient-specific decision making and assessment of the disease progression via registration of serial images.
+description SlicerCMF is a 3D Slicer extension providing registration, segmentation and quantification modules for dental images analysis that may support patient-specific decision making and assessment in the context of disease progression.
 
 # Space separated list of urls
-screenshoturls http://www.example.com/Slicer/Extensions/SlicerCMF/Screenshots/1.png
+screenshoturls https://raw.githubusercontent.com/slicercmf/slicercmf.github.io/master/images/slicercmf-angles-between-craniofacial-structures.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
