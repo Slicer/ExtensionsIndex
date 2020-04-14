@@ -7,12 +7,12 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/DCBIA-OrthoLab/SlicerCMF.git
-scmrevision ded8565415e733239448e7d6511223f28152d7e8
+scmrevision b92fc6703cf7e84752ce3363a325b3ad03f6081f
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends BoneTextureExtension CMFreg EasyClip MeshToLabelMap MeshStatisticsExtension ModelToModelDistance PickAndPaintExtension Q3DC
+depends BoneTextureExtension
 
 # Inner build directory (default is ".")
 build_subdirectory .
