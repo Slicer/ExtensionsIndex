@@ -12,7 +12,7 @@ scmrevision c186eeb30a99a20c12cc706d2e392552992d479a
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends Sequences
+depends NA
 
 # Inner build directory (default is ".")
 build_subdirectory ShapeRegressionExtension-build
