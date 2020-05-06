@@ -17,6 +17,7 @@ unexpected_files=$(find . -mindepth 1 \( -type d \( \
   -path ./.idea -o \
   -path ./.github -o \
   -path ./.git -o \
+  -path ./ARCHIVE -o \
   -path ./scripts \
 \) -o -type f \( -name README.md -o -name "*.s4ext"  \)  \)  -prune -o -print)
 
