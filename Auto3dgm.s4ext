@@ -21,7 +21,7 @@ contributors Doug M. Boyer (Duke University)
 category Auto3dgm
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://raw.githubusercontent.com/ToothAndClaw/SlicerAuto3dgm/master/Auto3dgmLogo.png
+iconurl https://raw.githubusercontent.com/ToothAndClaw/SlicerAuto3dgm/master/Auto3dgmLogoSmall.png
 
 # Give people an idea what to expect from this code
 status beta
