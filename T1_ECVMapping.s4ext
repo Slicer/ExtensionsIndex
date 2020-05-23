@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/RivettiLuciano/SlicerT1_ECVMapping.git
-scmrevision d52c5ca16e83721b8f839d0ef9b23f2f8927294e
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
