@@ -38,7 +38,7 @@ status
 description This module takes advantage of the properties of the Look Locker sequence to calculate the Native and Post-contrast cardiac T1 Mapping. This also allows the creation of the ECV Map using both Mappings.
 
 # Space separated list of urls
-screenshoturls http://www.example.com/Slicer/Extensions/T1_ECVMapping/Screenshots/1.png
+screenshoturls https://github.com/RivettiLuciano/SlicerT1_ECVMapping/blob/master/Screen%20shots/Module%20panel.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
