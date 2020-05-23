@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/RivettiLuciano/T1_ECVMapping.git
+scmurl https://github.com/RivettiLuciano/SlicerT1_ECVMapping.git
 scmrevision d52c5ca16e83721b8f839d0ef9b23f2f8927294e
 
 # list dependencies
@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage https://github.com/RivettiLuciano/T1_ECVMapping
+homepage https://github.com/RivettiLuciano/SlicerT1_ECVMapping
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Luciano Rivetti (FUESMEN), Daniel Fino (FUESMEN-FADESA), Marcela Ni
 category Cardiac
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://raw.github.com/RivettiLuciano/T1_ECVMapping/master/T1_ECVMapping.png
+iconurl https://raw.github.com/RivettiLuciano/SlicerT1_ECVMapping/master/T1_ECVMapping.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
