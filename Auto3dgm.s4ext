@@ -1,0 +1,36 @@
+# This is source code manager (i.e. svn)
+scm git
+scmurl https://github.com/ToothAndClaw/SlicerAuto3dgm
+scmrevision master
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends NA
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# homepage
+homepage https://toothandclaw.github.io
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+contributors Doug M. Boyer (Duke University)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Auto3dgm
+
+# url to icon (png, size 128x128 pixels)
+iconurl https://raw.githubusercontent.com/ToothAndClaw/SlicerAuto3dgm/master/Auto3dgmLogoSmall.png
+
+# Give people an idea what to expect from this code
+status beta
+
+# One line stating what the module does
+description Auto3dgm allows for comparative analysis of 3D digital models representing biological surfaces.
+
+# Space separated list of urls
+screenshoturls https://raw.githubusercontent.com/ToothAndClaw/SlicerAuto3dgm/master/Auto3dgmScreenshot.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
