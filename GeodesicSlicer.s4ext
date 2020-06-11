@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/FredericBr/SlicerGeodesic.git
+scmurl https://github.com/FredericBr/SlicerGeodesic
 scmrevision master
 
 # list dependencies
@@ -28,7 +28,7 @@ contributors Frederic Briend (UNICAEN, University of Tours), Antoine Nourry (UMS
 category Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://www.slicer.org/w/images/d/dc/GeodesicSlicer_logo.png
+iconurl https://github.com/FredericBr/SlicerGeodesic/blob/master/GeodesicSlicer/Resources/Icons/GeodesicSlicer.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
