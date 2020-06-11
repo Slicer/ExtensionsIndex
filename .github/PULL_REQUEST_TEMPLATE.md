@@ -6,7 +6,7 @@ Thank you for contributing to 3D Slicer!
 
 # TODO list for submitting a new extension
 
-[To make sure users can find your extension, understand what it is intended for and how to use it, please complete the checklist below. You do not need to complete all the item by the time you submit the pull request, but most likely the changes will only be merged if all the tasks are done. See more information about the submission process on the Slicer wiki: https://www.slicer.org/wiki/Documentation/Nightly/Developers/Tutorials/BuildTestPackageDistributeExtensions]
+[To make sure users can find your extension, understand what it is intended for and how to use it, please complete the checklist below. You do not need to complete all the item by the time you submit the pull request, but most likely the changes will only be merged if all the tasks are done. See more information about the submission process here: https://slicer.readthedocs.io/en/latest/developer_guide/extensions.html]
 
 - [ ] Extension has a reasonable name (not too general, not too narrow, suggests what the extension is for)
 - [ ] Repository name is Slicer+ExtensionName
