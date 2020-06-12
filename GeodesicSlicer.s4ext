@@ -28,17 +28,17 @@ contributors Frederic Briend (UNICAEN, University of Tours), Antoine Nourry (UMS
 category Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/FredericBr/SlicerGeodesic/blob/master/GeodesicSlicer/Resources/Icons/GeodesicSlicer.png
+iconurl https://raw.githubusercontent.com/FredericBr/SlicerGeodesic/master/GeodesicSlicer.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
 status Maintained
 
 # One line stating what the module does
-description This module calculates geodesic path in 3D structure. Thanks to this geodesic path, this module could draw an EEG 10-20 system <li>See <a href='https://www.slicer.org/wiki/Documentation/Nightly/Modules/GeodesicSlicer'>Geodesic Slicer documentation</a> for more details.</li>
+description This module calculates geodesic path in 3D structure. Thanks to this geodesic path, this module can draw an EEG 10-20 system, determine the projected scalp stimulation site and correct the rTMS resting motor threshold by correction factor.
 
 # Space separated list of urls
-screenshoturls https://www.slicer.org/wiki/Documentation/Nightly/Modules/GeodesicSlicer#/media/File:Screen-shot_of_the_GeodesicSlicer_program._.png
+screenshoturls https://www.slicer.org/w/img_auth.php/c/ce/Screen-shot_of_the_GeodesicSlicer_program._.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
