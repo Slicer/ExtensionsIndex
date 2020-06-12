@@ -38,7 +38,7 @@ status Maintained
 description This module calculates geodesic path in 3D structure. Thanks to this geodesic path, this module could draw an EEG 10-20 system <li>See <a href='https://www.slicer.org/wiki/Documentation/Nightly/Modules/GeodesicSlicer'>Geodesic Slicer documentation</a> for more details.</li>
 
 # Space separated list of urls
-screenshoturls https://www.slicer.org/w/images/thumb/c/ce/Screen-shot_of_the_GeodesicSlicer_program._.png/300px-Screen-shot_of_the_GeodesicSlicer_program._.png
+screenshoturls https://www.slicer.org/wiki/Documentation/Nightly/Modules/GeodesicSlicer#/media/File:Screen-shot_of_the_GeodesicSlicer_program._.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
