@@ -6,7 +6,7 @@ scmrevision master
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends NA
+depends SlicerMorph
 
 # Inner build directory (default is ".")
 build_subdirectory .
