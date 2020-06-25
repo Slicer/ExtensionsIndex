@@ -35,7 +35,7 @@ iconurl https://github.com/sebastianandress/Slicer-SurfaceWrapSolidify/raw/maste
 status Beta
 
 # One line stating what the module does
-A Segment Editor Extension that filters the surface of a segment using a combination of shrinkwrapping and raycasting.
+description A Segment Editor Extension that filters the surface of a segment using a combination of shrinkwrapping and raycasting.
 
 # Space separated list of urls
 screenshoturls https://github.com/sebastianandress/Slicer-SurfaceWrapSolidify/raw/master/Resources/Screenshots/screenshot1.png
