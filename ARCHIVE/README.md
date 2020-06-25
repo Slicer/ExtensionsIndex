@@ -17,6 +17,6 @@ the archive are as follows
 
 # Optional extension documentation:
 
-| Extension Name               | Deprecation reason                                                                   |
-|------------------------------|--------------------------------------------------------------------------------------|
-| CardiacAgatstonMeasures      | Project no longer active, requires Slicer 4.9 or less features, new developer needed |
+| Date       | Extension Name              | Commit                                                             | Deprecation reason  |
+|------------|-----------------------------|--------------------------------------------------------------------|---------------------|
+| 2020-05-06 | CardiacAgatstonMeasures     | [5418df1](https://github.com/Slicer/ExtensionsIndex/commit/5418df1)| Project no longer active, requires Slicer 4.9 or less features, new developer needed |
