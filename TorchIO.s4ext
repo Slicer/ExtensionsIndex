@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/fepegar/SlicerTorchIO.git
+scmurl https://github.com/fepegar/SlicerTorchIO.git
 scmrevision master
 
 # list dependencies
