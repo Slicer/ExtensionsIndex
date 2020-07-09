@@ -1,0 +1,36 @@
+# This is source code manager (i.e. svn)
+scm git
+scmurl https://github.com/ETS-vis-interactive/SlicerPRISM
+scmrevision master
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends NA
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# homepage
+homepage https://ets-vis-interactive.github.io/SlicerPRISM/
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+contributors Tiphaine Richard (ETS) Simon Drouin (ETS)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Rendering
+
+# url to icon (png, size 128x128 pixels)
+iconurl https://github.com/ETS-vis-interactive/SlicerPRISM/blob/master/docs/images/logoSlicerPRISM.png
+
+# Give people an idea what to expect from this code
+status beta
+
+# One line stating what the module does
+This module is an implementation of the PRISM customizable volume rendering framework in 3D Slicer.
+
+# Space separated list of urls
+screenshoturls https://github.com/ETS-vis-interactive/SlicerPRISM/blob/master/docs/images/screenshotSlicerPRISM.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
