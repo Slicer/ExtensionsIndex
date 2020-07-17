@@ -1,6 +1,6 @@
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/ETS-vis-interactive/SlicerPRISM
+scmurl https://github.com/ETS-vis-interactive/SlicerPRISMRendering
 scmrevision master
 
 # list dependencies
@@ -15,13 +15,13 @@ build_subdirectory .
 homepage https://githubcomets-vis-interactiveslicerprismrendering.readthedocs.io/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
-contributors Tiphaine Richard (ETS) Simon Drouin (ETS)
+contributors Tiphaine Richard (ETS), Simon Drouin (ETS)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Rendering
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/ETS-vis-interactive/SlicerPRISMRendering/blob/master/PRISMRendering/Resources/Icons/PRISMRendering.png
+iconurl https://raw.githubusercontent.com/ETS-vis-interactive/SlicerPRISMRendering/master/PRISMRendering/Resources/Icons/PRISMRendering.png
 
 # Give people an idea what to expect from this code
 status beta
@@ -30,7 +30,7 @@ status beta
 This module is an implementation of the PRISM customizable volume rendering framework in 3D Slicer.
 
 # Space separated list of urls
-screenshoturls https://github.com/ETS-vis-interactive/SlicerPRISMRendering/blob/master/docs/source/images/screenshotSlicerPRISMRendering.png
+screenshoturls https://raw.githubusercontent.com/ETS-vis-interactive/SlicerPRISMRendering/master/docs/source/images/screenshotSlicerPRISMRendering.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
