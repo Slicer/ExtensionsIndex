@@ -12,7 +12,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage https://githubcomets-vis-interactiveslicerprismrendering.readthedocs.io/
+homepage https://githubcomets-vis-interactiveslicerprismrendering.readthedocs.io
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 contributors Tiphaine Richard (ETS), Simon Drouin (ETS)
