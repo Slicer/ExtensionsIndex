@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://gitlab.com/opendose/OpenDose4D.git
+scmurl git://gitlab.com/opendose/OpenDose3D.git
 scmrevision master-stable
 
 # list dependencies
@@ -18,7 +18,7 @@ depends SlicerElastix
 build_subdirectory .
 
 # homepage
-homepage https://gitlab.com/opendose/opendose4d
+homepage https://gitlab.com/opendose/opendose3d
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -38,7 +38,7 @@ status stable
 description This module implements full 3D dosimetry for molecular radiotherapy on multiple time points.
 
 # Space separated list of urls
-screenshoturls https://gitlab.com/opendose/opendose4d/-/blob/develop/Dosimetry4D/Resources/Icons/ss1.png https://gitlab.com/opendose/opendose4d/-/blob/develop/Dosimetry4D/Resources/Icons/ss2.png
+screenshoturls https://gitlab.com/opendose/opendose3d/-/blob/develop/Dosimetry4D/Resources/Icons/ss1.png https://gitlab.com/opendose/opendose3d/-/blob/develop/Dosimetry4D/Resources/Icons/ss2.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
