@@ -5,8 +5,8 @@
 #
 
 # This is source code manager (i.e. svn)
-scm git
-scmurl git://gitlab.com/opendose/OpenDose3D.git
+scm https
+scmurl https://gitlab.com/opendose/OpenDose3D
 scmrevision master-stable
 
 # list dependencies
@@ -18,7 +18,7 @@ depends SlicerElastix
 build_subdirectory .
 
 # homepage
-homepage https://gitlab.com/opendose/opendose3d
+homepage https://gitlab.com/opendose/OpenDose3D
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
