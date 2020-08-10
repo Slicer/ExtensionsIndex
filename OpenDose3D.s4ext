@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://gitlab.com/opendose/OpenDose3D.git
+scmurl git@gitlab.com:opendose/opendose3d.git
 scmrevision master-stable
 
 # list dependencies
