@@ -7,7 +7,8 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/blowekamp/Slicer-IASEM.git
-scmrevision 331ed34
+scmrevision 5696e8259d80a85ef823439dbefde33bdcf17298
+
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files

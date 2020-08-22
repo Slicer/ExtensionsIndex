@@ -7,22 +7,22 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/NIRALUser/DTIAtlasBuilder.git
-scmrevision fe47ddefe0ee6ca7817a10682c75dd567617aeef
+scmrevision release
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     NA
+depends     DTIProcess ResampleDTIlogEuclidean DTI-Reg
 
 # Inner build directory (default is .)
-build_subdirectory DTIAtlasBuilder-build
+build_subdirectory .
 
 # homepage
 homepage    http://www.nitrc.org/projects/dtiatlasbuilder
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Adrien Kaiser (UNC)
+contributors Adrien Kaiser (UNC), Francois Budin (UNC)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Diffusion

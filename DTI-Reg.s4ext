@@ -1,0 +1,44 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
+scm git
+scmurl https://github.com/NIRALUser/DTI-Reg.git
+scmrevision release
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends     DTIProcess ResampleDTIlogEuclidean
+
+# Inner build directory (default is .)
+build_subdirectory .
+
+# homepage
+homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/DTI-Reg
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Francois Budin (UNC), Clement Vachet (SCI), Martin Styner (UNC)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category    Diffusion
+
+# url to icon (png, size 128x128 pixels)
+iconurl   https://raw.githubusercontent.com/NIRALUser/DTI-Reg/master/DTI-Reg-icon.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand beind?
+status      Release
+
+# One line stating what the module does
+description DTI-Reg is an extension that performs pair-wise DTI registration, using scalar FA map to drive the registration.
+
+# Space separated list of urls
+screenshoturls http://www.slicer.org/slicerWiki/images/c/c5/DTI-Reg_-_Misaligned_DTIs.png http://www.slicer.org/slicerWiki/images/1/12/DTI-Reg_-_Aligned_DTIs_-_Coronal.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1

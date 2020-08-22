@@ -5,42 +5,40 @@
 #
 
 # This is source code manager (i.e. svn)
-scm svn
-scmurl https://www.nitrc.org/svn/abc/trunk
-scmrevision 64
-svnusername slicerbot
-svnpassword slicer
+scm git
+scmurl https://github.com/NIRALUser/ABC
+scmrevision dcd757f4d6723c5658dd3197a20f7984fb1cf8ea
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     NA
+depends NA
 
-# Inner build directory (default is .)
+# Inner build directory (default is ".")
 build_subdirectory .
 
 # homepage
-homepage    http://www.nitrc.org/projects/abc
+homepage http://www.nitrc.org/projects/abc
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Marcel Prastawa (University of Utah)
+contributors Marcel Prastawa (Utah)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Segmentation
+category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.nitrc.org/project/screenshot.php?group_id=297&screenshot_id=573
+iconurl https://github.com/NIRALUser/ABC/raw/master/ABC.png
 
 # Give people an idea what to expect from this code
-#  - Is it just a test or something you stand beind?
-status      Beta
+#  - Is it just a test or something you stand behind?
+status Beta
 
 # One line stating what the module does
-description Atlas Based Classification
+description Utah atlas based segmentation pipeline. Generates output images after bias correction and co-registration along with segmentation label image.
 
 # Space separated list of urls
-#screenshoturls https://
+screenshoturls 
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

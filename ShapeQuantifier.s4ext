@@ -1,0 +1,44 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
+scm git
+scmurl git://github.com/jbvimort/ShapeQuantifierExtension.git
+scmrevision nightly
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends CMFreg ModelToModelDistance ShapePopulationViewer
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# homepage
+homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/ShapeQuantifier
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Jean-Baptiste Vimort (University of Michigan), Julia Lopinto (University of Michigan), Lucie Macron (University of Michigan),Francois Budin (University of North Carolina), Beatriz Paniagua (University of North Carolina), Juan-Carlos Prieto (University of North Carolina), Lucia Cevidanes (University of Michigan)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Quantification
+
+# url to icon (png, size 128x128 pixels)
+iconurl https://raw.githubusercontent.com/jbvimort/ShapeQuantifier/master/ShapeQuantifier/Resources/Icons/ShapeQuantifier.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand behind?
+status 
+
+# One line stating what the module does
+description This extension contains different modules that allow the user to either quantify differences between two models or make measurements on the shape of a model.
+
+# Space separated list of urls
+screenshoturls https://raw.githubusercontent.com/DCBIA-OrthoLab/AnglePlanes-Extension/master/AnglePlanes.png https://raw.githubusercontent.com/DCBIA-OrthoLab/EasyClip-Extension/master/EasyClip.png http://https://raw.githubusercontent.com/DCBIA-OrthoLab/MeshStatisticsExtension/master/MeshStatistics/Resources/Icons/MeshStatistics.png https://raw.githubusercontent.com/DCBIA-OrthoLab/PickAndPaintExtension/master/PickAndPaint/Resources/Icons/PickAndPaint.png https://raw.githubusercontent.com/DCBIA-OrthoLab/Q3DCExtension/master/Q3DC.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1

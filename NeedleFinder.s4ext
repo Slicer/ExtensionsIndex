@@ -1,13 +1,13 @@
 build_subdirectory .
 category IGT
-contributors Guillaume Pernelle, Nabgha Fahrat, Alireza Mehrtash, Lauren Barber, Jan Egger, Tobias Penzkofer, Sandy Wells, Sam Song, Xiaojun Chen, Yi Gao, Antonio Damato, Tina Kapur, Akila Viswanathan
+contributors Guillaume Pernelle, Andre Mastmeyer, Paolo Zaffino, Nabgha Fahrat, Alireza Mehrtash, Lauren Barber, Jan Egger, Tobias Penzkofer, Sandy Wells, Sam Song, Xiaojun Chen, Yi Gao, Antonio Damato, Tina Kapur, Akila Viswanathan
 depends NA
 description NeedleFinder: fast interactive needle detection. It provides interactive tools to segment needles in MR/CT images. It has been mostly tested on MRI from gynelogical brachytherapy cases. Cf <<Validation of Catheter Segmentation for MR-Guided Gynecologic Cancer Brachytherapy.>> MICCAI 2013
 enabled 1
-homepage https://github.com/gpernelle/NeedleFinder
-iconurl https://raw.github.com/gpernelle/NeedleFinder/master/NeedleFinder.png
+homepage https://github.com/needlefinder/NeedleFinder
+iconurl https://raw.github.com/needlefinder/NeedleFinder/master/NeedleFinder.png
 scm git
-scmrevision 341b3b9d00c8091c9c4f63ff4121acbe269551d6
-scmurl https://github.com/gpernelle/NeedleFinder.git
-screenshoturls https://raw.github.com/gpernelle/NeedleFinder/master/screenshot.png
+scmrevision master
+scmurl https://github.com/needlefinder/NeedleFinder.git
+screenshoturls https://raw.github.com/needlefinder/NeedleFinder/master/screenshot.png
 status

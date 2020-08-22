@@ -7,32 +7,32 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/Slicer/SkullStripper.git
-scmrevision 80c7e69
+scmrevision 679a26718f121150003aefe8de2fb78872f7eac2
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     NA
+depends NA
 
-# Inner build directory (default is .)
+# Inner build directory (default is ".")
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/4.1/Modules/SkullStripper
+homepage http://www.slicer.org/slicerWiki/index.php/Documentation/4.1/Modules/SkullStripper
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Xiaodong Tao (GE)
+contributors Xiaodong Tao (GE), Jean-Christophe Fillion-Robin (Kitware)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Segmentation
+category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/f/f2/SkullStripper.png
+iconurl http://www.slicer.org/slicerWiki/images/f/f2/SkullStripper.png
 
 # Give people an idea what to expect from this code
-#  - Is it just a test or something you stand beind?
-status      Beta
+#  - Is it just a test or something you stand behind?
+status 
 
 # One line stating what the module does
 description Skull stripping for structural MR images of the brain, tested on T1 and T2 contrast.

@@ -5,19 +5,17 @@
 #
 
 # This is source code manager (i.e. svn)
-scm svn
-scmurl https://www.nitrc.org/svn/fvlight/trunk
-scmrevision 76
-svnusername slicerbot
-svnpassword slicer
+scm git
+scmurl git://github.com/NIRALUser/FiberViewerLight.git
+scmrevision release
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
 depends     NA
 
-# Inner build directory (default is .)
-build_subdirectory FiberViewerLight-build
+# Inner build directory (default is ".")
+build_subdirectory .
 
 # homepage
 homepage    http://www.nitrc.org/projects/fvlight/
@@ -33,8 +31,8 @@ category    Diffusion
 iconurl    http://www.nitrc.org/project/screenshot.php?group_id=534&screenshot_id=767
 
 # Give people an idea what to expect from this code
-#  - Is it just a test or something you stand beind?
-status      Beta
+#  - Is it just a test or something you stand behind?
+status      
 
 # One line stating what the module does
 description FiberViewerLight is an open-source software to visualize and edit fibers

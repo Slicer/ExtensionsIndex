@@ -7,32 +7,32 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/gaoyi/SegmentationAidedRegistration.git
-scmrevision 305c6baf0b5539a5f7bb667edf986200a9757336
+scmrevision e1ce457eb08e69ca49083b8998631bb43f203295
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     NA
+depends NA
 
-# Inner build directory (default is .)
+# Inner build directory (default is ".")
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/SegmentationAidedRegistration
+homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/SegmentationAidedRegistration
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
 contributors Yi Gao (BWH/UAB), Liang-Jia Zhu (UAB), Josh Cates (Utah), Alan Morris (Utah), Danny Perry (Utah), Greg Gardner (Utah), Rob MacLeod (Utah), Sylvain Bouix (BWH), Allen Tannenbaum (UAB)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Registration
+category Registration
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/b/ba/SegAidedRegSquareFocus128.png
+iconurl http://www.slicer.org/slicerWiki/images/b/ba/SegAidedRegSquareFocus128.png
 
 # Give people an idea what to expect from this code
-#  - Is it just a test or something you stand beind?
-status      1.0
+#  - Is it just a test or something you stand behind?
+status 
 
 # One line stating what the module does
 description Performe the registration with the aid from segmentation so that the segmented regions have close match.

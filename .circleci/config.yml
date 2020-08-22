@@ -1,0 +1,68 @@
+
+version: 2
+jobs:
+  check-filenames:
+    docker:
+      - image: circleci/python:3.7.0-stretch
+    steps:
+      - checkout
+      - run:
+          name: Check filenames
+          command: |
+            ./scripts/check_filenames.sh
+
+  check-description-files:
+    docker:
+      - image: circleci/python:3.7.0-stretch
+    steps:
+      - checkout
+      - run:
+          name: Check description files
+          command: |
+            python ./scripts/check_description_files.py $(find . -name "*.s4ext")
+
+  check-new-description-files:
+    docker:
+      - image: circleci/python:3.7.0-stretch
+    steps:
+      - checkout
+      - run:
+          name: Lookup base branch (Workaround the lack of CIRCLE_BASE_BRANCH env. variable)
+          # See https://discuss.circleci.com/t/how-to-get-the-pull-request-upstream-branch/5496/2
+          command: |
+            if [[ $CIRCLE_PULL_REQUEST != "" ]]; then
+              for base_branch in origin/master $(git branch -r | grep -E "origin\/[0-9](\.[0-9])+" | sort -r); do
+                differences=$(git diff $base_branch --name-only)
+                if [[ $differences != "" ]]; then
+                  break
+                fi
+              done
+            else
+              base_branch=$CIRCLE_BRANCH
+            fi
+            echo "export BASE_BRANCH=\"$base_branch\"" >> $BASH_ENV
+      - run:
+          name: Check new description files
+          command: |
+            # ignore grep exit code if no description files were added
+            set +e
+
+            echo "BASE_BRANCH is [$BASE_BRANCH]"
+            echo "CIRCLE_BRANCH is [$CIRCLE_BRANCH]"
+
+            # Collect list of new *.s4ext files
+            added=$(git diff $BASE_BRANCH --diff-filter=A --name-only | grep -E "^[^\/]+\.s4ext$")
+            echo "added [$added]"
+
+            # Run checks
+            if [[ $added != "" ]]; then
+              python ./scripts/check_description_files.py --check-git-repository-name $added
+            fi
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - check-filenames
+      - check-description-files
+      - check-new-description-files

@@ -1,0 +1,43 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
+scm git
+scmurl https://github.com/VASST/SlicerVASST.git
+scmrevision master
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends VASSTAlgorithms SlicerIGT SlicerVirtualReality SlicerOpenCV SlicerVideoCameras
+
+# Inner build directory (default is ".")
+build_subdirectory inner-build
+
+# homepage
+homepage https://github.com/VASST/SlicerVASST
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+contributors Adam Rankin (Robarts Research Institute), Golafsoun Ameri (Robarts Research Institute), Elvis Chen (Robarts Research Institute)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category IGT
+
+# url to icon (png, size 128x128 pixels)
+iconurl https://raw.githubusercontent.com/VASST/SlicerVASST/master/docs/images/SlicerVASST_logo.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand behind?
+status Stable
+
+# One line stating what the module does
+description This extension contains a number of modules developed by the VASST laboratory at the Robarts Research Institute. It provides access to RobartsVTK, a library for visualization and image processing.
+
+# Space separated list of urls
+screenshoturls https://raw.githubusercontent.com/VASST/SlicerVASST/master/docs/images/screenshot.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1

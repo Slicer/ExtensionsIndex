@@ -5,11 +5,9 @@
 #
 
 # This is source code manager (i.e. svn)
-scm svn
-scmurl https://www.nitrc.org/svn/dtiprocess/trunk
-scmrevision 222
-svnusername slicerbot
-svnpassword slicer
+scm git
+scmurl https://github.com/NIRALUser/DTIProcessToolkit.git
+scmrevision release
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -17,7 +15,7 @@ svnpassword slicer
 depends     NA
 
 # Inner build directory (default is .)
-build_subdirectory DTIProcess-build
+build_subdirectory .
 
 # homepage
 homepage    http://www.nitrc.org/projects/dtiprocess

@@ -2,12 +2,12 @@
 # First token of each non-comment line is the keyword and the rest of the line
 # (including spaces) is the value.
 # - the value can be blank
-# Sunil Commmit (2-14-14)
+# Commmit (8-25-14)
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/MokaCreativeLLC/XNATSlicer.git
-scmrevision d8b1e2dd7eddd59ab49d55b50089cdac405856ee
+scmurl https://github.com/NrgXnat/XNATSlicer.git
+scmrevision 2f4bf01beb90d32c7aa23c8b920d6797e36b0c6b
             
 
 # list dependencies
@@ -23,13 +23,13 @@ homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Ext
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Sunil Kumar (Moka Creative LLC, Washington University in St. Louis), Dan Marcus (Washington University in St. Louis), Steve Pieper (Isomics)
+contributors Rick Herrick (Washington University in St. Louis), Sunil Kumar (Moka Creative LLC, Washington University in St. Louis), Dan Marcus (Washington University in St. Louis), Steve Pieper (Isomics)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Remote
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://raw.github.com/MokaCreativeLLC/XNATSlicer/master/XNATSlicer/Resources/Icons/XNATSlicer-MarketIcon.png
+iconurl     https://raw.github.com/NrgXnat/XNATSlicer/master/XNATSlicer/Resources/Icons/XNATSlicer-MarketIcon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -39,7 +39,7 @@ status
 description Secure GUI-based IO with any XNAT server.
 
 # Space separated list of urls
-screenshoturls https://raw.github.com/MokaCreativeLLC/XNATSlicer/master/XNATSlicer/Resources/Images/UserDesc_MainPanel.png
+screenshoturls https://raw.github.com/NrgXnat/XNATSlicer/master/XNATSlicer/Resources/Images/UserDesc_MainPanel.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

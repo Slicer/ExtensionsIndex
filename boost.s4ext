@@ -1,8 +1,0 @@
-scm git
-scmurl git://gitorious.org/boost/cmake.git
-scmrevision cmake-1.41.0
-
-depends     NA
-build_subdirectory .
-
-homepage http://gitorious.org/boost/cmake

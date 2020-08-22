@@ -1,0 +1,44 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
+scm git
+scmurl git://github.com/qimo601/exStone.git
+scmrevision c71cd3885f79a7240a53daa12c6f02131289d4e4
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends NA
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# homepage
+homepage http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/exStone
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors LiuZhaoBang (Sibet)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Examples
+
+# url to icon (png, size 128x128 pixels)
+iconurl https://www.slicer.org/w/images/e/e7/Urinary_calculi.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand behind?
+status 
+
+# One line stating what the module does
+description This extension is a software for the analysis of the density of urinary stones. The exStone can achieved the segmentation of urinary calculi from CT Image, and  automaticly extract the  slice's parameters  in any angle of the  urinary stones volume   as well as perpendicular to the X/Y/Z axis. The CT maximum, minimum, average, average optical density and integral density of each slice of the stone were calculated. At finally,it can support export  parameters to the Excel file.
+
+# Space separated list of urls
+screenshoturls https://www.slicer.org/w/images/6/6b/Extract_parameters_in_any_angle_.gif
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1

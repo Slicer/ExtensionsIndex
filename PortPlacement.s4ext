@@ -7,32 +7,32 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/giogadi/PortPlacement.git
-scmrevision 9cbdb41cad988b186aab6ae3e0a0a4d23db82fe7
+scmrevision 1a0fc89
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     NA
+depends Eigen3
 
-# Inner build directory (default is .)
-build_subdirectory .
+# Inner build directory (default is ".")
+build_subdirectory inner-build
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/PortPlacement
+homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/PortPlacement
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Andinet Enquobahrie (Kitware), Luis G. Torres (UNC)
+contributors Andinet Enquobahrie (Kitware), Luis G. Torres (UNC), Jean-Christophe Fillion-Robin (Kitware)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    IGT
+category IGT
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/a/a7/Portplacement_icon.png
+iconurl http://www.slicer.org/slicerWiki/images/a/a7/Portplacement_icon.png
 
 # Give people an idea what to expect from this code
-#  - Is it just a test or something you stand beind?
-status      This extension is intended for public use and we expect to fully maintain it.
+#  - Is it just a test or something you stand behind?
+status This extension is intended for public use and we expect to fully maintain it.
 
 # One line stating what the module does
 description Assists in the planning of surgical port placement in a laparoscopic procedure.

@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/vnarayan13/Slicer-OpenCAD.git
-scmrevision fe5e41e5002ee984d5726c82964ed9ae42be38e1
+scmrevision 27ade9ac3715131ea41d8f877f8ab07680fb0fc0
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -34,7 +34,7 @@ iconurl http://www.slicer.org/slicerWiki/images/2/2e/OpenCAD.PNG
 status Beta
 
 # One line stating what the module does
-description The SegmentCAD module segments DCE-MRI volumes and generates a label map of the tumor
+description Tumor Segmentation from DCE-MRI and image heterogeneity quantification
 
 # Space separated list of urls
 screenshoturls http://www.slicer.org/slicerWiki/images/e/ef/SegmentCAD-Output.png
