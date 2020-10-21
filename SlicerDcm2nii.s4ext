@@ -1,4 +1,4 @@
-#
+s#
 # First token of each non-comment line is the keyword and the rest of the line
 # (including spaces) is the value.
 # - the value can be blank
@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/SlicerDMRI/SlicerDcm2nii.git
-scmrevision master
+scmrevision release-4.11
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
