@@ -10,7 +10,7 @@ Thank you for contributing to 3D Slicer!
 
 - [ ] Extension has a reasonable name (not too general, not too narrow, suggests what the extension is for)
 - [ ] Repository name is Slicer+ExtensionName
-- [ ] Repository is associated with `3d-slicer-extension` GitHub topic so that it is listed [here](https://github.com/topics/3d-slicer-extension). To edit topics, click "Manage topics" on your repository's main page, on the left, near the top (just below the repository description). To learn more about topics, read https://help.github.com/en/articles/about-topics
+- [ ] Repository is associated with `3d-slicer-extension` GitHub topic so that it is listed [here](https://github.com/topics/3d-slicer-extension). To edit topics, click the settings icon in the right side of "About" section header and enter `3d-slicer-extension` in "Topics" and click "Save changes". To learn more about topics, read https://help.github.com/en/articles/about-topics
 - [ ] Extension description summarizes in 1-2 sentences what the extension is usable (should be understandable for non-experts)
 - [ ] Any known related patents must be mentioned in the extension description.
 - [ ] If source code license is more restrictive for users than BSD, MIT, Apache, or 3D Slicer license then the name of the used license must be mentioned in the extension description.
