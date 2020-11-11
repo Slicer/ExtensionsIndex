@@ -6,8 +6,9 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl http://wiscigt.powertheword.com/andrej.studen/SlicerLabkeyExtension.git
-scmrevision 4150f9e3684c7e027b480e0dd4d552b2909cad28
+scmurl https://gitlab.com/astuden/slicerLabkeyExtension.git
+scmrevision cfcc0281162d67f4264e33c92150d1a2c13445be
+#scmrevision 4150f9e3684c7e027b480e0dd4d552b2909cad28
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
