@@ -15,7 +15,7 @@ Thank you for contributing to 3D Slicer!
 - [ ] Any known related patents must be mentioned in the extension description.
 - [ ] If source code license is more restrictive for users than BSD, MIT, Apache, or 3D Slicer license then the name of the used license must be mentioned in the extension description.
 - [ ] Extension URL and revision (scmurl, scmrevision) is correct, consider using a branch name (master, release, ...) instead of a specific git has to avoid re-submitting pull request whenever the extension is updated
-- [ ] Extension icon URL is correct
+- [ ] Extension icon URL is correct (do not use the icon's webpage but the raw data download URL that you get from the download button - it should look something like this: https://github.com/user/project/raw/main/path/to/icon.png)
 - [ ] Screenshot URLs (screenshoturls) are correct, contains at least one
 - [ ] Homepage URL points to valid webpage containing the following:
   - [ ] Extension name
