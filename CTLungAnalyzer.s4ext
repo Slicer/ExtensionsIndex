@@ -32,7 +32,7 @@ iconurl https://github.com/rbumm/SlicerCTLungAnalyzer/raw/main/CTLungAnalyzer/Re
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-Under development, but useable
+Beta
 
 # One line stating what the module does
 description This extension performs segmentation and 2D / 3D display of a chest CT into non-ventilated, ventilated, infiltrated and collapsed lung tissue as well as vessels. 
