@@ -28,7 +28,7 @@ contributors Rudolf Bumm (KSGR)
 category Chest Imaging Platform
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/rbumm/SlicerCTLungAnalyzer/raw/main/CTLungAnalyzer/Resources/Icons/CTLungAnalyzer.png
+iconurl https://github.com/rbumm/SlicerCTLungAnalyzer/raw/master/CTLungAnalyzer/Resources/Icons/CTLungAnalyzer.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
