@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/Radiomics/SlicerRadiomics.git
+scmurl https://github.com/AIM-Harvard/SlicerRadiomics.git
 scmrevision master
 
 # list dependencies
