@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/flywheel-apps/flywheel-connect.git
+scmurl https://github.com/flywheel-apps/SlicerFlywheelConnect.git
 scmrevision master
 
 # list dependencies
@@ -17,7 +17,7 @@ scmrevision master
 build_subdirectory .
 
 # homepage
-homepage  https://github.com/flywheel-apps/flywheel-connect
+homepage  https://github.com/flywheel-apps/SlicerFlywheelConnect
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -27,7 +27,7 @@ contributors Joshua Jacob (Flywheel Exchange Inc)
 category    Utilities
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://media-exp1.licdn.com/dms/image/C560BAQFyP0_GrlzohQ/company-logo_200_200/0/1594302169249?e=2159024400&v=beta&t=yRRjKwmlysjcSopQjOgk98OvVlJSmiwbEgoWc98jKhQ
+iconurl https://raw.githubusercontent.com/flywheel-apps/SlicerFlywheelConnect/master/Images/favicon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -37,7 +37,7 @@ production
 This extension allows for downloading files from a Flywheel instance project and uploading 3D Slicer outputs back into Flywheel.
 
 # Space separated list of urls
-screenshoturls https://github.com/flywheel-apps/flywheel-connect/blob/master/Images/TreeD_Slicer.png
+screenshoturls https://raw.githubusercontent.com/flywheel-apps/SlicerFlywheelConnect/master/Images/TreeD_Slicer.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
