@@ -34,7 +34,8 @@ iconurl https://raw.githubusercontent.com/flywheel-apps/SlicerFlywheelConnect/ma
 production
 
 # One line stating what the module does
-This extension allows for downloading files from a Flywheel (flywheel.io) instance project and uploading Slicer outputs back into Flywheel.
+This extension allows for downloading files from Flywheel to Slicer and uploading Slicer outputs back into Flywheel.
+Flywheel is a comprehensive data management solutions for life sciences and imaging research (https://flywheel.io/).
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/flywheel-apps/SlicerFlywheelConnect/master/Images/TreeD_Slicer.png
