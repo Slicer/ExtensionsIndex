@@ -6,13 +6,13 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/giogadi/PortPlacement.git
-scmrevision 1a0fc89
+scmurl git://github.com/SlicerIGT/PortPlacement.git
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends Eigen3
+depends NA
 
 # Inner build directory (default is ".")
 build_subdirectory inner-build
