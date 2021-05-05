@@ -1,0 +1,23 @@
+scm git
+scmurl https://github.com/radxtools/collageradiomics.git
+scmrevision master
+
+depends NA
+
+build_subdirectory .
+
+homepage https://github.com/radxtools/collageradiomics/tree/master/slicer/collageradiomics
+
+contributors Pallavi Tiwari (BriC), Satish Viswanath (BriC), Rob Toth (Toth Technology), Nathan Hillyer (Toth Technology)
+
+category Informatics
+
+iconurl https://github.com/radxtools/collageradiomics/raw/master/slicer/collageradiomics/CollageRadiomicsSlicer/Resources/Icons/CollageRadiomicsSlicer.png
+
+status beta
+
+description The CollageRadiomics extension provides a 3D Slicer interface to the collageradiomics library. collageradiomics is an open-source python package for capturing subtle anisotropic differences in disease pathologies by measuring entropy of co-occurrences of voxel-level gradient orientations on imaging computed within a local neighborhood.
+
+screenshoturls https://github.com/radxtools/collageradiomics/raw/master/slicer/collageradiomics/CollageRadiomicsSlicer/Screenshot.jpg
+
+enabled 1
