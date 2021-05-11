@@ -24,7 +24,7 @@ homepage  https://github.com/flywheel-apps/SlicerFlywheelConnect
 contributors Joshua Jacob (Flywheel Exchange Inc)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Utilities
+category    Informatics
 
 # url to icon (png, size 128x128 pixels)
 iconurl https://raw.githubusercontent.com/flywheel-apps/SlicerFlywheelConnect/master/Images/favicon.png
