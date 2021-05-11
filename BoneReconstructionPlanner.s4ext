@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/lassoan/SlicerBoneReconstructionPlanner.git
+scmurl https://github.com/SlicerIGT/SlicerBoneReconstructionPlanner.git
 scmrevision main
 
 # list dependencies
@@ -18,7 +18,7 @@ depends SurfaceWrapSolidify MarkupsToModel Sandbox SlicerRT
 build_subdirectory .
 
 # homepage
-homepage https://github.com/lassoan/SlicerBoneReconstructionPlanner#bone-reconstruction-planner
+homepage https://github.com/SlicerIGT/SlicerBoneReconstructionPlanner#bone-reconstruction-planner
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors MSc. Mauro I. Dominguez, PhD. Andras Lasso (PerkLab), Dr. Manjula H
 category Planning
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://raw.githubusercontent.com/lassoan/SlicerBoneReconstructionPlanner/main/BoneReconstructionPlanner.jpg
+iconurl https://raw.githubusercontent.com/SlicerIGT/SlicerBoneReconstructionPlanner/main/BoneReconstructionPlanner.jpg
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status Beta
 description A extension for virtual surgical planning of mandibular reconstruction with vascularized fibula free flap and generation of patient-specific surgical guides.
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/lassoan/SlicerBoneReconstructionPlanner/main/BoneReconstructionPlanner/Resources/Screenshots/screenshotPlanning.png https://raw.githubusercontent.com/lassoan/SlicerBoneReconstructionPlanner/main/BoneReconstructionPlanner/Resources/Screenshots/screenshotPatientSpecificSurgicalGuides.png
+screenshoturls https://raw.githubusercontent.com/SlicerIGT/SlicerBoneReconstructionPlanner/main/BoneReconstructionPlanner/Resources/Screenshots/screenshotPlanning.png https://raw.githubusercontent.com/SlicerIGT/SlicerBoneReconstructionPlanner/main/BoneReconstructionPlanner/Resources/Screenshots/screenshotPatientSpecificSurgicalGuides.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
