@@ -28,7 +28,7 @@ contributors Jean-Christophe Fillion-Robin (Kitware), Pat Marion (Kitware), Stev
 category    Exporter
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/6/64/SlicerToKiwiExporterLogo.png
+iconurl     https://raw.githubusercontent.com/jcfr/SlicerToKiwiExporter/master/SlicerToKiwiExporterLogo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
