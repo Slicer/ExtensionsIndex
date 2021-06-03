@@ -5,9 +5,9 @@
 #
 
 # This is source code manager (i.e. svn)
-scm svn
-scmurl https://subversion.assembla.com/svn/Scoliosis/trunk/Scoliosis/src
-scmrevision 51
+scm git
+scmurl https://github.com/SlicerIGT/Scoliosis.git
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files

@@ -35,7 +35,7 @@ iconurl https://raw.githubusercontent.com/QTIM-Lab/SlicerSegmentationWizard/mast
 status Beta 
 
 # One line stating what the module does
-This is a 3D model-based segmentation tool for 3D Slicer. It includes utilities for calculating subtraction maps and thresholding intensities.
+description This is a 3D model-based segmentation tool for 3D Slicer. It includes utilities for calculating subtraction maps and thresholding intensities.
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/QTIM-Lab/SlicerSegmentationWizard/master/SegmentationWizard.png https://www.slicer.org/w/images/c/c9/3D_Model_Segmentation_Step_3B.PNG https://www.slicer.org/w/images/9/9a/3D_Model_Segmentation_Step_4B.PNG https://www.slicer.org/w/images/8/8b/3D_Model_Segmentation_Step_5B.PNG

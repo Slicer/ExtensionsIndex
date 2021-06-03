@@ -1,0 +1,45 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
+scm git
+scmurl https://gitlab.kitware.com/iMSTK/slicerimstk.git
+scmrevision master
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends NA
+
+# Inner build directory (default is ".")
+build_subdirectory inner-build
+
+# homepage
+homepage http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerIMSTK
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Johan Andruejol (Kitware Inc.), Sam Horvath (Kitware Inc.)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Simulation
+
+# url to icon (png, size 128x128 pixels)
+iconurl https://gitlab.kitware.com/iMSTK/iMSTK/blob/v1.0.0/Docs/source/media/logo.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand behind?
+status Experimental
+
+# One line stating what the module does
+description SlicerIMSTK provides Slicer with an interface to the iMSTK simulation library.
+For more information about iMSTK see https://gitlab.kitware.com/iMSTK/iMSTK
+
+# Space separated list of urls
+screenshoturls http://www.example.com/Slicer/Extensions/SlicerIMSTK/Screenshots/1.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1

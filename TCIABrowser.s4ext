@@ -28,11 +28,11 @@ contributors Alireza Mehrtash(SPL and BWH), Andrey Fedorov (SPL and BWH)
 category    Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl    http://wiki.slicer.org/slicerWiki/images/9/92/TCIABrowser_logo.png
+iconurl    https://raw.githubusercontent.com/QIICR/TCIABrowser/master/TCIABrowser.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      
+status
 
 # One line stating what the module does
 description A Module to connect to the TCIA archive, browse the collections, patients and studies and download DICOM files to 3D Slicer.

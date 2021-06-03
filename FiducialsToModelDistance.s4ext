@@ -6,39 +6,39 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/SlicerRt/Sequences.git
+scmurl https://github.com/ReynoldsJ20/SlicerFiducialsToModelDistance
 scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     NA
+depends NA
 
 # Inner build directory (default is ".")
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/Sequences
+homepage https://github.com/ReynoldsJ20/SlicerFiducialsToModelDistance
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Andras Lasso (PerkLab, Queen's), Matthew Holden (PerkLab, Queen's), Kevin Wang (PMH), Csaba Pinter (PerkLab, Queen's), Andriy Fedorov (BWH), Isaiah Norton (BWH)
+contributors Jesse Reynolds (Canterbury District Health Board) with assistance from Andras Lasso (Queen's University)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Sequences
+category Quantification
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/4/4d/SequencesLogo.png
+iconurl https://raw.githubusercontent.com/ReynoldsJ20/SlicerFiducialsToModelDistance/master/FiducialsToModelDistance.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status      
+status 
 
 # One line stating what the module does
-description A set of modules for generic sequences (multidimensional data) management in Slicer (0.3.0)
+description This module computes the distances between a set of fiducial points and either the surface of a model, or another set of fiducial points. The results are displayed in two tables.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/1/17/CardiacCtReplay.gif http://www.slicer.org/slicerWiki/images/0/0f/UltrasoundToolGuidance3dOnly.gif http://www.slicer.org/slicerWiki/images/e/ea/ShapeModelSequenceBrowsing3dOnly.gif http://www.slicer.org/slicerWiki/images/thumb/5/5b/SequenceEditor.png/504px-SequenceEditor.png http://www.slicer.org/slicerWiki/images/thumb/e/ef/SequenceBrowser.png/397px-SequenceBrowser.png
+screenshoturls https://raw.githubusercontent.com/ReynoldsJ20/SlicerFiducialsToModelDistance/master/Screenshots/ScreenShot1.PNG https://raw.githubusercontent.com/ReynoldsJ20/SlicerFiducialsToModelDistance/master/Screenshots/ScreenShot2.PNG
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

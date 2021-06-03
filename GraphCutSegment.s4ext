@@ -6,39 +6,39 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/DaphneCD/GraphCutSegmentExtension.git
-scmrevision bc150d8
+scmurl https://github.com/Slicer/SlicerGraphCutSegment
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     NA
+depends NA
 
 # Inner build directory (default is ".")
 build_subdirectory .
 
 # homepage
-homepage    http://publish.uwo.ca/~dchen285/GraphCutSegment/GraphCutSegment.html
+homepage https://github.com/Slicer/SlicerGraphCutSegment
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Danfeng Chen  (Western University)
+contributors Daphne Chen (Western University), Andras Lasso (PerkLab)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Segmentation
+category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://raw.githubusercontent.com/DaphneCD/GraphCutSegmentExtension/master/GraphCutSegment.png
+iconurl http://www.example.com/Slicer/Extensions/GraphCutSegment.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status      
+status 
 
 # One line stating what the module does
-description This is a segment extension using graph cut and star shape algorithm. This extension can be used for research purposes ONLY. It can NOT be used for commercial purposes.
+description Graph cut algorithm based segmentation tool.
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/DaphneCD/GraphCutSegmentExtension/master/screenshot.png
+screenshoturls https://raw.githubusercontent.com/Slicer/SlicerGraphCutSegment/master/screenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
