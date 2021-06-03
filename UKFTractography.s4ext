@@ -6,9 +6,9 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/jcfr/ukftractography.git
+scmurl git://github.com/pnlbwh/ukftractography.git
 
-scmrevision fix-build-against-vtk-8.90
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
