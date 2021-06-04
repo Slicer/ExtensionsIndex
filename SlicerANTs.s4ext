@@ -38,7 +38,7 @@ status beta
 description This extension implements antsRegistration in Slicer
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/simonoxen/SlicerANTs/master/Documentation/ModuleUI.png
+screenshoturls https://raw.githubusercontent.com/simonoxen/SlicerANTs/master/Documentation/MR-CT_example.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
