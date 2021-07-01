@@ -38,7 +38,7 @@ status beta
 description Utilities to install and use PyTorch within 3D Slicer.
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/fepegar/SlicerParcellation/master/screenshots/parcellation.png https://raw.githubusercontent.com/fepegar/SlicerPyTorch/master/project_week_diagram.png
+screenshoturls https://raw.githubusercontent.com/fepegar/SlicerPyTorch/master/project_week_diagram.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
