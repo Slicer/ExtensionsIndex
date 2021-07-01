@@ -22,7 +22,11 @@ homepage https://github.com/Project-MONAI/MONAILabel/tree/main/plugins/slicer
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+<<<<<<< HEAD
 contributors Sachidanand Alle (NVIDIA), Andres Diaz-Pinto (KCL), Alvin Ihsani (NVIDIA), Vishwesh Nath (NVIDIA), Fernando Perez-Garcia (UCL/KCL)
+=======
+contributors Sachidanand Alle (NVIDIA), Andres Diaz-Pinto (KCL), Alvin Ihsani (NVIDIA), Fernando Perez-Garcia (UCL/KCL)
+>>>>>>> b57f21959e8870dec1f5f91a88ae7bbf015b6f6a
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Active Learning
