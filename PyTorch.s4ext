@@ -28,7 +28,7 @@ contributors Fernando Pérez-García (University College London and King's Colle
 category Utilities
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://raw.githubusercontent.com/fepegar/SlicerPyTorch/master/PyTorch_128.png
+iconurl https://raw.githubusercontent.com/fepegar/SlicerPyTorch/master/PyTorch.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
