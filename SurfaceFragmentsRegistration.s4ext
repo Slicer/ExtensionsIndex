@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/sebastianandress/Slicer-SimilaritySubgroups.git
+scmurl git://github.com/sebastianandress/Slicer-SurfaceFragmentsRegistration.git
 scmrevision master
 
 # list dependencies
@@ -18,25 +18,25 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage https://github.com/sebastianandress/Slicer-SimilaritySubgroups
+homepage https://github.com/sebastianandress/Slicer-SurfaceFragmentsRegistration
 
 contributors Sebastian Andress (LMU Munich)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category Segmentation
+category Registration
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/sebastianandress/Slicer-SimilaritySubgroups/raw/master/SimilaritySubgroups.png
+iconurl https://github.com/sebastianandress/Slicer-SurfaceFragmentsRegistration/raw/master/SurfaceFragmentsRegistration.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
 status Beta
 
 # One line stating what the module does
-A polydata/model validation method that finds multiple high accuracy similarity zones on a source model deviating less than a definable threshold from a target model.
+A polydata/model registration and validation method that finds multiple high accuracy similarity zones on a source model deviating less than a definable threshold from a target model.
 
 # Space separated list of urls
-screenshoturls https://github.com/sebastianandress/Slicer-SurfaceWrapSolidify/raw/master/Resources/screenshot1.png
+screenshoturls https://github.com/sebastianandress/Slicer-SurfaceFragmentsRegistration/raw/master/Resources/screenshot1.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
