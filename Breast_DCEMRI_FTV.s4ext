@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/rnadkarni2/SlicerBreast_DCEMRI_FTV/tree/master
+scmurl https://github.com/rnadkarni2/SlicerBreast_DCEMRI_FTV
 scmrevision master
 
 # list dependencies
