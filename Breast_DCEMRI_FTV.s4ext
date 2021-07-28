@@ -28,7 +28,7 @@ contributors Rohan Nadkarni (UCSF Breast Imaging Research Group), David Newitt (
 category FTV Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/rnadkarni2/SlicerBreast_DCEMRI_FTV/raw/master/Breast_DCEMRI_FTV.png
+iconurl https://raw.githubusercontent.com/rnadkarni2/SlicerBreast_DCEMRI_FTV/master/Breast_DCEMRI_FTV.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
