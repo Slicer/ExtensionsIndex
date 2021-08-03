@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/NIRALUser/MeshToLabelMap.git
-scmrevision 62186d7221dd7e475b7c4ec31b2b9e246b6cabc1
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
