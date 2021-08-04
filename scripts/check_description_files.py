@@ -70,6 +70,40 @@ def check_scmurl_syntax(extension_name, metadata):
             extension_name, check_name,
             "scmurl scheme is '%s' but it should by any of %s" % (scheme, supported_schemes))
 
+@require_metadata_key("homepage")
+@require_metadata_key("iconurl")
+@require_metadata_key("screenshoturls")
+def check_urls(extension_name, metadata):
+    check_name = "check_urls"
+
+    urls = []
+    urls.append(['homepage', metadata["homepage"]])
+    urls.append(['iconurl', metadata["iconurl"]])
+    if metadata["screenshoturls"] is not None:
+        screenshoturls = metadata["screenshoturls"].split(' ')
+    else:
+        screenshoturls = [""]
+    for screenshoturl in screenshoturls:
+        urls.append(['screenshoturl', screenshoturl])
+
+    supported_schemes = ["http", "https"]
+    import requests
+    for name, url in urls:
+        if not url:
+            raise ExtensionCheckError(
+                extension_name, check_name,
+                f"{name} URL check failed: empty URL")
+        scheme = urlparse.urlsplit(url).scheme
+        if scheme not in supported_schemes:
+            raise ExtensionCheckError(
+                extension_name, check_name,
+                f"{name} URL check failed for {url}: scheme is {scheme} but it should by any of {supported_schemes}")
+        try:
+            request = requests.get(url)
+        except Exception as e:
+            raise ExtensionCheckError(extension_name, check_name, f"{name} URL check failed for {url} ({e})")
+        if request.status_code != 200:
+            raise ExtensionCheckError(extension_name, check_name, f"{name} URL check failed for {url} (status: {request.status_code})")
 
 @require_metadata_key("scmurl")
 @require_metadata_key("scm")
@@ -134,24 +168,43 @@ def main():
     parser.add_argument(
         "--check-git-repository-name", action="store_true",
         help="Check extension git repository name. Disabled by default.")
-    parser.add_argument("-d", "--check-dependencies", help="Check all extension dsecription files in the provided folder.")
-    parser.add_argument("/path/to/description.s4ext", nargs='*')
+    parser.add_argument(
+        "--check-urls", action="store_true",
+        help="Check extension website and images urls. Disabled by default.")
+    parser.add_argument("-d", "--check-dependencies",
+        help="Check dependencies between all extension description files in the specified folder.")
+    parser.add_argument("/path/to/description.s4ext", nargs='*',
+        help="Extension description file(s) to check. Wildcards are accepted.")
     args = parser.parse_args()
 
     checks = []
 
     if args.check_git_repository_name:
         checks.append(check_git_repository_name)
+    if args.check_urls:
+        checks.append(check_urls)
 
     if not checks:
         checks = [
             check_scmurl_syntax,
+            check_urls,
         ]
 
     total_failure_count = 0
 
     file_paths = getattr(args, "/path/to/description.s4ext")
+    # Resolve wildcards to filenames
+    resolved_file_paths = []
+    import glob
     for file_path in file_paths:
+        if '*' in file_path:
+            paths = glob.glob(file_path)
+            resolved_file_paths.extend(paths)
+        else:
+            resolved_file_paths.append(file_path)
+    print(f"Resolved file paths: {resolved_file_paths}")
+    # Iterate through all the files
+    for file_path in resolved_file_paths:
         extension_name = os.path.splitext(os.path.basename(file_path))[0]
 
         failures = []
