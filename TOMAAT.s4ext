@@ -28,7 +28,7 @@ contributors Fausto Milletari
 category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://raw.github.com/faustomilletari/TOMAAT-Slicer/master/TOMAAT.png
+iconurl https://raw.githubusercontent.com/faustomilletari/TOMAAT-Slicer/master/TOMAAT/Resources/Icons/TOMAAT.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description Segmentation of volumetric data via Deep learning based methods in the cloud
 
 # Space separated list of urls
-screenshoturls http://www.example.com/Slicer/Extensions/TOMAAT/Screenshots/1.png
+screenshoturls 
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

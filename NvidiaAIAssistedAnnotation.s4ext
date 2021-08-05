@@ -28,7 +28,7 @@ contributors Sachidanand Alle (NVIDIA)
 category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://raw.githubusercontent.com/NVIDIA/ai-assisted-annotation-client/master/slicer-plugin/NvidiaAIAssistedAnnotation.png
+iconurl https://raw.githubusercontent.com/NVIDIA/ai-assisted-annotation-client/master/slicer-plugin/snapshot.jpg https://raw.githubusercontent.com/NVIDIA/ai-assisted-annotation-client/master/slicer-plugin/snapshot-annotation-points-liver.jpg https://raw.githubusercontent.com/NVIDIA/ai-assisted-annotation-client/master/slicer-plugin/snapshot-annotation-result-liver.jpg https://raw.githubusercontent.com/NVIDIA/ai-assisted-annotation-client/master/slicer-plugin/snapshot-segmentation-result-liver.jpg
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?

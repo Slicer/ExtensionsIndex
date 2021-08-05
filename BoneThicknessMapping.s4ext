@@ -21,7 +21,7 @@ contributors Evan Simpson (Western University)
 category Shape Analysis
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/Auditory-Biophysics-Lab/SlicerBoneThicknessMappingExtension/blob/master/BoneThicknessMapping/Resources/Icons/icon128.png?raw=true
+iconurl https://raw.githubusercontent.com/Auditory-Biophysics-Lab/SlicerBoneThicknessMappingExtension/master/BoneThicknessMapping.png
 
 # Give people an idea what to expect from this code
 status beta
@@ -30,7 +30,7 @@ status beta
 description This module calculates and visualizes bone thickness of a volume using VTK ray-casting
 
 # Space separated list of urls
-screenshoturls https://github.com/Auditory-Biophysics-Lab/SlicerBoneThicknessMappingExtension/blob/master/Screenshot.PNG?raw=true
+screenshoturls https://raw.githubusercontent.com/Auditory-Biophysics-Lab/SlicerBoneThicknessMappingExtension/master/Images/general_screenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
