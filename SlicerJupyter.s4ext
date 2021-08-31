@@ -22,7 +22,7 @@ homepage https://github.com/Slicer/SlicerJupyter
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Andras Lasso (PerkLab), Jean-Christoph Fillion-Robin (Kitware)
+contributors Andras Lasso (PerkLab), Jean-Christophe Fillion-Robin (Kitware)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Developer Tools

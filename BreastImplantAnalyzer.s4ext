@@ -6,39 +6,39 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/SlicerMorph/SlicerMorph.git
-scmrevision master  
+scmurl https://github.com/lancelevine/SlicerBreastImplantAnalyzer.git
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     SegmentEditorExtraEffects Sequences
+depends NA
 
-# Inner build directory (default is .)
+# Inner build directory (default is ".")
 build_subdirectory .
 
 # homepage
-homepage    https://slicermorph.github.io/
+homepage https://github.com/lancelevine/SlicerBreastImplantAnalyzer#breastimplantanalyzer
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Sara Rolfe (UW), Murat Maga (SCRI)
+contributors Lance Levine (University of Miami Miller School of Medicine), Marc Levine (Penn State University College of Medicine), Dr. Wrood Kassira (University of Miami Department of Plastic & Reconstructive Surgery)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    SlicerMorph
+category Quantification
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://raw.githubusercontent.com/SlicerMorph/SlicerMorph/master/SlicerMorph_Color.png
+iconurl https://raw.githubusercontent.com/lancelevine/SlicerBreastImplantAnalyzer/master/BreastImplantAnalyzer.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status      Beta
+status 
 
 # One line stating what the module does
-description This extension enables retrieval, visualization, measurement and annotation of high-resolution specimen data from volumetric scans (CTs and MRs) or 3D surface scans. 
+description This extension allows the user to calculate the volume of a breast implant from breast MRI data with minimal user input.
 
 # Space separated list of urls
-screenshoturls https://na-mic.github.io/ProjectWeek/PW30_2019_GranCanaria/Projects/SlicerMorphGeometricMorphometricToolset/SM_screen.png https://na-mic.github.io/ProjectWeek/PW30_2019_GranCanaria/Projects/SlicerMorphGeometricMorphometricToolset/SM2.png
+screenshoturls https://raw.githubusercontent.com/lancelevine/SlicerBreastImplantAnalyzer/master/Screenshot01.PNG
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

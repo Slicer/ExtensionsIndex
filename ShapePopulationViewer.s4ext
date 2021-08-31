@@ -7,32 +7,32 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/NIRALUser/ShapePopulationViewer.git
-scmrevision bd4bdcf989e1ff9248f32bb9809caca216eb5d69
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     NA
+depends NA
 
 # Inner build directory (default is ".")
 build_subdirectory .
 
 # homepage
-homepage    https://www.nitrc.org/projects/shapepopviewer/
+homepage https://www.nitrc.org/projects/shapepopviewer/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
 contributors Alexis Girault (NIRAL, UNC), Francois Budin (NIRAL, UNC), Laura Pascal (DCBIA-OrthoLab, UofM)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Shape Analysis
+category Shape Visualization
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://www.nitrc.org/project/screenshot.php?group_id=759&screenshot_id=704
+iconurl https://www.nitrc.org/project/screenshot.php?group_id=759&screenshot_id=704
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status      
+status 
 
 # One line stating what the module does
 description Visualize and interact with multiple surfaces at the same time to easily compare them

@@ -7,32 +7,32 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl git://github.com/NIRALUser/MeshToLabelMap.git
-scmrevision a7dd362
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     NA
+depends NA
 
 # Inner build directory (default is ".")
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/MeshToLabelMap
+homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/MeshToLabelMap
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
 contributors Francois Budin (UNC), Ipek Oguz (University of Iowa)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Shape Analysis
+category Shape Analysis
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://raw.githubusercontent.com/NIRALUser/MeshToLabelMap/master/icons/MeshToLabelMapIcon128x128.png
+iconurl https://raw.githubusercontent.com/NIRALUser/MeshToLabelMap/master/icons/MeshToLabelMapIcon128x128.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status      Release
+status Release
 
 # One line stating what the module does
 description This extension computes a label map from a 3D model.

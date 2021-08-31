@@ -35,7 +35,7 @@ iconurl https://github.com/sebastianandress/Slicer-ModelCropper/raw/master/Model
 status 
 
 # One line stating what the module does
-Simple extension that crops a surface model along a roi box. It uses vtkBooleanOperationPolyDataFilter for the cropping.
+description Simple extension that crops a surface model along a roi box. It uses vtkBooleanOperationPolyDataFilter for the cropping.
 
 # Space separated list of urls
 screenshoturls https://github.com/sebastianandress/Slicer-ModelCropper/raw/master/Screenshots/Screenshot%20Model%20Cropper.png

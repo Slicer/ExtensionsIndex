@@ -1,12 +1,6 @@
-#
-# First token of each non-comment line is the keyword and the rest of the line
-# (including spaces) is the value.
-# - the value can be blank
-#
-
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/faustomilletari/TOMAAT-Slicer.git
+scmurl https://github.com/ETS-vis-interactive/SlicerPRISMRendering
 scmrevision master
 
 # list dependencies
@@ -18,27 +12,25 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage https://github.com/faustomilletari/TOMAAT-Slicer
+homepage https://githubcomets-vis-interactiveslicerprismrendering.readthedocs.io
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
-# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Fausto Milletari
+contributors Tiphaine Richard (ETS), Simon Drouin (ETS)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category Segmentation
+category Rendering
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://raw.githubusercontent.com/faustomilletari/TOMAAT-Slicer/master/TOMAAT/Resources/Icons/TOMAAT.png
+iconurl https://raw.githubusercontent.com/ETS-vis-interactive/SlicerPRISMRendering/master/PRISMRendering/Resources/Icons/PRISMRendering.png
 
 # Give people an idea what to expect from this code
-#  - Is it just a test or something you stand behind?
-status 
+status beta
 
 # One line stating what the module does
-description Segmentation of volumetric data via Deep learning based methods in the cloud
+This module is an implementation of the PRISM customizable volume rendering framework in 3D Slicer.
 
 # Space separated list of urls
-screenshoturls 
+screenshoturls https://raw.githubusercontent.com/ETS-vis-interactive/SlicerPRISMRendering/master/docs/source/images/screenshotSlicerPRISMRendering.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

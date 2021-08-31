@@ -15,7 +15,7 @@ scmrevision master
 depends NA
 
 # Inner build directory (default is ".")
-build_subdirectory BoneTextureExtension-build
+build_subdirectory inner-build
 
 # homepage
 homepage https://www.slicer.org/wiki/Documentation/Nightly/Extensions/BoneTextureExtension
@@ -28,17 +28,17 @@ contributors Jean-Baptiste VIMORT (Kitware Inc.)
 category Quantification
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://www.slicer.org/w/images/0/09/Logo-BoneTextureExtension.png
+iconurl https://www.slicer.org/w/img_auth.php/0/09/Logo-BoneTextureExtension.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status Beta
+status 
 
 # One line stating what the module does
 description This extensions contain several modules that can be used to compute feature maps of N-Dimensional images using well-known texture analysis methods. Key Features: 8 coocurrence textural features: energy, entropy, correlation, inertia, cluster Shade... / 10 run length textural features: run length emphasis, grey level non uniformity, run length non uniformity, low grey level long run emphasis... / Input configurable parameters: locality of the texture, offset directions for co-ocurrence and run length computation, the number of bins for the intensity histograms, and the intensity range or the range of run lengths.
 
 # Space separated list of urls
-screenshoturls https://www.slicer.org/w/images/7/70/BoneTextureExtension-Slicer.png
+screenshoturls https://www.slicer.org/w/img_auth.php/7/70/BoneTextureExtension-Slicer.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

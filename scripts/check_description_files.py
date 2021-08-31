@@ -95,6 +95,38 @@ def check_git_repository_name(extension_name, metadata):
             """ % (
                 repo_name, repo_name, variations)))
 
+def check_dependencies(directory):
+    import os
+    required_extensions = {}  # for each extension it contains a list of extensions that require it
+    available_extensions = []
+    for filename in os.listdir(directory):
+        f = os.path.join(directory, filename)
+        if not os.path.isfile(f):
+            continue
+        extension_name = os.path.splitext(os.path.basename(filename))[0]
+        available_extensions.append(extension_name)
+        extension_description = parse_s4ext(f)
+        if 'depends' not in extension_description:
+            continue
+        dependencies = extension_description['depends'].split(' ')
+        for dependency in dependencies:
+            if dependency == 'NA':
+                # special value, just a placeholder that must be ignored
+                continue
+            if dependency in required_extensions:
+                required_extensions[dependency].append(extension_name)
+            else:
+                required_extensions[dependency] = [extension_name]
+    print(f"Checked dependency between {len(available_extensions)} extensions.")
+    error_count = 0
+    for extension in required_extensions:
+        if extension in available_extensions:
+            # required extension is found
+            continue
+        required_by_extensions = ', '.join(required_extensions[extension])
+        print(f"{extension} extension is not found. It is required by extension: {required_by_extensions}.")
+        error_count += 1
+    return error_count
 
 def main():
     parser = argparse.ArgumentParser(
@@ -102,6 +134,7 @@ def main():
     parser.add_argument(
         "--check-git-repository-name", action="store_true",
         help="Check extension git repository name. Disabled by default.")
+    parser.add_argument("-d", "--check-dependencies", help="Check all extension dsecription files in the provided folder.")
     parser.add_argument("/path/to/description.s4ext", nargs='*')
     args = parser.parse_args()
 
@@ -136,7 +169,13 @@ def main():
             for failure in set(failures):
                 print("  %s" % failure)
 
-    print("Checked %d description files: Found %d errors" % (len(file_paths), total_failure_count))
+    print(f"Checked content of {len(file_paths)} description files.")
+
+
+    if args.check_dependencies:
+        total_failure_count += check_dependencies(args.check_dependencies)
+
+    print(f"Total errors found in extension descriptions: {total_failure_count}")
     sys.exit(total_failure_count)
 
 

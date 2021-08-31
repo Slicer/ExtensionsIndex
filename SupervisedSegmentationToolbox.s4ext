@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/chalupaDaniel/slicerSupervisedSegmentation.git
+scmurl https://github.com/chalupaDaniel/SlicerSupervisedSegmentation.git
 scmrevision master
 
 # list dependencies
@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage https://github.com/chalupaDaniel/slicerSupervisedSegmentation
+homepage https://github.com/chalupaDaniel/SlicerSupervisedSegmentation
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
