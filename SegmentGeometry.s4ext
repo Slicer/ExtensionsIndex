@@ -38,7 +38,7 @@ status      Alpha
 description This module iterates slice-by-slice through a segment to compute second moment of area and other cross-sectional properties. 
 
 # Space separated list of urls
-screenshoturls https://user-images.githubusercontent.com/52302862/131609394-6f44506d-967a-41c1-abff-4d235f184263.png
+screenshoturls https://user-images.githubusercontent.com/52302862/131934682-bde58601-b5f2-4325-b6f3-f64dd55defda.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
