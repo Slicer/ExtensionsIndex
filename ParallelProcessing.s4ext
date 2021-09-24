@@ -28,7 +28,7 @@ contributors Steve Pieper (Isomics, Inc.)
 category Utilities
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/pieper/SlicerParallelProcessing/raw/master/SlicerProcesses.png
+iconurl https://github.com/pieper/SlicerParallelProcessing/raw/master/ParallelProcessing.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
