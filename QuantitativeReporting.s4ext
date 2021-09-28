@@ -28,7 +28,7 @@ contributors Christian Herz (SPL), Andrey Fedorov (SPL, BWH), Csaba Pinter (Quee
 category    Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/w/images/3/30/QuantitativeReportingLogo.png
+iconurl     https://github.com/QIICR/QuantitativeReporting/raw/master/QuantitativeReporting/Resources/Icons/ReportingLogo128px.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status      Work in progress
 description Segmentation-based measurements with DICOM-based import and export of the results.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/w/images/f/fe/QuantitativeReporting-screenshot.jpg
+screenshoturls https://github.com/QIICR/QuantitativeReporting/raw/master/QuantitativeReporting/Resources/Screenshots/QuantitativeReporting-screenshot.jpg
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

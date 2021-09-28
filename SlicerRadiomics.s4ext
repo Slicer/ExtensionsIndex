@@ -28,7 +28,7 @@ contributors Andrey Fedorov (SPL), Joost van Griethuysen (NKI), Nicole Aucoin (S
 category Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.slicer.org/w/images/6/6b/RadiomicsExtension.png
+iconurl https://github.com/AIM-Harvard/SlicerRadiomics/raw/master/resources/radiomics_icon128.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
