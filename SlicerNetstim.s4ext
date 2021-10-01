@@ -28,7 +28,7 @@ contributors Simon Oxenford (Charite Berlin)
 category Netstim
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://raw.githubusercontent.com/netstim/SlicerNetstim/master/logo.png
+iconurl https://raw.githubusercontent.com/lassoan/SlicerNetstim/master/logo128.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
