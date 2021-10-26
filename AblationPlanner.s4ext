@@ -35,7 +35,7 @@ iconurl https://github.com/naterex23/SlicerAblationPlanner/raw/main/AblationPlan
 status 
 
 # One line stating what the module does
-This extension enables the user to place virtual ablation profiles and evaluate a theoretical margins associated with these profiles.  
+description This extension enables the user to place virtual ablation profiles and evaluate a theoretical margins associated with these profiles.  
 
 # Space separated list of urls
 screenshoturls https://github.com/naterex23/SlicerAblationPlanner/raw/main/Screenshots/combined_probes.png https://github.com/naterex23/SlicerAblationPlanner/raw/main/Screenshots/fiducial_placement.png https://github.com/naterex23/SlicerAblationPlanner/raw/main/Screenshots/margin_colors.png
