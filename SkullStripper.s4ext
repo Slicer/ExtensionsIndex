@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/Slicer/SkullStripper.git
+scmurl https://github.com/Slicer/SkullStripper.git
 scmrevision 679a26718f121150003aefe8de2fb78872f7eac2
 
 # list dependencies

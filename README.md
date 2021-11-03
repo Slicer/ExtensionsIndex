@@ -29,7 +29,7 @@ See http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Developers/
 Meta
 ----
 
-* Code: `git clone git://github.com/Slicer/ExtensionsIndex.git`
+* Code: `git clone https://github.com/Slicer/ExtensionsIndex.git`
 * Bugs: http://www.na-mic.org/Bug
 
 License

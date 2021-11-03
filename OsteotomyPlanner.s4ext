@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/KitwareMedical/OsteotomyPlanner.git
+scmurl https://github.com/KitwareMedical/OsteotomyPlanner.git
 scmrevision master
 
 # list dependencies

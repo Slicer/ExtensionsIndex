@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/grandwork2/ScatteredTransform
+scmurl https://github.com/grandwork2/ScatteredTransform
 scmrevision master
 
 # list dependencies

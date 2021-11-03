@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/millerjv/FacetedVisualizer.git
+scmurl https://github.com/millerjv/FacetedVisualizer.git
 scmrevision 7beba23
 
 # list dependencies

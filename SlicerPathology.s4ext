@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/SBU-BMI/SlicerPathology.git
+scmurl https://github.com/SBU-BMI/SlicerPathology.git
 scmrevision v1.2.5
 
 # list dependencies

@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/Slicer/OpenCVExample.git
+scmurl https://github.com/Slicer/OpenCVExample.git
 scmrevision master
 
 # list dependencies

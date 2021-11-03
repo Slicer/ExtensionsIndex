@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/lassoan/SlicerElastix.git
+scmurl https://github.com/lassoan/SlicerElastix.git
 scmrevision master
 
 # list dependencies

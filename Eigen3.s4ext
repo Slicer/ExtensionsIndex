@@ -1,6 +1,6 @@
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/eigenteam/eigen-git-mirror
+scmurl https://github.com/eigenteam/eigen-git-mirror
 scmrevision branches/3.3
 # list dependencies
 # - These should be names of other modules that have .s4ext files

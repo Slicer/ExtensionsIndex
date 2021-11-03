@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/fredericpanthier/SlicerKidneyStoneCalculator.git
+scmurl https://github.com/fredericpanthier/SlicerKidneyStoneCalculator.git
 scmrevision 667aa7d8f74a50e6528a1e8aae7423d1fb66a93e
 
 # list dependencies

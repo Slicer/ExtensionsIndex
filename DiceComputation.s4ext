@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/lchauvin/DiceComputation.git
+scmurl https://github.com/lchauvin/DiceComputation.git
 scmrevision 11e62e2337252aa0214189c17489a89d5ad4d9ef
 
 # list dependencies

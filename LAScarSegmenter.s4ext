@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/ljzhu/LAScarSegmenter.git
+scmurl https://github.com/ljzhu/LAScarSegmenter.git
 scmrevision 869f22f
 
 # list dependencies

@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/lorensen/SwissSkullStripperExtension.git
+scmurl https://github.com/lorensen/SwissSkullStripperExtension.git
 scmrevision 317d74d7363e7e76048259e177a0d8facd736f87
 
 # list dependencies

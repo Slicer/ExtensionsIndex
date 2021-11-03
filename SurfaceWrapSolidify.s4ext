@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/sebastianandress/Slicer-SurfaceWrapSolidify.git
+scmurl https://github.com/sebastianandress/Slicer-SurfaceWrapSolidify.git
 scmrevision master
 
 # list dependencies

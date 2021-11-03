@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/jcfr/SlicerToKiwiExporter.git
+scmurl https://github.com/jcfr/SlicerToKiwiExporter.git
 scmrevision master
 
 # list dependencies

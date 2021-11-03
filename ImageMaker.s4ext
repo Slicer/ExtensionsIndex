@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/finetjul/ImageMaker
+scmurl https://github.com/finetjul/ImageMaker
 scmrevision 6293f99
 
 # list dependencies

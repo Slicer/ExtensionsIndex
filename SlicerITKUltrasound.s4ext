@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/KitwareMedical/SlicerITKUltrasound
+scmurl https://github.com/KitwareMedical/SlicerITKUltrasound
 scmrevision 3552034
 
 # list dependencies
