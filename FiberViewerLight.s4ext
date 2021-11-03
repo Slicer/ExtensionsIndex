@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/NIRALUser/FiberViewerLight.git
+scmurl https://github.com/NIRALUser/FiberViewerLight.git
 scmrevision release
 
 # list dependencies

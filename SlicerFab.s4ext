@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/SlicerFab/SlicerFab
+scmurl https://github.com/SlicerFab/SlicerFab
 scmrevision master
 
 # list dependencies

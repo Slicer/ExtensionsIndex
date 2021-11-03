@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/carma-center/carma_slicer_extension.git
+scmurl https://github.com/carma-center/carma_slicer_extension.git
 scmrevision 4e01680
 
 # list dependencies

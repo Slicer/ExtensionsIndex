@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/ikolesov/CarreraSlice.git
+scmurl https://github.com/ikolesov/CarreraSlice.git
 scmrevision 40e62e857f2879c9a4d3a37f341c6421b6e79895
 
 # list dependencies

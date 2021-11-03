@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/SlicerProstate/SlicerZFrameRegistration.git
+scmurl https://github.com/SlicerProstate/SlicerZFrameRegistration.git
 scmrevision master
 
 # list dependencies

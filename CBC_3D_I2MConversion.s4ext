@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/jbest002/CBC3D_I2M_Conversion_SlicerExtension.git
+scmurl https://github.com/jbest002/CBC3D_I2M_Conversion_SlicerExtension.git
 scmrevision 1f490c6
 
 # list dependencies

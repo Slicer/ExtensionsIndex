@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/DCBIA-OrthoLab/AnglePlanes-Extension.git
+scmurl https://github.com/DCBIA-OrthoLab/AnglePlanes-Extension.git
 scmrevision master
 
 # list dependencies

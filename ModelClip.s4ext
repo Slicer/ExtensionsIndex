@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/Ting-Jia/ModelClip.git
+scmurl https://github.com/Ting-Jia/ModelClip.git
 scmrevision 7de8c132cf13fccedc46830d4bf5c33a91e7bd66
 
 # list dependencies

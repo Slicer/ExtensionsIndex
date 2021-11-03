@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/NIRALUser/ShapePopulationViewer.git
+scmurl https://github.com/NIRALUser/ShapePopulationViewer.git
 scmrevision master
 
 # list dependencies

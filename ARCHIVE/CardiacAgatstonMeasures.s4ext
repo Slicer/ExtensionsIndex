@@ -8,6 +8,6 @@ homepage http://brainsia.github.io/CardiacAgatstonMeasures/
 iconurl http://www.na-mic.org/Wiki/images/b/b5/CardiacAgatstonModuleIamge.png
 scm git
 scmrevision 1e5413ca66849942fa89985677faf72a26c2b5f2
-scmurl git://github.com/BRAINSia/CardiacAgatstonMeasures.git
+scmurl https://github.com/BRAINSia/CardiacAgatstonMeasures.git
 screenshoturls http://www.na-mic.org/Wiki/images/6/63/CardiacAgatstonMeasuresModuleScreenshot.jpg
 status

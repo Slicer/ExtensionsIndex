@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/KitwareMedical/SlicerVirtualReality.git
+scmurl https://github.com/KitwareMedical/SlicerVirtualReality.git
 scmrevision 37a23aebd2e55fc30178b88a7f501e8e31b600ba
 
 # list dependencies

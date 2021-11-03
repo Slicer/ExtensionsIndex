@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/NIRALUser/DTIAtlasBuilder.git
+scmurl https://github.com/NIRALUser/DTIAtlasBuilder.git
 scmrevision release
 
 # list dependencies

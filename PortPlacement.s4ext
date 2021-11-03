@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/giogadi/PortPlacement.git
+scmurl https://github.com/giogadi/PortPlacement.git
 scmrevision 1a0fc89
 
 # list dependencies
