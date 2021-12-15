@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/cpinter/SlicerSurfaceMarkup.git
+scmurl https://github.com/SlicerHeart/SlicerSurfaceMarkup.git
 scmrevision master
 
 # list dependencies
