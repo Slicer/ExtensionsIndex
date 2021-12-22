@@ -19,6 +19,8 @@ the archive are as follows
 
 | Date       | Extension Name              | Commit                                                             | Deprecation reason  |
 |------------|-----------------------------|--------------------------------------------------------------------|---------------------|
+| 2021-12-21 | SliceTracker                | [4df1f21](https://github.com/Slicer/ExtensionsIndex/commit/4df1f21)| Removed due to reliance on the now removed mpReview |
+| 2021-12-21 | mpReview                    | [1c43bd7](https://github.com/Slicer/ExtensionsIndex/commit/1c43bd7)| Removed due to reliance on the now removed Editor |
 | 2020-12-13 | WindowLevelEffect.s4ext     |                                                                    | Moved into Slicer core (window/level mouse mode) |
 | 2020-05-06 | CardiacAgatstonMeasures     | [5418df1](https://github.com/Slicer/ExtensionsIndex/commit/5418df1)| Project no longer active, requires Slicer 4.9 or less features, new developer needed |
 | 2020-04-18 | Sequences                   | [f9cd072](https://github.com/Slicer/ExtensionsIndex/commit/f9cd072)| Moved into Slicer core |
