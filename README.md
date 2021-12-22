@@ -5,18 +5,14 @@ Overview
 --------
 
 Think of the ExtensionsIndex as a repository containing a list of [extension description file][]s 
-(*.s4ext) used by the [Slicer][] extensions build system to build, test, package and upload 
+(*.s4ext) used by the Slicer extensions build system to build, test, package and upload 
 extensions on an [extensions server][].
 
-Once uploaded on an [extensions server][], within Slicer, extensions can be installed using the [extensions manager][].
+Once uploaded on an `extensions server`, within Slicer, extensions can be installed using the [extensions manager][].
 
-An [extensions catalog][] provides Slicer users with a convenient way to access the extensions
-previously uploaded on the [extensions server][]:
+A website referred to as the [extensions catalog][] provides Slicer users with a convenient way of finding and downloading extensions previously uploaded on the `extensions server`. The `extensions manager` in Slicer makes the catalog available directly in the application and allows extensions to be installed, updated, or uninstalled by a few clicks.
 
-* from within Slicer with the help of the [extensions manager][]
-* from the web: http://slicer.kitware.com/midas3/slicerappstore
-
-The following diagram depicts how [extensions catalog][], [extensions server][], [CDash][] and the 
+The following diagram depicts how `extensions catalog`, `extensions server`, [CDash][] and the 
 slicer factory interact.
 
 <img width="80%" src="http://www.slicer.org/slicerWiki/images/a/ab/Extensions-Index-to-Catalog-cycle.png"/>
@@ -24,25 +20,22 @@ slicer factory interact.
 Build instructions
 ------------------
 
-See http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Developers/Build_ExtensionsIndex
+See https://slicer.readthedocs.io/en/latest/developer_guide/extensions.html#extensions-build-system
 
-Meta
-----
+Contact
+-------
 
-* Code: `git clone https://github.com/Slicer/ExtensionsIndex.git`
-* Bugs: http://www.na-mic.org/Bug
+Questions regarding this project should be posted on 3D Slicer forum: https://discourse.slicer.org
 
 License
 -------
 
-* [3D Slicer license](http://viewvc.slicer.org/viewvc.cgi/Slicer4/trunk/License.txt?view=co)
+* [3D Slicer license](https://github.com/Slicer/Slicer/blob/master/License.txt)
 
 
-[CDash]: http://slicer.cdash.org/index.php?project=Slicer4
-[slicer]: http://slicer.org
-[slicer extensions server]: http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Developers/Extensions/Server
-[extensions manager]: http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/SlicerApplication/ExtensionsManager
-[extension description file]: http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Developers/Extensions/DescriptionFile
-[extensions catalog]: http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/Catalog
-[extensions server]: http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Developers/Extensions/Server
+[CDash]: https://slicer.cdash.org/index.php?project=SlicerPreview
+[extensions manager]: https://slicer.readthedocs.io/en/latest/user_guide/extensions_manager.html
+[extension description file]: https://slicer.readthedocs.io/en/latest/developer_guide/extensions.html#extension-description-file
+[extensions catalog]: https://extensions.slicer.org/catalog/All/30117/win
+[extensions server]: https://slicer.readthedocs.io/en/latest/developer_guide/extensions.html#extensions-server
 
