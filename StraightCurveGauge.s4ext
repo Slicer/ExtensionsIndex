@@ -6,7 +6,7 @@
 
 # This is source code manager
 scm git
-scmurl https://github.com/chir-set/StraightCurveGauge.git
+scmurl https://github.com/chir-set/SlicerStraightCurveGauge.git
 scmrevision master
 
 # list dependencies
@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage https://github.com/chir-set/StraightCurveGauge/
+homepage https://github.com/chir-set/SlicerStraightCurveGauge/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors SET ([Surgeon] [Hobbyist developer])
 category Utilities
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/chir-set/StraightCurveGauge/StraightCurveGauge.png
+iconurl https://github.com/chir-set/SlicerStraightCurveGauge/StraightCurveGauge.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description This module straightens an input markups open curve and displays cumulative and individual lengths between control points.
 
 # Space separated list of urls
-screenshoturls https://github.com/chir-set/StraightCurveGauge/Screenshot_0.png https://github.com/chir-set/StraightCurveGauge/Screenshot_1.png
+screenshoturls https://github.com/chir-set/SlicerStraightCurveGauge/Screenshot_0.png https://github.com/chir-set/SlicerStraightCurveGauge/Screenshot_1.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
