@@ -28,7 +28,7 @@ contributors Fryderyk Kögl (TUM, BWH), Harneet Cheema (BWH, UOttawa), Tina Kapu
 category Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/koegl/SlicerMRUSLandmarking/blob/main/misc/icon.png
+iconurl https://github.com/koegl/SlicerMRUSLandmarking/raw/main/misc/icon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description SlicerMRUSLandmarking is a Slicer extension that provides a user interface focused on landmarking MR and US images.
 
 # Space separated list of urls
-screenshoturls https://github.com/koegl/SlicerMRUSLandmarking/blob/main/misc/GUIpreview.png
+screenshoturls https://github.com/koegl/SlicerMRUSLandmarking/raw/main/misc/GUIpreview.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
