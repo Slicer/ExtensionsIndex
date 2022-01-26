@@ -32,7 +32,7 @@ iconurl https://github.com/koegl/SlicerMRUSLandmarking/raw/main/misc/icon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status alpha
 
 # One line stating what the module does
 description MRUSLandmarking is a Slicer extension that provides a user interface focused on landmarking MR and US images.
