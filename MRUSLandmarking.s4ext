@@ -35,7 +35,7 @@ iconurl https://github.com/koegl/SlicerMRUSLandmarking/raw/main/misc/icon.png
 status 
 
 # One line stating what the module does
-description SlicerMRUSLandmarking is a Slicer extension that provides a user interface focused on landmarking MR and US images.
+description MRUSLandmarking is a Slicer extension that provides a user interface focused on landmarking MR and US images.
 
 # Space separated list of urls
 screenshoturls https://github.com/koegl/SlicerMRUSLandmarking/raw/main/misc/GUIpreview.png
