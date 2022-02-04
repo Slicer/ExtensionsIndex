@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/jcfr/ShapeRegressionExtension.git
-scmrevision c186eeb30a99a20c12cc706d2e392552992d479a
+scmurl https://github.com/KitwareMedical/ShapeRegressionExtension.git
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,7 +18,7 @@ depends NA
 build_subdirectory ShapeRegressionExtension-build
 
 # homepage
-homepage 
+homepage https://salt.slicer.org/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Laura Pascal (Kitware Inc.), Beatriz Paniagua (Kitware Inc.), James
 category Shape Regression
 
 # url to icon (png, size 128x128 pixels)
-iconurl 
+iconurl https://raw.githubusercontent.com/slicersalt/slicersalt.github.io/master/img/favicons/favicon-128.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status Beta
 description Computation and visualization of time-regressed shapes in a collection of 3D shape inputs associated to a linear variable
 
 # Space separated list of urls
-screenshoturls 
+screenshoturls https://raw.githubusercontent.com/slicersalt/slicersalt.github.io/b34f1452faf111175b203d0172b6f45807d996e2/img/about-section/regression.gif
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
