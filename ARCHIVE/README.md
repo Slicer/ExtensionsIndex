@@ -19,6 +19,7 @@ the archive are as follows
 
 | Date       | Extension Name              | Commit                                                             | Deprecation reason  |
 |------------|-----------------------------|--------------------------------------------------------------------|---------------------|
+| 2022-02-04 | SegmentationWizard          |                                                                    | Removed due to the extension [not fixed for over two years](https://github.com/QTIM-Lab/SlicerSegmentationWizard/issues/1) and only offering features that are also available with Slicer core modules |
 | 2021-12-21 | SliceTracker                | [4df1f21](https://github.com/Slicer/ExtensionsIndex/commit/4df1f21)| Removed due to reliance on the now removed mpReview |
 | 2021-12-21 | mpReview                    | [1c43bd7](https://github.com/Slicer/ExtensionsIndex/commit/1c43bd7)| Removed due to reliance on the now removed Editor |
 | 2020-12-13 | WindowLevelEffect.s4ext     |                                                                    | Moved into Slicer core (window/level mouse mode) |
