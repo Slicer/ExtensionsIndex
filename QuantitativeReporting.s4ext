@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/QIICR/QuantitativeReporting.git
-scmrevision master
+scmrevision f3eade4810de049bcc404a4a4a7d251ba69d2679
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
