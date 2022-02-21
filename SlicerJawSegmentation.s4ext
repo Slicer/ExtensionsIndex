@@ -38,7 +38,7 @@ iconurl https://github.com/MathieuLeclercq/SlicerJawSegmentation/raw/main/exampl
 status 
 
 # One line stating what the module does
-description This extension aims to provide a GUI for the deep learning method for jaw segmentation that we developed. The input file must be a .vtk file of a lower or upper jaw.
+description This extension aims to provide a GUI for the deep learning method for jaw segmentation that we developed.
 
 # Space separated list of urls
 screenshoturls https://github.com/MathieuLeclercq/SlicerJawSegmentation/blob/main/examples/segmentation_example.png
