@@ -19,6 +19,7 @@ the archive are as follows
 
 | Date       | Extension Name               | Commit                                                             | Deprecation reason  |
 |------------|------------------------------|--------------------------------------------------------------------|---------------------|
+| 2022-03-16 | Eigen                        |                                                                    | Not used anymore in by any extensions. Eigen is already available in ITK and VTK. |
 | 2022-03-16 | DiceComputation              |                                                                    | Removed due to the extension build was not successful at submission and was [not fixed for several years](https://github.com/lchauvin/DiceComputation/pull/4). Dice score can be computed using Segment Comparison module in SlicerRT extension. |
 | 2022-03-16 | RSSExtension                 |                                                                    | Removed due to the extension build was not successful at submission and was [not fixed for several years](https://github.com/gaoyi/RSSExtension/pull/9). Instead of robust statistics segmenter, "Grow from seeds" effect can be used in Segment Editor module. |
 | 2022-03-16 | SupervisedSegmentation       |                                                                    | Removed due to the extension build was not successful at submission and was [not fixed for several years](https://github.com/chalupaDaniel/SlicerSupervisedSegmentation/issues/2). |
