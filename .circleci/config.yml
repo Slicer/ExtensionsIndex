@@ -31,7 +31,7 @@ jobs:
           # See https://discuss.circleci.com/t/how-to-get-the-pull-request-upstream-branch/5496/2
           command: |
             if [[ $CIRCLE_PULL_REQUEST != "" ]]; then
-              for base_branch in origin/master $(git branch -r | grep -E "origin\/[0-9](\.[0-9])+" | sort -r); do
+              for base_branch in origin/main $(git branch -r | grep -E "origin\/[0-9](\.[0-9])+" | sort -r); do
                 differences=$(git diff $base_branch --name-only)
                 if [[ $differences != "" ]]; then
                   break
