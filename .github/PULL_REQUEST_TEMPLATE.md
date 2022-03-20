@@ -1,7 +1,7 @@
 <!--
 Thank you for contributing to 3D Slicer!
 - To add a new extension with this pull request: Please keep content of "New extension" section and put an 'x' in the brackets for each todo item to indicate that you have accomplished that prerequisite.
-- To update an existing extension with this pull request: Please delete all text in this template and just describe which extension is updated and optionally tell us in a sentence what has been changed. To make extension updates easier in the future you may consider replacing specific git hash in your s4ext file by a branch name (for example: `master` for Slicer Preview Releases; `(majorVersion).(minorVersion)` such as `4.10` for Slicer Stable Releases).
+- To update an existing extension with this pull request: Please delete all text in this template and just describe which extension is updated and optionally tell us in a sentence what has been changed. To make extension updates easier in the future you may consider replacing specific git hash in your s4ext file by a branch name (for example: `main` for Slicer Preview Releases; `(majorVersion).(minorVersion)` such as `4.10` for Slicer Stable Releases).
 -->
 
 # New extension
@@ -14,7 +14,7 @@ Thank you for contributing to 3D Slicer!
 - [ ] Extension description summarizes in 1-2 sentences what the extension is usable (should be understandable for non-experts)
 - [ ] Any known related patents must be mentioned in the extension description.
 - [ ] If source code license is more restrictive for users than BSD, MIT, Apache, or 3D Slicer license then the name of the used license must be mentioned in the extension description.
-- [ ] Extension URL and revision (scmurl, scmrevision) is correct, consider using a branch name (main, master, release, ...) instead of a specific git has to avoid re-submitting pull request whenever the extension is updated
+- [ ] Extension URL and revision (scmurl, scmrevision) is correct, consider using a branch name (main, release, ...) instead of a specific git has to avoid re-submitting pull request whenever the extension is updated
 - [ ] Extension icon URL is correct (do not use the icon's webpage but the raw data download URL that you get from the download button - it should look something like this: https://raw.githubusercontent.com/user/repo/main/SomeIcon.png)
 - [ ] Screenshot URLs (screenshoturls) are correct, contains at least one
 - [ ] Homepage URL points to valid webpage containing the following:
@@ -24,7 +24,7 @@ Thank you for contributing to 3D Slicer!
   - [ ] Description of contained modules: at one sentence for each module
   - [ ] Tutorial: step-by-step description of at least the most typical use case, include a few screenshots, provide download links to sample input data set
   - [ ] Publication: link to publication and/or to PubMed reference (if available)
-  - [ ] License: We suggest you use a permissive license that includes patent and contribution clauses.  This will help protect developers and ensure the code remains freely available.  We suggest you use the [Slicer License](https://github.com/Slicer/Slicer/blob/master/License.txt) or the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0). Always mention in your README file the license you have chosen.  If you choose a different license, explain why to the extension maintainers. Depending on the license we may not be able to host your work. Read [here](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) to learn more about licenses.
+  - [ ] License: We suggest you use a permissive license that includes patent and contribution clauses.  This will help protect developers and ensure the code remains freely available.  We suggest you use the [Slicer License](https://github.com/Slicer/Slicer/blob/main/License.txt) or the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0). Always mention in your README file the license you have chosen.  If you choose a different license, explain why to the extension maintainers. Depending on the license we may not be able to host your work. Read [here](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) to learn more about licenses.
   - [ ] Content of submitted s4ext file is consistent with the top-level CMakeLists.txt file in the repository (description, URLs, dependencies, etc. are the same)
 
 <!-- If you have any questions or comments then please describe them here. -->
