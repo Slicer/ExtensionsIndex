@@ -1,7 +1,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/ETS-vis-interactive/SlicerPRISMRendering
-scmrevision master
+scmrevision 4.11
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
