@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/lancelevine/SlicerDRRGenerator.git
-scmrevision 40b62bd0b9eb5d01ae0aa8545b0b7960c70bf265
+scmurl https://github.com/lassoan/SlicerDRRGenerator.git
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
