@@ -29,7 +29,6 @@ the archive are as follows
 | 2022-03-25 | GraphCutSegment               | Extension build was failing and maintaners not merging the proposed fix](https://github.com/Slicer/SlicerGraphCutSegment/pull/5). Probably "Grow from seeds" effect in Segment Editor produces better results. |
 | 2022-03-25 | LAScarSegmenter               | Extension build was failing and [not fixed for a long time](https://github.com/ljzhu/LAScarSegmenter/issues/1). |
 | 2022-03-25 | LASegmenter                   | Extension build was failing and maintaners not merging the proposed fix](https://github.com/ljzhu/LASegmenter/pull/8). |
-| 2022-03-25 | AnomalousFiltersExtension     | Extension build was failing and [not fixed for a long time](https://github.com/CSIM-Toolkits/AnomalousFiltersExtension/issues/12). |
 | 2022-03-25 | ABLTemporalBoneSegmentation   | Extension build was failing and maintaners not merging the proposed fix](https://github.com/Auditory-Biophysics-Lab/Slicer-ABLTemporalBoneSegmentation/pull/6). |
 | 2022-03-25 | BoneThicknessMapping          | Extension build was failing and maintaners not merging the proposed fix](https://github.com/Auditory-Biophysics-Lab/Slicer-BoneThicknessMapping/pull/5). |
 | 2022-03-25 | ROBEXBrainExtraction          | Extension build was failing and maintaners not merging the proposed fix](https://github.com/CSIM-Toolkits/ROBEXBrainExtraction/pull/2). |

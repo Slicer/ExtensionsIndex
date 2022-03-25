@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/CSIM-Toolkits/AnomalousFiltersExtension.git
-scmrevision 043d4f983c7479bddefde41e843efc4fa7dfb395
+scmurl https://github.com/lassoan/AnomalousFiltersExtension.git
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
