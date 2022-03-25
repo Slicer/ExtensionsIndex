@@ -31,7 +31,7 @@ the archive are as follows
 | 2022-03-25 | LASegmenter                   | Extension build was failing and maintaners not merging the proposed fix](https://github.com/ljzhu/LASegmenter/pull/8). |
 | 2022-03-25 | ABLTemporalBoneSegmentation   | Extension build was failing and maintaners not merging the proposed fix](https://github.com/Auditory-Biophysics-Lab/Slicer-ABLTemporalBoneSegmentation/pull/6). |
 | 2022-03-25 | BoneThicknessMapping          | Extension build was failing and maintaners not merging the proposed fix](https://github.com/Auditory-Biophysics-Lab/Slicer-BoneThicknessMapping/pull/5). |
-| 2022-03-25 | ROBEXBrainExtraction          | Extension build was failing and maintaners not merging the proposed fix](https://github.com/CSIM-Toolkits/ROBEXBrainExtraction/pull/2). |
+| 2022-03-25 | ROBEXBrainExtraction          | Extension build was failing and maintaners not merging the proposed fix](https://github.com/CSIM-Toolkits/ROBEXBrainExtraction/pull/2). HDBrainExtraction or SwissSkullStripper extensions can be used instead. |
 | 2022-03-25 | LesionSimulator               | Extension build was failing and maintaners not merging the proposed fix](https://github.com/CSIM-Toolkits/Slicer-LesionSimulatorExtension/pull/14). |
 | 2022-03-25 | LesionSpotlight               | Extension build was failing and maintaners not merging the proposed fix](https://github.com/CSIM-Toolkits/LesionSpotlightExtension/pull/7). |
 | 2022-03-24 | SlicerOpenCV                  | Extension build was failing and [not fixed for a long time](https://github.com/Slicer/SlicerOpenCV/issues/74). OpenCV is now available using pip, so the extension may not be needed anymore. |
