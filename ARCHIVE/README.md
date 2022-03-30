@@ -20,7 +20,6 @@ the archive are as follows
 | Date       | Extension Name                | Deprecation reason  |
 |------------|-------------------------------|---------------------|
 | 2022-03-29 | DeepInfer                     | Not updated for Python3. MONAILabel may be used instead. |
-| 2022-03-29 | DatabaseInteractor            | Not updated for Python3. It offers interface to a private server, therefore it is not directly useful to be hosted in the public extensions manager. |
 | 2022-03-26 | WASP                          | Extension was [not compatible with Python3](https://github.com/Tomnl/Slicer-Wasp/issues/2) and ITK watershed segmentation is already available in SegmentEditorExtraEffects extension (with the limtiation that it does not precompute multiple levels). |
 | 2022-03-25 | LongitudinalPETCT             | Extension build was failing due to dependency on removed module (Annotations, Editor, Charts)(https://github.com/QIICR/LongitudinalPETCT/issues/17). |
 | 2022-03-25 | MFSDA                         | Extension build was failing and maintaners not responding](https://github.com/DCBIA-OrthoLab/MFSDA_Python/issues/26). |
