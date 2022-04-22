@@ -7,8 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/NrgXnat/XNATSlicer.git
-scmrevision 2f4bf01beb90d32c7aa23c8b920d6797e36b0c6b
-            
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -33,7 +32,7 @@ iconurl     https://raw.github.com/NrgXnat/XNATSlicer/master/XNATSlicer/Resource
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      
+status
 
 # One line stating what the module does
 description Secure GUI-based IO with any XNAT server.
