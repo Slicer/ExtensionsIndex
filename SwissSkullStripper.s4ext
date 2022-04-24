@@ -4,10 +4,10 @@
 # - the value can be blank
 #
 
-# This is source code manager (i.e. svn)
+# This is source code manager
 scm git
-scmurl https://github.com/lorensen/SwissSkullStripperExtension.git
-scmrevision 317d74d7363e7e76048259e177a0d8facd736f87
+scmurl https://github.com/lassoan/SlicerSwissSkullStripper
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,27 +18,27 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SwissSkullStripper
+homepage https://github.com/lassoan/SlicerSwissSkullStripper
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Bill Lorensen (Noware), Stefan Bauer (University of Bern), Thomas Fejes (University of Bern), Mauricio Reyes (University of Bern), Arnaud Gelas (Crisalix)
+contributors Bill Lorensen (Noware), Stefan Bauer (University of Bern), Thomas Fejes (University of Bern), Mauricio Reyes (University of Bern), Arnaud Gelas (Crisalix), Andras Lasso (PerkLab)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.slicer.org/slicerWiki/images/c/cd/SwissSkullStripper.png
+iconurl https://github.com/lassoan/SlicerSwissSkullStripper/raw/master/SwissSkullStripper.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status seeking input from users
+status stable
 
 # One line stating what the module does
 description Atlas-driven skull stripping for MR and CT head studies.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/0/01/SwissSkullStripperResults1.png
+screenshoturls https://github.com/lassoan/SlicerSwissSkullStripper/raw/master/Docs/SwissSkullStripperResults1.png https://github.com/lassoan/SlicerSwissSkullStripper/raw/master/Docs/SwissSkullStripperPanel.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
