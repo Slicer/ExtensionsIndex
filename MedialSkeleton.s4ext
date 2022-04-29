@@ -4,10 +4,10 @@
 # - the value can be blank
 #
 
-# This is source code manager (i.e. svn)
+# This is source code manager
 scm git
-scmurl https://github.com/JolleyLab/MedialSkeleton.git
-scmrevision master
+scmurl https://github.com/JolleyLab/SlicerMedialSkeleton.git
+scmrevision main
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,24 +18,27 @@ depends NA
 build_subdirectory inner-build
 
 # homepage
-homepage https://github.com/JolleyLab/MedialSkeleton
-
-# Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/JolleyLab/MedialSkeleton/master/overview.png https://raw.githubusercontent.com/JolleyLab/MedialSkeleton/master/SkeletonTool/Screenshots/SkeletonTool01.png https://raw.githubusercontent.com/JolleyLab/MedialSkeleton/master/SyntheticSkeleton/Resources/Screenshots/SyntheticSkeleton01.png https://raw.githubusercontent.com/JolleyLab/MedialSkeleton/master/InflateMedialModel/Screenshots/InflateMedialModel01.png
+homepage https://github.com/JolleyLab/SlicerMedialSkeleton
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
-contributors Christian Herz (CHOP), Nicolas Vergnat (PICSL/UPenn), Abdullah Aly (PICSL/UPenn), Sijie Tian (PICSL/UPenn), Paul Yushkevich (PICSL/UPenn), Alison Pouch (PICSL/UPenn), Andras Lasso (PerkLab, Queen's University), Matthew Jolley (CHOP/UPenn)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Paul Yushkevich (PICSL/UPenn), Alison Pouch (PICSL/UPenn), Matthew Jolley (CHOP/UPenn), Christian Herz (CHOP), Andras Lasso (PerkLab, Queen's University)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category Skeletonization
+category Shape Analysis
+
+# url to icon (png, size 128x128 pixels)
+iconurl https://raw.githubusercontent.com/JolleyLab/SlicerMedialSkeleton/main/MedialSkeleton.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
 status
 
 # One line stating what the module does
+description Modules for creating medial skeletons
 
-description This extension provides ways to create medial skeletons using Voronoi (qhull) with additional cleaning steps and the option to create synthetic skeleton by manually triangulating points.
+# Space separated list of urls
+screenshoturls https://raw.githubusercontent.com/JolleyLab/SlicerMedialSkeleton/main/SkeletonTool/Screenshots/SkeletonTool01.png https://github.com/JolleyLab/SlicerMedialSkeleton/raw/main/SyntheticSkeleton/Resources/Screenshots/SyntheticSkeleton01.png https://github.com/JolleyLab/SlicerMedialSkeleton/raw/main/InflateMedialModel/Screenshots/InflateMedialModel01.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
