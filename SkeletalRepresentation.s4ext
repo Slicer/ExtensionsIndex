@@ -15,7 +15,7 @@ scmrevision master
 depends NA
 
 # Inner build directory (default is ".")
-build_subdirectory .
+build_subdirectory inner-build
 
 # homepage
 homepage https://github.com/KitwareMedical/SlicerSkeletalRepresentation/blob/master/README.md
