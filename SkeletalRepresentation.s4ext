@@ -28,7 +28,7 @@ contributors Zhiyuan Liu (University of North Carolina at Chapel Hill), Junpyo H
 category Topology, Skeletonization
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://raw.githubusercontent.com/KitwareMedical/SlicerSkeletalRepresentation/master/SkeletalRepresentation.png
+iconurl https://raw.githubusercontent.com/KitwareMedical/SlicerSkeletalRepresentation/master/img/SRep.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
