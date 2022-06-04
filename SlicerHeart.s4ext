@@ -28,7 +28,7 @@ contributors Andras Lasso (PerkLab), Christian Herz (CHOP), Steve Pieper (Isomic
 category    Cardiac
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/f/ff/SlicerHeart_Logo_128x128.png
+iconurl https://github.com/SlicerHeart/SlicerHeart/raw/master/SlicerHeart.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description Modules for cardiac analysis and intervention planning and guidance
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/a/ae/BasicHeartView.png
+screenshoturls https://github.com/SlicerHeart/SlicerHeart/raw/master/Docs/Image3dApiExample.png https://img.youtube.com/vi/hIxr9OKBvQ8/0.jpg https://raw.githubusercontent.com/SlicerHeart/SlicerHeart/master/ValveQuantification/Resources/MeasurementPreset/MitralValve.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
