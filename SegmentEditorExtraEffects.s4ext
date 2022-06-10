@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/lassoan/SlicerSegmentEditorExtraEffects
-scmrevision 4.11
+scmrevision 4.13
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
