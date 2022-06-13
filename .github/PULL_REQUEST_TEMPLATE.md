@@ -1,12 +1,12 @@
+<!--
 Thank you for contributing to 3D Slicer!
+- To add a new extension with this pull request: Please keep content of "New extension" section and put an 'x' in the brackets for each todo item to indicate that you have accomplished that prerequisite.
+- To update an existing extension with this pull request: Please delete all text in this template and just describe which extension is updated and optionally tell us in a sentence what has been changed. To make extension updates easier in the future you may consider replacing specific git hash in your s4ext file by a branch name (for example: `master` for Slicer Preview Releases; `(majorVersion).(minorVersion)` such as `4.10` for Slicer Stable Releases).
+-->
 
-- **To add a new extension with this pull request**: Please keep content of "TODO list for submitting a new extension" section and put an 'x' character in the brackets for each todo item to indicate that you have accomplished that prerequisite.
+# New extension
 
-- **To update an existing extension with this pull request**: Please delete all text in this template and just describe which extension is updated and optionally tell us in a sentence what has been changed. To make extension updates easier in the future (so that you don't have to submit a new pull request after each change in your extension), you may consider replacing specific git hash in your s4ext file by a branch name (for example: `master` or `release` for nightly version; `(majorVersion).(minorVersion)` such as `4.10` for stable Slicer version).
-
-# TODO list for submitting a new extension
-
-[To make sure users can find your extension, understand what it is intended for and how to use it, please complete the checklist below. You do not need to complete all the item by the time you submit the pull request, but most likely the changes will only be merged if all the tasks are done. See more information about the submission process here: https://slicer.readthedocs.io/en/latest/developer_guide/extensions.html]
+<!-- To make sure users can find your extension, understand what it is intended for and how to use it, please complete the checklist below. You do not need to complete all the item by the time you submit the pull request, but most likely the changes will only be merged if all the tasks are done. See more information about the submission process here: https://slicer.readthedocs.io/en/latest/developer_guide/extensions.html -->
 
 - [ ] Extension has a reasonable name (not too general, not too narrow, suggests what the extension is for)
 - [ ] Repository name is Slicer+ExtensionName
@@ -27,4 +27,4 @@ Thank you for contributing to 3D Slicer!
   - [ ] License: We suggest you use a permissive license that includes patent and contribution clauses.  This will help protect developers and ensure the code remains freely available.  We suggest you use the [Slicer License](https://github.com/Slicer/Slicer/blob/master/License.txt) or the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0). Always mention in your README file the license you have chosen.  If you choose a different license, explain why to the extension maintainers. Depending on the license we may not be able to host your work. Read [here](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) to learn more about licenses.
   - [ ] Content of submitted s4ext file is consistent with the top-level CMakeLists.txt file in the repository (description, URLs, dependencies, etc. are the same)
 
-[If you have any questions or comments then please describe them here.]
+<!-- If you have any questions or comments then please describe them here. -->
