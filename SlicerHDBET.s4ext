@@ -1,0 +1,42 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
+scm git
+scmurl https://github.com/YangRyRay/SlicerHDBET.git
+scmrevision main
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends PyTorch
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# homepage
+homepage https://github.com/YangRyRay/SlicerHDBET
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Raymond Yang (University of Massachusetts Boston), Lorainne Franke (University of Massachusetts Boston), Steve Pieper (Isomics Inc.), Daniel Haehn (University of Massachusetts Boston), Lipeng Ning (Brigham and Women's Hospital)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Segmentation
+
+# url to icon (png, size 128x128 pixels)
+iconurl https://raw.githubusercontent.com/YangRyRay/SlicerHDBET/master/HDBET.png
+
+# One line stating what the module does
+description This extension provides a CNN based Brain extracting tool for MRI scans. This is an adaptation of the HD-BET tool by the Department of Neuroradiology at the Heidelberg University Hospital and the Division of Medical Image Computing at the German Cancer Research Center. Please see the following: 
+Isensee F, Schell M, Tursunova I, Brugnara G, Bonekamp D, Neuberger U, Wick A, Schlemmer HP, Heiland S, Wick W, Bendszus M, Maier-Hein KH, Kickingereder P. Automated brain extraction of multi-sequence MRI using artificial neural networks. Hum Brain Mapp. 2019; 1–13. https://doi.org/10.1002/hbm.24750
+
+
+# Space separated list of urls
+screenshoturls https://raw.githubusercontent.com/YangRyRay/SlicerHDBET/master/BrainSeg.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
