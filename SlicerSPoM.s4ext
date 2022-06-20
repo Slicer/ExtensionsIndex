@@ -6,8 +6,8 @@
 
 # This is source code manager
 scm git
-scmurl https://github.com/gaoyi/SlicerSPoM.git
-scmrevision bb087e4
+scmurl https://github.com/gaoyi/SlicerPoissonShapeAnalysis.git
+scmrevision main
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -32,7 +32,7 @@ iconurl https://raw.githubusercontent.com/gaoyi/SlicerSPoM/master/SlicerSPoM.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description This extension uses the Signed Poisson equations to perform statistical shape analysis.
