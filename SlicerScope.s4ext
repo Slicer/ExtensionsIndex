@@ -7,7 +7,7 @@
 # This is source code manager
 scm git
 scmurl https://github.com/SlicerScope/SlicerScope.git
-scmrevision 68ab20a
+scmrevision main
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
