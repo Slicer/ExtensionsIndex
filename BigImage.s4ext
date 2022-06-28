@@ -6,7 +6,7 @@
 
 # This is source code manager
 scm git
-scmurl https://github.com/SlicerScope/SlicerScope.git
+scmurl https://github.com/gaoyi/SlicerBigImage.git
 scmrevision main
 
 # list dependencies
@@ -25,20 +25,20 @@ homepage https://slicerscope.github.io
 contributors Yi Gao (Shenzhen University)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category SlicerScope
+category BigImage
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://raw.githubusercontent.com/SlicerScope/SlicerScope/main/SlicerScope.png
+iconurl https://raw.githubusercontent.com/gaoyi/SlicerBigImage/main/SlicerBigImage.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
 status 
 
 # One line stating what the module does
-description SlicerScope is the extension hosting 3D Slicer based GB-level microscopic image viewing and computing.
+description BigImage is the extension hosting 3D Slicer based GB-level microscopic image viewing and computing.
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/SlicerScope/SlicerScope/main/Screenshots/1.png
+screenshoturls https://raw.githubusercontent.com/gaoyi/SlicerBigImage/main/Screenshots/1.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
