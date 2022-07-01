@@ -12,7 +12,7 @@ scmrevision main
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     SegmentEditorExtraEffects
+depends     NA
 
 # Inner build directory (default is .)
 build_subdirectory .
@@ -35,7 +35,7 @@ iconurl     https://raw.githubusercontent.com/jmhuie/Slicer-SegmentGeometry/main
 status      Alpha
 
 # One line stating what the module does
-description This module iterates slice-by-slice through a segment to compute second moment of area and other cross-sectional properties. 
+description This extension iterates slice-by-slice through a segment to compute second moment of area and other cross-sectional properties. 
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/jmhuie/Slicer-SegmentGeometry/main/SegmentGeometry/Resources/Icons/SegmentGeometryScreenshot1.png
