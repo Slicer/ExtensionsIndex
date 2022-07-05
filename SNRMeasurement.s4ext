@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/SNRLab/SNRMeasurement
-scmrevision 8a0d3fcba7d8e19ab82f973e0e6797bb50dc301a
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -32,7 +32,7 @@ iconurl http://viewvc.slicer.org/viewvc.cgi/Slicer4/trunk/Extensions/Testing/SNR
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description 3D Slicer CLI to calculate SNR of images.
