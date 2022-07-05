@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/DCBIA-OrthoLab/DatabaseInteractorExtension.git
-scmrevision release
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -32,7 +32,7 @@ iconurl https://www.slicer.org/w/images/7/7f/DatabaseInteractor_Logo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description This extension can interact with online data in a database and local folders.
