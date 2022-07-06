@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/lancelevine/SlicerBreastImplantAnalyzer.git
+scmurl https://github.com/lassoan/SlicerBreastImplantAnalyzer.git
 scmrevision master
 
 # list dependencies
@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage https://github.com/lancelevine/SlicerBreastImplantAnalyzer#breastimplantanalyzer
+homepage https://github.com/lassoan/SlicerBreastImplantAnalyzer#breastimplantanalyzer
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
