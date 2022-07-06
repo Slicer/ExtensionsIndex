@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/JonathanRamos/SlicerCleverSegmentation.git
+scmurl https://github.com/lassoan/SlicerCleverSegmentation.git
 scmrevision master
 
 # list dependencies
@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage https://github.com/JonathanRamos/SlicerCleverSegmentation
+homepage https://github.com/lassoan/SlicerCleverSegmentation#cleversegmentation
 
 # Jonathan Ramos ([University of São Paulo - USP, ] ICMC)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Jonathan Ramos (University of São Paulo - USP), ICMC
 category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://user-images.githubusercontent.com/3834596/66680277-8c773800-ec46-11e9-8e1b-b1826cd1ebf3.png
+iconurl https://raw.githubusercontent.com/lassoan/SlicerCleverSegmentation/master/CleverSegmentation/Resources/Icons/CleverSegmentation.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status Beta
 description his is the implementation of the CleverSeg method that supports multi-label segmentations
 
 # Space separated list of urls
-screenshoturls https://user-images.githubusercontent.com/3834596/66679174-f215f500-ec43-11e9-84f1-85f8b5c4d568.png
+screenshoturls https://user-images.githubusercontent.com/3834596/66679138-d7dc1700-ec43-11e9-8c36-51976a1121d3.png https://user-images.githubusercontent.com/3834596/66679174-f215f500-ec43-11e9-84f1-85f8b5c4d568.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
