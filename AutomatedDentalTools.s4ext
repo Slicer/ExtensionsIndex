@@ -7,7 +7,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/MathieuLeclercq/SlicerJawSegmentation.git
+scmurl https://github.com/Maxlo24/SlicerAutomatedDentalTools.git
 scmrevision main
 
 # list dependencies
