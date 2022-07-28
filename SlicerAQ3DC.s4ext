@@ -1,0 +1,42 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
+scm git
+scmurl https://github.com/baptistebaquero/AQ3DC.git
+scmrevision main
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends NA
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# homepage
+homepage https://github.com/baptistebaquero/AQ3DC/blob/main/README.md
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Baptiste Baquero (University of Michigan), Maxime Gillot (University of Michigan)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Quantification
+
+# url to icon (png, size 128x128 pixels)
+iconurl https://github.com/baptistebaquero/AQ3DC/blob/main/Resources/Icons/AQ3DC.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand behind?
+status 
+
+# One line stating what the module does
+description This extension aims to automatically computes lists of measurements selected by users for a single case or a whole study sample, 
+at one or more time points. This user-friendly tool aims to decrease user time for extraction of quantitative image analysis features.
+
+# Space separated list of urls
+screenshoturls https://github.com/baptistebaquero/AQ3DC/blob/main/AQ3DC_exemple.png
