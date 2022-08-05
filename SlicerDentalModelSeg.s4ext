@@ -7,7 +7,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/MathieuLeclercq/SlicerJawSegmentation.git
+scmurl https://github.com/DCBIA-OrthoLab/SlicerDentalModelSeg.git
 scmrevision main
 
 # list dependencies
@@ -19,7 +19,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage https://github.com/MathieuLeclercq/SlicerJawSegmentation/blob/main/readme.md
+homepage https://github.com/DCBIA-OrthoLab/SlicerDentalModelSeg/blob/main/readme.md
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -29,7 +29,7 @@ contributors Mathieu Leclercq (University of North Carolina), Juan Carlos Prieto
 category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/MathieuLeclercq/SlicerJawSegmentation/raw/main/examples/logo_jaw_segmentation.png
+iconurl https://github.com/DCBIA-OrthoLab/SlicerDentalModelSeg/raw/main/examples/logo_jaw_segmentation.png
 
 
 
@@ -38,10 +38,10 @@ iconurl https://github.com/MathieuLeclercq/SlicerJawSegmentation/raw/main/exampl
 status 
 
 # One line stating what the module does
-description This extension aims to provide a GUI for the deep learning method for segmentation of dental crowns following the Universal Numbering System.
+description This extension aims to provide a GUI for a deep-learning automated teeth segmentation tool.
 
 # Space separated list of urls
-screenshoturls https://github.com/MathieuLeclercq/SlicerJawSegmentation/blob/main/examples/segmentation_example.png
+screenshoturls https://raw.githubusercontent.com/DCBIA-OrthoLab/SlicerDentalModelSeg/main/examples/segmentation_example.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
