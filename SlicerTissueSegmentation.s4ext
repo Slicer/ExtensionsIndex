@@ -1,0 +1,55 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
+scm git
+scmurl https://github.com/MarinaSandonis/SlicerTissueSegmentation.git
+scmrevision master
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends NA
+
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
+scm git
+scmurl https://github.com/MarinaSandonis/SlicerTissueSegmentation
+scmrevision main
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends NA
+
+
+# homepage
+homepage https://github.com/MarinaSandonis/SlicerTissueSegmentation
+# Rafael Cabeza Laguna (UPNA), Fernando Idoate Saralegui (Mutua Navarra), Marina Sandonís Fernández (UPNA)
+# For example: Rafael Cabeza Laguna (UPNA), Fernando Idoate Saralegui (Mutua Navarra), Marina Sandonís Fernández (UPNA)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Segmentations
+
+# url to icon (png, size 128x128 pixels)
+iconurl https://github.com/MarinaSandonis/SlicerTissueSegmentation/blob/main/TissueSegmentation.jpg
+
+# Give people an idea what to expect from this code
+#  - 
+status 
+
+# One line stating what the module does
+This is a scripted loadable module bundled in the SlicerTissueSegmentation extension. It gets the 2D/3D segmentation of the abdomen and the thigh from MR images
+# Space separated list of urls
+screenshoturls https://github.com/MarinaSandonis/SlicerTissueSegmentation/blob/main/TissueSegmentation/TissueSegmentation.jpg
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
