@@ -43,7 +43,7 @@ category Segmentations
 iconurl https://github.com/MarinaSandonis/SlicerTissueSegmentation/blob/main/TissueSegmentation.jpg
 
 # Give people an idea what to expect from this code
-#  - 
+#  - It gets the 2D/3D segmentation of the abdomen and the thigh from MR images
 status 
 
 # One line stating what the module does
