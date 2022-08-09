@@ -25,8 +25,7 @@ homepage https://github.com/MarinaSandonis/SlicerTissueSegmentation#slicertissue
 contributors Rafael Cabeza Laguna (UPNA), Fernando Idoate Saralegui (Mutua Navarra), Marina Sandonís Fernández (UPNA)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category Chest Imaging Platform
-
+category Segmentation
 # url to icon (png, size 128x128 pixels)
 iconurl https://github.com/MarinaSandonis/SlicerTissueSegmentation/blob/main/TissueSegmentation.jpg
 
