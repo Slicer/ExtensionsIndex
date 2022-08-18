@@ -3,7 +3,7 @@ version: 2
 jobs:
   check-filenames:
     docker:
-      - image: circleci/python:3.7.0-stretch
+      - image: cimg/python:3.10
     steps:
       - checkout
       - run:
@@ -13,7 +13,7 @@ jobs:
 
   check-description-files:
     docker:
-      - image: circleci/python:3.7.0-stretch
+      - image: cimg/python:3.10
     steps:
       - checkout
       - run:
@@ -23,7 +23,7 @@ jobs:
 
   check-new-description-files:
     docker:
-      - image: circleci/python:3.7.0-stretch
+      - image: cimg/python:3.10
     steps:
       - checkout
       - run:
