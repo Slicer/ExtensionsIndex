@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/flywheel-apps/SlicerFlywheelConnect.git
-scmrevision master
+scmurl https://gitlab.com/flywheel-io/scientific-solutions/app/slicer_flywheel_connect.git
+scmrevision main
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -17,7 +17,7 @@ scmrevision master
 build_subdirectory .
 
 # homepage
-homepage  https://github.com/flywheel-apps/SlicerFlywheelConnect
+homepage  https://gitlab.com/flywheel-io/scientific-solutions/app/slicer_flywheel_connect/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -27,7 +27,7 @@ contributors Joshua Jacob (Flywheel Exchange Inc)
 category    Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://raw.githubusercontent.com/flywheel-apps/SlicerFlywheelConnect/master/Images/favicon.png
+iconurl https://gitlab.com/flywheel-io/scientific-solutions/app/slicer_flywheel_connect/-/raw/main/Images/favicon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -37,7 +37,7 @@ status production
 description This extension allows for downloading files from Flywheel to Slicer and uploading Slicer outputs back into Flywheel. Flywheel is a comprehensive data management solutions for life sciences and imaging research (https://flywheel.io/).
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/flywheel-apps/SlicerFlywheelConnect/master/Images/TreeD_Slicer.png
+screenshoturls https://gitlab.com/flywheel-io/scientific-solutions/app/slicer_flywheel_connect/-/raw/main/Images/TreeD_Slicer.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
