@@ -21,8 +21,8 @@ build_subdirectory .
 homepage https://github.com/MarinaSandonis/SlicerTissueSegmentation#slicertissuesegmentation
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
-# For example: Rafael Cabeza Laguna (UPNA), Fernando Idoate Saralegui (Mutua Navarra), Marina Sandonís Fernández (UPNA)
-contributors Rafael Cabeza Laguna (UPNA), Fernando Idoate Saralegui (Mutua Navarra), Marina Sandonís Fernández (UPNA)
+# For example: 
+contributors Marina Sandonís Fernández (UPNA), Fernando Idoate Saralegui (Mutua Navarra),Rafael Cabeza Laguna (UPNA) 
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Segmentation
@@ -40,5 +40,4 @@ screenshoturls https://github.com/MarinaSandonis/SlicerTissueSegmentation/blob/m
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
-
 
