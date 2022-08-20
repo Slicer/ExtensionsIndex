@@ -1,3 +1,4 @@
+
 #
 # First token of each non-comment line is the keyword and the rest of the line
 # (including spaces) is the value.
@@ -7,7 +8,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/MarinaSandonis/SlicerTissueSegmentation
-scmrevision master
+scmrevision main
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -21,14 +22,13 @@ build_subdirectory .
 homepage https://github.com/MarinaSandonis/SlicerTissueSegmentation#slicertissuesegmentation
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
-# For example: 
-contributors Marina Sandonís Fernández (UPNA), Fernando Idoate Saralegui (Mutua Navarra), Rafael Cabeza Laguna (UPNA) 
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Marina Sandonís Fernández (UPNA), Fernando Idoate Saralegui (Mutua Navarra), Rafael Cabeza Laguna (UPNA)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Segmentation
-
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/MarinaSandonis/SlicerTissueSegmentation/blob/main/TissueSegmentation.jpg
+iconurl https://raw.githubusercontent.com/MarinaSandonis/SlicerTissueSegmentation/main/TissueSegmentation.jpg
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -37,9 +37,8 @@ status
 # One line stating what the module does
 description It gets the 2D/3D segmentation of the abdomen and the thigh from MR images
 
-screenshoturls https://github.com/MarinaSandonis/SlicerTissueSegmentation/blob/main/images/Outputs.png https://github.com/MarinaSandonis/SlicerTissueSegmentation/blob/main/images/SegmentEditor.png https://github.com/MarinaSandonis/SlicerTissueSegmentation/blob/main/images/SlicerCapture.gif https://github.com/MarinaSandonis/SlicerTissueSegmentation/blob/main/images/inputs.png https://github.com/MarinaSandonis/SlicerTissueSegmentation/blob/main/images/module.png
+screenshoturls https://raw.githubusercontent.com/MarinaSandonis/SlicerTissueSegmentation/main/images/module.png https://raw.githubusercontent.com/MarinaSandonis/SlicerTissueSegmentation/main/images/inputs.png https://raw.githubusercontent.com/MarinaSandonis/SlicerTissueSegmentation/main/images/Outputs.png https://raw.githubusercontent.com/MarinaSandonis/SlicerTissueSegmentation/main/images/abdomen_segmenattion.png https://raw.githubusercontent.com/MarinaSandonis/SlicerTissueSegmentation/main/images/thigh_segmenattion.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
-
 
