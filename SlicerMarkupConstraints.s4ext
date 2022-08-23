@@ -4,40 +4,41 @@
 # - the value can be blank
 #
 
-# This is source code manager (i.e. svn)
+# This is source code manager
 scm git
-scmurl https://gitlab.com/flywheel-io/scientific-solutions/app/slicer_flywheel_connect.git
+scmurl https://github.com/KitwareMedical/SlicerMarkupConstraints.git
 scmrevision main
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
+depends NA
 
 # Inner build directory (default is ".")
 build_subdirectory .
 
 # homepage
-homepage  https://gitlab.com/flywheel-io/scientific-solutions/app/slicer_flywheel_connect/
+homepage https://github.com/KitwareMedical/SlicerMarkupConstraints
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Joshua Jacob (Flywheel Exchange Inc)
+contributors David Allemang (Kitware)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Informatics
+category Developer Tools
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://gitlab.com/flywheel-io/scientific-solutions/app/slicer_flywheel_connect/-/raw/main/Images/favicon.png
+iconurl https://raw.githubusercontent.com/KitwareMedical/SlicerMarkupConstraints/main/SlicerMarkupConstraints.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status production
+status beta
 
 # One line stating what the module does
-description This extension allows for downloading files from Flywheel to Slicer and uploading Slicer outputs back into Flywheel. Flywheel is a comprehensive data management solutions for life sciences and imaging research (https://flywheel.io/).
+description This module is a development tool which allows extension developers to constrain the placement of markup control points based on other vtk objects. The extension was created during Slicer Project Week 37 for the Q3DCExtension project.
 
 # Space separated list of urls
-screenshoturls https://gitlab.com/flywheel-io/scientific-solutions/app/slicer_flywheel_connect/-/raw/main/Images/TreeD_Slicer.png
+screenshoturls https://raw.githubusercontent.com/KitwareMedical/SlicerMarkupConstraints/main/Docs/static-project-angle.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
