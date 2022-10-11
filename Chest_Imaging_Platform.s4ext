@@ -8,6 +8,6 @@ homepage http://www.chestimagingplatform.org
 iconurl https://raw.githubusercontent.com/acil-bwh/SlicerCIP/master/Resources/SlicerCIPLogo.png
 scm git
 scmrevision develop
-scmurl https://github.com/Slicer/SlicerCIP.git
+scmurl https://github.com/acil-bwh/SlicerCIP
 screenshoturls https://raw.githubusercontent.com/acil-bwh/SlicerCIP/master/Resources/Screenshot1.png https://raw.githubusercontent.com/acil-bwh/SlicerCIP/master/Resources/Screenshot2.png
 status Alpha
