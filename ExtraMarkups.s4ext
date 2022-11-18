@@ -6,7 +6,7 @@
 
 # This is source code manager
 scm git
-scmurl https://github.com/chir-set/ExtraMarkups.git
+scmurl https://github.com/chir-set/SlicerExtraMarkups.git
 scmrevision main
 
 # list dependencies
@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage https://github.com/chir-set/ExtraMarkups/
+homepage https://github.com/chir-set/SlicerExtraMarkups/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Saleem Edah-Tally ([Surgeon] [Hobbyist developer])
 category Utilities
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/chir-set/ExtraMarkups/raw/main/ExtraMarkups.png
+iconurl https://github.com/chir-set/SlicerExtraMarkups/raw/main/ExtraMarkups.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description Set of custom markups.
 
 # Space separated list of urls
-screenshoturls https://github.com/chir-set/SlicerExtraMarkups/raw/main/Label/Label_0.png https://github.com/chir-set/ExtraMarkups/raw/main/Shape/Cone_0.png
+screenshoturls https://github.com/chir-set/SlicerExtraMarkups/raw/main/Label/Label_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Cone_0.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
