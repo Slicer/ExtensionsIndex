@@ -35,10 +35,10 @@ iconurl https://github.com/chir-set/SlicerExtraMarkups/raw/main/ExtraMarkups.png
 status 
 
 # One line stating what the module does
-description This extension adds a <i>Label</i> markups node that draws an arrow with a text label, and a <i>Shape</i> markups node that can draw defined primitive shapes (circle, cone...). The result is controlled by placing usual control points in slice views and 3D views. Each object can be saved in scene and reloaded.<br><br>As a markups application, this extension also includes <i>Stenosis measurement : 3D</i> module. It expects a <i>Tube</i> drawn with the <i>Shape</i> markups that represents an observer dependent arterial wall, and a <i>Segment</i> which is the result of segmenting a contrasted arterial lumen. This module can then calculate the lesion volume by subtracting the lumen volume from the wall volume, and hence, determine a volumetric stenosis degree.
+description This extension adds a <i>Label</i> markups node that draws an arrow with a text label, and a <i>Shape</i> markups node that can draw defined primitive shapes (circle, cone...). The result is controlled by placing usual control points in slice views and 3D views. Each object can be saved in scene and reloaded.
 
 # Space separated list of urls
-screenshoturls https://github.com/chir-set/SlicerExtraMarkups/raw/main/Label/Label_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Cone_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Cylinder_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Disk_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Ring_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Sphere_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Tube_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/StenosisMeasurement3D/StenosisMeasurement3D_0.png
+screenshoturls https://github.com/chir-set/SlicerExtraMarkups/raw/main/Label/Label_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Cone_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Cylinder_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Disk_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Ring_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Sphere_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Tube_0.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
