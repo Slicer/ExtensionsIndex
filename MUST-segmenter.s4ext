@@ -35,7 +35,7 @@ iconurl https://raw.githubusercontent.com/kyliekeijzer/Slicer-PET-MUST-segmenter
 status 
 
 # One line stating what the module does
-description Multiple SUV Thresholding (MUST)-segmenter is a semi-automated PET image segmentation tool that enables delineation of multiple lesions at once, and extracts metabolic active tumor volume (MATV).
+description Multiple SUV Thresholding (MUST)-segmenter is a semi-automated PET image segmentation tool that enables delineation of multiple lesions at once, and extracts the lesions' features.
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/kyliekeijzer/Slicer-PET-MUST-segmenter/master/screenshots/Slicer-MUST-segmenter_screenshot.png https://raw.githubusercontent.com/kyliekeijzer/Slicer-PET-MUST-segmenter/master/screenshots/9.png https://raw.githubusercontent.com/kyliekeijzer/Slicer-PET-MUST-segmenter/master/screenshots/12.png 
