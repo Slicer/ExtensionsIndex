@@ -34,7 +34,7 @@ iconurl https://raw.githubusercontent.com/ChenXiang96/SlicerColoc-Z-Stats/main/C
 status 
 
 # One line stating what the module does
-description This is an extension for computing the percentage of colocalization(Spatial overlap between different channels) of Z-stack images.
+description This is an extension for computing the colocalization (Spatial overlap between different channels) of multi-channel Z-stack images.
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/ChenXiang96/SlicerColoc-Z-Stats/main/Images/Screenshots.png
