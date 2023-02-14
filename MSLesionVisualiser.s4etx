@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/AlistairMcCutcheon/SlicerMSLesionVisualiser
+scmurl https://github.com/AlistairMcCutcheon/SlicerMSLesionVisualiser.git
 scmrevision main
 
 # list dependencies
