@@ -18,7 +18,6 @@ build_subdirectory .
 # homepage
 homepage    https://github.com/AlistairMcCutcheon/SlicerMSLesionVisualiser
 
-# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 contributors Alistair McCutcheon (Monash University)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
