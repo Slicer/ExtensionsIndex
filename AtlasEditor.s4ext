@@ -1,0 +1,44 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager
+scm git
+scmurl https://github.com/andy9t7/SlicerAtlasEditor
+scmrevision main
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends NA
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# homepage
+homepage https://github.com/andy9t7/SlicerAtlasEditor
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Andy Trung Huynh (The University of Western Australia, ISML)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Segmentation
+
+# url to icon (png, size 128x128 pixels)
+iconurl https://raw.githubusercontent.com/andy9t7/SlicerAtlasEditor/main/AtlasEditor.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand behind?
+status 
+
+# One line stating what the module does
+description A 3D Slicer extension for editing and simplifying The Open Anatomy Project's atlas labelmaps by anatomical groups.
+
+# Space separated list of urls
+screenshoturls https://raw.githubusercontent.com/andy9t7/SlicerAtlasEditor/main/img/original-merge.png https://raw.githubusercontent.com/andy9t7/SlicerAtlasEditor/main/img/output-merge.png https://raw.githubusercontent.com/andy9t7/SlicerAtlasEditor/main/img/original-remove.png https://raw.githubusercontent.com/andy9t7/SlicerAtlasEditor/main/img/output-remove.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
