@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/RediMinds/SlicerRediMinds.git
+scmurl https://github.com/Rediminds/SlicerRediMinds.git
 scmrevision main
 
 # list dependencies
@@ -28,7 +28,7 @@ contributors K Mordhwaj (Inzint), Andras Lasso (PerkLab), ASH
 category Rediminds
 
 # url to icon (png, size 72x72 pixels)
-iconurl https://raw.githubusercontent.com/Rediminds/SlicerRediMinds/main/Rediminds.png
+iconurl https://raw.githubusercontent.com/Rediminds/SlicerRediMinds/main/RediMinds.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
