@@ -4,7 +4,7 @@
 # - the value can be blank
 #
 
-# This is source code manager (i.e. svn)
+# This is source code manager
 scm git
 scmurl https://github.com/vnarayan13/Slicer-OpenCAD.git
 scmrevision 27ade9ac3715131ea41d8f877f8ab07680fb0fc0

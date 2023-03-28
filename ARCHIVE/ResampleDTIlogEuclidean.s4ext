@@ -4,7 +4,7 @@
 # - the value can be blank
 #
 
-# This is source code manager (i.e. svn)
+# This is source code manager
 scm git
 scmurl https://github.com/NIRALUser/ResampleDTIlogEuclidean.git
 scmrevision 1a2208c4db872d23d335e68e3a76364aaceb3417

@@ -4,7 +4,7 @@
 # - the value can be blank
 #
 
-# This is source code manager (i.e. svn)
+# This is source code manager
 scm git
 scmurl https://gitlab.kitware.com/iMSTK/slicerimstk.git
 scmrevision master
