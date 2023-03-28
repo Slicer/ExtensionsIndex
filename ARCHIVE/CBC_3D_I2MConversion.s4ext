@@ -4,7 +4,7 @@
 # - the value can be blank
 #
 
-# This is source code manager (i.e. svn)
+# This is source code manager
 scm git
 scmurl https://github.com/jbest002/CBC3D_I2M_Conversion_SlicerExtension.git
 scmrevision 1f490c6

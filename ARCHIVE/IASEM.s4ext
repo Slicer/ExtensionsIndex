@@ -4,7 +4,7 @@
 # - the value can be blank
 #
 
-# This is source code manager (i.e. svn)
+# This is source code manager
 scm git
 scmurl https://github.com/blowekamp/Slicer-IASEM.git
 scmrevision 5696e8259d80a85ef823439dbefde33bdcf17298

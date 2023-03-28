@@ -4,7 +4,7 @@
 # - the value can be blank
 #
 
-# This is source code manager (i.e. svn)
+# This is source code manager
 scm git
 scmurl https://gitlab.com/flywheel-io/scientific-solutions/app/slicer_flywheel_connect.git
 scmrevision main

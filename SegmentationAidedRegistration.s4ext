@@ -4,7 +4,7 @@
 # - the value can be blank
 #
 
-# This is source code manager (i.e. svn)
+# This is source code manager
 scm git
 scmurl https://github.com/gaoyi/SegmentationAidedRegistration.git
 scmrevision e1ce457eb08e69ca49083b8998631bb43f203295

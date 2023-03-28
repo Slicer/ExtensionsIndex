@@ -4,7 +4,7 @@
 # - the value can be blank
 #
 
-# This is source code manager (i.e. svn)
+# This is source code manager
 scm git
 scmurl https://github.com/lchauvin/DiceComputation.git
 scmrevision 11e62e2337252aa0214189c17489a89d5ad4d9ef

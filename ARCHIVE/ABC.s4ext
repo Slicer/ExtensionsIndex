@@ -4,7 +4,7 @@
 # - the value can be blank
 #
 
-# This is source code manager (i.e. svn)
+# This is source code manager
 scm git
 scmurl https://github.com/NIRALUser/ABC
 scmrevision dcd757f4d6723c5658dd3197a20f7984fb1cf8ea

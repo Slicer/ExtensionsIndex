@@ -4,7 +4,7 @@
 # - the value can be blank
 #
 
-# This is source code manager (i.e. svn)
+# This is source code manager
 scm git
 scmurl https://github.com/gaoyi/RSSExtension.git
 scmrevision 6c9dc8f8519ba93ff9ef7c220366856f7fa66e43
