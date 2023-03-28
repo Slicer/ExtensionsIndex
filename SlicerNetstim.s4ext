@@ -38,7 +38,7 @@ status beta
 description Netstim modules collection for deep brain stimulation applications
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/netstim/SlicerNetstim/master/Documentation/Screenshot.png
+screenshoturls https://raw.githubusercontent.com/netstim/SlicerNetstim/master/LeadOR/Screenshots/Lead-OR_Scene.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
