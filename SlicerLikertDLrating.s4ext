@@ -27,7 +27,7 @@ iconurl https://github.com/zapaishchykova/Slicer-Likert-DL-rating/blob/main/Reso
 status beta
 
 # One line stating what the module does
-description SlicerLikertDLrating allows fast clinician review of DL-generated masks using Likert-type score
+description SlicerSegReview allows fast clinician review of DL-generated masks using Likert-type score
 
 # Space separated list of urls
 screenshoturls https://github.com/zapaishchykova/Slicer-Likert-DL-rating/blob/main/pics/screenshot.jpg
