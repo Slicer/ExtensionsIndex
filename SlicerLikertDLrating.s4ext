@@ -6,7 +6,7 @@ scmrevision master
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends SegmentEditor
+depends NA
 
 # Inner build directory (default is ".")
 build_subdirectory .
@@ -18,10 +18,10 @@ homepage https://github.com/zapaishchykova/Slicer-Likert-DL-rating
 contributors Anna Zapaishchykova ([AIM lab,] BWH), Dr. Benjamin H. Kann ([AIM lab,] BWH)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category Segmentation
+category Examples
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/zapaishchykova/Slicer-Likert-DL-rating/blob/main/Resources/Icons/NiftyViewer.png
+iconurl https://github.com/zapaishchykova/Slicer-Likert-DL-rating/blob/main/Resources/Icons/SlicerLikertDLrating.png
 
 # Give people an idea what to expect from this code
 status beta
