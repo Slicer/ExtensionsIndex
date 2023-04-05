@@ -21,7 +21,7 @@ contributors Anna Zapaishchykova ([AIM lab,] BWH), Dr. Benjamin H. Kann ([AIM la
 category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/zapaishchykova/Slicer-Likert-DL-rating/blob/main/SlicerSegReview.png
+iconurl https://raw.githubusercontent.com/zapaishchykova/Slicer-Likert-DL-rating/main/SlicerSegReview.png
 
 # Give people an idea what to expect from this code
 status beta
@@ -30,7 +30,7 @@ status beta
 description SlicerLikertDLrating allows fast clinician review of DL-generated masks using Likert-type score
 
 # Space separated list of urls
-screenshoturls https://github.com/zapaishchykova/Slicer-Likert-DL-rating/blob/main/pics/screenshot.jpg
+screenshoturls https://raw.githubusercontent.com/zapaishchykova/Slicer-Likert-DL-rating/main/pics/screenshot.jpg
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
