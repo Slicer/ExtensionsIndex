@@ -6,7 +6,7 @@
 
 # This is source code manager
 scm git
-scmurl https://github.com/MHubAI/SlicerMRunner/
+scmurl https://github.com/MHubAI/SlicerMRunner
 scmrevision main
 
 # list dependencies
