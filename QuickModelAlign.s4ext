@@ -1,5 +1,5 @@
 scm git
-scmurl https://github.com/seanchoi0519/SlicerQuickAlign.git
+scmurl https://github.com/seanchoi0519/SlicerQuickModelAlign.git
 scmrevision master
 
 # list dependencies
@@ -11,17 +11,17 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage    https://github.com/seanchoi0519/SlicerQuickAlign.git
+homepage    https://github.com/seanchoi0519/SlicerQuickModelAlign.git
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
 contributors Arthur Porto (LSU), Sara Rolfe (UW), Murat Maga (SCRI), Dr. Sean Choi (UQ)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Registration
+category    QuickModelAlign
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://raw.githubusercontent.com/seanchoi0519/SlicerQuickAlign/master/QuickAlign.png
+iconurl     https://raw.githubusercontent.com/seanchoi0519/SlicerQuickModelAlign/master/QuickModelAlign.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -31,7 +31,7 @@ status      Beta
 description QuickAlign allows a quick, simple alignment and comparison of two 3D models aided by ALPACA and custom display modes.
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/seanchoi0519/SlicerQuickAlign/master/QuickAlign.png
+screenshoturls https://raw.githubusercontent.com/seanchoi0519/SlicerQuickModelAlign/master/QuickModelAlign.png
 
 
 # 0 or 1: Define if the extension should be enabled after its installation.
