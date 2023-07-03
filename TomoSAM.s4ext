@@ -12,7 +12,7 @@ scmrevision main
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends NA
+depends SlicerPyTorch
 
 # Inner build directory (default is ".")
 build_subdirectory .
@@ -38,7 +38,7 @@ status
 description TomoSAM helps with the segmentation of 3D data from tomography or other imaging techniques using the Segment Anything Model (SAM).
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/fsemerar/SlicerTomoSAM/main/TomoSAM/Resources/Media/tomosam_screenshot_1.png https://raw.githubusercontent.com/fsemerar/SlicerTomoSAM/main/TomoSAM/Resources/Media/tomosam_diagram.png
+screenshoturls https://raw.githubusercontent.com/fsemerar/SlicerTomoSAM/main/TomoSAM/Resources/Media/tomosam_screenshot_1.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
