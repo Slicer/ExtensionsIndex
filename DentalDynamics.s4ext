@@ -35,7 +35,7 @@ iconurl     https://raw.githubusercontent.com/jmhuie/Slicer-DentalDynamics/main/
 status      Alpha
 
 # One line stating what the module does
-description This module iterates slice-by-slice through a segment to compute second moment of area and other cross-sectional properties. 
+description This extension automates tooth stress calculations for modeling and analyzing tooth function. 
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/jmhuie/Slicer-DentalDynamics/main/DentalDynamics/Resources/Icons/DentalDynamicsScreenshot1.png
