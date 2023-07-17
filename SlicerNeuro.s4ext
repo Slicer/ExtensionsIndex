@@ -22,7 +22,7 @@ homepage https://github.com/Slicer/SlicerNeuro
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Andras Lasso (PerkLab (Queen's University))
+contributors Andras Lasso (PerkLab (Queen's University)) Mauricio Cespedes (Western University)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Neuroimaging
@@ -35,10 +35,10 @@ iconurl https://raw.githubusercontent.com/Slicer/SlicerNeuro/main/SlicerNeuro.pn
 status
 
 # One line stating what the module does
-description This extension provides ACPC coordinate transformation tool and installs extensions commonly needed for neuroimaging.
+description This extension provides ACPC coordinate transformation tool, a tool to convert and load gifti files, and installs extensions commonly needed for neuroimaging.
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/Slicer/SlicerNeuro/main/Docs/module_acpctransform_1.png
+screenshoturls https://raw.githubusercontent.com/Slicer/SlicerNeuro/main/Docs/ACPCTransform/module_acpctransform_1.png https://raw.githubusercontent.com/Slicer/SlicerNeuro/main/Docs/GiftiLoader/SlicerGiftiLoaderScreenshot.png https://raw.githubusercontent.com/Slicer/SlicerNeuro/main/Docs/GiftiLoader/files_selected.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
