@@ -25,10 +25,10 @@ homepage https://github.com/dmolony3/SlicerFractionalMyocardialMass
 contributors David Molony (Georgia Heart Institute, Northeast Georgia Health System)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category Chest Imaging Platform
+category CCTA
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/dmolony3/SlicerFractionalMyocardialMass/blob/main/FMM.png
+iconurl https://raw.githubusercontent.ccom/dmolony3/SlicerFractionalMyocardialMass/main/FMM.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,6 @@ status
 description Extension for calculating the fractional myocardial mass and the myocardial mass at risk
 
 # Space separated list of urls
-screenshoturls https://github.com/dmolony3/SlicerFractionalMyocardialMass/blob/main/Media/MMAR.png https://github.com/dmolony3/SlicerFractionalMyocardialMass/raw/main/Media/Mesh.png
-
+screenshoturls https://raw.githubusercontent.com/dmolony3/SlicerFractionalMyocardialMass/main/Media/MMAR.png https://raw.githubusercontent.com/dmolony3/SlicerFractionalMyocardialMass/main/Media/Mesh.png
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
