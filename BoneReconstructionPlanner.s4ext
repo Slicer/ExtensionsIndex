@@ -4,7 +4,7 @@
 # - the value can be blank
 #
 
-# This is source code manager (i.e. svn)
+# This is source code manager
 scm git
 scmurl https://github.com/SlicerIGT/SlicerBoneReconstructionPlanner.git
 scmrevision main
@@ -12,7 +12,7 @@ scmrevision main
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends SurfaceWrapSolidify MarkupsToModel Sandbox SlicerRT
+depends SurfaceWrapSolidify MarkupsToModel Sandbox
 
 # Inner build directory (default is ".")
 build_subdirectory .
@@ -38,7 +38,7 @@ status Beta
 description A extension for virtual surgical planning of mandibular reconstruction with vascularized fibula free flap and generation of patient-specific surgical guides.
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/SlicerIGT/SlicerBoneReconstructionPlanner/main/BoneReconstructionPlanner/Resources/Screenshots/screenshotPlanning.png https://raw.githubusercontent.com/SlicerIGT/SlicerBoneReconstructionPlanner/main/BoneReconstructionPlanner/Resources/Screenshots/screenshotPatientSpecificSurgicalGuides.png
+screenshoturls https://raw.githubusercontent.com/SlicerIGT/SlicerBoneReconstructionPlanner/main/BoneReconstructionPlanner/Resources/Pictures/screenshotPlanning.png https://raw.githubusercontent.com/SlicerIGT/SlicerBoneReconstructionPlanner/main/BoneReconstructionPlanner/Resources/Pictures/screenshotPatientSpecificSurgicalGuides.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
