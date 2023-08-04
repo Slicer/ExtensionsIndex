@@ -6,7 +6,7 @@ depends UKFTractography
 
 build_subdirectory inner-build
 
-homepage http://slicerdmri.github.io
+homepage https://dmri.slicer.org/
 
 contributors Lauren O'Donnell, Isaiah Norton, Fan Zhang, Alex Yarmarkovich (Brigham & Women's Hospital), and others.
 
