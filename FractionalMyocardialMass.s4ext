@@ -4,7 +4,7 @@
 # - the value can be blank
 #
 
-# This is source code manager (i.e. svn)
+# This is source code manager
 scm git
 scmurl https://github.com/dmolony3/SlicerFractionalMyocardialMass
 scmrevision main
@@ -28,7 +28,7 @@ contributors David Molony (Georgia Heart Institute, Northeast Georgia Health Sys
 category Cardiac
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://raw.githubusercontent.ccom/dmolony3/SlicerFractionalMyocardialMass/main/FMM.png
+iconurl https://raw.githubusercontent.com/dmolony3/SlicerFractionalMyocardialMass/main/FMM.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -39,5 +39,6 @@ description Extension for calculating the fractional myocardial mass and the myo
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/dmolony3/SlicerFractionalMyocardialMass/main/Media/MMAR.png https://raw.githubusercontent.com/dmolony3/SlicerFractionalMyocardialMass/main/Media/Mesh.png
+
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
