@@ -4,9 +4,9 @@
 # - the value can be blank
 #
 
-# This is source code manager (i.e. svn)
+# This is source code manager
 scm git
-scmurl git://github.com/rbumm/SlicerPACSConnector
+scmurl https://github.com/rbumm/SlicerPACSConnector
 scmrevision master
 
 # list dependencies
@@ -15,7 +15,7 @@ scmrevision master
 depends NA
 
 # Inner build directory (default is ".")
-build_subdirectory inner-build
+build_subdirectory .
 
 # homepage
 homepage https://github.com/rbumm/SlicerPACSConnector
@@ -25,17 +25,17 @@ homepage https://github.com/rbumm/SlicerPACSConnector
 contributors Rudolf Bumm (KSGR)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category Lung
+category Utilities
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/rbumm/SlicerPACSConnector/blob/main/SlicerPACSConnector/Resources/Icons/SlicerPACSConnector.png
+iconurl https://raw.githubusercontent.com/rbumm/SlicerPACSConnector/master/SlicerPACSConnector.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-Under development, but usable
+status Under development, but usable
 
 # One line stating what the module does
-The PACS Connector extension enables querying your local or remote PACS from a clear and easily accessible interface within 3D Slicer and offers new filter parameters.
+description The PACS Connector extension enables querying your local or remote PACS from a clear and easily accessible interface within 3D Slicer and offers new filter parameters.
 
 # Space separated list of urls
 screenshoturls https://user-images.githubusercontent.com/18140094/127771219-393deea0-c531-4592-bd1f-0a988a55f400.png
