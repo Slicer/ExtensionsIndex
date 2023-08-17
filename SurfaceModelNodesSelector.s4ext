@@ -28,7 +28,7 @@ contributors saima safdar(The University of Western Australia, Perth, WA)
 category    SurfaceModelNodesSelector and SurfaceModelNodePicker
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/saimasafdar2021/Slicer_SurfaceModelNodesSelector/main/SurfaceModelNodesSelector.png
+iconurl https://github.com/saimasafdar2021/Slicer_SurfaceModelNodesSelector/main/sModel.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 Creating the surface model nodes and allowing user to select a point on a surface model 
 
 # Space separated list of urls
-screenshoturls https://github.com/saimasafdar2021/Slicer_SurfaceModelNodesSelector/main/SurfaceModelNodesSelector.png
+screenshoturls https://github.com/saimasafdar2021/Slicer_SurfaceModelNodesSelector/main/sModel.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
