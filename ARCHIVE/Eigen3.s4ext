@@ -25,6 +25,3 @@ status      Release
 
 # One line stating what the module does
 description a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
-
-
-
