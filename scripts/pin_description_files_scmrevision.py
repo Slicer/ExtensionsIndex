@@ -6,6 +6,7 @@ import glob
 import json
 import os
 import sys
+from urllib.parse import urlparse
 from urllib.request import urlopen, HTTPError, Request
 
 
@@ -110,6 +111,37 @@ def _gh_request(path, headers=None):
         return None
 
 
+def parse_scmurl(scmurl):
+    """Parse Source Control URL and return host, owner and repo.
+
+    :param url: Source Control URL.
+    :return: tuple ``(host, owner, repo)`` or None if the URL can not be parsed.
+    """
+    try:
+        if "@" in scmurl:
+            # Convert from "git@host:owner/repo.git" to "https://host/owner/repo.git"
+            scmurl = scmurl.replace(":", "/", 1).replace("git@", "https://", 1)
+
+        # https URL
+        result = urlparse(scmurl)
+        if not result.netloc or not result.path:
+            msg = "Invalid SCM URL format"
+            raise ValueError(msg)
+
+        # "/owner/repo.git" -> "owner/repo.git"
+        path = result.path[1:]
+
+        # "owner/repo.git" -> "owner/repo"
+        path = path.replace(".git", "")
+
+        owner, repo = path.split("/")[:2]
+        return (result.netloc, owner, repo)
+
+    except Exception as exc:
+        print(f"An error occurred while parsing {scmurl}: {exc}")
+        return None
+
+
 def main():
     # loop over all s4ext in the input directory
     if len(sys.argv) == 1:
@@ -143,19 +175,17 @@ def main():
         print(f" - scmurl      : {scmurl}")
         print(f" - scmrevision : {scmrevision}")
 
-        if "github.com" not in scmurl:
+        result = parse_scmurl(scmurl)
+        if result is None:
+            failed_pinned.append(s4extName)
             continue
-
-        # first character is either '/' for URLs, or ':' for git@github format,
-        #  so skip the first character instead of parsing it
-        host = "github.com"
-        owner, repo = scmurl.split(host)[1][1:].split("/")[:2]
-        if repo.find(".git") != -1:
-            repo = repo.split(".git")[0]
-
+        host, owner, repo = result
         print(f" - host        : {host}")
         print(f" - owner       : {owner}")
         print(f" - repo        : {repo}")
+
+        if "github.com" not in host:
+            continue
 
         updated_metadata = {}
 
