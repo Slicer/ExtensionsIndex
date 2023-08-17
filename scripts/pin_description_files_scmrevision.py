@@ -71,7 +71,7 @@ def main():
                 for line in fileContent:
                     if line.startswith("scmrevision"):
                         print("scmrevision for " + org + "/" + repo + " will be updated from master to " + newHash)
-                        s4extFile.write("scmrevison " + newHash + "\n")
+                        s4extFile.write("scmrevision " + newHash + "\n")
                     else:
                         s4extFile.write(line)
 
