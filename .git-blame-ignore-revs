@@ -1,0 +1,17 @@
+#
+# This file lists revisions that should be ignored when considering
+# attribution for the actual code written.  Code style changes should
+# not be considered as modifications with regards to attribution.
+#
+# To see clean and meaningful blame information.
+# $ git blame important.py --ignore-revs-file .git-blame-ignore-revs
+#
+# To configure git to automatically ignore revisions listed in a file on every call to git blame.
+# $ git config blame.ignoreRevsFile .git-blame-ignore-revs
+#
+# Ignore changes introduced when doing global file format changes
+#
+# STYLE: Convert files from CRLF to LF
+e73a05a60a181bde5d2ebd2fe811ac413a7ee734
+# STYLE: Remove trailing whitespaces
+87fdbddba738f033add2882feebd50d3c43fa48a
