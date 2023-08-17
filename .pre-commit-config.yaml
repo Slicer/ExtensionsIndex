@@ -7,3 +7,4 @@ repos:
   - id: check-case-conflict
   - id: check-merge-conflict
   - id: check-symlinks
+  - id: trailing-whitespace
