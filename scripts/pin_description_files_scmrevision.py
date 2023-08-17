@@ -142,6 +142,70 @@ def parse_scmurl(scmurl):
         return None
 
 
+class ExtensionProcessingError(RuntimeError):
+    """Exception raised when a particular extension description file failed to be
+    parsed, pinned or updated.
+    """
+    pass
+
+
+def pin_s4ext(ext_file_path):
+    """Update ``ext_file_path`` pinning scmrevision to the latest commit associated with
+    the corresponding branch.
+
+    :param ext_file_path: Path to a Slicer extension description file.
+    :return: True if the file was pinned.
+    :raises ExtensionProcessingError: if there was an error processing the decription file.
+    """
+    metadata = parse_s4ext(ext_file_path)
+    if metadata is None:
+        raise ExtensionProcessingError(ext_file_path)
+
+    scmurl = metadata["scmurl"]
+    scmrevision = metadata["scmrevision"]
+
+    print("Parsed metadata:")
+    print(f" - scmurl      : {scmurl}")
+    print(f" - scmrevision : {scmrevision}")
+
+    result = parse_scmurl(scmurl)
+    if result is None:
+        raise ExtensionProcessingError(ext_file_path)
+
+    host, owner, repo = result
+    print(f" - host        : {host}")
+    print(f" - owner       : {owner}")
+    print(f" - repo        : {repo}")
+
+    if "github.com" not in host:
+        return
+
+    updated_metadata = {}
+
+    pinned = False
+
+    if scmrevision == "master":
+        branch = scmrevision
+
+        # Use GitHub API to get the latest commit
+        commit_info = _gh_request(f"repos/{owner}/{repo}/commits/{branch}")
+        if commit_info is None:
+            raise ExtensionProcessingError(ext_file_path)
+        git_sha = commit_info["sha"]
+        updated_metadata["scmrevision"] = git_sha
+
+        print("Pinning scmrevision to latest commit:")
+        print(f" - branch       : {branch}")
+        print(f" - latest commit: {git_sha}")
+
+        pinned = True
+
+    if not update_s4ext(ext_file_path, updated_metadata):
+        raise ExtensionProcessingError(ext_file_path)
+
+    return pinned
+
+
 def main():
     # loop over all s4ext in the input directory
     if len(sys.argv) == 1:
@@ -163,51 +227,11 @@ def main():
     for s4extName in s4extFileNames:
         print("")
         print("Processing " + s4extName)
-
-        metadata = parse_s4ext(s4extName)
-        if metadata is None:
-            failed_pinned.append(s4extName)
-            continue
-        scmurl = metadata["scmurl"]
-        scmrevision = metadata["scmrevision"]
-
-        print("Parsed metadata:")
-        print(f" - scmurl      : {scmurl}")
-        print(f" - scmrevision : {scmrevision}")
-
-        result = parse_scmurl(scmurl)
-        if result is None:
-            failed_pinned.append(s4extName)
-            continue
-        host, owner, repo = result
-        print(f" - host        : {host}")
-        print(f" - owner       : {owner}")
-        print(f" - repo        : {repo}")
-
-        if "github.com" not in host:
-            continue
-
-        updated_metadata = {}
-
-        if scmrevision == "master":
-            branch = scmrevision
-
-            # Use GitHub API to get the latest commit
-            commit_info = _gh_request(f"repos/{owner}/{repo}/commits/{branch}")
-            if commit_info is None:
-                failed_pinned.append(s4extName)
-                continue
-            git_sha = commit_info["sha"]
-            updated_metadata["scmrevision"] = git_sha
-
-            print("Pinning scmrevision to latest commit:")
-            print(f" - branch       : {branch}")
-            print(f" - latest commit: {git_sha}")
-
-            pinned.append(s4extName)
-
-        if not update_s4ext(s4extName, updated_metadata):
-            failed_pinned.append(s4extName)
+        try:
+            if pin_s4ext(s4extName):
+                pinned.append(s4extName)
+        except ExtensionProcessingError as exc:
+            failed_pinned.append(str(exc))
 
     print("")
     print(f"Pinned {len(pinned)} of {len(s4extFileNames)} description files.")
