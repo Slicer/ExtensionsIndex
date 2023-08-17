@@ -28,7 +28,7 @@ contributors saima safdar(The University of Western Australia, Perth, WA)
 category    SurfaceModelNodesSelector and SurfaceModelNodePicker
 
 # url to icon (png, size 128x128 pixels)
-iconurl     https://raw.githubusercontent.com/Slicer/SlicerPoint/main/SurfaceModelNodesSelector.png
+iconurl     https://raw.githubusercontent.com/Slicer/SurfaceModelNodesSelector/main/SurfaceModelNodesSelector.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
