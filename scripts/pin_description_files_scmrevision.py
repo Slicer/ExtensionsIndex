@@ -1,10 +1,10 @@
 import json, os, glob, sys
 from urllib.request import urlopen, Request
 
-# NB: GitHub will throttle down requests without a personal access token!
+# GitHub throttles down requests without a personal access token
 # Request yours under GitHub "Settings / Developer settings / Personal access tokens"
-# and assign below
-token = None
+# and set the GITHUB_TOKEN env. variable
+token = os.environ.get("GITHUB_TOKEN", None)
 
 
 def main():
