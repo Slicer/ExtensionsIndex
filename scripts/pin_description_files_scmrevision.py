@@ -1,10 +1,113 @@
-import json, os, glob, sys
-from urllib.request import urlopen, Request
+"""
+Python 3.x CLI for pinning extension description files.
+"""
 
-# GitHub throttles down requests without a personal access token
-# Request yours under GitHub "Settings / Developer settings / Personal access tokens"
-# and set the GITHUB_TOKEN env. variable
-token = os.environ.get("GITHUB_TOKEN", None)
+import glob
+import json
+import os
+import sys
+from urllib.request import urlopen, HTTPError, Request
+
+
+def parse_s4ext(ext_file_path):
+    """Parse a Slicer extension description file.
+
+    :param ext_file_path: Path to a Slicer extension description file.
+    :return: Dictionary of extension metadata.
+    """
+    ext_metadata = {}
+    try:
+        with open(ext_file_path) as ext_file:
+            for number, line in enumerate(ext_file):
+                if not line.strip() or line.startswith("#"):
+                    continue
+                fields = [field.strip() for field in line.split(" ", 1)]
+                if len(fields) > 2:
+                    msg = f"Invalid line {number}: {line}"
+                    raise ValueError(msg)
+                ext_metadata[fields[0]] = fields[1] if len(fields) == 2 else None
+
+    except FileNotFoundError:
+        print(f"Failed to parse {ext_file_path}: File not found")
+        return None
+
+    except Exception as exc:
+        print(f"An error occurred while parsing {ext_file_path}: {exc}")
+        return None
+
+    return ext_metadata
+
+
+def update_s4ext(ext_file_path, metadata=None):
+    """Update Slicer extension description file metadata.
+
+    :param ext_file_path: Path to a Slicer extension description file.
+    :param metadata: Dictionnary of metadata to use for updating the file.
+    :return: True if the file was updated without error.
+    """
+    try:
+        if metadata is None:
+            metadata = {}
+
+        # Read description file
+        with open(ext_file_path) as ext_file:
+            lines = list(ext_file)
+
+        # Update content using provided metadata
+        updated_lines = []
+        for line in lines:
+            empty_line = not line.strip()
+            if empty_line or line.startswith("#"):
+                updated_lines.append(line.strip())
+                continue
+
+            fields = [field for field in line.split(" ", 1)]
+            key = fields[0]
+            value = fields[1] if len(fields) > 1 else ""
+            updated_value = metadata.get(key, value)
+            updated_lines.append(f"{key} {updated_value}".strip())
+
+        # Write updated description file
+        with open(ext_file_path, "w") as ext_file:
+            for line in updated_lines:
+                ext_file.write(f"{line}\n")
+
+        return True
+
+    except FileNotFoundError:
+        print(f"Failed to update {ext_file_path}: File not found")
+        return False
+
+    except Exception as exc:
+        print(f"An error occurred while updating {ext_file_path}: {exc}")
+        return False
+
+
+def _gh_request(path, headers=None):
+    try:
+        # GitHub throttles down requests without a personal access token
+        # Request yours under GitHub "Settings / Developer settings / Personal access tokens"
+        token = os.environ.get("GITHUB_TOKEN", None)
+
+        if headers is None:
+            headers = {}
+        if "Authorization" not in headers and token is not None:
+            headers["Authorization"] = f"token {token}"
+
+        url = f"https://api.github.com/{path}"
+        request = Request(url, headers=headers)
+        response = urlopen(request)
+        return json.loads(response.read())
+
+    except HTTPError as exc:
+        error_msg = exc.read().decode("utf-8")
+        print(f"Failed to retrieve information from GitHub using {url}")
+        print(f"GitHub API Response: {error_msg}")
+        return None
+
+    except Exception as exc:
+        print(f"An error occurred: {exc}")
+        return None
 
 
 def main():
@@ -22,70 +125,68 @@ def main():
     else:
         s4extFileNames = sys.argv[1:]
 
+    pinned = []
+    failed_pinned = []
+
     for s4extName in s4extFileNames:
         print("")
         print("Processing " + s4extName)
 
-        fileContent = []
-        org = None
-        repo = None
-        originalHash = None
-        newHash = None
-        onGitHub = False
+        metadata = parse_s4ext(s4extName)
+        if metadata is None:
+            failed_pinned.append(s4extName)
+            continue
+        scmurl = metadata["scmurl"]
+        scmrevision = metadata["scmrevision"]
 
-        # NB: newlines are inconsistent in .s4ext's as of now - we should consider
-        #  adding a config file to make new additions consistent going forward:
-        #  https://help.github.com/articles/dealing-with-line-endings/#per-repository-settings
-        with open(s4extName) as s4extFile:
-            fileContent = s4extFile.readlines()
-
-        # need to iterate twice, since scmrevision and scmurl don't have to be in order!
-        for i in range(len(fileContent)):
-            line = fileContent[i][:-1]
-            if line.startswith("scmurl") and len(line.split("github.com")) > 1:
-                scmurl = line.split(" ")[1]
-                if scmurl.find("github.com") != -1:
-                    onGitHub = True
-                # first character is either '/' for URLs, or ':' for git@github format,
-                #  so skip the first character instead of parsing it
-                org = scmurl.split("github.com")[1][1:].split("/")[0]
-                repo = scmurl.split("github.com")[1][1:].split("/")[1]
-                if repo.find(".git") != -1:
-                    repo = repo.split(".git")[0]
-            if line.startswith("scmrevision"):
-                originalHash = line.split(" ")[1]
-
-        host = "github.com" if onGitHub else "unknown"
         print("Parsed metadata:")
         print(f" - scmurl      : {scmurl}")
-        print(f" - scmrevision : {originalHash}")
+        print(f" - scmrevision : {scmrevision}")
+
+        if "github.com" not in scmurl:
+            continue
+
+        # first character is either '/' for URLs, or ':' for git@github format,
+        #  so skip the first character instead of parsing it
+        host = "github.com"
+        owner, repo = scmurl.split(host)[1][1:].split("/")[:2]
+        if repo.find(".git") != -1:
+            repo = repo.split(".git")[0]
+
         print(f" - host        : {host}")
-        print(f" - owner       : {org}")
+        print(f" - owner       : {owner}")
         print(f" - repo        : {repo}")
 
-        if onGitHub and originalHash == "master":
-            url = "/".join(["https://api.github.com/repos", org, repo, "commits", "master"])
+        updated_metadata = {}
 
-            if token:
-                request = Request(url, headers={"Authorization": "token %s" % token})
-            else:
-                request = Request(url)
+        if scmrevision == "master":
+            branch = scmrevision
 
-            response = urlopen(request)
-            responseJson = json.loads(response.read())
-            newHash = responseJson["sha"]
+            # Use GitHub API to get the latest commit
+            commit_info = _gh_request(f"repos/{owner}/{repo}/commits/{branch}")
+            if commit_info is None:
+                failed_pinned.append(s4extName)
+                continue
+            git_sha = commit_info["sha"]
+            updated_metadata["scmrevision"] = git_sha
 
             print("Pinning scmrevision to latest commit:")
-            print(f" - branch       : {originalHash}")
-            print(f" - latest commit: {newHash}")
+            print(f" - branch       : {branch}")
+            print(f" - latest commit: {git_sha}")
 
-        if newHash:
-            with open(s4extName, "w") as s4extFile:
-                for line in fileContent:
-                    if line.startswith("scmrevision"):
-                        s4extFile.write("scmrevision " + newHash + "\n")
-                    else:
-                        s4extFile.write(line)
+            pinned.append(s4extName)
+
+        if not update_s4ext(s4extName, updated_metadata):
+            failed_pinned.append(s4extName)
+
+    print("")
+    print(f"Pinned {len(pinned)} of {len(s4extFileNames)} description files.")
+
+    if len(failed_pinned) > 0:
+        print("")
+        print(f"Failed to pin {len(failed_pinned)} description files")
+        print("\n".join([f"- {failed}" for failed in failed_pinned]))
+        sys.exit(len(failed_pinned))
 
 
 if __name__ == "__main__":
