@@ -8,4 +8,11 @@ repos:
   - id: check-merge-conflict
   - id: check-symlinks
   - id: end-of-file-fixer
+  - id: mixed-line-ending
   - id: trailing-whitespace
+
+- repo: https://github.com/Lucas-C/pre-commit-hooks
+  rev: "v1.5.4"
+  hooks:
+    - id: forbid-tabs
+    - id: remove-tabs
