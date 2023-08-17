@@ -38,7 +38,7 @@ status Beta
 description Utah atlas based segmentation pipeline. Generates output images after bias correction and co-registration along with segmentation label image.
 
 # Space separated list of urls
-screenshoturls 
+screenshoturls
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

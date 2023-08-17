@@ -32,7 +32,7 @@ iconurl https://raw.github.com/RivettiLuciano/SlicerT1_ECVMapping/master/T1_ECVM
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description This module takes advantage of the properties of the Look Locker sequence to calculate the Native and Post-contrast cardiac T1 Mapping. This also allows the creation of the ECV Map using both Mappings.

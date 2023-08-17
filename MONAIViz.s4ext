@@ -32,7 +32,7 @@ iconurl https://raw.githubusercontent.com/Project-MONAI/SlicerMONAIViz/main/MONA
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description This extension helps to run chain of MONAI transforms and visualize every stage over an image/label. See more information in <a href="https://github.com/Project-MONAI/MONAILabel">MONAILabel documentation</a>.

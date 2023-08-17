@@ -29,7 +29,7 @@ category Diffusion
 iconurl http://www.nitrc.org/project/screenshot.php?group_id=403&screenshot_id=606
 
 # Extension development status
-status 
+status
 
 # One line stating what the module does
 description DTIAtlasFiberAnalyzer allows the user to study the behavior of water diffusion (using DTI data) along the length of the white matter fiber-tracts.

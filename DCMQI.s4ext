@@ -32,7 +32,7 @@ iconurl https://raw.githubusercontent.com/QIICR/dcmqi/master/dcmqi.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description dcmqi (DICOM (dcm) for Quantitative Imaging (qi)) is a collection of libraries and command line tools with minimum dependencies to support standardized communication of quantitative image analysis research data using DICOM standard.

@@ -161,7 +161,7 @@ def main():
         extension_name = os.path.splitext(os.path.basename(file_path))[0]
 
         failures = []
- 
+
         metadata = parse_s4ext(file_path)
         for check in checks:
             try:

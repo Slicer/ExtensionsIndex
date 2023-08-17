@@ -35,7 +35,7 @@ iconurl https://raw.githubusercontent.com/DCBIA-OrthoLab/SlicerAutomatedDentalTo
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description This extension will allow clinicians to perform automatic CBCT scan segmentation as well as automatic lamndmark identification in CBCT and IOS using machine learning tools

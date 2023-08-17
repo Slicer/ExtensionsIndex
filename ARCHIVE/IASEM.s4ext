@@ -36,7 +36,7 @@ iconurl     http://raw.github.com/blowekamp/Slicer-IASEM/master/IASEM.png
 status      Experimental
 
 # One line stating what the module does
-description 
+description
 
 # Space separated list of urls
 screenshoturls http://www.slicer.org/slicerWiki/images/c/cd/IASEM-Screenshot1.png
