@@ -32,7 +32,7 @@ iconurl https://raw.githubusercontent.com/jbvimort/ShapeQuantifier/master/ShapeQ
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description This extension contains different modules that allow the user to either quantify differences between two models or make measurements on the shape of a model.

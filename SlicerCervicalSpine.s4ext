@@ -6,7 +6,7 @@
 # This is source code manager
 scm git
 scmurl https://github.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine
-scmrevision master 
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -33,12 +33,12 @@ iconurl https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCe
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description Cervical Spine is the upper part of the spine that supports the head and the neck. It contains certebrae C1-C7. This extension provides tools for cervical spine segmentation in addition to ligaments insertion and origin points detetction. There are two modules in this extension. The first provide tools for a single cervical spine, the second provide the same tools for the whole cervical spine. This extension require few seconds to complete the task. It uses a cusomised set of parameters for elastix toolbox. The extension depends on SlicerElastix extension. It downloads a few necessary files so it will take some minutes when use first time. For testing, cervical spine sample datasets can be downloaded using Slicer Data Store module. This extension can be extended easily to cover registration and segmentation of the whole spine in addition to extract more spine points and features(future works). You are welcome to contribute by optimising the code or sharing your cervical spine dataset. For questions or problems using this extension please post in the gitHub issue or in Slicer forum. For more details please read the related publications:
-Ibraheem AL-Dhamari, Sabine Bauer, Eva Keller and Dietrich Paulus, (2019), Automatic Detection Of Cervical Spine Ligaments Origin And Insertion Points, EEE International Symposium on Biomedical Imaging (ISBI), Venice, Italy.  
-Ibraheem Al-Dhamari, Sabine Bauer, Dietrich Paulus, (2018), Automatic Multi-modal Cervical Spine Image Atlas Segmentation Using Adaptive Stochastic Gradient Descent, Bildverarbeitung für die Medizin 2018 pp 303-308. 
+Ibraheem AL-Dhamari, Sabine Bauer, Eva Keller and Dietrich Paulus, (2019), Automatic Detection Of Cervical Spine Ligaments Origin And Insertion Points, EEE International Symposium on Biomedical Imaging (ISBI), Venice, Italy.
+Ibraheem Al-Dhamari, Sabine Bauer, Dietrich Paulus, (2018), Automatic Multi-modal Cervical Spine Image Atlas Segmentation Using Adaptive Stochastic Gradient Descent, Bildverarbeitung für die Medizin 2018 pp 303-308.
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CS00.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CVT01.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CVT02.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CVT03.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CVT04.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CVT05.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CST01.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CST02.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine/master/Screenshots/CST03.png

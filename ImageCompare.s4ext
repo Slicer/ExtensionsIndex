@@ -30,7 +30,7 @@ iconurl    https://raw.githubusercontent.com/pzaffino/SlicerImageCompare/master/
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      
+status
 
 # One line stating what the module does
 description This extension compares two images such as a synthetic CT and a ground truth CT.

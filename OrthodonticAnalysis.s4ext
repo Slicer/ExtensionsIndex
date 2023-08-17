@@ -32,7 +32,7 @@ iconurl https://raw.githubusercontent.com/OrthodonticAnalysis/SlicerOrthodonticA
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description The extension was developed to perform the most common dental analysis: model space discrepancies, Bolton and Peck and Peck. All point instructions for performing the analysis are available in Python interactor after study method points are selected. The Analysis button shows the result.

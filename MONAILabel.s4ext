@@ -32,7 +32,7 @@ iconurl https://github.com/Project-MONAI/MONAILabel/raw/main/plugins/slicer/MONA
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description This extension offers Active Learning solution developed under project MONAILabel (Powered by the NVIDIA, KCL).

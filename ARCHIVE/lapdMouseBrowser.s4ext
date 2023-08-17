@@ -32,7 +32,7 @@ iconurl     https://raw.githubusercontent.com/lapdMouse/Slicer-lapdMouseBrowser/
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status      
+status
 
 # One line stating what the module does
 description Connect to the lapdMouse archive, browse the collection, download and visualize data files.

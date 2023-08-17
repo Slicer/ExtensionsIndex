@@ -32,10 +32,10 @@ iconurl     https://raw.githubusercontent.com/gattia/Slicer-T2mapping/master/T2m
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      Calculations work. Im sure improvements to Slicer related code could be made. 
+status      Calculations work. Im sure improvements to Slicer related code could be made.
 
 # One line stating what the module does
-description T2mapping creates a T2 Map from an inputed 4D multi-echo MRI. 
+description T2mapping creates a T2 Map from an inputed 4D multi-echo MRI.
 
 # Space separated list of urls
 

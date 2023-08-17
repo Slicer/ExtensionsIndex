@@ -32,7 +32,7 @@ iconurl https://raw.githubusercontent.com/moselhy/SlicerSequenceRegistration/mas
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description This extension registers 4D volume sequences for motion compensation or motion analysis.
