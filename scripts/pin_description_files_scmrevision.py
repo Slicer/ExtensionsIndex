@@ -1,5 +1,5 @@
-from urllib2 import urlopen, Request
 import json, os, glob, sys
+from urllib.request import urlopen, Request
 
 # NB: GitHub will throttle down requests without a personal access token!
 # Request yours under GitHub "Settings / Developer settings / Personal access tokens"
@@ -35,7 +35,7 @@ def main():
         # NB: newlines are inconsistent in .s4ext's as of now - we should consider
         #  adding a config file to make new additions consistent going forward:
         #  https://help.github.com/articles/dealing-with-line-endings/#per-repository-settings
-        with open(s4extName, "rU") as s4extFile:
+        with open(s4extName) as s4extFile:
             fileContent = s4extFile.readlines()
 
         # need to iterate twice, since scmrevision and scmurl don't have to be in order!
