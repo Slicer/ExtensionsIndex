@@ -23,6 +23,7 @@ def main():
         s4extFileNames = sys.argv[1:]
 
     for s4extName in s4extFileNames:
+        print("")
         print("Processing " + s4extName)
 
         fileContent = []
@@ -54,6 +55,14 @@ def main():
             if line.startswith("scmrevision"):
                 originalHash = line.split(" ")[1]
 
+        host = "github.com" if onGitHub else "unknown"
+        print("Parsed metadata:")
+        print(f" - scmurl      : {scmurl}")
+        print(f" - scmrevision : {originalHash}")
+        print(f" - host        : {host}")
+        print(f" - owner       : {org}")
+        print(f" - repo        : {repo}")
+
         if onGitHub and originalHash == "master":
             url = "/".join(["https://api.github.com/repos", org, repo, "commits", "master"])
 
@@ -66,11 +75,14 @@ def main():
             responseJson = json.loads(response.read())
             newHash = responseJson["sha"]
 
+            print("Pinning scmrevision to latest commit:")
+            print(f" - branch       : {originalHash}")
+            print(f" - latest commit: {newHash}")
+
         if newHash:
             with open(s4extName, "w") as s4extFile:
                 for line in fileContent:
                     if line.startswith("scmrevision"):
-                        print("scmrevision for " + org + "/" + repo + " will be updated from master to " + newHash)
                         s4extFile.write("scmrevision " + newHash + "\n")
                     else:
                         s4extFile.write(line)
