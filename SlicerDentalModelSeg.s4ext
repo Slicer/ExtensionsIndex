@@ -35,7 +35,7 @@ iconurl https://github.com/DCBIA-OrthoLab/SlicerDentalModelSeg/raw/main/examples
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description This extension aims to provide a GUI for a deep-learning automated teeth segmentation tool.

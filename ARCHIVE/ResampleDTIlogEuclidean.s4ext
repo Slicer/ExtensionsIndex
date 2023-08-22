@@ -32,7 +32,7 @@ iconurl http://www.slicer.org/slicerWiki/images/1/13/ResampleDTIlogEuclidean-128
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description ResampleDTIlogEuclidean resamples Diffusion Tensor Images (DTI) in the log-euclidean framework. More information is available in the Insight Journal: http://www.insight-journal.org/browse/publication/742

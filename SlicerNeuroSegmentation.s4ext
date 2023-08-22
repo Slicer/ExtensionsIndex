@@ -32,7 +32,7 @@ iconurl https://raw.githubusercontent.com/HOA-2/SlicerNeuroSegmentation/main/Sli
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description Extension for performing segmentation of brain MRI images and parcellation of FreeSurfer surfaces in Slicer.

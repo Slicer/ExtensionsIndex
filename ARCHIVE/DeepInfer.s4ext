@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage   https://www.slicer.org/wiki/Documentation/Nightly/Modules/DeepInfer 
+homepage   https://www.slicer.org/wiki/Documentation/Nightly/Modules/DeepInfer
 
 contributors Alireza Mehrtash(UBC, BWH, SPL), Mehran Pesteie(UBC)
 
@@ -30,7 +30,7 @@ iconurl    https://www.slicer.org/w/images/a/a9/Deepinfer-256.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      
+status
 
 # One line stating what the module does
 description Deep learning deployment toolkit for medical imaging.

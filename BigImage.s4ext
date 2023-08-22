@@ -32,7 +32,7 @@ iconurl https://raw.githubusercontent.com/gaoyi/SlicerBigImage/main/SlicerBigIma
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description BigImage is the extension hosting 3D Slicer based GB-level microscopic image viewing and computing.

@@ -32,7 +32,7 @@ https://mhub.ai/slicer/SlicerMHubRunner.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description MHub Runner is a 3D Slicer plugin that seamlessly integrates Deep Learning models from the Medical Hub repository (MHub) into 3D Slicer.

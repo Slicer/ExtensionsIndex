@@ -32,10 +32,10 @@ iconurl     http://wiki.slicer.org/slicerWiki/images/f/f6/IntensitySegmenterIcon
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status  beta  
+status  beta
 
 # One line stating what the module does
-description IntensitySegmenter is a simple tool that segments an image according to intensity value. It is mainly used to segment CT scans using the Hounsfield scale but the ranges of intensities and their corresponding labels can be specified in an input text file. 
+description IntensitySegmenter is a simple tool that segments an image according to intensity value. It is mainly used to segment CT scans using the Hounsfield scale but the ranges of intensities and their corresponding labels can be specified in an input text file.
 
 # Space separated list of urls
 screenshoturls http://wiki.slicer.org/slicerWiki/images/7/7c/IntensitySegmenter-OutputScreenshot.png

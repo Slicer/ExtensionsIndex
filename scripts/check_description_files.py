@@ -70,6 +70,11 @@ def check_scmurl_syntax(extension_name, metadata):
             extension_name, check_name,
             "scmurl scheme is '%s' but it should by any of %s" % (scheme, supported_schemes))
 
+@require_metadata_key("scm")
+def check_scm_notlocal(extension_name, metadata):
+    check_name = "check_scm_notlocal"
+    if metadata["scm"] == "local":
+        raise ExtensionCheckError(extension_name, check_name, "scm cannot be local")
 
 @require_metadata_key("scmurl")
 @require_metadata_key("scm")
@@ -146,6 +151,7 @@ def main():
     if not checks:
         checks = [
             check_scmurl_syntax,
+            check_scm_notlocal,
         ]
 
     total_failure_count = 0
@@ -155,7 +161,7 @@ def main():
         extension_name = os.path.splitext(os.path.basename(file_path))[0]
 
         failures = []
- 
+
         metadata = parse_s4ext(file_path)
         for check in checks:
             try:

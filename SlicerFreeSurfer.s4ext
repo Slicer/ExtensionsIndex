@@ -32,7 +32,7 @@ iconurl https://github.com/PerkLab/SlicerFreeSurfer/raw/master/SlicerFreeSurfer.
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description Extension for handling FreeSurfer files in Slicer. Features importer for models, scalar overlay, and segmentations. Handles transformation of models to from FreeSurfer to Slicer coordinate system.

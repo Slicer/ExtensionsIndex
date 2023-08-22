@@ -22,17 +22,17 @@ homepage https://github.com/ZhyBrian/SlicerBreastUltrasoundAnalysis
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Yi Zhang (Chongqing University, China), Xiaojun Chen (Shanghai Jiao Tong University, China)
+contributors Xiaojun Chen, Yi Zhang (Shanghai Jiao Tong University)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Utilities
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://raw.githubusercontent.com/ZhyBrian/SlicerBreastUltrasoundAnalysis/master/Screenshots/BUS_Diagnosis_icon.png
+iconurl https://raw.githubusercontent.com/ZhyBrian/SlicerBreastUltrasoundAnalysis/master/BUS_Diagnosis.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description This module is designed to help physicians diagnose intramammary lesions based on breast ultrasound images with nodules.

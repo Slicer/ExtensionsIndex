@@ -32,7 +32,7 @@ iconurl https://raw.githubusercontent.com/KitwareMedical/SlicerSkeletalRepresent
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description Toolkit that provides users to establish, refine, and visualize skeletal representation of an object.

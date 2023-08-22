@@ -32,7 +32,7 @@ iconurl https://github.com/IGSIO/SlicerIGSIO/raw/master/SlicerIGSIO.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description This is a utility extension that is developed as part of the Image Guided Surgery InterOperability (IGSIO) organization (see http://igsio.github.io/), and should be used as a dependency for other extensions (Ex. SlicerIGT) to provide access to tools and algorithms implemented by IGSIO (https://github.com/IGSIO/IGSIO).

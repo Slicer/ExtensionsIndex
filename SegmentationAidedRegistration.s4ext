@@ -32,7 +32,7 @@ iconurl http://www.slicer.org/slicerWiki/images/b/ba/SegAidedRegSquareFocus128.p
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description Performe the registration with the aid from segmentation so that the segmented regions have close match.

@@ -32,7 +32,7 @@ iconurl https://raw.githubusercontent.com/Auditory-Biophysics-Lab/Slicer-ABLTemp
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description Temporal bone deep-learning segmentation and pre-processing module.
