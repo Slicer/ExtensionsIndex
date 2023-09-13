@@ -28,7 +28,7 @@ contributors Joseph Szatkowski (Washington University in St. Louis)
 category Analysis
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://raw.githubusercontent.com/WashUMusculoskeletalCore/Slicer-MusculoskeletalAnalysis/main/MusculoskeletalAnalysis/Resources/Icons/MusculoskeletalAnalysis.png
+iconurl https://raw.githubusercontent.com/WashUMusculoskeletalCore/Slicer-MusculoskeletalAnalysis/main/Scripted/MusculoskeletalAnalysis/Resources/Icons/MusculoskeletalAnalysis.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status Alpha
 description Analyzes 3D musculoskeletal images and generates reports.
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/WashUMusculoskeletalCore/Slicer-MusculoskeletalAnalysis/main/MusculoskeletalAnalysis/Resources/Icons/Screenshot.png
+screenshoturls https://raw.githubusercontent.com/WashUMusculoskeletalCore/Slicer-MusculoskeletalAnalysis/main/Scripted/MusculoskeletalAnalysis/Resources/Icons/Screenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
