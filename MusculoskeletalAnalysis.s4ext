@@ -7,7 +7,7 @@
 # This is source code manager
 scm git
 scmurl https://github.com/WashUMusculoskeletalCore/Slicer-MusculoskeletalAnalysis.git
-scmrevision master
+scmrevision main
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
