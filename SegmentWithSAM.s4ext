@@ -1,7 +1,7 @@
 scm git
 scmurl https://github.com/mazurowski-lab/SlicerSegmentWithSAM
 scmrevision main
-depends NA
+depends PyTorch
 build_subdirectory .
 homepage https://github.com/mazurowski-lab/SlicerSegmentWithSAM
 contributors Zafer Yildiz (Duke University - Mazurowski Lab)
