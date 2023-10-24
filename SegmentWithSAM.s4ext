@@ -8,4 +8,4 @@ contributors Zafer Yildiz (Duke University - Mazurowski Lab)
 category Segmentation
 iconurl https://raw.githubusercontent.com/mazurowski-lab/SlicerSegmentWithSAM/main/SegmentWithSAM/Resources/Icons/SegmentWithSAM.png
 description SegmentWithSAM aims to asist its users in segmenting medical data on 3D Slicer by comprehensively integrating the Segment Anything Model (SAM) developed by Meta.
-screenshoturls https://raw.githubusercontent.com/mazurowski-lab/SlicerSegmentWithSAM/main/SegmentWithSAM/Screenshots/sws1.png
+screenshoturls https://raw.githubusercontent.com/mazurowski-lab/SlicerSegmentWithSAM/main/Screenshots/sws1.png https://raw.githubusercontent.com/mazurowski-lab/SlicerSegmentWithSAM/main/Screenshots/sws2.png https://raw.githubusercontent.com/mazurowski-lab/SlicerSegmentWithSAM/main/Screenshots/sws3.png https://raw.githubusercontent.com/mazurowski-lab/SlicerSegmentWithSAM/main/Screenshots/sws4.png
