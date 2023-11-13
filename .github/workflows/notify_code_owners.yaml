@@ -6,7 +6,7 @@ on:
     - cron: 0 12 */1 * *
 
 jobs:
-  calculate_errors:
+  notifier:
     runs-on: ubuntu-latest
 
     steps:

@@ -7,15 +7,17 @@ import time
 from github import Github
 import json
 
+
+# Configure the logger
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
 # Get the GitHub token from the environment variable
 access_token = os.environ.get('GITHUB_TOKEN')
 
 g = Github(access_token)
 repo = g.get_repo("vkt1414/ExtensionsIndex")
 
-# Define the target extension name
-slicerExtensionName = 'IDCBrowser'
-
+logging.info("Calling slicer cdash api to get the build info for all extensions")
 # API data retrieval and processing
 api_url = f"https://slicer.cdash.org/api/v1/index.php?project=SlicerPreview"
 response = requests.get(api_url)
@@ -53,7 +55,7 @@ if response.status_code == 200:
     api_df['ErrorSum'] = api_df['ConfigureErrors'] + api_df['CompilationErrors'] + api_df['TestFail']
     api_df['WarningSum'] = api_df['ConfigureWarnings'] + api_df['CompilationWarnings']
 else:
-    print(f"Failed to retrieve data. Status code: {response.status_code}")
+    logging.error(f"Failed to retrieve data. Status code: {response.status_code}")
 
 # Process the CODEOWNERS file
 # url = "https://raw.githubusercontent.com/vkt1414/ExtensionsIndex/main/CODEOWNERS"
@@ -184,7 +186,7 @@ for index, row in merged_api_codeowners_df.iterrows():
     # Check if the issue title matches the pattern and is not in the list
     for issue in existing_issues:
         if header in issue.title and extension_name not in extensions_with_issues_list:
-            print(f'Closing issue for {extension_name}')
+            logging.info(f'Closing issue for {extension_name}')
             # Add a comment
             issue.create_comment("No errors or warnings found anymore, so closing this issue.")
             # Close the issue
@@ -206,11 +208,11 @@ for issue in issues:
         while True:
             try:
                 new_issue = repo.create_issue(title=header, body=body)
-                print(f"Issue created for {extension_name} - {new_issue.html_url}")
+                logging.info(f"Issue created for {extension_name} - {new_issue.html_url}")
                 time.sleep(30)  
                 break
             except Exception as e:
-                print(header)
-                print(body)
-                print(f"Failed to create issue: {e}")
+                logging.error(header)
+                logging.error(body)
+                logging.error(f"Failed to create issue: {e}")
                 time.sleep(30)
