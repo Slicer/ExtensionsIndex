@@ -4,7 +4,7 @@ scmrevision main
 depends PyTorch
 build_subdirectory .
 homepage https://github.com/mazurowski-lab/SlicerSegmentWithSAM
-contributors Zafer Yildiz (Duke University - Mazurowski Lab)
+contributors Zafer Yildiz (Mazurowski Lab, Duke University)
 category Segmentation
 iconurl https://raw.githubusercontent.com/mazurowski-lab/SlicerSegmentWithSAM/main/SegmentWithSAM/Resources/Icons/SegmentWithSAM.png
 description SegmentWithSAM aims to asist its users in segmenting medical data on 3D Slicer by comprehensively integrating the Segment Anything Model (SAM) developed by Meta.
