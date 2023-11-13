@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: pip install requests==2.31.0 pandas==2.1.1 logging==0.4.9.6 PyGithub==2.1.1 
 
-    - name: Run Python script to calculate errors
+    - name: Run Python script to calculate errors and notify
       run: |
         python .github/generate_codeowners.py
         python .github/notify_extension_managers.py

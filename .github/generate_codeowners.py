@@ -168,7 +168,11 @@ def determine_point_of_contact(gh_session, extension_name, extension_file_conten
                                 committer = None
                         point_of_contact = committer
                         logging.info("Found more than one contributor, so determining point of contact by whoever accepted the latest pull request \n")
-                        logging.info("Point of contact: " + point_of_contact)
+                        if point_of_contact is not None:
+                            logging.info("Point of contact: " + point_of_contact)
+                        else:
+                            logging.info("Point of contact is not available.")
+
     return point_of_contact
 
 def process_extensions():
