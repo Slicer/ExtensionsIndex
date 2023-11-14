@@ -111,7 +111,7 @@
 /SlicerCMF.s4ext @allemangD
 /SlicerCaseIterator.s4ext @JoostJM
 /SlicerCervicalSpine.s4ext @idhamari
-/SlicerDMRI.s4ext @jhlegarreta
+/SlicerDMRI.s4ext @ljod @zhangfanmark
 /SlicerDcm2nii.s4ext @ljod
 /SlicerDensityLungSegmentation.s4ext @pzaffino
 /SlicerDentalModelSeg.s4ext @luciacev
