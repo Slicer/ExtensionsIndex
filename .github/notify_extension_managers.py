@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 access_token = os.environ.get('GITHUB_TOKEN')
 
 g = Github(access_token)
-repo = g.get_repo("vkt1414/ExtensionsIndex")
+repo = g.get_repo("Slicer/ExtensionsIndex")
 
 logging.info("Calling slicer cdash api to get the build info for all extensions")
 # API data retrieval and processing
@@ -57,10 +57,6 @@ if response.status_code == 200:
 else:
     logging.error(f"Failed to retrieve data. Status code: {response.status_code}")
 
-# Process the CODEOWNERS file
-# url = "https://raw.githubusercontent.com/vkt1414/ExtensionsIndex/main/CODEOWNERS"
-# response = requests.get(url)
-# lines = [line for line in response.text.split('\n') if line]
 # Read the existing CODEOWNERS file
 with open('CODEOWNERS', 'r') as file:
     existing_codeowners = [line.strip() for line in file if line.strip()]
@@ -86,7 +82,7 @@ with open('CODEOWNERS', 'r') as file:
 
 data = []
 
-pattern = r"/(.*)\.s4ext @(.*)"
+pattern = r"/(.*)\.s4ext (@.*)"
 
 for line in lines:
     match = re.search(pattern, line)
