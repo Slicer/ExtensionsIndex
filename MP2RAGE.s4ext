@@ -6,7 +6,7 @@
 
 # This is source code manager
 scm git
-scmurl https://github.com/harellab/SlicerMp2rageBackgroundSuppression
+scmurl https://github.com/harellab/SlicerMP2RAGE
 scmrevision trunk
 
 # list dependencies
@@ -18,27 +18,26 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage https://github.com/harellab/SlicerMp2rageBackgroundSuppression
+homepage https://github.com/harellab/SlicerMP2RAGE
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Henry Braun (UMN CMRR), Sam Brenny (UMN CMRR)
+contributors Henry Braun (CMRR, UMN), Sam Brenny (CMRR, UMN)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Filtering
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/harellab/SlicerMp2rageBackgroundSuppression/blob/trunk/BackgroundNoiseSuppression.png?raw=true
-
+iconurl https://github.com/harellab/SlicerMP2RAGE/blob/trunk/ExtensionIcon.png?raw=true
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
 status
 
 # One line stating what the module does
-description This extension provides background noise filtering for MP2RAGE acquisition
+description This extension provides background noise filtering for MP2RAGE acquisition.
 
 # Space separated list of urls
-screenshoturls https://github.com/harellab/SlicerMp2rageBackgroundSuppression/blob/trunk/Screenshot1.png https://github.com/harellab/SlicerMp2rageBackgroundSuppression/blob/trunk/Screenshot2.png
+screenshoturls https://github.com/harellab/SlicerMP2RAGE/blob/trunk/Screenshot1.png?raw=true https://github.com/harellab/SlicerMP2RAGE/blob/trunk/Screenshot2.png?raw=true
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
