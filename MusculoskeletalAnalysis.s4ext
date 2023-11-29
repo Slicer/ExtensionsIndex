@@ -6,7 +6,7 @@
 
 # This is source code manager
 scm git
-scmurl https://github.com/WashUMusculoskeletalCore/Slicer-MusculoskeletalAnalysis.git
+scmurl https://github.com/WashUMusculoskeletalCore/Slicer-MusculoskeletalAnalysis
 scmrevision main
 
 # list dependencies
@@ -25,7 +25,7 @@ homepage https://github.com/WashUMusculoskeletalCore/Slicer-MusculoskeletalAnaly
 contributors Joseph Szatkowski (Washington University in St. Louis)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category Analysis
+category Quantification
 
 # url to icon (png, size 128x128 pixels)
 iconurl https://raw.githubusercontent.com/WashUMusculoskeletalCore/Slicer-MusculoskeletalAnalysis/main/Scripted/MusculoskeletalAnalysis/Resources/Icons/MusculoskeletalAnalysis.png
@@ -38,7 +38,7 @@ status Alpha
 description Analyzes 3D musculoskeletal images and generates reports.
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/WashUMusculoskeletalCore/Slicer-MusculoskeletalAnalysis/main/Scripted/MusculoskeletalAnalysis/Resources/Icons/Screenshot.png
+screenshoturls https://github.com/WashUMusculoskeletalCore/Slicer-MusculoskeletalAnalysis/blob/main/Scripted/MusculoskeletalAnalysis/Resources/Icons/Screenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
