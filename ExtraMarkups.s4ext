@@ -38,7 +38,7 @@ status
 description This extension adds a <i>Label</i> markups node that draws an arrow with a text label, and a <i>Shape</i> markups node that can draw defined primitive shapes (circle, cone...). The result is controlled by placing usual control points in slice views and 3D views. Each object can be saved in scene and reloaded.
 
 # Space separated list of urls
-screenshoturls https://github.com/chir-set/SlicerExtraMarkups/raw/main/Label/Label_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Cone_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Cylinder_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Disk_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Ring_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Sphere_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Tube_0.png
+screenshoturls https://github.com/chir-set/SlicerExtraMarkups/raw/main/Label/Label_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Cone_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Cylinder_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Disk_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Ring_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Sphere_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Tube_0.png https://github.com/chir-set/SlicerExtraMarkups/raw/main/Shape/Arc_0.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
