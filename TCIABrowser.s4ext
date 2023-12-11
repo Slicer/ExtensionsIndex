@@ -18,17 +18,17 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php?title=Documentation/Nightly/Extensions/TCIABrowser
+homepage https://github.com/QIICR/TCIABrowser/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Alireza Mehrtash(SPL and BWH), Andrey Fedorov (SPL and BWH)
+contributors Alireza Mehrtash(SPL and BWH), Andrey Fedorov (SPL and BWH), Adam Li (GU), Justin Kirby (FNLCR)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl    https://raw.githubusercontent.com/QIICR/TCIABrowser/master/TCIABrowser.png
+iconurl https://raw.githubusercontent.com/QIICR/TCIABrowser/master/TCIABrowser/Resources/Icons/TCIABrowser.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -38,7 +38,7 @@ status
 description A Module to connect to the TCIA archive, browse the collections, patients and studies and download DICOM files to 3D Slicer.
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/QIICR/TCIABrowser/master/TCIABrowser/Resources/Screenshot/screenshot1.png
+screenshoturls https://raw.githubusercontent.com/QIICR/TCIABrowser/master/TCIABrowser/Resources/Screenshot/Screenshot_2.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
