@@ -28,7 +28,7 @@ contributors Md Asadullah Turja (UNC)
 category    SurfaceLearner
 
 # url to icon (png, size 128x128 pixels)
-iconurl    https://github.com/mturja-vf-ic-bd/SlicerSurfaceLearner/blob/main/SlicerSurfaceLearner.png
+iconurl    https://raw.githubusercontent.com/mturja-vf-ic-bd/SlicerSurfaceLearner/main/SlicerSurfaceLearner.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description SurfaceLearner provides a way to apply convolutional neural network based classifiers on surface meshes (e.g. brain surface)
 
 # Space separated list of urls
-screenshoturls https://github.com/mturja-vf-ic-bd/SlicerSurfaceLearner/tree/main/Screenshots
+screenshoturls https://raw.githubusercontent.com/mturja-vf-ic-bd/SlicerSurfaceLearner/main/Screenshots/SurfaceLearnerWorkflow.png https://raw.githubusercontent.com/mturja-vf-ic-bd/SlicerSurfaceLearner/main/Screenshots/SurfaceLearnerOverviewImage.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
