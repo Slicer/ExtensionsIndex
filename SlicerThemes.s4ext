@@ -35,7 +35,7 @@ iconurl https://raw.githubusercontent.com/sjh26/SlicerThemes/main/SlicerThemes.p
 status In Development
 
 # One line stating what the module does
-description This extension allows Material based color themes and styling to be applied to 3D Slicer.  
+description This extension allows Material based color themes and styling to be applied to 3D Slicer.
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/sjh26/SlicerThemes/main/Screenshot1.png
