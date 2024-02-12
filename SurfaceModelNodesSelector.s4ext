@@ -6,7 +6,7 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/saimasafdar2021/Slicer_SurfaceModelNodesSelector/tree/main
+scmurl https://github.com/saimasafdar2021/Slicer_SurfaceModelNodesSelector.git
 scmrevision main
 
 # list dependencies
@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage https://github.com/saimasafdar2021/Slicer_SurfaceModelNodesSelector/tree/main
+homepage https://github.com/saimasafdar2021/Slicer_SurfaceModelNodesSelector
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: 
