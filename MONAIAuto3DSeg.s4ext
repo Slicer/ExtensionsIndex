@@ -38,7 +38,7 @@ status
 description Run MONAI Auto3DSeg fully automatic AI segmentation in 3D Slicer.
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/lassoan/SlicerMONAIAuto3DSeg/main/Screenshot01.jpg
+screenshoturls https://raw.githubusercontent.com/lassoan/SlicerMONAIAuto3DSeg/main/Screenshot01.jpg https://raw.githubusercontent.com/lassoan/SlicerMONAIAuto3DSeg/main/Screenshot02.jpg https://raw.githubusercontent.com/lassoan/SlicerMONAIAuto3DSeg/main/Screenshot03.jpg https://raw.githubusercontent.com/lassoan/SlicerMONAIAuto3DSeg/main/Screenshot04.jpg https://raw.githubusercontent.com/lassoan/SlicerMONAIAuto3DSeg/main/Screenshot05.jpg
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
