@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "Segmentation",
+  "scmrevision": "release",
+  "scmurl": "https://github.com/DCBIA-OrthoLab/IntensitySegmenter.git"
+}

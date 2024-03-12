@@ -1,0 +1,7 @@
+{
+  "build_dependencies": ["SlicerFreeSurfer"],
+  "build_subdirectory": ".",
+  "category": "Neuroimaging",
+  "scmrevision": "main",
+  "scmurl": "https://github.com/HOA-2/SlicerNeuroSegmentation.git"
+}

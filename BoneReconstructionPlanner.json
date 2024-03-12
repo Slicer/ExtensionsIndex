@@ -1,0 +1,7 @@
+{
+  "build_dependencies": ["SurfaceWrapSolidify", "MarkupsToModel", "Sandbox"],
+  "build_subdirectory": ".",
+  "category": "Planning",
+  "scmrevision": "main",
+  "scmurl": "https://github.com/SlicerIGT/SlicerBoneReconstructionPlanner.git"
+}

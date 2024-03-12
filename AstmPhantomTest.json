@@ -1,0 +1,7 @@
+{
+  "build_dependencies": ["SlicerOpenIGTLink"],
+  "build_subdirectory": ".",
+  "category": "IGT",
+  "scmrevision": "master",
+  "scmurl": "https://github.com/Atracsys/SlicerAstmPhantomTest.git"
+}

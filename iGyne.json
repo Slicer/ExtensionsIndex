@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "IGT",
+  "scmrevision": "a57c534d11db46e6b1985c6caf6827bbcbae880e",
+  "scmurl": "https://github.com/gpernelle/iGyne.git"
+}

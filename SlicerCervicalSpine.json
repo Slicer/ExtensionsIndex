@@ -1,0 +1,7 @@
+{
+  "build_dependencies": ["SlicerCochlea"],
+  "build_subdirectory": ".",
+  "category": "VisSimTools",
+  "scmrevision": "master",
+  "scmurl": "https://github.com/MedicalImageAnalysisTutorials/SlicerCervicalSpine"
+}

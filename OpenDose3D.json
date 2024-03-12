@@ -1,0 +1,7 @@
+{
+  "build_dependencies": ["SlicerElastix"],
+  "build_subdirectory": ".",
+  "category": "Radiotherapy",
+  "scmrevision": "master-stable",
+  "scmurl": "https://gitlab.com/opendose/opendose3d.git"
+}

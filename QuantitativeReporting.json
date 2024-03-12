@@ -1,0 +1,11 @@
+{
+  "build_dependencies": [
+    "SlicerDevelopmentToolbox",
+    "DCMQI",
+    "PETDICOMExtension"
+  ],
+  "build_subdirectory": ".",
+  "category": "Informatics",
+  "scmrevision": "master",
+  "scmurl": "https://github.com/QIICR/QuantitativeReporting.git"
+}

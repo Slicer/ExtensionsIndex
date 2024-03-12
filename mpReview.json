@@ -1,0 +1,11 @@
+{
+  "build_dependencies": [
+    "SlicerDevelopmentToolbox",
+    "QuantitativeReporting",
+    "DICOMwebBrowser"
+  ],
+  "build_subdirectory": ".",
+  "category": "Informatics",
+  "scmrevision": "master",
+  "scmurl": "https://github.com/SlicerProstate/mpReview.git"
+}

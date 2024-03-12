@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "Segmentation",
+  "scmrevision": "667aa7d8f74a50e6528a1e8aae7423d1fb66a93e",
+  "scmurl": "https://github.com/fredericpanthier/SlicerKidneyStoneCalculator.git"
+}

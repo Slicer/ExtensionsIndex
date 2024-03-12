@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "Remote",
+  "scmrevision": "master",
+  "scmurl": "https://github.com/NrgXnat/XNATSlicer.git"
+}

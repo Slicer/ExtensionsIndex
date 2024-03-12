@@ -1,0 +1,15 @@
+{
+  "build_dependencies": [
+    "UKFTractography",
+    "SwissSkullStripper",
+    "SlicerFreeSurfer",
+    "SlicerDcm2nii",
+    "SlicerDMRI",
+    "HDBrainExtraction",
+    "SlicerWMA"
+  ],
+  "build_subdirectory": ".",
+  "category": "Neuroimaging",
+  "scmrevision": "main",
+  "scmurl": "https://github.com/Slicer/SlicerNeuro"
+}

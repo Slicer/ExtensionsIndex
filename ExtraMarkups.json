@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "Utilities",
+  "scmrevision": "main",
+  "scmurl": "https://github.com/chir-set/SlicerExtraMarkups.git"
+}

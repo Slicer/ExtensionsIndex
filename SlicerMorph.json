@@ -1,0 +1,7 @@
+{
+  "build_dependencies": ["SegmentEditorExtraEffects"],
+  "build_subdirectory": ".",
+  "category": "SlicerMorph",
+  "scmrevision": "master",
+  "scmurl": "https://github.com/SlicerMorph/SlicerMorph.git"
+}

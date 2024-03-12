@@ -1,0 +1,7 @@
+{
+  "build_dependencies": ["SlicerElastix"],
+  "build_subdirectory": "inner-build",
+  "category": "Otolaryngology",
+  "scmrevision": "master",
+  "scmurl": "https://github.com/Auditory-Biophysics-Lab/Slicer-ABLTemporalBoneSegmentation"
+}

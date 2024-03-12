@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "Neuroimaging",
+  "scmrevision": "master",
+  "scmurl": "https://github.com/PerkLab/SlicerFreeSurfer.git"
+}

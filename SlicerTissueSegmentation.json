@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "Segmentation",
+  "scmrevision": "main",
+  "scmurl": "https://github.com/MarinaSandonis/SlicerTissueSegmentation"
+}

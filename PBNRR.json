@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": "inner-build",
+  "category": "Registration",
+  "scmrevision": "b494c1e",
+  "scmurl": "https://github.com/aangelos28/PBNRR.git"
+}

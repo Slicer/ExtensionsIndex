@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": "inner-build",
+  "category": "IGT",
+  "scmrevision": "master",
+  "scmurl": "https://github.com/SlicerIGT/PortPlacement.git"
+}

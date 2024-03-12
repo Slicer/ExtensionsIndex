@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "Filtering.Morphology",
+  "scmrevision": "3f4146ddaa712c8f0a8418f49b2624a1dd6fd20a",
+  "scmurl": "https://github.com/tokjun/ErodeDilateLabel.git"
+}

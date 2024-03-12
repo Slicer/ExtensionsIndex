@@ -1,0 +1,7 @@
+{
+  "build_dependencies": ["SlicerDentalModelSeg", "Conda"],
+  "build_subdirectory": ".",
+  "category": "Segmentation",
+  "scmrevision": "main",
+  "scmurl": "https://github.com/DCBIA-OrthoLab/SlicerAutomatedDentalTools.git"
+}

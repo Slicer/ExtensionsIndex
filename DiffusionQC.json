@@ -1,0 +1,7 @@
+{
+  "build_dependencies": ["SlicerDMRI"],
+  "build_subdirectory": ".",
+  "category": "Diffusion",
+  "scmrevision": "master",
+  "scmurl": "https://github.com/pnlbwh/SlicerDiffusionQC"
+}

@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "BigImage",
+  "scmrevision": "main",
+  "scmurl": "https://github.com/gaoyi/SlicerBigImage.git"
+}
