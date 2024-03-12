@@ -19,7 +19,7 @@ jobs:
           name: Check description files
           command: |
             pip install joblib retry
-            python ./scripts/check_description_files.py --check-urls-reachable --check-dependencies . $(find . -maxdepth 1 -name "*.s4ext")
+            python ./scripts/check_description_files.py --check-urls-reachable --check-dependencies . $(find . -maxdepth 1 -name "*.json")
 
 workflows:
   version: 2
