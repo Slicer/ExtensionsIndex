@@ -88,6 +88,9 @@ def check_git_repository_name(extension_name, metadata):
 
     repo_name = os.path.splitext(urlparse.urlsplit(metadata["scmurl"]).path.split("/")[-1])[0]
 
+    if repo_name in REPOSITORY_NAME_CHECK_EXCEPTIONS:
+        return
+
     if "slicer" not in repo_name.lower():
 
         variations = [prefix + repo_name for prefix in ["Slicer-", "Slicer_", "SlicerExtension-", "SlicerExtension_"]]
@@ -183,6 +186,68 @@ def main():
 
     print(f"Total errors found in extension descriptions: {total_failure_count}")
     sys.exit(total_failure_count)
+
+
+REPOSITORY_NAME_CHECK_EXCEPTIONS = [
+    "3DMetricTools",
+    "ai-assisted-annotation-client",
+    "aigt",
+    "AnglePlanes-Extension",
+    "AnomalousFiltersExtension",
+    "BoneTextureExtension",
+    "CarreraSlice",
+    "ChangeTrackerPy",
+    "CMFreg",
+    "CurveMaker",
+    "DatabaseInteractorExtension",
+    "dcmqi",
+    "DSC_Analysis",
+    "EasyClip-Extension",
+    "ErodeDilateLabel",
+    "FilmDosimetryAnalysis",
+    "GelDosimetryAnalysis",
+    "GyroGuide",
+    "iGyne",
+    "ImageMaker",
+    "IntensitySegmenter",
+    "LesionSpotlightExtension",
+    "MeshStatisticsExtension",
+    "MeshToLabelMap",
+    "ModelClip",
+    "MONAILabel",
+    "mpReview",
+    "NeedleFinder",
+    "opendose3d",
+    "OsteotomyPlanner",
+    "PBNRR",
+    "PedicleScrewSimulator",
+    "PercutaneousApproachAnalysis",
+    "PerkTutor",
+    "PET-IndiC",
+    "PETLiverUptakeMeasurement",
+    "PETTumorSegmentation",
+    "PickAndPaintExtension",
+    "PkModeling",
+    "PortPlacement",
+    "Q3DCExtension",
+    "QuantitativeReporting",
+    "ResectionPlanner",
+    "ScatteredTransform",
+    "Scoliosis",
+    "SegmentationAidedRegistration",
+    "SegmentationReview",
+    "SegmentRegistration",
+    "ShapePopulationViewer",
+    "ShapeRegressionExtension",
+    "ShapeVariationAnalyzer",
+    "SkullStripper",
+    "SNRMeasurement",
+    "SPHARM-PDM",
+    "T1Mapping",
+    "TCIABrowser",
+    "ukftractography",
+    "VASSTAlgorithms",
+]
 
 
 if __name__ == "__main__":
