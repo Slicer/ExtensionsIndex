@@ -88,7 +88,7 @@ def check_git_repository_name(extension_name, metadata):
 
     repo_name = os.path.splitext(urlparse.urlsplit(metadata["scmurl"]).path.split("/")[-1])[0]
 
-    if not repo_name.startswith("Slicer"):
+    if "slicer" not in repo_name.lower():
 
         variations = [prefix + repo_name for prefix in ["Slicer-", "Slicer_", "SlicerExtension-", "SlicerExtension_"]]
 
