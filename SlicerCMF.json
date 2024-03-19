@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-item-schema-v1.0.0.json#",
+  "build_dependencies": [
+    "AnglePlanesExtension",
+    "BoneTextureExtension",
+    "CMFreg",
+    "DatabaseInteractor",
+    "EasyClip",
+    "MeshToLabelMap",
+    "MeshStatisticsExtension",
+    "ModelToModelDistance",
+    "PickAndPaintExtension",
+    "Q3DC",
+    "SPHARM-PDM",
+    "ShapePopulationViewer",
+    "ShapeVariationAnalyzer"
+  ],
+  "build_subdirectory": ".",
+  "category": "SlicerCMF",
+  "scmrevision": "master",
+  "scmurl": "https://github.com/DCBIA-OrthoLab/SlicerCMF.git"
+}

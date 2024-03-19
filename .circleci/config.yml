@@ -18,7 +18,7 @@ jobs:
       - run:
           name: Check description files
           command: |
-            python ./scripts/check_description_files.py --check-dependencies . $(find . -name "*.s4ext")
+            python ./scripts/check_description_files.py --check-dependencies . $(find . -maxdepth 1 -name "*.json")
 
   check-new-description-files:
     docker:
@@ -49,8 +49,8 @@ jobs:
             echo "BASE_BRANCH is [$BASE_BRANCH]"
             echo "CIRCLE_BRANCH is [$CIRCLE_BRANCH]"
 
-            # Collect list of new *.s4ext files
-            added=$(git diff $BASE_BRANCH --diff-filter=A --name-only | grep -E "^[^\/]+\.s4ext$")
+            # Collect list of new *.json files
+            added=$(git diff $BASE_BRANCH --diff-filter=A --name-only | grep -E "^[^\/]+\.json$")
             echo "added [$added]"
 
             # Run checks

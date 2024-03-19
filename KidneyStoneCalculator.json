@@ -1,0 +1,8 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-item-schema-v1.0.0.json#",
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "Segmentation",
+  "scmrevision": "667aa7d8f74a50e6528a1e8aae7423d1fb66a93e",
+  "scmurl": "https://github.com/fredericpanthier/SlicerKidneyStoneCalculator.git"
+}

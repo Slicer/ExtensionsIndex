@@ -1,0 +1,8 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-item-schema-v1.0.0.json#",
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "Segmentation",
+  "scmrevision": "40e62e857f2879c9a4d3a37f341c6421b6e79895",
+  "scmurl": "https://github.com/ikolesov/CarreraSlice.git"
+}

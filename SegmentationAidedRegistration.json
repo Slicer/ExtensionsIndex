@@ -1,0 +1,8 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-item-schema-v1.0.0.json#",
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "Registration",
+  "scmrevision": "e1ce457eb08e69ca49083b8998631bb43f203295",
+  "scmurl": "https://github.com/gaoyi/SegmentationAidedRegistration.git"
+}

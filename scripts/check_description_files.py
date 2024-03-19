@@ -5,12 +5,24 @@ Python 3.x CLI for validating extension description files.
 """
 
 import argparse
+import json
 import os
 import sys
 import textwrap
 import urllib.parse as urlparse
 
 from functools import wraps
+
+
+class ExtensionParseError(RuntimeError):
+    """Exception raised when a particular extension description file failed to be parsed.
+    """
+    def __init__(self, extension_name, details):
+        self.extension_name = extension_name
+        self.details = details
+
+    def __str__(self):
+        return self.details
 
 
 class ExtensionCheckError(RuntimeError):
@@ -40,20 +52,21 @@ def require_metadata_key(metadata_key):
     return dec
 
 
-def parse_s4ext(ext_file_path):
+def parse_json(ext_file_path):
     """Parse a Slicer extension description file.
-    :param ext_file_path: Path to a Slicer extension description file.
+    :param ext_file_path: Path to a Slicer extension description file (.json).
     :return: Dictionary of extension metadata.
     """
-    ext_metadata = {}
-    with open(ext_file_path) as ext_file:
-        for line in ext_file:
-            if not line.strip() or line.startswith("#"):
-                continue
-            fields = [field.strip() for field in line.split(' ', 1)]
-            assert(len(fields) <= 2)
-            ext_metadata[fields[0]] = fields[1] if len(fields) == 2 else None
-    return ext_metadata
+    with open(ext_file_path) as input_file:
+        try:
+            return json.load(input_file)
+        except json.JSONDecodeError as exc:
+            extension_name = os.path.splitext(os.path.basename(ext_file_path))[0]
+            raise ExtensionParseError(
+                extension_name,
+                textwrap.dedent("""
+                Failed to parse '%s': %s
+                """ % (ext_file_path, exc)))
 
 
 @require_metadata_key("scmurl")
@@ -63,28 +76,19 @@ def check_scmurl_syntax(extension_name, metadata):
     if "://" not in metadata["scmurl"]:
         raise ExtensionCheckError(extension_name, check_name, "scmurl do not match scheme://host/path")
 
-    supported_schemes = ["git", "https", "svn"]
+    supported_schemes = ["git", "https"]
     scheme = urlparse.urlsplit(metadata["scmurl"]).scheme
     if scheme not in supported_schemes:
         raise ExtensionCheckError(
             extension_name, check_name,
             "scmurl scheme is '%s' but it should by any of %s" % (scheme, supported_schemes))
 
-@require_metadata_key("scm")
-def check_scm_notlocal(extension_name, metadata):
-    check_name = "check_scm_notlocal"
-    if metadata["scm"] == "local":
-        raise ExtensionCheckError(extension_name, check_name, "scm cannot be local")
 
 @require_metadata_key("scmurl")
-@require_metadata_key("scm")
 def check_git_repository_name(extension_name, metadata):
     """See https://www.slicer.org/wiki/Documentation/Nightly/Developers/FAQ#Should_the_name_of_the_source_repository_match_the_name_of_the_extension_.3F
     """
     check_name = "check_git_repository_name"
-
-    if metadata["scm"] != "git":
-        return
 
     repo_name = os.path.splitext(urlparse.urlsplit(metadata["scmurl"]).path.split("/")[-1])[0]
 
@@ -109,18 +113,19 @@ def check_dependencies(directory):
     available_extensions = []
     for filename in os.listdir(directory):
         f = os.path.join(directory, filename)
-        if not os.path.isfile(f):
+        if not os.path.isfile(f) or not filename.endswith(".json"):
             continue
         extension_name = os.path.splitext(os.path.basename(filename))[0]
         available_extensions.append(extension_name)
-        extension_description = parse_s4ext(f)
+        try:
+            extension_description = parse_json(f)
+        except ExtensionParseError as exc:
+            print(exc)
+            continue
         if 'depends' not in extension_description:
             continue
-        dependencies = extension_description['depends'].split(' ')
+        dependencies = extension_description['depends']
         for dependency in dependencies:
-            if dependency == 'NA':
-                # special value, just a placeholder that must be ignored
-                continue
             if dependency in required_extensions:
                 required_extensions[dependency].append(extension_name)
             else:
@@ -143,7 +148,7 @@ def main():
         "--check-git-repository-name", action="store_true",
         help="Check extension git repository name. Disabled by default.")
     parser.add_argument("-d", "--check-dependencies", help="Check all extension dsecription files in the provided folder.")
-    parser.add_argument("/path/to/description.s4ext", nargs='*')
+    parser.add_argument("/path/to/extension_name.json", nargs='*')
     args = parser.parse_args()
 
     checks = []
@@ -154,27 +159,31 @@ def main():
     if not checks:
         checks = [
             check_scmurl_syntax,
-            check_scm_notlocal,
         ]
 
     total_failure_count = 0
 
-    file_paths = getattr(args, "/path/to/description.s4ext")
+    file_paths = getattr(args, "/path/to/extension_name.json")
     for file_path in file_paths:
         extension_name = os.path.splitext(os.path.basename(file_path))[0]
 
         failures = []
 
-        metadata = parse_s4ext(file_path)
-        for check in checks:
-            try:
-                check(extension_name, metadata)
-            except ExtensionCheckError as exc:
-                failures.append(str(exc))
+        try:
+            metadata = parse_json(file_path)
+        except ExtensionParseError as exc:
+            failures.append(str(exc))
+
+        if not failures:
+            for check in checks:
+                try:
+                    check(extension_name, metadata)
+                except ExtensionCheckError as exc:
+                    failures.append(str(exc))
 
         if failures:
             total_failure_count += len(failures)
-            print("%s.s4ext" % extension_name)
+            print("%s.json" % extension_name)
             for failure in set(failures):
                 print("  %s" % failure)
 

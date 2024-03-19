@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-item-schema-v1.0.0.json#",
+  "build_dependencies": [
+    "MarkupsToModel",
+    "SlicerVMTK",
+    "SegmentEditorExtraEffects",
+    "PyTorch"
+  ],
+  "build_subdirectory": ".",
+  "category": "Segmentation",
+  "scmrevision": "main",
+  "scmurl": "https://github.com/R-Vessel-X/SlicerRVXLiverSegmentation"
+}

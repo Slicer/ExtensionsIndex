@@ -18,12 +18,13 @@ unexpected_files=$(find . -mindepth 1 \( -type d \( \
   -path ./.github -o \
   -path ./.git -o \
   -path ./ARCHIVE -o \
+  -path ./schemas -o \
   -path ./scripts \
 \) -o -type f \( \
   -name .pre-commit-config.yaml -o \
   -name .git-blame-ignore-revs  -o \
   -name README.md -o \
-  -name "*.s4ext" \
+  -name "*.json" \
 \)  \)  -prune -o -print)
 
 for unexpected_file in $unexpected_files; do

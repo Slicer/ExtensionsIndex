@@ -1,7 +1,7 @@
 <!--
 Thank you for contributing to 3D Slicer!
 - To add a new extension with this pull request: Please keep content of "New extension" section and put an 'x' in the brackets for each todo item to indicate that you have accomplished that prerequisite.
-- To update an existing extension with this pull request: Please delete all text in this template and just describe which extension is updated and optionally tell us in a sentence what has been changed. To make extension updates easier in the future you may consider replacing specific git hash in your s4ext file by a branch name (for example: `main` for Slicer Preview Releases; `(majorVersion).(minorVersion)` such as `4.10` for Slicer Stable Releases).
+- To update an existing extension with this pull request: Please delete all text in this template and just describe which extension is updated and optionally tell us in a sentence what has been changed. To make extension updates easier in the future you may consider replacing specific git hash in your json file by a branch name (for example: `main` for Slicer Preview Releases; `(majorVersion).(minorVersion)` such as `5.6` for Slicer Stable Releases).
 -->
 
 # New extension
@@ -25,7 +25,7 @@ Thank you for contributing to 3D Slicer!
   - [ ] Tutorial: step-by-step description of at least the most typical use case, include a few screenshots, provide download links to sample input data set
   - [ ] Publication: link to publication and/or to PubMed reference (if available)
   - [ ] License: We suggest you use a permissive license that includes patent and contribution clauses.  This will help protect developers and ensure the code remains freely available.  We suggest you use the [Slicer License](https://github.com/Slicer/Slicer/blob/main/License.txt) or the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0). Always mention in your README file the license you have chosen.  If you choose a different license, explain why to the extension maintainers. Depending on the license we may not be able to host your work. Read [here](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) to learn more about licenses.
-  - [ ] Content of submitted s4ext file is consistent with the top-level CMakeLists.txt file in the repository (description, URLs, dependencies, etc. are the same)
+  - [ ] Content of submitted json file is consistent with the top-level CMakeLists.txt file in the repository (dependencies, etc. are the same)
 - Hide unused features in the repository to reduce noise/irrelevant information:
   - [ ] Click `Settings` and in repository settings uncheck `Wiki`, `Projects`, and `Discussions` (if they are currently not used)
   - [ ] Click the settings icon next to `About` in the top-right corner of the repository main page and uncheck `Releases` and `Packages` (if they are currently not used)

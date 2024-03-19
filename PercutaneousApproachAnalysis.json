@@ -1,0 +1,8 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-item-schema-v1.0.0.json#",
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "IGT",
+  "scmrevision": "a2a7615ff20ae45462b854172c41cf233b401e30",
+  "scmurl": "https://github.com/SlicerIGT/PercutaneousApproachAnalysis"
+}

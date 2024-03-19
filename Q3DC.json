@@ -1,0 +1,8 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-item-schema-v1.0.0.json#",
+  "build_dependencies": ["SlicerMarkupConstraints"],
+  "build_subdirectory": ".",
+  "category": "Shape Analysis",
+  "scmrevision": "master",
+  "scmurl": "https://github.com/DCBIA-OrthoLab/Q3DCExtension.git"
+}
