@@ -28,5 +28,12 @@ repos:
   - repo: https://github.com/python-jsonschema/check-jsonschema
     rev: "0.28.0"
     hooks:
+      - id: check-jsonschema
+        files: ^[^/]*\.json$
+        args:
+          [
+            "--schemafile",
+            "schemas/slicer-extension-catalog-entry-schema-v1.0.0.json",
+          ]
       - id: check-dependabot
       - id: check-github-workflows
