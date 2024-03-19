@@ -6,39 +6,38 @@
 
 # This is source code manager
 scm git
-scmurl https://github.com/lassoan/SlicerMONAIAuto3DSeg
-scmrevision main
+scmurl https://github.com/harellab/SlicerUHFMRTools
+scmrevision trunk
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends PyTorch
+depends NA
 
 # Inner build directory (default is ".")
 build_subdirectory .
 
 # homepage
-homepage https://github.com/lassoan/SlicerMONAIAuto3DSeg
+homepage https://github.com/harellab/SlicerUHFMRTools
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Andras Lasso (PerkLab, Queen's University)
+contributors Henry Braun (CMRR, UMN), Sam Brenny (CMRR, UMN)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category Segmentation
+category Filtering
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://raw.githubusercontent.com/lassoan/SlicerMONAIAuto3DSeg/main/MONAIAuto3DSeg.png
-
+iconurl https://github.com/harellab/SlicerUHFMRTools/blob/trunk/ExtensionIcon.png?raw=true
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
 status
 
 # One line stating what the module does
-description Run MONAI Auto3DSeg fully automatic AI segmentation in 3D Slicer.
+description This extension provides tools for working with ultra-high field (UHF) MRI images and is intended to provide post-acquisition processing.
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/lassoan/SlicerMONAIAuto3DSeg/main/Screenshot01.jpg https://raw.githubusercontent.com/lassoan/SlicerMONAIAuto3DSeg/main/Screenshot02.jpg https://raw.githubusercontent.com/lassoan/SlicerMONAIAuto3DSeg/main/Screenshot03.jpg https://raw.githubusercontent.com/lassoan/SlicerMONAIAuto3DSeg/main/Screenshot04.jpg https://raw.githubusercontent.com/lassoan/SlicerMONAIAuto3DSeg/main/Screenshot05.jpg
+screenshoturls https://github.com/harellab/SlicerUHFMRTools/blob/trunk/doc/AdditionalModulePaths.png?raw=true https://github.com/harellab/SlicerUHFMRTools/blob/trunk/doc/FavoriteModules.png?raw=true https://github.com/harellab/SlicerUHFMRTools/blob/trunk/doc/ModuleWorkflow.png?raw=true https://github.com/harellab/SlicerUHFMRTools/blob/trunk/doc/ModuleResult.png?raw=true
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
