@@ -28,7 +28,7 @@ contributors Henry Braun (CMRR, UMN), Sam Brenny (CMRR, UMN)
 category Filtering
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/harellab/SlicerUHFMRTools/blob/trunk/ExtensionIcon.png?raw=true
+iconurl https://raw.githubusercontent.com/harellab/SlicerUHFMRTools/trunk/ExtensionIcon.png
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
 status
@@ -37,7 +37,7 @@ status
 description This extension provides tools for working with ultra-high field (UHF) MRI images and is intended to provide post-acquisition processing.
 
 # Space separated list of urls
-screenshoturls https://github.com/harellab/SlicerUHFMRTools/blob/trunk/doc/AdditionalModulePaths.png?raw=true https://github.com/harellab/SlicerUHFMRTools/blob/trunk/doc/FavoriteModules.png?raw=true https://github.com/harellab/SlicerUHFMRTools/blob/trunk/doc/ModuleWorkflow.png?raw=true https://github.com/harellab/SlicerUHFMRTools/blob/trunk/doc/ModuleResult.png?raw=true
+screenshoturls https://raw.githubusercontent.com/harellab/SlicerUHFMRTools/trunk/doc/AdditionalModulePaths.png https://raw.githubusercontent.com/harellab/SlicerUHFMRTools/trunk/doc/FavoriteModules.png https://raw.githubusercontent.com/harellab/SlicerUHFMRTools/trunk/doc/ModuleResult.png https://raw.githubusercontent.com/harellab/SlicerUHFMRTools/trunk/doc/ModuleWorkflow.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
