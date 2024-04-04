@@ -16,6 +16,14 @@ from http.client import HTTPException
 from socket import timeout as SocketTimeout
 
 try:
+    from joblib import Parallel, delayed, parallel_backend
+except ImportError:
+    raise SystemExit(
+        "retry not available: "
+        "consider installing it running 'pip install joblib'"
+    ) from None
+
+try:
     from retry import retry
 except ImportError:
     raise SystemExit(
@@ -261,8 +269,11 @@ def main():
             (check_screenshoturls, {"check_url_reachable": args.check_urls_reachable}),
         ]
 
-    def _check_extension(file_path):
+    def _check_extension(file_path, verbose=False):
         extension_name = os.path.splitext(os.path.basename(file_path))[0]
+
+        if verbose:
+            print(f"Checking {extension_name}")
 
         failures = []
 
@@ -276,15 +287,16 @@ def main():
         # Keep track extension errors removing duplicates
         return extension_name, list(set(failures))
 
-    extension_failures = {}
     file_paths = getattr(args, "/path/to/description.s4ext")
-    for file_path in file_paths:
-        extension_name, failures = _check_extension(file_path)
-        extension_failures[extension_name] = failures
+    with parallel_backend("threading", n_jobs=6):
+        jobs = Parallel(verbose=False)(
+            delayed(_check_extension)(file_path, verbose=args.check_urls_reachable)
+            for file_path in file_paths
+        )
 
     total_failure_count = 0
 
-    for extension_name, failures in extension_failures.items():
+    for extension_name, failures in jobs:
         if failures:
             total_failure_count += len(failures)
             print("%s.s4ext" % extension_name)
