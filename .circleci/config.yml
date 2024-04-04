@@ -18,7 +18,7 @@ jobs:
       - run:
           name: Check description files
           command: |
-            python ./scripts/check_description_files.py --check-dependencies . $(find . -name "*.s4ext")
+            python ./scripts/check_description_files.py --check-dependencies . $(find . -maxdepth 1 -name "*.s4ext")
 
   check-new-description-files:
     docker:
