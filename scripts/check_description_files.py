@@ -86,8 +86,8 @@ def check_homepage(extension_name, metadata):
 def check_iconurl(extension_name, metadata):
     check_name = "check_iconurl"
     iconurl = metadata["iconurl"]
-    if not iconurl.startswith("http"):
-        msg = f"iconurl is '{iconurl}' but it does not start with http"
+    if not iconurl.startswith("https://"):
+        msg = f"iconurl is '{iconurl}' but it does not start with https"
         raise ExtensionCheckError(extension_name, check_name, msg)
 
 
