@@ -38,7 +38,7 @@ status      Work in progress
 description SlicerProstate extension hosts various modules to facilitate processing and management of prostate image data, utilizing prostate images in image-guided interventions and development of the imaging biomarkers of the prostate cancer.
 
 # Space separated list of urls
-screenshoturls http://wiki.slicer.org/slicerWiki/images/f/ff/DistanceMapBasedRegistration_example1.png http://wiki.slicer.org/slicerWiki/images/3/36/SegmentationSmoothing_example1.png http://wiki.slicer.org/slicerWiki/images/c/c3/QuadEdgeSurfaceMesher_example1.png
+screenshoturls https://wiki.slicer.org/slicerWiki/images/f/ff/DistanceMapBasedRegistration_example1.png https://wiki.slicer.org/slicerWiki/images/3/36/SegmentationSmoothing_example1.png https://wiki.slicer.org/slicerWiki/images/c/c3/QuadEdgeSurfaceMesher_example1.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

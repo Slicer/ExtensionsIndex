@@ -38,7 +38,7 @@ status
 description The PET DICOM Extension provides tools to import PET Standardized Uptake Value images from DICOM into Slicer.
 
 # Space separated list of urls
-screenshoturls http://wiki.slicer.org/slicerWiki/images/thumb/2/2e/SUV_Factor_Calculator_GUI.png/418px-SUV_Factor_Calculator_GUI.png http://wiki.slicer.org/slicerWiki/images/thumb/2/29/DICOM_Browser_RWVM_Plugin.png/800px-DICOM_Browser_RWVM_Plugin.png http://wiki.slicer.org/slicerWiki/images/thumb/4/43/DICOM_Browser_PET_SUV_Plugin.png/800px-DICOM_Browser_PET_SUV_Plugin.png
+screenshoturls https://wiki.slicer.org/slicerWiki/images/thumb/2/2e/SUV_Factor_Calculator_GUI.png/418px-SUV_Factor_Calculator_GUI.png https://wiki.slicer.org/slicerWiki/images/thumb/2/29/DICOM_Browser_RWVM_Plugin.png/800px-DICOM_Browser_RWVM_Plugin.png https://wiki.slicer.org/slicerWiki/images/thumb/4/43/DICOM_Browser_PET_SUV_Plugin.png/800px-DICOM_Browser_PET_SUV_Plugin.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

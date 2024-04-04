@@ -38,7 +38,7 @@ status Release
 description This extension computes a label map from a 3D model.
 
 # Space separated list of urls
-screenshoturls http://slicer.org/slicerWiki/images/thumb/5/54/MeshToLabelMapScreenshot.png/800px-MeshToLabelMapScreenshot.png
+screenshoturls https://slicer.org/slicerWiki/images/thumb/5/54/MeshToLabelMapScreenshot.png/800px-MeshToLabelMapScreenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

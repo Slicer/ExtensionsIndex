@@ -38,7 +38,7 @@ status
 description This Module is used to clip one or different 3D Models according to a predetermined plane. Plane can be saved to be reused for other models. After clipping, the models are closed and can be saved as new 3D Models.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/1/1b/EasyClipPlanePosition.png
+screenshoturls https://www.slicer.org/slicerWiki/images/1/1b/EasyClipPlanePosition.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

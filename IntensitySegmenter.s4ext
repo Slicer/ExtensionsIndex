@@ -38,7 +38,7 @@ status  beta
 description IntensitySegmenter is a simple tool that segments an image according to intensity value. It is mainly used to segment CT scans using the Hounsfield scale but the ranges of intensities and their corresponding labels can be specified in an input text file.
 
 # Space separated list of urls
-screenshoturls http://wiki.slicer.org/slicerWiki/images/7/7c/IntensitySegmenter-OutputScreenshot.png
+screenshoturls https://wiki.slicer.org/slicerWiki/images/7/7c/IntensitySegmenter-OutputScreenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

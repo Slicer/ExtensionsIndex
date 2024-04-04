@@ -38,7 +38,7 @@ status      Beta
 description Analysis of Dynamic Susceptibility Contrast (DSC) MRI.
 
 # Space separated list of urls
-screenshoturls http://slicer.org/slicerWiki/images/e/e8/DSC_GUI_V0.png
+screenshoturls https://slicer.org/slicerWiki/images/e/e8/DSC_GUI_V0.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

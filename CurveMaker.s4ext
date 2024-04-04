@@ -38,7 +38,7 @@ status
 description This is a module to generate a curve based on a list of fiducial points.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/0/0b/Slicer4-CurveMaker-GUI.png
+screenshoturls https://www.slicer.org/slicerWiki/images/0/0b/Slicer4-CurveMaker-GUI.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
