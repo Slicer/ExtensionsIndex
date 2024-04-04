@@ -157,7 +157,9 @@ def check_dependencies(directory):
         f = os.path.join(directory, filename)
         if not os.path.isfile(f):
             continue
-        extension_name = os.path.splitext(os.path.basename(filename))[0]
+        extension_name, extension = os.path.splitext(os.path.basename(filename))
+        if extension != ".s4ext":
+            continue
         available_extensions.append(extension_name)
         extension_description = parse_s4ext(f)
         if 'depends' not in extension_description:
