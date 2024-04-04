@@ -38,7 +38,7 @@ status
 description The PET-IndiC Extension allows for fast segmentation of regions of interest and calculation of quantitative indices.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/3/32/PET-IndiC_Screenshot1.png http://www.slicer.org/slicerWiki/images/8/8b/PET-IndiC_Screenshot3.png http://www.slicer.org/slicerWiki/images/8/8e/PET-IndiC_Screenshot5.png
+screenshoturls https://www.slicer.org/slicerWiki/images/3/32/PET-IndiC_Screenshot1.png https://www.slicer.org/slicerWiki/images/8/8b/PET-IndiC_Screenshot3.png https://www.slicer.org/slicerWiki/images/8/8e/PET-IndiC_Screenshot5.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

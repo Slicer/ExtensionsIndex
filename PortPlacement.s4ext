@@ -38,7 +38,7 @@ status This extension is intended for public use and we expect to fully maintain
 description Assists in the planning of surgical port placement in a laparoscopic procedure.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/3/32/Portplacement.png
+screenshoturls https://www.slicer.org/slicerWiki/images/3/32/Portplacement.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

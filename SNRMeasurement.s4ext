@@ -38,7 +38,7 @@ status
 description 3D Slicer CLI to calculate SNR of images.
 
 # Space separated list of urls
-screenshoturls http://wiki.slicer.org/slicerWiki/images/a/ab/Slicer-r19441-SNRMeasurement-screenshot.png http://wiki.slicer.org/slicerWiki/images/1/1e/Slicer-r19441-SNRMeasurement-screenshot-2.png
+screenshoturls https://wiki.slicer.org/slicerWiki/images/a/ab/Slicer-r19441-SNRMeasurement-screenshot.png https://wiki.slicer.org/slicerWiki/images/1/1e/Slicer-r19441-SNRMeasurement-screenshot-2.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

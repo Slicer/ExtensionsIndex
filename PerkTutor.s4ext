@@ -38,7 +38,7 @@ status
 description This extension holds modules for training of needle interventions and analysis of operator performance.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/2/28/PerkTutorScreenshot.png
+screenshoturls https://www.slicer.org/slicerWiki/images/2/28/PerkTutorScreenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

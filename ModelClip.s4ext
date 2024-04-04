@@ -38,7 +38,7 @@ status
 description This is an extension module to set the osteotomy trajectory with multiple planes and clip with just one click.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/index.php/File:ModelClipScreenShot.png
+screenshoturls https://www.slicer.org/slicerWiki/index.php/File:ModelClipScreenShot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

@@ -38,7 +38,7 @@ status
 description This Module is used to calculate the angle between two planes by using the normals. The user gets the choice to use two planes which are already implemented on Slicer or they can define a plane by using landmarks (at least 3 landmarks). Plane can also be saved to be reused for other models.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/b/ba/Interface_AnglePlanes.png
+screenshoturls https://www.slicer.org/slicerWiki/images/b/ba/Interface_AnglePlanes.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

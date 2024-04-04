@@ -38,7 +38,7 @@ status Beta
 description Vascular Modeling Toolkit for vessel tree segmentation and centerline extraction.
 
 # Space separated list of urls
-screenshoturls http://www.nitrc.org/project/screenshot.php?group_id=196&screenshot_id=126 http://www.nitrc.org/project/screenshot.php?group_id=196&screenshot_id=227 http://www.nitrc.org/project/screenshot.php?group_id=196&screenshot_id=228 http://www.nitrc.org/project/screenshot.php?group_id=196&screenshot_id=229
+screenshoturls https://www.nitrc.org/project/screenshot.php?group_id=196&screenshot_id=126 https://www.nitrc.org/project/screenshot.php?group_id=196&screenshot_id=227 https://www.nitrc.org/project/screenshot.php?group_id=196&screenshot_id=228 https://www.nitrc.org/project/screenshot.php?group_id=196&screenshot_id=229
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

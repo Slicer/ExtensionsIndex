@@ -38,7 +38,7 @@ status
 description First Version of the Pet Spect Analysis Extension
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/e/e4/ProcessingBlocks.png http://www.slicer.org/slicerWiki/images/7/76/InformationPanel.png http://www.slicer.org/slicerWiki/images/2/2a/VisualizationPanel.png http://www.slicer.org/slicerWiki/images/2/24/CarotidSegmentation.png http://www.slicer.org/slicerWiki/images/b/bb/CarotidSegmentationROI.png http://www.slicer.org/slicerWiki/images/5/51/PTACEstimationIDIF.png http://www.slicer.org/slicerWiki/images/9/98/PTACEstimationPBIF.png http://www.slicer.org/slicerWiki/images/9/90/KMap.png
+screenshoturls https://www.slicer.org/slicerWiki/images/e/e4/ProcessingBlocks.png https://www.slicer.org/slicerWiki/images/7/76/InformationPanel.png https://www.slicer.org/slicerWiki/images/2/2a/VisualizationPanel.png https://www.slicer.org/slicerWiki/images/2/24/CarotidSegmentation.png https://www.slicer.org/slicerWiki/images/b/bb/CarotidSegmentationROI.png https://www.slicer.org/slicerWiki/images/5/51/PTACEstimationIDIF.png https://www.slicer.org/slicerWiki/images/9/98/PTACEstimationPBIF.png https://www.slicer.org/slicerWiki/images/9/90/KMap.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

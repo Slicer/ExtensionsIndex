@@ -38,7 +38,7 @@ status
 description This Slicer extension non-rigid registers a moving to a fixed MRI using a linear homogeneous bio-mechanical model to compute a dense deformation field that defines a transformation for every point in the fixed to the moving image.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/6/63/Case1_input.png http://www.slicer.org/slicerWiki/images/a/a4/Case1_output.png http://www.slicer.org/slicerWiki/images/d/db/PBNRR_panel.png
+screenshoturls https://www.slicer.org/slicerWiki/images/6/63/Case1_input.png https://www.slicer.org/slicerWiki/images/a/a4/Case1_output.png https://www.slicer.org/slicerWiki/images/d/db/PBNRR_panel.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

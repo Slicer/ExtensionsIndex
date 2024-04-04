@@ -38,7 +38,7 @@ status
 description Tools package for the cranio-maxillofacial registration
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/1/15/BaselineFollowupSCANCMFreg.png http://www.slicer.org/slicerWiki/images/0/0b/GrowingInterface.png http://www.slicer.org/slicerWiki/images/4/4a/InputSegToExtractionCMFreg.png http://www.slicer.org/slicerWiki/images/4/46/BaselineSegmentationMaskCMFreg.png
+screenshoturls https://www.slicer.org/slicerWiki/images/1/15/BaselineFollowupSCANCMFreg.png https://www.slicer.org/slicerWiki/images/0/0b/GrowingInterface.png https://www.slicer.org/slicerWiki/images/4/4a/InputSegToExtractionCMFreg.png https://www.slicer.org/slicerWiki/images/4/46/BaselineSegmentationMaskCMFreg.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

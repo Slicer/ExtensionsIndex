@@ -38,7 +38,7 @@ status
 description This extension applies binary erosion and dilation to label maps. The extension uses binary erosion and dilation filters in ITK based on N.Nikopoulos et al. An efficient algorithm for 3d binary morphological transformations with 3d structuring elements for arbitrary size and shape. IEEE Transactions on Image Processing. Vol. 9. No. 3. 2000. pp. 283-286.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/d/df/Slicer4-ErodeDilateLabel-GUI.png
+screenshoturls https://www.slicer.org/slicerWiki/images/d/df/Slicer4-ErodeDilateLabel-GUI.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

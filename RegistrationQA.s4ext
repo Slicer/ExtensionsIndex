@@ -38,7 +38,7 @@ status Code has been developed in colaboration with GSI and UK Erlangen and shou
 description Image registration quality assurance tool.
 
 # Space separated list of urls
-screenshoturls http://wiki.slicer.org/slicerWiki/images/4/42/Slicer-r19441-LoadableExtensionTemplate-screenshot.png
+screenshoturls https://wiki.slicer.org/slicerWiki/images/4/42/Slicer-r19441-LoadableExtensionTemplate-screenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

@@ -38,7 +38,7 @@ status      Work in progress
 description ChangeTracker is a software tool for quantification of the subtle changes in pathology. The module provides a workflow pipeline that combines user input with the medical data. As a result we provide quantitative volumetric measurements of growth/shrinkage together with the volume rendering of the tumor and color-coded visualization of the tumor growth/shrinkage.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/8/8e/Slicer4_ChangeTracker_Ad.png
+screenshoturls https://www.slicer.org/slicerWiki/images/8/8e/Slicer4_ChangeTracker_Ad.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
