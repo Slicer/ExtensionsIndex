@@ -28,7 +28,7 @@ contributors Christian Herz (Brigham and Women's Hospital), Andrey Fedorov (Brig
 category    Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://raw.githubusercontent.com/QIICR/SlicerDevelopmentToolbox/master/Resources/Icons/SlicerDevelopmentToolbox.png
+iconurl https://raw.githubusercontent.com/QIICR/SlicerDevelopmentToolbox/master/Resources/Icons/SlicerDevelopmentToolbox.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?

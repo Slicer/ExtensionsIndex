@@ -28,7 +28,7 @@ contributors Francois Budin (UNC), Juliette Pera (UNC), Beatriz Paniagua (UNC)
 category Quantification
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://slicer.org/slicerWiki/images/4/43/Slicer4ExtensionModelToModelDistance.png
+iconurl https://slicer.org/slicerWiki/images/4/43/Slicer4ExtensionModelToModelDistance.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?

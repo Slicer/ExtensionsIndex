@@ -28,7 +28,7 @@ contributors Tamas Ungi, Matthew S. Holden (Queen's University)
 category Training
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.slicer.org/slicerWiki/images/2/21/PerkTutorLogo.png
+iconurl https://www.slicer.org/slicerWiki/images/2/21/PerkTutorLogo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?

@@ -28,7 +28,7 @@ contributors Andrey Fedorov (SPL), Kilian Pohl (SPL), Peter Black (BWH), Jean-Ch
 category    Wizards
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/b/b9/ChangeTracker_logo.png
+iconurl     https://www.slicer.org/slicerWiki/images/b/b9/ChangeTracker_logo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?

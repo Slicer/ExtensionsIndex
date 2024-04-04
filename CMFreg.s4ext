@@ -28,7 +28,7 @@ contributors Vinicius Boen (Univ of Michigan), Manson Winsauer (UNC), Jean-Bapti
 category Registration
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.slicer.org/slicerWiki/images/b/bc/BaselineFollowupSCANRegisteredCMFreg2.png
+iconurl https://www.slicer.org/slicerWiki/images/b/bc/BaselineFollowupSCANRegisteredCMFreg2.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?

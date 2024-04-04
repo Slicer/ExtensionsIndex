@@ -28,7 +28,7 @@ contributors Andras Lasso (PerkLab, Queen's University), Jean-Christophe Fillion
 category    Developer Tools
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/e/e8/MatlabBridgeLogo.png
+iconurl     https://www.slicer.org/slicerWiki/images/e/e8/MatlabBridgeLogo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?

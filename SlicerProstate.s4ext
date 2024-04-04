@@ -28,7 +28,7 @@ contributors Andrey Fedorov (Brigham and Women's Hospital), Andras Lasso (Queen'
 category    Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://wiki.slicer.org/slicerWiki/images/8/87/SlicerProstate_Logo_1.0_128x128.png
+iconurl     https://wiki.slicer.org/slicerWiki/images/8/87/SlicerProstate_Logo_1.0_128x128.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?

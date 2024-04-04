@@ -28,7 +28,7 @@ contributors Xiaodong Tao (GE), Jean-Christophe Fillion-Robin (Kitware)
 category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.slicer.org/slicerWiki/images/f/f2/SkullStripper.png
+iconurl https://www.slicer.org/slicerWiki/images/f/f2/SkullStripper.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?

@@ -28,7 +28,7 @@ contributors Yi Gao (BWH/UAB), Liang-Jia Zhu (UAB), Josh Cates (Utah), Alan Morr
 category Registration
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.slicer.org/slicerWiki/images/b/ba/SegAidedRegSquareFocus128.png
+iconurl https://www.slicer.org/slicerWiki/images/b/ba/SegAidedRegSquareFocus128.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?

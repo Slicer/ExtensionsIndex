@@ -28,7 +28,7 @@ contributors Xiao Da(MGH)
 category    Quantification
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://slicer.org/slicerWiki/images/3/32/T1_Mapping_Logo_Resized.png
+iconurl     https://slicer.org/slicerWiki/images/3/32/T1_Mapping_Logo_Resized.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?

@@ -28,7 +28,7 @@ contributors Yingxuan Zhu (GE), Jim Miller (GE), Andriy Fedorov (BWH), Ming-chin
 category    Quantification
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://wiki.slicer.org/slicerWiki/images/3/34/PkModeling.png
+iconurl     https://wiki.slicer.org/slicerWiki/images/3/34/PkModeling.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
