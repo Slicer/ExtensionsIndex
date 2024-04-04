@@ -77,8 +77,8 @@ def check_description(*_unused_args):
 def check_homepage(extension_name, metadata):
     check_name = "check_homepage"
     homepage = metadata["homepage"]
-    if not homepage.startswith("http"):
-        msg = f"homepage is `{homepage}` but it does not start with http"
+    if not homepage.startswith("https://"):
+        msg = f"homepage is `{homepage}` but it does not start with https"
         raise ExtensionCheckError(extension_name, check_name, msg)
 
 
