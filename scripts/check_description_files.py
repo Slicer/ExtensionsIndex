@@ -211,7 +211,7 @@ def main():
             check_screenshoturls,
         ]
 
-    total_failure_count = 0
+    extension_failures = {}
 
     file_paths = getattr(args, "/path/to/description.s4ext")
     for file_path in file_paths:
@@ -226,6 +226,12 @@ def main():
             except ExtensionCheckError as exc:
                 failures.append(str(exc))
 
+        # Keep track extension errors removing duplicates
+        extension_failures[extension_name] = list(set(failures))
+
+    total_failure_count = 0
+
+    for extension_name, failures in extension_failures.items():
         if failures:
             total_failure_count += len(failures)
             print("%s.s4ext" % extension_name)
