@@ -28,7 +28,7 @@ contributors Antonio Carlos da S. Senra Filho, Fabricio H. Simozo, Luiz Otavio M
 category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://www.slicer.org/w/images/2/2c/BVeR-logo.png
+iconurl https://www.slicer.org/slicerWiki/images/2/2c/BVeR-logo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description This extension offers algorithms to performs brain volume refinements due to previous image processing that results on small data artifacts. For instance, the BVeR method is designed to correct small oversegmentation found at brain extraction methods such as FSL-BET, FreeSurfer, AFNI, ROBEX and others.
 
 # Space separated list of urls
-screenshoturls https://www.slicer.org/w/images/4/47/T1-FS.png https://www.slicer.org/w/images/f/f4/T1-FS-BVeR.png https://www.slicer.org/w/images/2/2f/BVeR-3D-Anterior.png https://www.slicer.org/w/images/2/29/BVeR-3D-Lateral.png https://www.slicer.org/w/images/e/ee/BVeR-3D-FreeView.png
+screenshoturls https://www.slicer.org/slicerWiki/images/4/47/T1-FS.png https://www.slicer.org/slicerWiki/images/f/f4/T1-FS-BVeR.png https://www.slicer.org/slicerWiki/images/2/2f/BVeR-3D-Anterior.png https://www.slicer.org/slicerWiki/images/2/29/BVeR-3D-Lateral.png https://www.slicer.org/slicerWiki/images/e/ee/BVeR-3D-FreeView.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
