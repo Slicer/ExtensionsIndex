@@ -20,6 +20,7 @@ status WIP
 description SlicerWMA currently provides the WhiteMatterAnalysis (https://github.com/SlicerDMRI/whitematteranalysis) python package and dependencies installed within Slicer's Python environment.
 
 # Space separated list of urls
+screenshoturls
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 0

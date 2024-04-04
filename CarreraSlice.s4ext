@@ -38,7 +38,7 @@ status Beta
 description This extension provides an interactive 3D segmentation tool.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/thumb/2/2c/DrawLabel.png/500px-DrawLabel.png  http://www.na-mic.org/Wiki/images/thumb/d/d0/TendonSegment.png/800px-TendonSegment.png  http://www.na-mic.org/Wiki/images/thumb/b/b8/FiducialSnapshotX.png/800px-FiducialSnapshotX.png
+screenshoturls http://www.slicer.org/slicerWiki/images/thumb/2/2c/DrawLabel.png/500px-DrawLabel.png http://www.na-mic.org/Wiki/images/thumb/d/d0/TendonSegment.png/800px-TendonSegment.png http://www.na-mic.org/Wiki/images/thumb/b/b8/FiducialSnapshotX.png/800px-FiducialSnapshotX.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

@@ -40,7 +40,7 @@ Ibraheem Al-Dhamari, Sabine Bauer, Dietrich Paulus and Roland Jacob, (2017): Aut
 Ibraheem Al-Dhamari, Sabine Bauer, Dietrich Paulus, Friedrich Lisseck and Roland Jacob, (2017): ACIR: automatic cochlea image registration. In: Proceedings SPIE Medical Imaging 2017: Image Processing
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/master/Screenshots/c.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/master/Screenshots/r1.png  https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/master/Screenshots/r2.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/master/Screenshots/s1.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/master/Screenshots/s2.png
+screenshoturls https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/master/Screenshots/c.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/master/Screenshots/r1.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/master/Screenshots/r2.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/master/Screenshots/s1.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/master/Screenshots/s2.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
