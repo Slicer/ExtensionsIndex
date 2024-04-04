@@ -38,7 +38,7 @@ status      Work in progress
 description SlicerDevelopmentToolbox extension facilitates the development process of modules/extensions with a large variety of widgets, helpers, decorators, events, constants and mixin classes
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/wiki/File:IncomingDataWindow.png http://www.slicer.org/wiki/File:ModuleSettingsWidget.png http://www.slicer.org/wiki/File:RatingWindow.png http://www.slicer.org/wiki/File:TargetCreationWidget.png http://www.slicer.org/wiki/File:Watchbox.png
+screenshoturls https://www.slicer.org/slicerWiki/images/0/0b/IncomingDataWindow.png https://www.slicer.org/slicerWiki/images/2/22/ModuleSettingsWidget.png https://www.slicer.org/slicerWiki/images/c/c9/RatingWindow.png https://www.slicer.org/slicerWiki/images/2/2a/TargetCreationWidget.png https://www.slicer.org/slicerWiki/images/e/ea/Watchbox.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

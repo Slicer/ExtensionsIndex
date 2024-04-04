@@ -38,7 +38,7 @@ status
 description SPHARM-PDM is a tool that computes point-based models using a parametric boundary description for the computing of Shape Analysis.
 
 # Space separated list of urls
-screenshoturls http://www.na-mic.org/Wiki/images/3/34/Spharm-pdm-snapshot.png
+screenshoturls https://www.na-mic.org/w/img_auth.php/3/34/Spharm-pdm-snapshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

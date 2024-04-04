@@ -38,7 +38,7 @@ status Beta
 description GyroGuide determines the trajectory angle and depth of puncture path, and transmits the calculated information to the probe for real time navigation.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/index.php/File:GyroGuide-Step-2.png
+screenshoturls https://www.slicer.org/slicerWiki/images/8/80/GyroGuide-Step-2.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

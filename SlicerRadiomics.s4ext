@@ -38,7 +38,7 @@ status beta
 description Radiomics extension provides a 3D Slicer interface to the pyradiomics library. pyradiomics is an open-source python package for the extraction of Radiomics features from medical imaging.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/w/images/3/3b/SlicerRadiomics-lung.png
+screenshoturls https://www.slicer.org/slicerWiki/images/3/3b/SlicerRadiomics-lung.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
