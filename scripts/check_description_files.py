@@ -97,8 +97,8 @@ def check_screenshoturls(extension_name, metadata):
     if metadata["screenshoturls"] is None:
         return
     for screenshoturl in metadata["screenshoturls"].split(" "):
-        if not screenshoturl.startswith("http"):
-            msg = f"screenshoturl is `{screenshoturl}` but it does not start with http"
+        if not screenshoturl.startswith("https://"):
+            msg = f"screenshoturl is `{screenshoturl}` but it does not start with https"
             raise ExtensionCheckError(extension_name, check_name, msg)
 
 
