@@ -49,7 +49,7 @@ def check_url(url, timeout=1):
     @retry(TimeoutError, tries=3, delay=1, jitter=1, max_delay=3)
     def _check_url():
         opener = urllib.request.build_opener()
-        opener.addheaders = [("User-agent", "Mozilla/5.0")]
+        opener.addheaders = [("User-agent", "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0")]
         return opener.open(url, timeout=timeout).getcode(), None
     try:
         return _check_url()
