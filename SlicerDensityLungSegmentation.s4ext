@@ -33,7 +33,7 @@ iconurl    https://raw.githubusercontent.com/pzaffino/SlicerDensityLungSegmentat
 status      alpha
 
 # One line stating what the module does
-This extension labels lung tissues on basis of density (air, healthy, ground-glass opacities, consolidation, and denser tissues). Voxel-per-voxel label is provided alongside with an averaged volume.
+description This extension labels lung tissues on basis of density (air, healthy, ground-glass opacities, consolidation, and denser tissues). Voxel-per-voxel label is provided alongside with an averaged volume.
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/pzaffino/SlicerDensityLungSegmentation/main/DensityLungSegmentation_screenshot.png
