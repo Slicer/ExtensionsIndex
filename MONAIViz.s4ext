@@ -38,7 +38,7 @@ status
 description This extension helps to run chain of MONAI transforms and visualize every stage over an image/label. See more information in <a href="https://github.com/Project-MONAI/MONAILabel">MONAILabel documentation</a>.
 
 # Space separated list of urls
-screenshoturls https://github.com/Project-MONAI/SlicerMONAIViz/raw/main/Screenshots/1.jpg https://github.com/Project-MONAI/SlicerMONAIViz/raw/main/Screenshots/2.jpg https://github.com/Project-MONAI/SlicerMONAIViz/raw/main/Screenshots/3.jpg https://github.com/Project-MONAI/SlicerMONAIViz/raw/main/Screenshots/4.jpg
+screenshoturls https://github.com/Project-MONAI/SlicerMONAIViz/raw/main/Screenshots/1.jpg https://github.com/Project-MONAI/SlicerMONAIViz/raw/main/Screenshots/2.jpg https://github.com/Project-MONAI/SlicerMONAIViz/raw/main/Screenshots/3.jpg https://github.com/Project-MONAI/SlicerMONAIViz/raw/main/Screenshots/4.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
