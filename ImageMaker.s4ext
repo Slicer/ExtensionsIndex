@@ -28,7 +28,7 @@ contributors Julien Finet (Kitware)
 category    Developer Tools
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/e/e5/QuickToolsLogo.png
+iconurl     https://www.slicer.org/slicerWiki/images/e/e5/QuickToolsLogo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?

@@ -28,7 +28,7 @@ contributors Andinet Enquobahrie (Kitware), Luis G. Torres (UNC), Jean-Christoph
 category IGT
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.slicer.org/slicerWiki/images/a/a7/Portplacement_icon.png
+iconurl https://www.slicer.org/slicerWiki/images/a/a7/Portplacement_icon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?

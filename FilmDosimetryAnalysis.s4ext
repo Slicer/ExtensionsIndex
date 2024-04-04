@@ -28,7 +28,7 @@ contributors Csaba Pinter (PerkLab, Queen's University), Alec Robinson (PerkLab,
 category Radiotherapy
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.slicer.org/slicerWiki/images/1/16/FilmDosimetry_Logo_128x128.png
+iconurl https://www.slicer.org/slicerWiki/images/1/16/FilmDosimetry_Logo_128x128.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?

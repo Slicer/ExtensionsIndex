@@ -28,7 +28,7 @@ contributors Tamas Ungi (Queen's University), Junichi Tokuda (Brigham and Women'
 category    IGT
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/2/2b/SlicerIGTLogo.png
+iconurl     https://www.slicer.org/slicerWiki/images/2/2b/SlicerIGTLogo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?

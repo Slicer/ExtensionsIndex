@@ -5,7 +5,7 @@ depends NA
 description The Percutaneous Approach Analysis is used to calculate and visualize the accessibility of liver tumor with a percutaneous approach.
 enabled 1
 homepage https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/PercutaneousApproachAnalysis
-iconurl http://www.slicer.org/slicerWiki/images/a/ac/PAAlogo-small.png
+iconurl https://www.slicer.org/slicerWiki/images/a/ac/PAAlogo-small.png
 scm git
 scmrevision a2a7615ff20ae45462b854172c41cf233b401e30
 scmurl https://github.com/SlicerIGT/PercutaneousApproachAnalysis

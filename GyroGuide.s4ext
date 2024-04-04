@@ -28,7 +28,7 @@ contributors Ruifeng Chen, Luping Fang, Qing Pan (College of Information Enginee
 category    IGT
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/a/a7/GyroGuide.png
+iconurl     https://www.slicer.org/slicerWiki/images/a/a7/GyroGuide.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?

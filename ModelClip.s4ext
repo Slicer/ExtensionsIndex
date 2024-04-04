@@ -28,7 +28,7 @@ contributors Jun LIN, Xiaojun CHEN, Ph.D (SJTU)
 category Surface Models
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.slicer.org/slicerWiki/index.php/File:ModelClipIcon.png
+iconurl https://www.slicer.org/slicerWiki/images/b/bd/ModelClipIcon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?

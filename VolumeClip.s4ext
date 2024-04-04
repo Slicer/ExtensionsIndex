@@ -28,7 +28,7 @@ contributors Andras Lasso, Matt Lougheed (PerkLab, Queen's University)
 category    Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/c/c2/VolumeClipLogo.png
+iconurl     https://www.slicer.org/slicerWiki/images/c/c2/VolumeClipLogo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
