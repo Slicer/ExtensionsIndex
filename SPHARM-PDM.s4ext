@@ -28,7 +28,7 @@ contributors Beatriz Paniagua (UNC), Francois Budin (UNC), Martin Styner (UNC), 
 category SPHARM
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.na-mic.org/Wiki/images/a/ad/Spharm-pdm-icon.png
+iconurl     https://raw.githubusercontent.com/NIRALUser/SPHARM-PDM/master/Modules/Scripted/ShapeAnalysisModule/Resources/Icons/ShapeAnalysisModule.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
