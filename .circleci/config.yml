@@ -18,6 +18,7 @@ jobs:
       - run:
           name: Check description files
           command: |
+            pip install joblib retry
             python ./scripts/check_description_files.py --check-dependencies . $(find . -maxdepth 1 -name "*.s4ext")
 
   check-new-description-files:
@@ -55,6 +56,7 @@ jobs:
 
             # Run checks
             if [[ $added != "" ]]; then
+              pip install joblib retry
               python ./scripts/check_description_files.py --check-git-repository-name $added
             fi
 
