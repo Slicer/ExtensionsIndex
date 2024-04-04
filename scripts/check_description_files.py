@@ -25,7 +25,7 @@ class ExtensionCheckError(RuntimeError):
         return self.details
 
 
-def require_metadata_key(metadata_key):
+def require_metadata_key(metadata_key, value_required=True):
     check_name = "require_metadata_key"
 
     def dec(fun):
@@ -35,6 +35,8 @@ def require_metadata_key(metadata_key):
             metadata = args[1]
             if metadata_key not in metadata.keys():
                 raise ExtensionCheckError(extension_name, check_name, "%s key is missing" % metadata_key)
+            if value_required and metadata[metadata_key] is None:
+                raise ExtensionCheckError(extension_name, check_name, "%s value is not set" % metadata_key)
             return fun(*args, **kwargs)
         return wrapped
     return dec
@@ -54,6 +56,50 @@ def parse_s4ext(ext_file_path):
             assert(len(fields) <= 2)
             ext_metadata[fields[0]] = fields[1] if len(fields) == 2 else None
     return ext_metadata
+
+
+@require_metadata_key("category")
+def check_category(*_unused_args):
+    pass
+
+
+@require_metadata_key("contributors")
+def check_contributors(*_unused_args):
+    pass
+
+
+@require_metadata_key("description")
+def check_description(*_unused_args):
+    pass
+
+
+@require_metadata_key("homepage")
+def check_homepage(extension_name, metadata):
+    check_name = "check_homepage"
+    homepage = metadata["homepage"]
+    if not homepage.startswith("http"):
+        msg = f"homepage is `{homepage}` but it does not start with http"
+        raise ExtensionCheckError(extension_name, check_name, msg)
+
+
+@require_metadata_key("iconurl")
+def check_iconurl(extension_name, metadata):
+    check_name = "check_iconurl"
+    iconurl = metadata["iconurl"]
+    if not iconurl.startswith("http"):
+        msg = f"iconurl is '{iconurl}' but it does not start with http"
+        raise ExtensionCheckError(extension_name, check_name, msg)
+
+
+@require_metadata_key("screenshoturls", value_required=False)
+def check_screenshoturls(extension_name, metadata):
+    check_name = "check_screenshoturls"
+    if metadata["screenshoturls"] is None:
+        return
+    for screenshoturl in metadata["screenshoturls"].split(" "):
+        if not screenshoturl.startswith("http"):
+            msg = f"screenshoturl is `{screenshoturl}` but it does not start with http"
+            raise ExtensionCheckError(extension_name, check_name, msg)
 
 
 @require_metadata_key("scmurl")
@@ -153,8 +199,14 @@ def main():
 
     if not checks:
         checks = [
+            check_category,
+            check_contributors,
+            check_description,
+            check_homepage,
+            check_iconurl,
             check_scmurl_syntax,
             check_scm_notlocal,
+            check_screenshoturls,
         ]
 
     total_failure_count = 0
