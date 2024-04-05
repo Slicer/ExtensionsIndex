@@ -57,7 +57,7 @@ jobs:
             # Run checks
             if [[ $added != "" ]]; then
               pip install joblib retry
-              python ./scripts/check_description_files.py --check-git-repository-name $added
+              python ./scripts/check_description_files.py $added
             fi
 
 workflows:

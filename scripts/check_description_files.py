@@ -243,9 +243,6 @@ def main():
     parser = argparse.ArgumentParser(
         description='Validate extension description files.')
     parser.add_argument(
-        "--check-git-repository-name", action="store_true",
-        help="Check extension git repository name. Disabled by default.")
-    parser.add_argument(
         "--check-urls-reachable", action="store_true",
         help="Check homepage, iconurl and screenshoturls are reachable. Disabled by default.")
     parser.add_argument("-d", "--check-dependencies", help="Check all extension dsecription files in the provided folder.")
@@ -254,14 +251,12 @@ def main():
 
     checks = []
 
-    if args.check_git_repository_name:
-        checks.append((check_git_repository_name, {}))
-
     if not checks:
         checks = [
             (check_category, {}),
             (check_contributors, {}),
             (check_description, {}),
+            (check_git_repository_name, {}),
             (check_homepage, {"check_url_reachable": args.check_urls_reachable}),
             (check_iconurl, {"check_url_reachable": args.check_urls_reachable}),
             (check_scmurl_syntax, {}),
