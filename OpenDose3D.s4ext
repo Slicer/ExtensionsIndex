@@ -38,7 +38,7 @@ status stable
 description This module implements full 3D dosimetry for molecular radiotherapy on multiple time points.
 
 # Space separated list of urls
-screenshoturls https://gitlab.com/opendose/opendose3d/-/raw/develop/Dosimetry4D/Resources/Icons/ss1.png https://gitlab.com/opendose/opendose3d/-/raw/develop/Dosimetry4D/Resources/Icons/ss2.png
+screenshoturls https://gitlab.com/opendose/opendose3d/-/raw/develop/OpenDose3D/Resources/Icons/ss1.png https://gitlab.com/opendose/opendose3d/-/raw/develop/OpenDose3D/Resources/Icons/ss2.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

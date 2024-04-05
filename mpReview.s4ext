@@ -38,7 +38,7 @@ status      Work in progress
 description mpReview extension facilitates review and annotation (segmentation) of multi-parametric imaging datasets.
 
 # Space separated list of urls
-screenshoturls  https://github.com/SlicerProstate/mpReview/Resources/Icons/mpReview-screenshot.png
+screenshoturls  https://raw.githubusercontent.com/SlicerProstate/mpReview/master/Resources/Icons/mpReview_screenshot.PNG
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
