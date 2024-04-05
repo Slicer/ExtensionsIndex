@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage https://github.com/AldrickF/SlicerRegularizedFastMarching
+homepage https://github.com/jamesobutler/SlicerRegularizedFastMarching#readme
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Aldrick FAURE, Sandra LEBRETON, Laurent RISSER (CNRS, Toulouse Math
 category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/AldrickF/SlicerRegularizedFastMarching/blob/main/Resources/Icons/RegularizedFastMarching.png
+iconurl https://raw.githubusercontent.com/jamesobutler/SlicerRegularizedFastMarching/main/RegularizedFastMarching/Resources/Icons/RegularizedFastMarching.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status Tested on various images ; should work well
 description This module allows the semi-automatic segmentation of 3D medical images using regularized fast marching.
 
 # Space separated list of urls
-screenshoturls https://github.com/AldrickF/SlicerRegularizedFastMarching/blob/main/Resources/Icons/SlicerRFM_README_Fig3.png
+screenshoturls https://raw.githubusercontent.com/jamesobutler/SlicerRegularizedFastMarching/main/Docs/SlicerRFM_README_Fig3.png https://raw.githubusercontent.com/jamesobutler/SlicerRegularizedFastMarching/main/Docs/SlicerRFM_README_Fig2.png https://raw.githubusercontent.com/jamesobutler/SlicerRegularizedFastMarching/main/Docs/SlicerRFM_README_Fig4.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
