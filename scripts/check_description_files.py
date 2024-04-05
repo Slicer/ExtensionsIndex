@@ -44,7 +44,7 @@ class ExtensionCheckError(RuntimeError):
         return self.details
 
 
-def check_url(url, timeout=1):
+def check_url(url, timeout=3):
 
     @retry(TimeoutError, tries=3, delay=1, jitter=1, max_delay=3)
     def _check_url():
