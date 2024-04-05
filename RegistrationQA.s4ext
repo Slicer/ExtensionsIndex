@@ -28,7 +28,7 @@ contributors Kristjan Anderle (GSI), Tobias Brandt (University Clinic of Erlange
 category Registration
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/gsi-biomotion/Slicer-RegQA/blob/master/RegQA/Resources/Icons/RegQAIcon.png
+iconurl https://raw.githubusercontent.com/gsi-biomotion/SlicerRegistrationQA/master/RegistrationQA/Resources/Icons/RegistrationQAIcon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
