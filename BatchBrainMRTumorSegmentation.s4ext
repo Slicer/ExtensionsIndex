@@ -22,6 +22,7 @@ homepage https://github.com/UWA-Medical-Physics/SlicerBatchBrainMRTumorSegmentat
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: 
+contributors Saima Safdar (The University of Western Australia)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Segmentation
@@ -34,7 +35,7 @@ iconurl https://github.com/UWA-Medical-Physics/SlicerBatchBrainMRTumorSegmentati
 status Beta
 
 # One line stating what the module does
-Supports segmentation of brain tumor for a cohort at once without any human intervention.
+description Supports segmentation of brain tumor for a cohort at once without any human intervention.
 
 # Space separated list of urls
 screenshoturls https://github.com/UWA-Medical-Physics/SlicerBatchBrainMRTumorSegmentation/blob/main/Screenshot%20from%202024-02-06%2012-11-03.png
