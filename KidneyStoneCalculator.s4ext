@@ -7,7 +7,7 @@
 # This is source code manager
 scm git
 scmurl https://github.com/fredericpanthier/SlicerKidneyStoneCalculator.git
-scmrevision 667aa7d8f74a50e6528a1e8aae7423d1fb66a93e
+scmrevision a363c1e7e2339332809109dd86c7c1f9813771cf
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
