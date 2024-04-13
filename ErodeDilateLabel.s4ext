@@ -7,7 +7,7 @@
 # This is source code manager
 scm git
 scmurl https://github.com/tokjun/ErodeDilateLabel.git
-scmrevision 3f4146ddaa712c8f0a8418f49b2624a1dd6fd20a
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files

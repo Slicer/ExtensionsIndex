@@ -7,7 +7,7 @@
 # This is source code manager
 scm git
 scmurl https://github.com/QIICR/T1Mapping.git
-scmrevision f180a63
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
