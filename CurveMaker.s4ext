@@ -7,7 +7,7 @@
 # This is source code manager
 scm git
 scmurl https://github.com/tokjun/CurveMaker
-scmrevision 4e6ee1bd9f31d7f6f76634115cf01607993a76be
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
