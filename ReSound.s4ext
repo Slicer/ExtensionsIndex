@@ -1,0 +1,43 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager
+scm git
+scmurl https://github.com/ungi/SlicerReSound.git
+scmrevision main
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+# depends
+
+# Inner build directory (default is ".")
+# build_subdirectory .
+
+# homepage
+homepage https://github.com/ungi/SlicerReSound
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+contributors Tamas Ungi (Queen's University), Tina Kapur (Brigham and Women's Hospital)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Ultrasound
+
+# url to icon (png, size 128x128 pixels)
+iconurl https://raw.githubusercontent.com/ungi/SlicerReSound/main/ReSound.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand behind?
+status test
+
+# One line stating what the module does
+description This extension contains modules for ultrasound data processing including anonymization, conversion to different formats, and annotations.
+
+# Space separated list of urls
+screenshoturls https://raw.githubusercontent.com/ungi/SlicerReSound/main/Screenshots/2024-04-14_AnonymizeUltrasound.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
