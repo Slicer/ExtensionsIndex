@@ -28,7 +28,7 @@ contributors Francois Budin (UNC), Juliette Pera (UNC), Beatriz Paniagua (UNC)
 category Quantification
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://slicer.org/slicerWiki/images/4/43/Slicer4ExtensionModelToModelDistance.png
+iconurl https://slicer.org/slicerWiki/images/4/43/Slicer4ExtensionModelToModelDistance.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description This extension computes the distance between two 3D models
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/thumb/7/7a/Slicer4Extensions-ModelToModelDistanceOriginalShapes.png/800px-Slicer4Extensions-ModelToModelDistanceOriginalShapes.png
+screenshoturls https://www.slicer.org/slicerWiki/images/thumb/7/7a/Slicer4Extensions-ModelToModelDistanceOriginalShapes.png/800px-Slicer4Extensions-ModelToModelDistanceOriginalShapes.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

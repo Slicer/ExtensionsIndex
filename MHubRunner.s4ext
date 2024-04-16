@@ -18,7 +18,6 @@ scmrevision main
 build_subdirectory .
 
 # homepage
-# TODO: add mhub.ai website once ready
 homepage https://mhub.ai/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
@@ -28,7 +27,7 @@ contributors Leonard Nürnberg (AIM, Mass General Brigham)
 category Examples
 
 # url to icon (png, size 128x128 pixels)
-https://mhub.ai/slicer/SlicerMHubRunner.png
+iconurl https://mhub.ai/slicer/SlicerMHubRunner.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?

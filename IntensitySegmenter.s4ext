@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage   http://www.nitrc.org/projects/dentaltools/
+homepage   https://www.nitrc.org/projects/dentaltools/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Pengdong Xiao (Department of Orthodontics, UNC), Beatriz Paniagua (
 category    Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://wiki.slicer.org/slicerWiki/images/f/f6/IntensitySegmenterIcon.png
+iconurl     https://wiki.slicer.org/slicerWiki/images/f/f6/IntensitySegmenterIcon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -38,7 +38,7 @@ status  beta
 description IntensitySegmenter is a simple tool that segments an image according to intensity value. It is mainly used to segment CT scans using the Hounsfield scale but the ranges of intensities and their corresponding labels can be specified in an input text file.
 
 # Space separated list of urls
-screenshoturls http://wiki.slicer.org/slicerWiki/images/7/7c/IntensitySegmenter-OutputScreenshot.png
+screenshoturls https://wiki.slicer.org/slicerWiki/images/7/7c/IntensitySegmenter-OutputScreenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

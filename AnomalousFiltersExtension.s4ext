@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/AnomalousFilters
+homepage https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/AnomalousFilters
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -38,7 +38,7 @@ status
 description This extension aims to provide several approaches in order to apply the anomalous spatial filters on medical images. The methods provided here are numerical solution of the generalized anomalous diffusion proposed by Constantino Tsallis, which, in other words, provide a numerical solution to the porous media equation (Fokker-Planck anomalous heat equation). At the moment, the Modules available are suppose to be used on MRI volumes namely T1, T2, T2-FLAIR and PD weighted images, and diffusion weighted images (DWI and DTI). Future developments will add new functionalities in order to attenuate image noise in other imaging modalities. More details could be found in the wiki page.
 
 # Space separated list of urls
-screenshoturls https://www.slicer.org/slicerWiki/images/6/64/MRI_raw.png https://www.slicer.org/slicerWiki/images/e/e8/MRI_AAD.png https://www.slicer.org/slicerWiki/images/0/0d/MRI_IAD.png https://www.slicer.org/w/images/4/40/DTI_FA_raw.png https://www.slicer.org/w/images/7/7c/DTI_FA_AAD.png https://www.slicer.org/w/images/a/a0/Tractography_AAD.png
+screenshoturls https://www.slicer.org/slicerWiki/images/6/64/MRI_raw.png https://www.slicer.org/slicerWiki/images/e/e8/MRI_AAD.png https://www.slicer.org/slicerWiki/images/0/0d/MRI_IAD.png https://www.slicer.org/slicerWiki/images/4/40/DTI_FA_raw.png https://www.slicer.org/slicerWiki/images/7/7c/DTI_FA_AAD.png https://www.slicer.org/slicerWiki/images/a/a0/Tractography_AAD.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

@@ -18,7 +18,7 @@ depends     SlicerOpenIGTLink
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/MatlabBridge
+homepage    https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/MatlabBridge
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Andras Lasso (PerkLab, Queen's University), Jean-Christophe Fillion
 category    Developer Tools
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/e/e8/MatlabBridgeLogo.png
+iconurl     https://www.slicer.org/slicerWiki/images/e/e8/MatlabBridgeLogo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description The Matlab Bridge extension allows running Matlab scripts as command-line interface (CLI) modules directly from 3D Slicer. The only prerequisites for running Matlab scripts are having this extension and Matlab installed on the 3D Slicer computer (building of 3D Slicer, MEX files, etc. is not needed).
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/2/2f/MatlabBridgeScreenshot1.png http://www.slicer.org/slicerWiki/images/1/16/MatlabBridgeScreenshot2.png http://www.slicer.org/slicerWiki/images/b/b9/MatlabBridgeScreenshot3.png
+screenshoturls https://www.slicer.org/slicerWiki/images/2/2f/MatlabBridgeScreenshot1.png https://www.slicer.org/slicerWiki/images/1/16/MatlabBridgeScreenshot2.png https://www.slicer.org/slicerWiki/images/b/b9/MatlabBridgeScreenshot3.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

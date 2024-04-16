@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/DSC_MRI_Analysis
+homepage    https://slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/DSC_MRI_Analysis
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Andrew Beers (MGH), Jayashree Kalpathy-Cramer (MGH), Xiao Da (MGH)
 category    Quantification
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://slicer.org/slicerWiki/images/9/92/DSC_logo_Resized.png
+iconurl     https://slicer.org/slicerWiki/images/9/92/DSC_logo_Resized.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status      Beta
 description Analysis of Dynamic Susceptibility Contrast (DSC) MRI.
 
 # Space separated list of urls
-screenshoturls http://slicer.org/slicerWiki/images/e/e8/DSC_GUI_V0.png
+screenshoturls https://slicer.org/slicerWiki/images/e/e8/DSC_GUI_V0.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

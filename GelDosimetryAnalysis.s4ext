@@ -18,7 +18,7 @@ depends     SlicerRT
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/GelDosimetry
+homepage    https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/GelDosimetry
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Csaba Pinter (PerkLab, Queen's University), Jennifer Andrea (PerkLa
 category    Radiotherapy
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/f/f1/GelDosimetry_Logo_128x128.png
+iconurl     https://www.slicer.org/slicerWiki/images/f/f1/GelDosimetry_Logo_128x128.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description Slicelet covering the gel dosimetry analysis workflow used in commissioning new radiation techniques and to validate the accuracy of radiation treatment by enabling visual comparison of the planned dose to the delivered dose, where correspondence between the two dose distributions is achieved using embedded landmarks. Gel dosimetry is based on imaging chemical systems spatially fixed in gelatin, which exhibit a detectable change upon irradiation.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/8/83/GelDosimetrySlicelet_0.1_LandmarkRegistrationStep.png http://www.slicer.org/slicerWiki/images/6/68/GelDosimetrySlicelet_0.1_CalibrationCurvesAligned.png http://www.slicer.org/slicerWiki/images/5/51/GelDosimetrySlicelet_0.1_OdVsDoseCurve.png
+screenshoturls https://www.slicer.org/slicerWiki/images/8/83/GelDosimetrySlicelet_0.1_LandmarkRegistrationStep.png https://www.slicer.org/slicerWiki/images/6/68/GelDosimetrySlicelet_0.1_CalibrationCurvesAligned.png https://www.slicer.org/slicerWiki/images/5/51/GelDosimetrySlicelet_0.1_OdVsDoseCurve.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

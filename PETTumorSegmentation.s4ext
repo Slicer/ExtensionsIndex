@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/PETTumorSegmentation
+homepage    https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/PETTumorSegmentation
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -38,7 +38,7 @@ status
 description Tumor and lymph node segmentation in PET scans
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/0/04/PETTumorSegmentation_Effect_with_models.png
+screenshoturls https://www.slicer.org/slicerWiki/images/0/04/PETTumorSegmentation_Effect_with_models.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

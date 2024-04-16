@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/DeveloperToolsForExtensions
+homepage    https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/DeveloperToolsForExtensions
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -38,7 +38,7 @@ status
 description This extension offers different tools to help developers when they create Slicer extension.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/5/54/SlicerExtension-SlicerDeveloperToolsForExtensions-Screenshot.png http://www.slicer.org/slicerWiki/images/d/db/SlicerExtensions-SlicerDeveloperToolsForExtensions-Screenshot-panels.png
+screenshoturls https://www.slicer.org/slicerWiki/images/5/54/SlicerExtension-SlicerDeveloperToolsForExtensions-Screenshot.png https://www.slicer.org/slicerWiki/images/d/db/SlicerExtensions-SlicerDeveloperToolsForExtensions-Screenshot-panels.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

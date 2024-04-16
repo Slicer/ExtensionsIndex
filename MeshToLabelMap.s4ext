@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/MeshToLabelMap
+homepage https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/MeshToLabelMap
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -38,7 +38,7 @@ status Release
 description This extension computes a label map from a 3D model.
 
 # Space separated list of urls
-screenshoturls http://slicer.org/slicerWiki/images/thumb/5/54/MeshToLabelMapScreenshot.png/800px-MeshToLabelMapScreenshot.png
+screenshoturls https://slicer.org/slicerWiki/images/thumb/5/54/MeshToLabelMapScreenshot.png/800px-MeshToLabelMapScreenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

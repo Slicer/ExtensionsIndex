@@ -4,41 +4,41 @@
 # - the value can be blank
 #
 
-# This is source code manager
+# This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/jamesobutler/ModelClip.git
+scmurl https://github.com/gaudot/SlicerDentalSegmentator
 scmrevision main
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends NA
+depends NNUNet
 
 # Inner build directory (default is ".")
 build_subdirectory .
 
 # homepage
-homepage https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/ModelClip
+homepage https://github.com/gaudot/SlicerDentalSegmentator
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Jun LIN, Xiaojun CHEN, Ph.D (SJTU)
+contributors Gauthier DOT (AP-HP), Laurent GAJNY (ENSAM), Roman FENIOUX (KITWARE SAS), Thibault PELLETIER (KITWARE SAS)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category Surface Models
+category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://www.slicer.org/slicerWiki/images/b/bd/ModelClipIcon.png
+iconurl https://github.com/gaudot/SlicerDentalSegmentator/raw/main/DentalSegmentator/Resources/Icons/DentalSegmentator_full_icon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
 status
 
 # One line stating what the module does
-description This is an extension module to set the osteotomy trajectory with multiple planes and clip with just one click.
+description Fully automatic AI segmentation tool for Dental CT and CBCT scans based on DentalSegmentator nnU-Net model.
 
 # Space separated list of urls
-screenshoturls https://www.slicer.org/slicerWiki/index.php/File:ModelClipScreenShot.png
+screenshoturls https://github.com/gaudot/SlicerDentalSegmentator/raw/main/Screenshots/1.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

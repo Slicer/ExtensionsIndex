@@ -4,7 +4,7 @@ contributors Applied Chest Imaging Laboratory, Brigham and Women's Hospital
 depends NA
 description Chest Imaging Platform is an extension for quantitative CT imaging biomarkers for lung diseases. This work is funded by the National Heart, Lung, And Blood Institute of the National  Institutes of Health under Award Number R01HL116931. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
 enabled 1
-homepage http://www.chestimagingplatform.org
+homepage https://chestimagingplatform.org/
 iconurl https://raw.githubusercontent.com/acil-bwh/SlicerCIP/master/Resources/SlicerCIPLogo.png
 scm git
 scmrevision develop

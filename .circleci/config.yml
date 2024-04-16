@@ -1,4 +1,3 @@
-
 version: 2
 jobs:
   check-filenames:
@@ -19,45 +18,8 @@ jobs:
       - run:
           name: Check description files
           command: |
-            python ./scripts/check_description_files.py --check-dependencies . $(find . -name "*.s4ext")
-
-  check-new-description-files:
-    docker:
-      - image: cimg/python:3.10
-    steps:
-      - checkout
-      - run:
-          name: Lookup base branch (Workaround the lack of CIRCLE_BASE_BRANCH env. variable)
-          # See https://discuss.circleci.com/t/how-to-get-the-pull-request-upstream-branch/5496/2
-          command: |
-            if [[ $CIRCLE_PULL_REQUEST != "" ]]; then
-              for base_branch in origin/main $(git branch -r | grep -E "origin\/[0-9](\.[0-9])+" | sort -r); do
-                differences=$(git diff $base_branch --name-only)
-                if [[ $differences != "" ]]; then
-                  break
-                fi
-              done
-            else
-              base_branch=$CIRCLE_BRANCH
-            fi
-            echo "export BASE_BRANCH=\"$base_branch\"" >> $BASH_ENV
-      - run:
-          name: Check new description files
-          command: |
-            # ignore grep exit code if no description files were added
-            set +e
-
-            echo "BASE_BRANCH is [$BASE_BRANCH]"
-            echo "CIRCLE_BRANCH is [$CIRCLE_BRANCH]"
-
-            # Collect list of new *.s4ext files
-            added=$(git diff $BASE_BRANCH --diff-filter=A --name-only | grep -E "^[^\/]+\.s4ext$")
-            echo "added [$added]"
-
-            # Run checks
-            if [[ $added != "" ]]; then
-              python ./scripts/check_description_files.py --check-git-repository-name $added
-            fi
+            pip install joblib retry
+            python ./scripts/check_description_files.py --check-urls-reachable --check-dependencies . $(find . -maxdepth 1 -name "*.s4ext")
 
 workflows:
   version: 2
@@ -65,4 +27,3 @@ workflows:
     jobs:
       - check-filenames
       - check-description-files
-      - check-new-description-files

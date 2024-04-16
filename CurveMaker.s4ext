@@ -7,7 +7,7 @@
 # This is source code manager
 scm git
 scmurl https://github.com/tokjun/CurveMaker
-scmrevision 5619cf50e5e14bffa47dbc277e217c6bd50685dd
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/CurveMaker
+homepage https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/CurveMaker
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Junichi Tokuda (BWH)
 category Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.slicer.org/slicerWiki/images/b/b7/CurveMakerIcon.png
+iconurl https://www.slicer.org/slicerWiki/images/b/b7/CurveMakerIcon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description This is a module to generate a curve based on a list of fiducial points.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/0/0b/Slicer4-CurveMaker-GUI.png
+screenshoturls https://www.slicer.org/slicerWiki/images/0/0b/Slicer4-CurveMaker-GUI.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

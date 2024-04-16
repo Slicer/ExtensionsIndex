@@ -4,10 +4,10 @@ contributors Matt Lougheed (Queen's University)
 depends NA
 description Modules for surgical resection planning.
 enabled 1
-homepage http://www.slicer.org/slicerWiki/index.php?title=Documentation/Nightly/Extensions/ResectionPlanner
-iconurl http://wiki.slicer.org/slicerWiki/images/d/d6/ResectionPlannerLogo.png
+homepage https://www.slicer.org/wiki/Documentation/Nightly/Extensions/ResectionPlanner
+iconurl https://wiki.slicer.org/slicerWiki/images/d/d6/ResectionPlannerLogo.png
 scm git
 scmrevision master
 scmurl https://github.com/SlicerIGT/ResectionPlanner.git
-screenshoturls http://www.slicer.org/slicerWiki/index.php/File:ResectionVolume_Screenshot.png
+screenshoturls https://www.slicer.org/slicerWiki/index.php/File:ResectionVolume_Screenshot.png
 status

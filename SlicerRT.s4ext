@@ -18,7 +18,7 @@ depends NA
 build_subdirectory inner-build
 
 # homepage
-homepage http://slicerrt.org
+homepage https://slicerrt.org
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Csaba Pinter (PerkLab, Queen's University), Andras Lasso (PerkLab, 
 category Radiotherapy
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.slicer.org/slicerWiki/images/2/29/SlicerRT_Logo_3.0_128x128.png
+iconurl https://www.slicer.org/slicerWiki/images/2/29/SlicerRT_Logo_3.0_128x128.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status Release
 description Toolkit for radiation therapy research. Features include DICOM-RT import/export, dose volume histogram, dose accumulation, external beam planning (TPS), structure comparison and morphology, isodose line/surface generation, etc. Version 0.18.0
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/8/87/SlicerRT_0.10_IsocenterShiftingEvaluation.png http://www.slicer.org/slicerWiki/images/e/ef/SlicerRT_0.11_ProstateLoaded_Beams_ThresholdedDose.png http://www.slicer.org/slicerWiki/images/4/40/SlicerRtFundingSources.png
+screenshoturls https://www.slicer.org/slicerWiki/images/8/87/SlicerRT_0.10_IsocenterShiftingEvaluation.png https://www.slicer.org/slicerWiki/images/e/ef/SlicerRT_0.11_ProstateLoaded_Beams_ThresholdedDose.png https://www.slicer.org/slicerWiki/images/4/40/SlicerRtFundingSources.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

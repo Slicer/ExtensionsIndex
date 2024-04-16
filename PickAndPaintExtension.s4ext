@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/PickAndPaint
+homepage https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/PickAndPaint
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -38,7 +38,7 @@ status
 description Pick 'n Paint tool allows users to select ROIs on a reference model and to propagate it over different time point models.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/a/ac/Pick%27NPaint_Interface.png
+screenshoturls https://www.slicer.org/slicerWiki/images/a/ac/Pick%27NPaint_Interface.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

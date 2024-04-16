@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/DatabaseInteractor
+homepage https://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/DatabaseInteractor
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Clement Mirabel (University of Michigan), Juan Carlos Prieto (UNC)
 category Web System Tools
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://www.slicer.org/w/images/7/7f/DatabaseInteractor_Logo.png
+iconurl https://www.slicer.org/slicerWiki/images/7/7f/DatabaseInteractor_Logo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description This extension can interact with online data in a database and local folders.
 
 # Space separated list of urls
-screenshoturls https://www.slicer.org/w/images/1/1f/FullView_DatabaseInteractor.png
+screenshoturls https://www.slicer.org/slicerWiki/images/1/1f/FullView_DatabaseInteractor.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

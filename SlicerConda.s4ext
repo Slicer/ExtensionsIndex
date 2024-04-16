@@ -6,7 +6,7 @@
 
 # This is source code manager
 scm git
-scmurl https://github.com/jamesobutler/ModelClip.git
+scmurl https://github.com/DCBIA-OrthoLab/SlicerConda.git
 scmrevision main
 
 # list dependencies
@@ -18,27 +18,27 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/ModelClip
+homepage https://github.com/DCBIA-OrthoLab/SlicerConda#readme
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Jun LIN, Xiaojun CHEN, Ph.D (SJTU)
+contributors Leroux Gaelle (University of Michigan) Claret Jeanne (University of Michigan) Allemang David (kitware)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category Surface Models
+category Conda
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://www.slicer.org/slicerWiki/images/b/bd/ModelClipIcon.png
+iconurl https://raw.githubusercontent.com/DCBIA-OrthoLab/SlicerConda/main/CondaSetUp/Resources/Icons/CondaSetUp.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status
+status standing behind
 
 # One line stating what the module does
-description This is an extension module to set the osteotomy trajectory with multiple planes and clip with just one click.
+description This extension simplifies conda integration by managing installation path and providing tools for developpers to execute Conda commands.
 
 # Space separated list of urls
-screenshoturls https://www.slicer.org/slicerWiki/index.php/File:ModelClipScreenShot.png
+screenshoturls  https://raw.githubusercontent.com/DCBIA-OrthoLab/SlicerConda/main/screenshot/Screenshot2.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

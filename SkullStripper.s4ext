@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage http://www.slicer.org/slicerWiki/index.php/Documentation/4.1/Modules/SkullStripper
+homepage https://www.slicer.org/slicerWiki/index.php/Documentation/4.1/Modules/SkullStripper
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Xiaodong Tao (GE), Jean-Christophe Fillion-Robin (Kitware)
 category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.slicer.org/slicerWiki/images/f/f2/SkullStripper.png
+iconurl https://www.slicer.org/slicerWiki/images/f/f2/SkullStripper.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description Skull stripping for structural MR images of the brain, tested on T1 and T2 contrast.
 
 # Space separated list of urls
-screenshoturls http://wiki.slicer.org/slicerWiki/images/a/ab/Slicer-r19441-CLIExtensionTemplate-screenshot.png http://wiki.slicer.org/slicerWiki/images/1/1e/Slicer-r19441-CLIExtensionTemplate-screenshot-2.png
+screenshoturls https://wiki.slicer.org/slicerWiki/images/a/ab/Slicer-r19441-CLIExtensionTemplate-screenshot.png https://wiki.slicer.org/slicerWiki/images/1/1e/Slicer-r19441-CLIExtensionTemplate-screenshot-2.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

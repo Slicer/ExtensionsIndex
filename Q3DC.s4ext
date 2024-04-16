@@ -18,7 +18,7 @@ depends SlicerMarkupConstraints
 build_subdirectory .
 
 # homepage
-homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/Q3DC
+homepage https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/Q3DC
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -38,7 +38,7 @@ status
 description This extension contains one module of the same name. Using placed fiducials, it allows users to compute 2D angles: Yaw, Pitch and Roll; and decompose the 3D distance into the three different components: R-L , A-P and S-I. It is possible to compute the middle point between two fiducials and export the values.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/index.php/File:Q3DC_Interface.png
+screenshoturls https://www.slicer.org/slicerWiki/index.php/File:Q3DC_Interface.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

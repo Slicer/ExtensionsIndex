@@ -18,7 +18,7 @@ depends NA
 build_subdirectory inner-build
 
 # homepage
-homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/PortPlacement
+homepage https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/PortPlacement
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Andinet Enquobahrie (Kitware), Luis G. Torres (UNC), Jean-Christoph
 category IGT
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.slicer.org/slicerWiki/images/a/a7/Portplacement_icon.png
+iconurl https://www.slicer.org/slicerWiki/images/a/a7/Portplacement_icon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status This extension is intended for public use and we expect to fully maintain
 description Assists in the planning of surgical port placement in a laparoscopic procedure.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/3/32/Portplacement.png
+screenshoturls https://www.slicer.org/slicerWiki/images/3/32/Portplacement.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
