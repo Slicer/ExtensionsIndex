@@ -12,7 +12,7 @@ scmrevision main
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends 
+depends NA
 
 # Inner build directory (default is ".")
 build_subdirectory .
@@ -35,7 +35,7 @@ iconurl     https://raw.githubusercontent.com/SlicerUltrasound/SlicerUltrasound/
 status      test
 
 # One line stating what the module does
-description Modules for ultrasound data processing, including anonymization, conversion between data formats and imaging modes, and annotations. 
+description Modules for ultrasound data processing, including anonymization, conversion between data formats and imaging modes, and annotations.
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/SlicerUltrasound/SlicerUltrasound/main/Screenshots/2024-04-14_AnonymizeUltrasound.png
