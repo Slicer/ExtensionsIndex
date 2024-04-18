@@ -1,0 +1,44 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager
+scm git
+scmurl https://github.com/supervisely-ecosystem/SlicerConnectToSupervisely
+scmrevision master
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends NA
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# homepage
+homepage https://github.com/supervisely-ecosystem/SlicerConnectToSupervisely
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Siarhei Sych (Supervisely)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Supervisely
+
+# url to icon (png, size 128x128 pixels)
+iconurl https://raw.githubusercontent.com/supervisely-ecosystem/SlicerConnectToSupervisely/master/Images/icon_png_128x128.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand behind?
+status
+
+# One line stating what the module does
+description This extension provides seamless integration between the 3D Slicer and Supervisely Computer Vision platform, empowering users to efficiently work with Labeling Jobs directly within the familiar 3D Slicer environment. Users can harness the full power of 3D visualization and annotation tools to enhance the labeling process for volumetric data, streamline annotation creation, and facilitate reviews. https://supervisely.com/
+
+# Space separated list of urls
+screenshoturls https://raw.githubusercontent.com/supervisely-ecosystem/SlicerConnectToSupervisely/master/Images/annotation_process_slicer.png https://raw.githubusercontent.com/supervisely-ecosystem/SlicerConnectToSupervisely/master/Images/review_process_slicer.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
