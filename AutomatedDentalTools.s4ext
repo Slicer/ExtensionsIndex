@@ -22,7 +22,7 @@ homepage https://github.com/DCBIA-OrthoLab/SlicerAutomatedDentalTools#readme
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Maxime Gillot (University of Michigan), Baptiste Baquero (UoM), Juan Carlos Prieto (University of North Carolina)
+contributors Maxime Gillot (University of Michigan), Baptiste Baquero (UoM), Juan Carlos Prieto (University of North Carolina), Nathan Hutin (UoM), Luc Anchling (UoM), Jeanne Claret (UoM)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Segmentation
@@ -37,7 +37,7 @@ iconurl https://raw.githubusercontent.com/DCBIA-OrthoLab/SlicerAutomatedDentalTo
 status
 
 # One line stating what the module does
-description This extension will allow clinicians to perform automatic CBCT scan segmentation as well as automatic lamndmark identification in CBCT and IOS using machine learning tools
+description This extension will allow clinicians to perform automatic CBCT scan segmentation as well as automatic lamndmark identification in CBCT and IOS using machine learning tools.
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/DCBIA-OrthoLab/SlicerAutomatedDentalTools/main/ADT-exemple.png

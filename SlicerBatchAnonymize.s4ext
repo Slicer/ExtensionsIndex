@@ -28,7 +28,7 @@ contributors Hina Shah (UNC Chapel Hill), Juan Carlos Prieto (UNC, Chapel Hill)
 category DSCI
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/hina-shah/SlicerBatchAnonymize/blob/main/SlicerBatchAnonymize.png
+iconurl https://raw.githubusercontent.com/hina-shah/SlicerBatchAnonymize/main/SlicerBatchAnonymize.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description SlicerBatchAnonymize is a Slicer extension that provides a user friendly interface to anonymize a 'batch' of DICOM images.
 
 # Space separated list of urls
-screenshoturls https://github.com/hina-shah/SlicerBatchAnonymize/blob/main/Documentation/GUIPreview.png
+screenshoturls https://raw.githubusercontent.com/hina-shah/SlicerBatchAnonymize/main/Documentation/GUIPreview.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

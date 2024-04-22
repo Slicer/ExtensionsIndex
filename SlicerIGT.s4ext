@@ -22,7 +22,7 @@ homepage    https://www.slicerigt.org
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Tamas Ungi (Queen's University), Junichi Tokuda (Brigham and Women's Hospital), Andras Lasso (Queen's University),  Isaiah Norton (Brigham and Women's Hospital), Matthew Holden (Queen's University), Laurent Chauvin (SNR), Atsushi Yamada (SNR), Franklin King (Queen's University), Jaime Garcia-Guevara (Queen's University), Amelie Meyer (Queen's University)
+contributors Tamas Ungi (Queen's University), Junichi Tokuda (Brigham and Women's Hospital), Andras Lasso (Queen's University), Isaiah Norton (Brigham and Women's Hospital), Matthew Holden (Queen's University), Laurent Chauvin (SNR), Atsushi Yamada (SNR), Franklin King (Queen's University), Jaime Garcia-Guevara (Queen's University), Amelie Meyer (Queen's University), Mikael Brudfors (UCL), Adam Rankin (Robarts Research Institute)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    IGT

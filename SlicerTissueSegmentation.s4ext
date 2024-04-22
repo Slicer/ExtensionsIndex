@@ -33,7 +33,7 @@ iconurl https://raw.githubusercontent.com/MarinaSandonis/SlicerTissueSegmentatio
 status
 
 # One line stating what the module does
-description It gets the 2D/3D segmentation of the abdomen and the thigh from MR images
+description This extension allows to generate the 2D/3D segmentation of the abdomen and the thigh from MR images.
 
 screenshoturls https://raw.githubusercontent.com/MarinaSandonis/SlicerTissueSegmentation/main/images/module.png https://raw.githubusercontent.com/MarinaSandonis/SlicerTissueSegmentation/main/images/inputs.png https://raw.githubusercontent.com/MarinaSandonis/SlicerTissueSegmentation/main/images/Outputs.png https://raw.githubusercontent.com/MarinaSandonis/SlicerTissueSegmentation/main/images/abdomen_segmenattion.png https://raw.githubusercontent.com/MarinaSandonis/SlicerTissueSegmentation/main/images/thigh_segmenattion.png
 

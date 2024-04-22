@@ -35,7 +35,7 @@ iconurl https://raw.githubusercontent.com/jamesobutler/SlicerRegularizedFastMarc
 status Tested on various images ; should work well
 
 # One line stating what the module does
-description This module allows the semi-automatic segmentation of 3D medical images using regularized fast marching.
+description The RegularizedFastMarching extension in Slicer facilitates efficient semi-automatic segmentation of 3D medical images through the application of regularized fast marching algorithms. Users can manually place seeds or import them from a file, and customize seed labels via CSV files.
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/jamesobutler/SlicerRegularizedFastMarching/main/Docs/SlicerRFM_README_Fig3.png https://raw.githubusercontent.com/jamesobutler/SlicerRegularizedFastMarching/main/Docs/SlicerRFM_README_Fig2.png https://raw.githubusercontent.com/jamesobutler/SlicerRegularizedFastMarching/main/Docs/SlicerRFM_README_Fig4.png

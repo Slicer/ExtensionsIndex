@@ -28,7 +28,7 @@ contributors Sam Horvath (Kitware Inc.), Johan Andruejol (Kitware Inc.)
 category Osteotomy Planning
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/KitwareMedical/OsteotomyPlanner/blob/master/ReplayPlan/Resources/Icons/ReplayPlan.png
+iconurl https://raw.githubusercontent.com/KitwareMedical/OsteotomyPlanner/master/ReplayPlan/Resources/Icons/ReplayPlan.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?

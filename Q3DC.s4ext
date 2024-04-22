@@ -35,7 +35,7 @@ iconurl https://raw.githubusercontent.com/DCBIA-OrthoLab/Q3DCExtension/master/Q3
 status
 
 # One line stating what the module does
-description This extension contains one module of the same name. Using placed fiducials, it allows users to compute 2D angles: Yaw, Pitch and Roll; and decompose the 3D distance into the three different components: R-L , A-P and S-I. It is possible to compute the middle point between two fiducials and export the values.
+description This extension contains one module of the same name. Using placed fiducials, it allows users to compute 2D angles: Yaw, Pitch and Roll; and decompose the 3D distance into the three different components: R-L, A-P and S-I. It is possible to compute the middle point between two fiducials and export the values.
 
 # Space separated list of urls
 screenshoturls https://www.slicer.org/slicerWiki/index.php/File:Q3DC_Interface.png

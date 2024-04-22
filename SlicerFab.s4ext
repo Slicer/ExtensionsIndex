@@ -28,7 +28,7 @@ contributors Steve Pieper (Isomics, Inc.), Ahmed Hosney (Harvard Wyss), James We
 category Printing
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://cdn.rawgit.com/SlicerFab/SlicerFab/0f141879/slices.png
+iconurl https://raw.githubusercontent.com/SlicerFab/SlicerFab/master/slices.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description Tools for 3D object fabrication.
 
 # Space separated list of urls
-screenshoturls https://cdn.rawgit.com/SlicerFab/SlicerFab/0f141879/rendering.png
+screenshoturls https://raw.githubusercontent.com/SlicerFab/SlicerFab/master/rendering.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

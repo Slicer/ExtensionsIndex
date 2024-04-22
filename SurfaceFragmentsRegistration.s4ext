@@ -20,7 +20,7 @@ build_subdirectory .
 # homepage
 homepage https://github.com/sebastianandress/Slicer-SurfaceFragmentsRegistration
 
-contributors Sebastian Andress (LMU Munich)
+contributors Sebastian Andreß (LMU Munich)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Registration

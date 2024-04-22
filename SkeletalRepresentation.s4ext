@@ -22,10 +22,10 @@ homepage https://github.com/KitwareMedical/SlicerSkeletalRepresentation/blob/mas
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Zhiyuan Liu (University of North Carolina at Chapel Hill), Junpyo Hong (University of North Carolina at Chapel Hill), Stephen M. Pizer (University of North Carolina at Chapel Hill), Jared Vicory (Kitware, Inc.), Pablo Hernandez-Cerdan (Kitware, Inc.), Beatriz Paniagua (Kitware, Inc.), Jean-Christophe Fillion-Robin (Kitware, Inc.)
+contributors Zhiyuan Liu (University of North Carolina at Chapel Hill), Junpyo Hong (University of North Carolina at Chapel Hill), Stephen M. Pizer (University of North Carolina at Chapel Hill), Jared Vicory (Kitware, Inc.), Pablo Hernandez-Cerdan (Kitware, Inc.), Beatriz Paniagua (Kitware, Inc.), Jean-Christophe Fillion-Robin (Kitware, Inc.), Connor Bowley (Kitware, Inc.)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category Topology, Skeletonization
+category Shape Analysis
 
 # url to icon (png, size 128x128 pixels)
 iconurl https://raw.githubusercontent.com/KitwareMedical/SlicerSkeletalRepresentation/master/img/SRep.png
@@ -35,10 +35,10 @@ iconurl https://raw.githubusercontent.com/KitwareMedical/SlicerSkeletalRepresent
 status
 
 # One line stating what the module does
-description Toolkit that provides users to establish, refine, and visualize skeletal representation of an object.
+description This extension allows for the creation, refinement, and viewing of Skeletal representations (s-reps).
 
 # Space separated list of urls
-screenshoturls https://cdn.rawgit.com/KitwareMedical/SlicerSkeletalRepresentation/529b95bc/VisualizationScreenshot.png
+screenshoturls https://raw.githubusercontent.com/KitwareMedical/SlicerSkeletalRepresentation/529b95bc6d5275297c68b7666772242abd65b897/VisualizationScreenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

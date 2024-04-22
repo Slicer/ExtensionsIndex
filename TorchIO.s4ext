@@ -18,7 +18,7 @@ depends PyTorch
 build_subdirectory .
 
 # homepage
-homepage https://torchio.readthedocs.io/interfaces/index.html#d-slicer-gui
+homepage https://torchio.readthedocs.io/interfaces/slicer.html
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)

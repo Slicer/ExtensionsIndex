@@ -38,7 +38,7 @@ status
 description This extension offers Active Learning solution developed under project MONAILabel (Powered by the NVIDIA, KCL).
 
 # Space separated list of urls
-screenshoturls https://github.com/Project-MONAI/MONAILabel/raw/main/plugins/slicer/MONAILabel/Screenshots/1.png
+screenshoturls https://github.com/Project-MONAI/MONAILabel/raw/main/plugins/slicer/MONAILabel/Screenshots/1.png https://github.com/Project-MONAI/MONAILabel/raw/main/plugins/slicer/MONAILabel/Screenshots/2.png https://github.com/Project-MONAI/MONAILabel/raw/main/plugins/slicer/MONAILabel/Screenshots/3.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

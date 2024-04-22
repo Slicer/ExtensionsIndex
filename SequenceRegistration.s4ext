@@ -22,7 +22,7 @@ homepage https://github.com/moselhy/SlicerSequenceRegistration
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Mohamed Moselhy (Western University), Andras Lasso (PerkLab, Queen's University)
+contributors Mohamed Moselhy (Western University), Andras Lasso (PerkLab, Queen's University), Feng Su (Western University)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Sequences

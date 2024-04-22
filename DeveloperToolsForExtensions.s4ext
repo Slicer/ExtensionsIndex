@@ -35,7 +35,7 @@ iconurl     https://raw.githubusercontent.com/Slicer/SlicerDeveloperToolsForExte
 status
 
 # One line stating what the module does
-description This extension offers different tools to help developers when they create Slicer extension.
+description This extension offers different tools to help developers when they create and maintain Slicer extension.
 
 # Space separated list of urls
 screenshoturls https://www.slicer.org/slicerWiki/images/5/54/SlicerExtension-SlicerDeveloperToolsForExtensions-Screenshot.png https://www.slicer.org/slicerWiki/images/d/db/SlicerExtensions-SlicerDeveloperToolsForExtensions-Screenshot-panels.png

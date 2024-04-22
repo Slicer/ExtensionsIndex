@@ -18,11 +18,11 @@ depends     SlicerIGT
 build_subdirectory inner-build
 
 # homepage
-homepage    https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerHeart
+homepage    https://github.com/SlicerHeart/SlicerHeart#readme
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Andras Lasso (PerkLab), Christian Herz (CHOP), Steve Pieper (Isomics), Adam Rankin (Robarts), Matthew Jolley (CHOP)
+contributors Andras Lasso (PerkLab, Queen's University), Steve Pieper (Isomics), Adam Rankin (Robarts), Csaba Pinter (Pixel Medical / Ebatinca), Christian Herz (CHOP), Matthew Jolley (CHOP/UPenn)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Cardiac

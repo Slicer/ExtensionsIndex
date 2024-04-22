@@ -36,7 +36,7 @@ iconurl https://github.com/pnlbwh/ukftractography/raw/master/UKF_icon.png
 status      Alpha
 
 # One line stating what the module does
-description A framework which uses an unscented Kalman filter for performing tractography. The development of this module was supported by NIH grants R01 MH097979 (PI Rathi), R01 MH092862 (PIs Westin and Verma), U01 NS083223 (PI Westin), R01 MH074794 (PI Westin) and P41 EB015902 (PI Kikinis).
+description This extension provides a module for tracing fibers in a DWI Volume using the multiple tensor unscented Kalman Filter methology.<br><br>The development of this module was supported by NIH grants R01 MH097979 (PI Rathi), R01 MH092862 (PIs Westin and Verma), U01 NS083223 (PI Westin), R01 MH074794 (PI Westin) and P41 EB015902 (PI Kikinis).
 
 # Space separated list of urls
 screenshoturls
