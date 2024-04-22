@@ -35,10 +35,10 @@ iconurl     https://raw.githubusercontent.com/SlicerIGT/SlicerPathReconstruction
 status    experimental
 
 # One line stating what the module does
-description The module allows creation of catheter models from electromagnetic spatial tracking.
+description This extension contains a module for reconstructing catheter paths from spatial tracking information. Intended users should have real-time tracking hardware (e.g. electromagnetic field generator and sensors) connected to 3D Slicer through OpenIGTLink network.
 
 # Space separated list of urls
-screenshoturls
+screenshoturls https://www.slicer.org/w/img_auth.php/7/78/SlicerIGTScreenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

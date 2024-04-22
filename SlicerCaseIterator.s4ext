@@ -22,7 +22,7 @@ homepage https://www.slicer.org/wiki/Documentation/Nightly/Extensions/SlicerCase
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Joost van Griethuysen (NKI)
+contributors Joost van Griethuysen (AVL-NKI), Christian Herz (CHOP)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Utilities
@@ -35,7 +35,7 @@ iconurl https://raw.githubusercontent.com/JoostJM/SlicerCaseIterator/master/Slic
 status beta
 
 # One line stating what the module does
-description Simple scripted module that allows you to iterate through a set of cases defined in a csv-file.
+description Scripted module for iterating over a set of cases listed in a CSV file for segmentation or review.
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/JoostJM/SlicerCaseIterator/master/SlicerCaseIterator-Screenshot.png

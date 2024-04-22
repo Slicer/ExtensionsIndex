@@ -20,7 +20,7 @@ build_subdirectory .
 # homepage
 homepage    https://www.slicer.org/wiki/Documentation/Nightly/Extensions/ImageCompare
 
-contributors Paolo Zaffino(Magna Graecia Univeristy of Catanzaro, Italy), Maria Francesca Spadea(Magna Graecia Univeristy of Catanzaro, Italy)
+contributors Paolo Zaffino (Magna Graecia University of Catanzaro, Italy), Maria Francesca Spadea (Magna Graecia University of Catanzaro, Italy)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Quantification

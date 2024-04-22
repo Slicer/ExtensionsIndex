@@ -22,7 +22,7 @@ homepage https://github.com/NVIDIA/ai-assisted-annotation-client/tree/master/sli
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Sachidanand Alle (NVIDIA)
+contributors Sachidanand Alle (NVIDIA), Andras Lasso (PerkLab)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Segmentation

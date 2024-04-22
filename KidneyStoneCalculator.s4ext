@@ -35,7 +35,7 @@ iconurl https://raw.githubusercontent.com/fredericpanthier/SlicerKidneyStoneCalc
 status
 
 # One line stating what the module does
-description volumetric evaluation of kidney stones and estimatation of lithotripsy time (surgical duration)
+description Extension for volumetric evaluation of kidney stones and estimatation of lithotripsy time (surgical duration).
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/fredericpanthier/SlicerKidneyStoneCalculator/master/screenshot.jpg

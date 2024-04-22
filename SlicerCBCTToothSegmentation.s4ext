@@ -22,10 +22,10 @@ homepage https://github.com/KitwareMedical/SlicerCBCTToothSegmentation
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Sadhana Ravikumar (Kitware Inc.)
+contributors Sadhana Ravikumar (Kitware Inc.), Jared Vicory (Kitware Inc.), James Fishbaugh (Kitware Inc.), Beatriz Paniagua (Kitware Inc.)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category DentalCBCTToolkit
+category Segmentation
 
 # url to icon (png, size 128x128 pixels)
 iconurl https://raw.githubusercontent.com/KitwareMedical/SlicerCBCTToothSegmentation/master/CBCTToothSegmentation/Resources/Icons/CBCTToothSegmentation.png

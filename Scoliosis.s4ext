@@ -25,7 +25,7 @@ homepage    https://www.assembla.com/spaces/Scoliosis/wiki
 contributors Franklin King (PerkLab, Queen's University), Tamas Ungi (PerkLab, Queen's University)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category    Scoliosis
+category    Quantification
 
 # url to icon (png, size 128x128 pixels)
 iconurl     https://www.slicer.org/slicerWiki/images/2/2b/ScoliosisLogo.png

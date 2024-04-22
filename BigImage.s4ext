@@ -22,7 +22,7 @@ homepage https://slicerscope.github.io
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Yi Gao (Shenzhen University)
+contributors Yi Gao (Shenzhen University), Andras Lasso (PerkLab, Queen's University)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category BigImage
@@ -35,7 +35,7 @@ iconurl https://raw.githubusercontent.com/gaoyi/SlicerBigImage/main/SlicerBigIma
 status
 
 # One line stating what the module does
-description BigImage is the extension hosting 3D Slicer based GB-level microscopic image viewing and computing.
+description BigImage is the extension for viewing and analyzing big (>1GB) microscopy and other images.
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/gaoyi/SlicerBigImage/main/Screenshots/1.png

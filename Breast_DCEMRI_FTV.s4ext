@@ -35,7 +35,7 @@ iconurl https://raw.githubusercontent.com/rnadkarni2/SlicerBreast_DCEMRI_FTV/mas
 status
 
 # One line stating what the module does
-description This extension contains both of the modules needed to compute functional tumor volume (FTV) from a dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) exam of a breast cancer patient.  The current version of this extension is intended for use on bilateral breast MR exams with axial slices.
+description This extension contains both of the modules needed to compute functional tumor volume (FTV) from a dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) exam of a breast cancer patient. The current version of this extension is intended for use on bilateral breast MR exams with axial slices.
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/rnadkarni2/SlicerBreast_DCEMRI_FTV/master/Module1Screenshot.png https://raw.githubusercontent.com/rnadkarni2/SlicerBreast_DCEMRI_FTV/master/Module2Screenshot.png

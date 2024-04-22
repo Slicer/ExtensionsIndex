@@ -6,9 +6,9 @@ depends NA
 
 build_subdirectory inner-build
 
-homepage https://github.com/SlicerDMRI/whitematteranalysis
+homepage https://github.com/SlicerDMRI/SlicerWMA#readme
 
-contributors Lauren O'Donnell, Fan Zhang (Brigham & Women's Hospital), and others.
+contributors Lauren O'Donnell (Brigham & Women's Hospital), Fan Zhang (Brigham & Women's Hospital), Isaiah Norton (Brigham & Women's Hospital)
 
 category Libraries
 

@@ -28,7 +28,7 @@ contributors Antonio Carlos da S. Senra Filho, Fabricio H. Simozo, Luiz Otavio M
 category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://www.slicer.org/slicerWiki/images/2/2c/BVeR-logo.png
+iconurl https://raw.githubusercontent.com/CSIM-Toolkits/SlicerBrainVolumeRefinement/master/BrainVolumeRefinement.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?

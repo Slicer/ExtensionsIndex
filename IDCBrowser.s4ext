@@ -22,7 +22,7 @@ contributors Andrey Fedorov (SPL and BWH)
 category    Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl    https://github.com/ImagingDataCommons/SlicerIDCBrowser/blob/main/IDCBrowser/Resources/Icons/IDCBrowser_alpha.png
+iconurl    https://raw.githubusercontent.com/ImagingDataCommons/SlicerIDCBrowser/main/IDCBrowser/Resources/Icons/IDCBrowser.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?

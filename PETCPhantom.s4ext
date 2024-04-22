@@ -35,10 +35,10 @@ iconurl     https://raw.githubusercontent.com/QIICR/SlicerPETPhantomAnalysis/mas
 status
 
 # One line stating what the module does
-description The PETCPhantom Extension allows measurement of calibration and uniformity in a cylinder phantom PET scan.
+description The PET Phantom Analysis Extension allows measurement of calibration and uniformity in a cylinder phantom PET scan.
 
 # Space separated list of urls
-screenshoturls
+screenshoturls https://www.slicer.org/w/img_auth.php/0/01/PETCylinderPhantomAnalysisModule.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

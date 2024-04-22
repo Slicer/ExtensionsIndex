@@ -15,7 +15,7 @@ build_subdirectory .
 homepage https://githubcomets-vis-interactiveslicerprismrendering.readthedocs.io
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
-contributors Tiphaine Richard (ETS), Simon Drouin (ETS)
+contributors Tiphaine Richard (ETS), Simon Drouin (ETS), Camille Hascoët (ETS)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Rendering

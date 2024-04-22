@@ -22,7 +22,7 @@ homepage https://github.com/lassoan/SlicerCleverSegmentation#cleversegmentation
 
 # Jonathan Ramos ([University of São Paulo - USP, ] ICMC)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Jonathan Ramos (University of São Paulo - USP), ICMC
+contributors Jonathan Ramos (ICMC, University of São Paulo - USP)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Segmentation
@@ -35,7 +35,7 @@ iconurl https://raw.githubusercontent.com/lassoan/SlicerCleverSegmentation/maste
 status Beta
 
 # One line stating what the module does
-description his is the implementation of the CleverSeg method that supports multi-label segmentations
+description This is the implementation of the CleverSeg method that supports multi-label segmentations
 
 # Space separated list of urls
 screenshoturls https://user-images.githubusercontent.com/3834596/66679138-d7dc1700-ec43-11e9-8c36-51976a1121d3.png https://user-images.githubusercontent.com/3834596/66679174-f215f500-ec43-11e9-84f1-85f8b5c4d568.png

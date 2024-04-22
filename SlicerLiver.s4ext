@@ -12,7 +12,7 @@ scmrevision master
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends  SlicerVMTK SegmentEditorExtraEffects
+depends  SlicerVMTK SegmentEditorExtraEffects ExtraMarkups
 
 # Inner build directory (default is ".")
 build_subdirectory .
@@ -35,7 +35,7 @@ iconurl https://raw.githubusercontent.com/ALive-research/Slicer-Liver/master/Sli
 status beta
 
 # One line stating what the module does
-description Liver vascular analysis and resection planning
+description 3D Slicer extension for liver analysis and therapy planning
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/ALive-research/Slicer-Liver/master/Screenshots/Slicer-Liver_screenshot_01.png https://raw.githubusercontent.com/ALive-research/Slicer-Liver/master/Screenshots/Slicer-Liver_screenshot_02.png https://raw.githubusercontent.com/ALive-research/Slicer-Liver/master/Screenshots/Slicer-Liver_screenshot_03.png https://raw.githubusercontent.com/ALive-research/Slicer-Liver/master/Screenshots/Slicer-Liver_screenshot_04.png https://raw.githubusercontent.com/ALive-research/Slicer-Liver/master/Screenshots/Slicer-Liver_screenshot_05.png https://raw.githubusercontent.com/ALive-research/Slicer-Liver/master/Screenshots/Slicer-Liver_screenshot_06.png https://raw.githubusercontent.com/ALive-research/Slicer-Liver/master/Screenshots/Slicer-Liver_screenshot_07.png https://raw.githubusercontent.com/ALive-research/Slicer-Liver/master/Screenshots/Slicer-Liver_screenshot_08.png

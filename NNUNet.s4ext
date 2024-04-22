@@ -22,7 +22,7 @@ homepage https://github.com/KitwareMedical/SlicerNNUnet
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Thibault Pelletier (KITWARE SAS)
+contributors Thibault Pelletier (Kitware SAS)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Segmentation
@@ -35,7 +35,7 @@ iconurl https://github.com/KitwareMedical/SlicerNNUnet/raw/main/SlicerNNUnet/Res
 status stable
 
 # One line stating what the module does
-description 3D Slicer nnUNet integration to streamline usage for nnUNet based AI extensions.
+description 3D Slicer nnUNet integration to streamline usage for nnUNet based AI extensions.<br><br>It allows for quick and relable nnUNet dependency installation in 3D Slicer environment and provides simple logic to launch nnUNet prediction on given directories.<br><br>The installation steps are based on the work done in the SlicerTotalSegmentator exension (https://github.com/lassoan/SlicerTotalSegmentator)
 
 # Space separated list of urls
 screenshoturls https://github.com/KitwareMedical/SlicerNNUnet/raw/main/Screenshots/1.png
