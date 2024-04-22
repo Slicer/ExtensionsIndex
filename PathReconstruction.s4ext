@@ -32,7 +32,7 @@ iconurl     https://raw.githubusercontent.com/SlicerIGT/SlicerPathReconstruction
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status    experimental    
+status    experimental
 
 # One line stating what the module does
 description The module allows creation of catheter models from electromagnetic spatial tracking.

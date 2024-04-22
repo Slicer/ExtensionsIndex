@@ -32,7 +32,7 @@ iconurl https://raw.githubusercontent.com/KitwareMedical/SlicerPipelines/main/Pi
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description SlicerPipelines is an extension for 3DSlicer that offers the ability to create simple modules (aka pipelines) via a GUI interface with no coding knowledge needed

@@ -32,13 +32,13 @@ iconurl https://github.com/pieper/SlicerParallelProcessing/raw/master/ParallelPr
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description Manage helper processes to perform background tasks in parallel.
 
 # Space separated list of urls
-screenshoturls https://camo.githubusercontent.com/f32d3911615ff1ff73af2e453fb8d1233f43a831339317618229a6e622859a01/687474703a2f2f696d672e796f75747562652e636f6d2f76692f6c6f3830346352446d70512f302e6a7067
+screenshoturls
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

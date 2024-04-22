@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage http://github.com/SlicerFab/SlicerFab
+homepage https://github.com/SlicerFab/SlicerFab
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -32,7 +32,7 @@ iconurl https://cdn.rawgit.com/SlicerFab/SlicerFab/0f141879/slices.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description Tools for 3D object fabrication.

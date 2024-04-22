@@ -6,7 +6,7 @@
 
 # This is source code manager
 scm git
-scmurl https://github.com/pzaffino/SlicerArduinoController.git 
+scmurl https://github.com/pzaffino/SlicerArduinoController.git
 scmrevision master
 
 # list dependencies
@@ -20,7 +20,7 @@ build_subdirectory .
 # homepage
 homepage    https://www.slicer.org/w/index.php/Documentation/Nightly/Extensions/ArduinoController
 
-contributors Paolo Zaffino (Magna Graecia University of Catanzaro, Italy), Domenico Leuzzi (Magna Graecia University of Catanzaro, Italy), Virgilio Sabatino (Magna Graecia University of Catanzaro, Italy), Andras Lasso (PerkLab, Queen's), Maria Francesca Spadea (Magna Graecia University of Catanzaro, Italy) 
+contributors Paolo Zaffino (Magna Graecia University of Catanzaro, Italy), Domenico Leuzzi (Magna Graecia University of Catanzaro, Italy), Virgilio Sabatino (Magna Graecia University of Catanzaro, Italy), Andras Lasso (PerkLab, Queen's), Maria Francesca Spadea (Magna Graecia University of Catanzaro, Italy)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Developer Tools
@@ -36,7 +36,7 @@ status      alpha
 description This extension links Slicer and Arduino. Connection is managed and on top of this additional module can be implemented.
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/pzaffino/SlicerArduinoController/master/ArduinoController_screenshot.png 
+screenshoturls https://raw.githubusercontent.com/pzaffino/SlicerArduinoController/master/ArduinoController_screenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

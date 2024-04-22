@@ -12,7 +12,7 @@ scmrevision main
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends ModelToModelDistance 
+depends ModelToModelDistance
 
 # Inner build directory (default is ".")
 build_subdirectory .
@@ -32,10 +32,10 @@ iconurl https://github.com/naterex23/SlicerAblationPlanner/raw/main/AblationPlan
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
-description This extension enables the user to place virtual ablation profiles and evaluate a theoretical margins associated with these profiles.  
+description This extension enables the user to place virtual ablation profiles and evaluate a theoretical margins associated with these profiles.
 
 # Space separated list of urls
 screenshoturls https://github.com/naterex23/SlicerAblationPlanner/raw/main/Screenshots/combined_probes.png https://github.com/naterex23/SlicerAblationPlanner/raw/main/Screenshots/fiducial_placement.png https://github.com/naterex23/SlicerAblationPlanner/raw/main/Screenshots/margin_colors.png

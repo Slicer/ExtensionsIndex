@@ -38,4 +38,3 @@ License
 [extension description file]: https://slicer.readthedocs.io/en/latest/developer_guide/extensions.html#extension-description-file
 [extensions catalog]: https://extensions.slicer.org/catalog/All/30117/win
 [extensions server]: https://slicer.readthedocs.io/en/latest/developer_guide/extensions.html#extensions-server
-

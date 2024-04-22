@@ -2,11 +2,11 @@ scm git
 scmurl https://github.com/SlicerDMRI/SlicerDMRI.git
 scmrevision master
 
-depends NA
+depends UKFTractography
 
 build_subdirectory inner-build
 
-homepage http://slicerdmri.github.io
+homepage https://dmri.slicer.org/
 
 contributors Lauren O'Donnell, Isaiah Norton, Fan Zhang, Alex Yarmarkovich (Brigham & Women's Hospital), and others.
 

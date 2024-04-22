@@ -32,7 +32,7 @@ iconurl https://raw.githubusercontent.com/QIICR/SlicerLayoutButtons/master/Resou
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description This extension provides a user interface with buttons organized the same way as the Slicer slice views are aligned. The user can directly select foreground/background volume and label map to be displayed in the associated slice view.

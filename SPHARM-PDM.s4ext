@@ -18,7 +18,7 @@ depends MeshToLabelMap
 build_subdirectory SPHARM-PDM-build
 
 # homepage
-homepage    http://www.nitrc.org/projects/spharm-pdm
+homepage    https://www.nitrc.org/projects/spharm-pdm
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Beatriz Paniagua (UNC), Francois Budin (UNC), Martin Styner (UNC), 
 category SPHARM
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.na-mic.org/Wiki/images/a/ad/Spharm-pdm-icon.png
+iconurl     https://raw.githubusercontent.com/NIRALUser/SPHARM-PDM/master/Modules/Scripted/ShapeAnalysisModule/Resources/Icons/ShapeAnalysisModule.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -38,7 +38,7 @@ status
 description SPHARM-PDM is a tool that computes point-based models using a parametric boundary description for the computing of Shape Analysis.
 
 # Space separated list of urls
-screenshoturls http://www.na-mic.org/Wiki/images/3/34/Spharm-pdm-snapshot.png
+screenshoturls https://www.na-mic.org/w/img_auth.php/3/34/Spharm-pdm-snapshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

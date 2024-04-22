@@ -7,7 +7,7 @@
 # This is source code manager
 scm git
 scmurl https://github.com/SlicerRt/SegmentRegistration.git
-scmrevision HEAD
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -32,13 +32,13 @@ iconurl https://github.com/SlicerRt/SegmentRegistration/raw/master/Logo/SegmentR
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description Segment registration is an extension that contains generic and more specialized modules for registering two delineations of the same structure, and propagating other segmented structures from one dataset to the other (also called fusion or contour propagation).
 
 # Space separated list of urls
-screenshoturls https://www.slicer.org/w/images/a/a1/20170526_ProstatMRIUSContourPropagation.png https://www.slicer.org/w/images/1/15/20160329_MRIUS_1500.gif
+screenshoturls https://www.slicer.org/slicerWiki/images/a/a1/20170526_ProstatMRIUSContourPropagation.png https://www.slicer.org/slicerWiki/images/1/15/20160329_MRIUS_1500.gif
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

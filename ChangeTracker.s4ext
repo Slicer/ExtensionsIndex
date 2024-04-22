@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://wiki.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/ChangeTracker
+homepage    https://wiki.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/ChangeTracker
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Andrey Fedorov (SPL), Kilian Pohl (SPL), Peter Black (BWH), Jean-Ch
 category    Wizards
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/b/b9/ChangeTracker_logo.png
+iconurl     https://www.slicer.org/slicerWiki/images/b/b9/ChangeTracker_logo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -38,7 +38,7 @@ status      Work in progress
 description ChangeTracker is a software tool for quantification of the subtle changes in pathology. The module provides a workflow pipeline that combines user input with the medical data. As a result we provide quantitative volumetric measurements of growth/shrinkage together with the volume rendering of the tumor and color-coded visualization of the tumor growth/shrinkage.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/8/8e/Slicer4_ChangeTracker_Ad.png
+screenshoturls https://www.slicer.org/slicerWiki/images/8/8e/Slicer4_ChangeTracker_Ad.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

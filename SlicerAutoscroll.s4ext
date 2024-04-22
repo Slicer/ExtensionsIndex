@@ -32,7 +32,7 @@ iconurl https://github.com/lassoan/SlicerAutoscroll/raw/master/Autoscroll.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description Autoscroll through slices using slice range and speed

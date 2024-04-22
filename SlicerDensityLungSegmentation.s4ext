@@ -20,7 +20,7 @@ build_subdirectory .
 # homepage
 homepage    https://github.com/pzaffino/SlicerDensityLungSegmentation
 
-contributors Paolo Zaffino (Magna Graecia University of Catanzaro, Italy), Maria Francesca Spadea (Magna Graecia University of Catanzaro, Italy) 
+contributors Paolo Zaffino (Magna Graecia University of Catanzaro, Italy), Maria Francesca Spadea (Magna Graecia University of Catanzaro, Italy)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Segmentation
@@ -33,10 +33,10 @@ iconurl    https://raw.githubusercontent.com/pzaffino/SlicerDensityLungSegmentat
 status      alpha
 
 # One line stating what the module does
-This extension labels lung tissues on basis of density (air, healthy, ground-glass opacities, consolidation, and denser tissues). Voxel-per-voxel label is provided alongside with an averaged volume.
+description This extension labels lung tissues on basis of density (air, healthy, ground-glass opacities, consolidation, and denser tissues). Voxel-per-voxel label is provided alongside with an averaged volume.
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/pzaffino/SlicerDensityLungSegmentation/main/DensityLungSegmentation_screenshot.png 
+screenshoturls https://raw.githubusercontent.com/pzaffino/SlicerDensityLungSegmentation/main/DensityLungSegmentation_screenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

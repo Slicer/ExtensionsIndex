@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage http://wiki.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerProstate
+homepage https://wiki.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerProstate
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Andrey Fedorov (Brigham and Women's Hospital), Andras Lasso (Queen'
 category    Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://wiki.slicer.org/slicerWiki/images/8/87/SlicerProstate_Logo_1.0_128x128.png
+iconurl     https://wiki.slicer.org/slicerWiki/images/8/87/SlicerProstate_Logo_1.0_128x128.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status      Work in progress
 description SlicerProstate extension hosts various modules to facilitate processing and management of prostate image data, utilizing prostate images in image-guided interventions and development of the imaging biomarkers of the prostate cancer.
 
 # Space separated list of urls
-screenshoturls http://wiki.slicer.org/slicerWiki/images/f/ff/DistanceMapBasedRegistration_example1.png http://wiki.slicer.org/slicerWiki/images/3/36/SegmentationSmoothing_example1.png http://wiki.slicer.org/slicerWiki/images/c/c3/QuadEdgeSurfaceMesher_example1.png
+screenshoturls https://wiki.slicer.org/slicerWiki/images/f/ff/DistanceMapBasedRegistration_example1.png https://wiki.slicer.org/slicerWiki/images/3/36/SegmentationSmoothing_example1.png https://wiki.slicer.org/slicerWiki/images/c/c3/QuadEdgeSurfaceMesher_example1.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

@@ -38,7 +38,7 @@ status beta
 description Automated tractography in diffusion tensor images and fiber tract classification using a deep learning approach
 
 # Space separated list of urls
-screenshoturls https://www.nitrc.org/project/screenshot.php?group_id=948&screenshot_id=934 
+screenshoturls https://www.nitrc.org/project/screenshot.php?group_id=948&screenshot_id=934
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

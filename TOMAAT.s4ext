@@ -32,13 +32,13 @@ iconurl https://raw.githubusercontent.com/faustomilletari/TOMAAT-Slicer/master/T
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description Segmentation of volumetric data via Deep learning based methods in the cloud
 
 # Space separated list of urls
-screenshoturls 
+screenshoturls
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

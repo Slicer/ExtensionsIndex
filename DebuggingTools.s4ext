@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/DebuggingTools
+homepage    https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/DebuggingTools
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -32,7 +32,7 @@ iconurl     https://raw.githubusercontent.com/SlicerRt/SlicerDebuggingTools/mast
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status      
+status
 
 # One line stating what the module does
 description This extension contains various tools useful for developing and debugging modules. Includes a tool for connecting Slicer to remote visual debugger for Python scripts using PyDev (http://pydev.org/) and node update performance statistics

@@ -7,7 +7,7 @@
 # This is source code manager
 scm git
 scmurl https://github.com/QIICR/T1Mapping.git
-scmrevision f180a63
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/T1Mapping
+homepage    https://slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/T1Mapping
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,17 +28,17 @@ contributors Xiao Da(MGH)
 category    Quantification
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://slicer.org/slicerWiki/images/3/32/T1_Mapping_Logo_Resized.png
+iconurl     https://slicer.org/slicerWiki/images/3/32/T1_Mapping_Logo_Resized.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status      
+status
 
 # One line stating what the module does
 description T1 mapping estimates effective tissue parameter maps (T1) from multi-spectral FLASH MRI scans with different flip angles.
 
 # Space separated list of urls
-screenshoturls http://slicer.org/slicerWiki/images/6/68/T1_Mapping_CPP_GUI.png
+screenshoturls https://slicer.org/slicerWiki/images/6/68/T1_Mapping_CPP_GUI.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

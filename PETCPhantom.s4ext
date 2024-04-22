@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/PETCPhantom
+homepage    https://www.slicer.org/wiki/Documentation/Nightly/Modules/PETCPhantomAnalysis
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -32,13 +32,13 @@ iconurl     https://raw.githubusercontent.com/QIICR/SlicerPETPhantomAnalysis/mas
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status      
+status
 
 # One line stating what the module does
 description The PETCPhantom Extension allows measurement of calibration and uniformity in a cylinder phantom PET scan.
 
 # Space separated list of urls
-screenshoturls 
+screenshoturls
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

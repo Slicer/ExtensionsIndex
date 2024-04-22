@@ -32,7 +32,7 @@ iconurl https://www.slicer.org/w/images/e/e7/Urinary_calculi.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description This extension is a software for the analysis of the density of urinary stones. The exStone can achieved the segmentation of urinary calculi from CT Image, and  automaticly extract the  slice's parameters  in any angle of the  urinary stones volume   as well as perpendicular to the X/Y/Z axis. The CT maximum, minimum, average, average optical density and integral density of each slice of the stone were calculated. At finally,it can support export  parameters to the Excel file.

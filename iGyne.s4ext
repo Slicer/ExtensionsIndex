@@ -7,7 +7,7 @@ enabled 1
 homepage https://github.com/gpernelle/iGyne
 iconurl https://raw.github.com/gpernelle/iGyne/master/iGyne.png
 scm git
-scmrevision a57c534d11db46e6b1985c6caf6827bbcbae880e
+scmrevision master
 scmurl https://github.com/gpernelle/iGyne.git
-screenshoturls https://raw.github.com/gpernelle/iGyne/master/LabelingResult.png
+screenshoturls https://raw.githubusercontent.com/gpernelle/iGyne/master/LabelingResults.png
 status

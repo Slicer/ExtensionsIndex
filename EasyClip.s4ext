@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/EasyClip
+homepage https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/EasyClip
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -32,13 +32,13 @@ iconurl https://raw.githubusercontent.com/DCBIA-OrthoLab/EasyClip-Extension/mast
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description This Module is used to clip one or different 3D Models according to a predetermined plane. Plane can be saved to be reused for other models. After clipping, the models are closed and can be saved as new 3D Models.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/1/1b/EasyClipPlanePosition.png
+screenshoturls https://www.slicer.org/slicerWiki/images/1/1b/EasyClipPlanePosition.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

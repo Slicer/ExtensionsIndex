@@ -12,7 +12,7 @@ scmrevision main
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends NA
+depends Sandbox SegmentEditorExtraEffects
 
 # Inner build directory (default is ".")
 build_subdirectory inner-build
@@ -32,7 +32,7 @@ iconurl https://raw.githubusercontent.com/BrownBiomechanics/SlicerAutoscoperM/ma
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description SlicerAutoscoperM is an extension for 3D Slicer for 2D-3D image registration integrating with Autoscoper for image-based 3D motion tracking of skeletal structures.

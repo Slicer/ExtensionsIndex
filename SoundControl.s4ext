@@ -32,13 +32,13 @@ iconurl https://github.com/SlicerIGT/SlicerSoundControl/raw/master/SoundControl.
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description Navigate using sound feedback
 
 # Space separated list of urls
-screenshoturls   https://github.com/SlicerIGT/SlicerSoundControl/raw/master/OpenSoundControl.png   https://github.com/SlicerIGT/SlicerSoundControl/raw/master/SoundNavigation.png   https://github.com/SlicerIGT/SlicerSoundControl/raw/master/PureData.png   
+screenshoturls   https://github.com/SlicerIGT/SlicerSoundControl/raw/master/OpenSoundControl.png https://github.com/SlicerIGT/SlicerSoundControl/raw/master/SoundNavigation.png https://github.com/SlicerIGT/SlicerSoundControl/raw/master/PureData.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

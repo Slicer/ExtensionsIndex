@@ -32,14 +32,14 @@ iconurl https://raw.githubusercontent.com/kyliekeijzer/Slicer-PET-MUST-segmenter
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description Multiple SUV Thresholding (MUST)-segmenter is a semi-automated PET image segmentation tool that enables delineation of multiple lesions at once, and extracts the lesions' features.
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/kyliekeijzer/Slicer-PET-MUST-segmenter/master/screenshots/Slicer-MUST-segmenter_screenshot.png https://raw.githubusercontent.com/kyliekeijzer/Slicer-PET-MUST-segmenter/master/screenshots/9.png https://raw.githubusercontent.com/kyliekeijzer/Slicer-PET-MUST-segmenter/master/screenshots/12.png 
-https://raw.githubusercontent.com/kyliekeijzer/Slicer-PET-MUST-segmenter/master/screenshots/10.png https://raw.githubusercontent.com/kyliekeijzer/Slicer-PET-MUST-segmenter/master/screenshots/25.png 
+screenshoturls https://raw.githubusercontent.com/kyliekeijzer/Slicer-PET-MUST-segmenter/master/screenshots/Slicer-MUST-segmenter_screenshot.png https://raw.githubusercontent.com/kyliekeijzer/Slicer-PET-MUST-segmenter/master/screenshots/9.png https://raw.githubusercontent.com/kyliekeijzer/Slicer-PET-MUST-segmenter/master/screenshots/12.png
+https://raw.githubusercontent.com/kyliekeijzer/Slicer-PET-MUST-segmenter/master/screenshots/10.png https://raw.githubusercontent.com/kyliekeijzer/Slicer-PET-MUST-segmenter/master/screenshots/25.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

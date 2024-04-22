@@ -32,13 +32,13 @@ iconurl https://raw.githubusercontent.com/lassoan/SlicerSegmentEditorExtraEffect
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description Experimental effects for Segment Editor
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/lassoan/SlicerSegmentEditorExtraEffects/master/FastMarchingInput.png https://raw.githubusercontent.com/lassoan/SlicerSegmentEditorExtraEffects/master/FastMarchingOutput.png https://raw.githubusercontent.com/lassoan/SlicerSegmentEditorExtraEffects/master/WatershedOutput.png 
+screenshoturls https://raw.githubusercontent.com/lassoan/SlicerSegmentEditorExtraEffects/master/FastMarchingInput.png https://raw.githubusercontent.com/lassoan/SlicerSegmentEditorExtraEffects/master/FastMarchingOutput.png https://raw.githubusercontent.com/lassoan/SlicerSegmentEditorExtraEffects/master/WatershedOutput.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

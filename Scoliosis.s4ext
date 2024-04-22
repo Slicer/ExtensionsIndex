@@ -28,7 +28,7 @@ contributors Franklin King (PerkLab, Queen's University), Tamas Ungi (PerkLab, Q
 category    Scoliosis
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/2/2b/ScoliosisLogo.png
+iconurl     https://www.slicer.org/slicerWiki/images/2/2b/ScoliosisLogo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -38,7 +38,7 @@ status      Experimental
 description Extensions pertaining to scoliosis analysis
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/d/d1/ScoliosisScreenshot.png
+screenshoturls https://www.slicer.org/slicerWiki/images/d/d1/ScoliosisScreenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

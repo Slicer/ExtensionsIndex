@@ -1,0 +1,44 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager
+scm git
+scmurl https://github.com/Project-MONAI/SlicerMONAIViz
+scmrevision main
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends NA
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# homepage
+homepage https://github.com/Project-MONAI/SlicerMONAIViz#slicermonaiviz
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors MONAI Consortium
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Developer Tools
+
+# url to icon (png, size 128x128 pixels)
+iconurl https://raw.githubusercontent.com/Project-MONAI/SlicerMONAIViz/main/MONAIViz/Resources/Icons/MONAIViz.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand behind?
+status
+
+# One line stating what the module does
+description This extension helps to run chain of MONAI transforms and visualize every stage over an image/label. See more information in <a href="https://github.com/Project-MONAI/MONAILabel">MONAILabel documentation</a>.
+
+# Space separated list of urls
+screenshoturls https://github.com/Project-MONAI/SlicerMONAIViz/raw/main/Screenshots/1.jpg https://github.com/Project-MONAI/SlicerMONAIViz/raw/main/Screenshots/2.jpg https://github.com/Project-MONAI/SlicerMONAIViz/raw/main/Screenshots/3.jpg https://github.com/Project-MONAI/SlicerMONAIViz/raw/main/Screenshots/4.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1

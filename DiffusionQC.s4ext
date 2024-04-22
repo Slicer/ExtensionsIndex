@@ -12,8 +12,9 @@ contributors Tashrif Billah, Isaiah Norton, Yogesh Rathi, Sylvain Bouix (Brigham
 
 category Diffusion
 
-iconurl https://github.com/pnlbwh/SlicerDiffusionQC/raw/master/Misc/DiffusionQC-icon-128x128.png 
-screenshoturls https://raw.githubusercontent.com/pnlbwh/SlicerDiffusionQC/master/Misc/DiffusionQC-screenshot.jpg
+iconurl https://github.com/pnlbwh/SlicerDiffusionQC/raw/master/Misc/DiffusionQC-icon-128x128.png
+
+screenshoturls https://raw.githubusercontent.com/pnlbwh/SlicerDiffusionQC/master/Misc/DiffusionQC-screenshot.png
 
 status WIP
 

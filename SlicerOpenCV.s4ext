@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory inner-build
 
 # homepage
-homepage    http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerOpenCV
+homepage    https://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerOpenCV
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -32,13 +32,13 @@ iconurl     https://raw.githubusercontent.com/SBU-BMI/SlicerOpenCV/master/Slicer
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status      
+status
 
 # One line stating what the module does
 description This extension provides a wrapper around OpenCV libraries
 
 # Space separated list of urls
-screenshoturls 
+screenshoturls
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

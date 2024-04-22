@@ -7,7 +7,7 @@
 # This is source code manager
 scm git
 scmurl https://github.com/aangelos28/PBNRR.git
-scmrevision b494c1e
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -32,13 +32,13 @@ iconurl https://raw.github.com/aangelos28/PBNRR/master/PBNRR.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description This Slicer extension non-rigid registers a moving to a fixed MRI using a linear homogeneous bio-mechanical model to compute a dense deformation field that defines a transformation for every point in the fixed to the moving image.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/6/63/Case1_input.png http://www.slicer.org/slicerWiki/images/a/a4/Case1_output.png http://www.slicer.org/slicerWiki/images/d/db/PBNRR_panel.png
+screenshoturls https://www.slicer.org/slicerWiki/images/6/63/Case1_input.png https://www.slicer.org/slicerWiki/images/a/a4/Case1_output.png https://www.slicer.org/slicerWiki/images/d/db/PBNRR_panel.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

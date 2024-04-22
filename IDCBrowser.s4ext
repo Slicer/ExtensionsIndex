@@ -1,0 +1,38 @@
+# This is source code manager
+scm git
+scmurl https://github.com/ImagingDataCommons/SlicerIDCBrowser.git
+scmrevision main
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends     QuantitativeReporting
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# homepage
+homepage    https://github.com/ImagingDataCommons/SlicerIDCBrowser
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Andrey Fedorov (SPL and BWH)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category    Informatics
+
+# url to icon (png, size 128x128 pixels)
+iconurl    https://github.com/ImagingDataCommons/SlicerIDCBrowser/blob/main/IDCBrowser/Resources/Icons/IDCBrowser_alpha.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand beind?
+status Beta
+
+# One line stating what the module does
+description A Module to explore and access imaging data available from National Cancer Institute Imaging Data Commons.
+
+# Space separated list of urls
+screenshoturls https://github.com/ImagingDataCommons/SlicerIDCBrowser/blob/main/IDCBrowser/Resources/Screenshot/screenshot.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1

@@ -30,7 +30,7 @@ iconurl https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCo
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description The cochlea is a very important part of the inner ear. It is responsible for the transfer of audio signals to the brain. There are two modules in this extension. The first module, Cochlea Registration, registers and fuses cochlea images from different modalities. The second plugin, Cochlea Segmenttaion, segment out the cochlea structure, scala tympani and other scalae (media and vestibuli) in addition to measure the length and the size of the scala tympani. Both modules required a few seconds to complete the tasks. They use a cusomised set of parameters for elastix toolbox. The extension will download elastix binaries and other necessary files so it will take some minutes when use first time. For testing, cochlea sample datasets can be downloaded using Slicer Data Store module. You are welcome to contribute by optimising the code or sharing your cochlea dataset. For questions or problems using this extension please post in the gitHub issue or in Slicer forum. For more details please read the related publications:
@@ -40,7 +40,7 @@ Ibraheem Al-Dhamari, Sabine Bauer, Dietrich Paulus and Roland Jacob, (2017): Aut
 Ibraheem Al-Dhamari, Sabine Bauer, Dietrich Paulus, Friedrich Lisseck and Roland Jacob, (2017): ACIR: automatic cochlea image registration. In: Proceedings SPIE Medical Imaging 2017: Image Processing
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/master/Screenshots/c.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/master/Screenshots/r1.png  https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/master/Screenshots/r2.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/master/Screenshots/s1.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/master/Screenshots/s2.png 
+screenshoturls https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/master/Screenshots/c.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/master/Screenshots/r1.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/master/Screenshots/r2.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/master/Screenshots/s1.png https://raw.githubusercontent.com/MedicalImageAnalysisTutorials/SlicerCochlea/master/Screenshots/s2.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

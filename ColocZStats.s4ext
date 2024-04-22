@@ -31,7 +31,7 @@ iconurl https://raw.githubusercontent.com/ChenXiang96/SlicerColoc-Z-Stats/main/C
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description This is an extension for computing the proteins' colocalization (Spatial overlap between different channels) metrics of multi-channel Z-stack images.

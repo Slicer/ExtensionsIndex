@@ -32,7 +32,7 @@ iconurl https://raw.githubusercontent.com/QTIM-Lab/SlicerSegmentationWizard/mast
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status Beta 
+status Beta
 
 # One line stating what the module does
 description This is a 3D model-based segmentation tool for 3D Slicer. It includes utilities for calculating subtraction maps and thresholding intensities.

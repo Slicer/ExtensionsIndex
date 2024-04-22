@@ -32,7 +32,7 @@ iconurl https://raw.githubusercontent.com/sindhurathiru/TITAN/master/HypModuleCo
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description TITAN is responsible for the pre-processing and analysis tasks of imaging mass cytometry (IMC) data. It performs visualization, segmentation, and various analyses functions on IMC data.

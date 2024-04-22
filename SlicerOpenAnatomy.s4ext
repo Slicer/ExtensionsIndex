@@ -32,13 +32,13 @@ iconurl https://raw.githubusercontent.com/PerkLab/SlicerOpenAnatomy/master/Slice
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description 3D Slicer extension for exporting Slicer scenes to use in the OpenAnatomy.org browser
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/PerkLab/SlicerOpenAnatomy/master/Screenshot01.png
+screenshoturls https://raw.githubusercontent.com/PerkLab/SlicerOpenAnatomy/master/OpenAnatomyExport/img/Screenshot01.png https://raw.githubusercontent.com/PerkLab/SlicerOpenAnatomy/master/OpenAnatomyExport/img/Screenshot02.png https://raw.githubusercontent.com/PerkLab/SlicerOpenAnatomy/master/OpenAnatomyExport/img/Screenshot03.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

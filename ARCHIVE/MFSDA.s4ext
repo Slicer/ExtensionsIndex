@@ -7,7 +7,7 @@
 # This is source code manager
 scm git
 scmurl https://github.com/DCBIA-OrthoLab/MFSDA_Python.git
-scmrevision master 
+scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -22,7 +22,7 @@ homepage https://github.com/DCBIA-OrthoLab/MFSDA_Python#readme
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Mateo Lopez (University of North Carolina), Juan Carlos Prieto (University of North Carolina) 
+contributors Mateo Lopez (University of North Carolina), Juan Carlos Prieto (University of North Carolina)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Shape Analysis
@@ -32,7 +32,7 @@ iconurl https://raw.githubusercontent.com/DCBIA-OrthoLab/MFSDA_Python/master/MFS
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description Modules for statistical shape analysis. A multivariate varying coefficient model is introduced to build the association between the multivariate shape measurements and demographic information and other clinical variables. Statistical inference, i.e., hypothesis testing, is also included in this package, which can be used in investigating whether some covariates of interest are significantly associated with the shape information. The hypothesis testing results are further used in clustering based analysis.

@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/AnglePlanes
+homepage https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/AnglePlanes
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -32,13 +32,13 @@ iconurl https://raw.githubusercontent.com/DCBIA-OrthoLab/AnglePlanes-Extension/m
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description This Module is used to calculate the angle between two planes by using the normals. The user gets the choice to use two planes which are already implemented on Slicer or they can define a plane by using landmarks (at least 3 landmarks). Plane can also be saved to be reused for other models.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/b/ba/Interface_AnglePlanes.png
+screenshoturls https://www.slicer.org/slicerWiki/images/b/ba/Interface_AnglePlanes.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

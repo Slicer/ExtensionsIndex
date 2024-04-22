@@ -32,7 +32,7 @@ iconurl https://github.com/chir-set/SlicerExtraMarkups/raw/main/ExtraMarkups.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description This extension adds a <i>Label</i> markups node that draws an arrow with a text label, and a <i>Shape</i> markups node that can draw defined primitive shapes (circle, cone...). The result is controlled by placing usual control points in slice views and 3D views. Each object can be saved in scene and reloaded.

@@ -18,7 +18,7 @@ depends ShapePopulationViewer
 build_subdirectory inner-build
 
 # homepage
-homepage http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/ShapeVariationAnalyzer
+homepage https://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/ShapeVariationAnalyzer
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Priscille de Dumast (University of Michigan), Laura Pascal (Univers
 category Quantification
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://www.slicer.org/w/images/3/30/ShapeVariationAnalyzer-Logo.png
+iconurl https://www.slicer.org/slicerWiki/images/3/30/ShapeVariationAnalyzer-Logo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description ShapeVariationAnalyzer allows the classification of 3D models, according to their morphological variations. This tool is based on a deep learning neural network.
 
 # Space separated list of urls
-screenshoturls https://www.slicer.org/w/images/f/f0/FullView_ShapeVariationAnalyzer.png https://www.slicer.org/w/images/5/57/ShapeVariationAnalyzer-GUI.png https://www.slicer.org/w/images/3/30/ShapeVariationAnalyzer-Logo.png
+screenshoturls https://www.slicer.org/slicerWiki/images/f/f0/FullView_ShapeVariationAnalyzer.png https://www.slicer.org/slicerWiki/images/5/57/ShapeVariationAnalyzer-GUI.png https://www.slicer.org/slicerWiki/images/3/30/ShapeVariationAnalyzer-Logo.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

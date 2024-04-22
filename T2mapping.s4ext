@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    N/a
+homepage    https://github.com/gattia/Slicer-T2mapping#readme
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -32,12 +32,13 @@ iconurl     https://raw.githubusercontent.com/gattia/Slicer-T2mapping/master/T2m
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      Calculations work. Im sure improvements to Slicer related code could be made. 
+status      Calculations work. Im sure improvements to Slicer related code could be made.
 
 # One line stating what the module does
-description T2mapping creates a T2 Map from an inputed 4D multi-echo MRI. 
+description T2mapping creates a T2 Map from an inputed 4D multi-echo MRI.
 
 # Space separated list of urls
+screenshoturls https://raw.githubusercontent.com/gattia/Slicer-T2mapping/master/Screenshots/1_Module_and_multi_echo_t2_image.png https://raw.githubusercontent.com/gattia/Slicer-T2mapping/master/Screenshots/2_Module_create_new_volume_t2.png https://raw.githubusercontent.com/gattia/Slicer-T2mapping/master/Screenshots/3_Example_resulting_t2_map_r2_threshold_0.7_t2_upper_threshold_100.png https://raw.githubusercontent.com/gattia/Slicer-T2mapping/master/Screenshots/4_Example_resulting_R2_map_r2_threshold_0.7_t2_upper_threshold_100.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

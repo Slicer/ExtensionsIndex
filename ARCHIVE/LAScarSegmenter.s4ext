@@ -22,7 +22,7 @@ homepage     http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Ex
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Liangjia Zhu (SBU), Yi Gao (UAB), Josh Cates (Utah), Alan Morris (Utah), Danny Perry (Utah), Greg Gardner (Utah), Rob MacLeod (Utah), Allen Tannenbaum (SBU) 
+contributors Liangjia Zhu (SBU), Yi Gao (UAB), Josh Cates (Utah), Alan Morris (Utah), Danny Perry (Utah), Greg Gardner (Utah), Rob MacLeod (Utah), Allen Tannenbaum (SBU)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category    Segmentation

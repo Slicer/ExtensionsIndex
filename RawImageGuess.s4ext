@@ -32,7 +32,7 @@ iconurl https://github.com/acetylsalicyl/SlicerRawImageGuess/raw/master/RawImage
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status
 
 # One line stating what the module does
 description This extension allows loading images from unknown file formats. Image dimensions, bit depth, etc. parameters can be determined by trial and error, based on live preview.

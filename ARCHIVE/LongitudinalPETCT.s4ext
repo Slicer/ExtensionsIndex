@@ -32,7 +32,7 @@ iconurl     http://www.slicer.org/slicerWiki/images/0/08/LongitudinalPETCTLogo.p
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
-status      
+status
 
 # One line stating what the module does
 description The purpose of the Longitudinal PET/CT Analysis module is to provide a user friendly Slicer interface for quantification of DICOM PET/CT image data by computing the standardized uptake value (SUV) based on bodyweight for different regions of interest and for different timepoints.
