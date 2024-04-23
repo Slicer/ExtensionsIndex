@@ -19,7 +19,7 @@ screenshoturls https://raw.githubusercontent.com/pnlbwh/SlicerDiffusionQC/master
 status WIP
 
 # One line stating what the module does
-description DiffusionQC provides a quality-estimation algorithm for diffusion-weighted MRI gradient images, paired with an interactive, graphical review and approval tool.
+description DiffusionQC provides a quality-checking algorithm for diffusion-weighted MRIs, paired with an interactive graphical review tool.
 
 # Space separated list of urls
 
