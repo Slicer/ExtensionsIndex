@@ -13,8 +13,6 @@ import urllib.request
 import urllib.parse as urlparse
 
 from functools import wraps
-from http.client import HTTPException
-from socket import timeout as SocketTimeout
 
 try:
     from joblib import Parallel, delayed, parallel_backend
@@ -22,14 +20,6 @@ except ImportError:
     raise SystemExit(
         "retry not available: "
         "consider installing it running 'pip install joblib'"
-    ) from None
-
-try:
-    from retry import retry
-except ImportError:
-    raise SystemExit(
-        "retry not available: "
-        "consider installing it running 'pip install retry'"
     ) from None
 
 
@@ -54,32 +44,6 @@ class ExtensionCheckError(RuntimeError):
 
     def __str__(self):
         return self.details
-
-
-def check_url(url, timeout=3):
-
-    @retry(TimeoutError, tries=3, delay=1, jitter=1, max_delay=3)
-    def _check_url():
-        opener = urllib.request.build_opener()
-        opener.addheaders = [("User-agent", "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0")]
-        return opener.open(url, timeout=timeout).getcode(), None
-    try:
-        return _check_url()
-    except urllib.request.HTTPError as exc:
-        return exc.code, str(exc)
-    except (TimeoutError, urllib.request.URLError, SocketTimeout) as exc:
-        return -1, str(exc)
-    except HTTPException as exc:
-        return -2, str(exc)
-
-
-def check_metadata_url(extension_name, metadata_key, url):
-    check_name = "check_metadata_url"
-
-    code, error = check_url(url)
-    if code != 200:
-        msg = f"{metadata_key} is '{url}': {error}"
-        raise ExtensionCheckError(extension_name, check_name, msg)
 
 
 def require_metadata_key(metadata_key, value_required=True):
@@ -119,54 +83,6 @@ def parse_json(ext_file_path):
 @require_metadata_key("category")
 def check_category(*_unused_args):
     pass
-
-
-@require_metadata_key("contributors")
-def check_contributors(*_unused_args):
-    pass
-
-
-@require_metadata_key("description")
-def check_description(*_unused_args):
-    pass
-
-
-@require_metadata_key("homepage")
-def check_homepage(extension_name, metadata, check_url_reachable=False):
-    check_name = "check_homepage"
-    homepage = metadata["homepage"]
-    if not homepage.startswith("https://"):
-        msg = f"homepage is `{homepage}` but it does not start with https"
-        raise ExtensionCheckError(extension_name, check_name, msg)
-
-    if check_url_reachable:
-        check_metadata_url(extension_name, "homepage", homepage)
-
-
-@require_metadata_key("iconurl")
-def check_iconurl(extension_name, metadata, check_url_reachable=False):
-    check_name = "check_iconurl"
-    iconurl = metadata["iconurl"]
-    if not iconurl.startswith("https://"):
-        msg = f"iconurl is '{iconurl}' but it does not start with https"
-        raise ExtensionCheckError(extension_name, check_name, msg)
-
-    if check_url_reachable:
-        check_metadata_url(extension_name, "iconurl", iconurl)
-
-
-@require_metadata_key("screenshoturls", value_required=False)
-def check_screenshoturls(extension_name, metadata, check_url_reachable=False):
-    check_name = "check_screenshoturls"
-    if metadata["screenshoturls"] is None:
-        return
-    for index, screenshoturl in enumerate(metadata["screenshoturls"].split(" ")):
-        if not screenshoturl.startswith("https://"):
-            msg = f"screenshoturl[{index}] is `{screenshoturl}` but it does not start with https"
-            raise ExtensionCheckError(extension_name, check_name, msg)
-
-        if check_url_reachable:
-            check_metadata_url(extension_name, f"screenshoturl[{index}]", screenshoturl)
 
 
 @require_metadata_key("scmurl")
@@ -247,9 +163,6 @@ def check_dependencies(directory):
 def main():
     parser = argparse.ArgumentParser(
         description='Validate extension description files.')
-    parser.add_argument(
-        "--check-urls-reachable", action="store_true",
-        help="Check homepage, iconurl and screenshoturls are reachable. Disabled by default.")
     parser.add_argument("-d", "--check-dependencies", help="Check all extension dsecription files in the provided folder.")
     parser.add_argument("/path/to/extension_name.json", nargs='*')
     args = parser.parse_args()
@@ -289,7 +202,7 @@ def main():
     file_paths = getattr(args, "/path/to/extension_name.json")
     with parallel_backend("threading", n_jobs=6):
         jobs = Parallel(verbose=False)(
-            delayed(_check_extension)(file_path, verbose=args.check_urls_reachable)
+            delayed(_check_extension)(file_path)
             for file_path in file_paths
         )
 
