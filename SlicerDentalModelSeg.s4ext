@@ -23,7 +23,7 @@ homepage https://github.com/DCBIA-OrthoLab/SlicerDentalModelSeg/blob/main/readme
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Mathieu Leclercq (University of North Carolina), Juan Carlos Prieto (University of North Carolina)
+contributors Mathieu Leclercq (University of North Carolina), Connor Bowley (Kitware), Juan Carlos Prieto (University of North Carolina)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Segmentation
@@ -38,7 +38,7 @@ iconurl https://github.com/DCBIA-OrthoLab/SlicerDentalModelSeg/raw/main/examples
 status
 
 # One line stating what the module does
-description This extension aims to provide a GUI for a deep-learning automated teeth segmentation tool.
+description This extension aims to provide a GUI for a deep-learning automated teeth segmentation tool developed at the University of North Carolina in Chapel Hill.
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/DCBIA-OrthoLab/SlicerDentalModelSeg/main/examples/segmentation_example.png
