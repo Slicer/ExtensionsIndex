@@ -1,7 +1,6 @@
 {
-  "build_dependencies": [
-    "DCMQI"
-  ],
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
+  "build_dependencies": ["DCMQI"],
   "build_subdirectory": ".",
   "category": "Quantification",
   "scm_revision": "master",
