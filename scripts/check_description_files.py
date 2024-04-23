@@ -85,28 +85,28 @@ def check_category(*_unused_args):
     pass
 
 
-@require_metadata_key("scmurl")
-def check_scmurl_syntax(extension_name, metadata):
-    check_name = "check_scmurl_syntax"
+@require_metadata_key("scm_url")
+def check_scm_url_syntax(extension_name, metadata):
+    check_name = "check_scm_url_syntax"
 
-    if "://" not in metadata["scmurl"]:
-        raise ExtensionCheckError(extension_name, check_name, "scmurl do not match scheme://host/path")
+    if "://" not in metadata["scm_url"]:
+        raise ExtensionCheckError(extension_name, check_name, "scm_url do not match scheme://host/path")
 
     supported_schemes = ["git", "https"]
-    scheme = urlparse.urlsplit(metadata["scmurl"]).scheme
+    scheme = urlparse.urlsplit(metadata["scm_url"]).scheme
     if scheme not in supported_schemes:
         raise ExtensionCheckError(
             extension_name, check_name,
-            "scmurl scheme is '%s' but it should by any of %s" % (scheme, supported_schemes))
+            "scm_url scheme is '%s' but it should by any of %s" % (scheme, supported_schemes))
 
 
-@require_metadata_key("scmurl")
+@require_metadata_key("scm_url")
 def check_git_repository_name(extension_name, metadata):
     """See https://www.slicer.org/wiki/Documentation/Nightly/Developers/FAQ#Should_the_name_of_the_source_repository_match_the_name_of_the_extension_.3F
     """
     check_name = "check_git_repository_name"
 
-    repo_name = os.path.splitext(urlparse.urlsplit(metadata["scmurl"]).path.split("/")[-1])[0]
+    repo_name = os.path.splitext(urlparse.urlsplit(metadata["scm_url"]).path.split("/")[-1])[0]
 
     if repo_name in REPOSITORY_NAME_CHECK_EXCEPTIONS:
         return
@@ -173,7 +173,7 @@ def main():
         checks = [
             (check_category, {}),
             (check_git_repository_name, {}),
-            (check_scmurl_syntax, {}),
+            (check_scm_url_syntax, {}),
         ]
 
     def _check_extension(file_path, verbose=False):
