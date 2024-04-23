@@ -1,0 +1,9 @@
+{
+  "build_dependencies": [
+    "PyTorch"
+  ],
+  "build_subdirectory": ".",
+  "category": "Segmentation",
+  "scm_revision": "main",
+  "scm_url": "https://github.com/lassoan/SlicerMONAIAuto3DSeg"
+}

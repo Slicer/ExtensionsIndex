@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "Filtering",
+  "scm_revision": "trunk",
+  "scm_url": "https://github.com/harellab/SlicerUHFMRTools"
+}

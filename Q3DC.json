@@ -1,0 +1,9 @@
+{
+  "build_dependencies": [
+    "SlicerMarkupConstraints"
+  ],
+  "build_subdirectory": ".",
+  "category": "Shape Analysis",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/DCBIA-OrthoLab/Q3DCExtension.git"
+}

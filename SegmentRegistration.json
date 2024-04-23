@@ -1,0 +1,10 @@
+{
+  "build_dependencies": [
+    "SlicerProstate",
+    "SlicerRT"
+  ],
+  "build_subdirectory": ".",
+  "category": "Registration",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/SlicerRt/SegmentRegistration.git"
+}

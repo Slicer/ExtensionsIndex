@@ -1,0 +1,9 @@
+{
+  "build_dependencies": [
+    "SlicerElastix"
+  ],
+  "build_subdirectory": ".",
+  "category": "Sequences",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/moselhy/SlicerSequenceRegistration"
+}

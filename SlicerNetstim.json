@@ -1,0 +1,10 @@
+{
+  "build_dependencies": [
+    "SlicerRT",
+    "MarkupsToModel"
+  ],
+  "build_subdirectory": ".",
+  "category": "Netstim",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/netstim/SlicerNetstim.git"
+}

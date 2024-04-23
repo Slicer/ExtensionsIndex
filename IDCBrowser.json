@@ -1,0 +1,9 @@
+{
+  "build_dependencies": [
+    "QuantitativeReporting"
+  ],
+  "build_subdirectory": ".",
+  "category": "Informatics",
+  "scm_revision": "main",
+  "scm_url": "https://github.com/ImagingDataCommons/SlicerIDCBrowser.git"
+}

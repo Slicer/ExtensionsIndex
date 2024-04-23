@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "Utilities",
+  "scm_revision": "main",
+  "scm_url": "https://github.com/KitwareMedical/SlicerVirtualMouseCursor"
+}

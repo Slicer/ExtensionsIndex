@@ -1,0 +1,21 @@
+{
+  "build_dependencies": [
+    "AnglePlanesExtension",
+    "BoneTextureExtension",
+    "CMFreg",
+    "DatabaseInteractor",
+    "EasyClip",
+    "MeshToLabelMap",
+    "MeshStatisticsExtension",
+    "ModelToModelDistance",
+    "PickAndPaintExtension",
+    "Q3DC",
+    "SPHARM-PDM",
+    "ShapePopulationViewer",
+    "ShapeVariationAnalyzer"
+  ],
+  "build_subdirectory": ".",
+  "category": "SlicerCMF",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/DCBIA-OrthoLab/SlicerCMF.git"
+}

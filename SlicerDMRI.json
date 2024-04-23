@@ -1,0 +1,9 @@
+{
+  "build_dependencies": [
+    "UKFTractography"
+  ],
+  "build_subdirectory": "inner-build",
+  "category": "Diffusion",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/SlicerDMRI/SlicerDMRI.git"
+}

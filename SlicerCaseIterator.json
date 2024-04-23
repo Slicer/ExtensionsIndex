@@ -1,0 +1,9 @@
+{
+  "build_dependencies": [
+    "SlicerDevelopmentToolbox"
+  ],
+  "build_subdirectory": ".",
+  "category": "Utilities",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/JoostJM/SlicerCaseIterator.git"
+}

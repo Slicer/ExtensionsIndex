@@ -1,0 +1,9 @@
+{
+  "build_dependencies": [
+    "SlicerRT"
+  ],
+  "build_subdirectory": ".",
+  "category": "Radiotherapy",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/SlicerRt/FilmDosimetryAnalysis.git"
+}

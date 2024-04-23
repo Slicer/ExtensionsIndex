@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "Developer Tools",
+  "scm_revision": "main",
+  "scm_url": "https://github.com/sjh26/SlicerThemes.git"
+}

@@ -1,0 +1,9 @@
+{
+  "build_dependencies": [
+    "ModelToModelDistance"
+  ],
+  "build_subdirectory": ".",
+  "category": "Quantification",
+  "scm_revision": "main",
+  "scm_url": "https://github.com/naterex23/SlicerAblationPlanner"
+}

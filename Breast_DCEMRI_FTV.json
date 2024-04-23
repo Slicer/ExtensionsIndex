@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "FTV Segmentation",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/rnadkarni2/SlicerBreast_DCEMRI_FTV"
+}

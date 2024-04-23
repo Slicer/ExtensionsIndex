@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": "inner-build",
+  "category": "Chest Imaging Platform",
+  "scm_revision": "develop",
+  "scm_url": "https://github.com/acil-bwh/SlicerCIP"
+}

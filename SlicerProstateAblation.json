@@ -1,0 +1,10 @@
+{
+  "build_dependencies": [
+    "SlicerDevelopmentToolbox",
+    "ZFrameRegistration"
+  ],
+  "build_subdirectory": ".",
+  "category": "IGT",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/SlicerProstate/SlicerProstateAblation.git"
+}

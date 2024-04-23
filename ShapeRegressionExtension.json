@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": "ShapeRegressionExtension-build",
+  "category": "Shape Regression",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/KitwareMedical/ShapeRegressionExtension.git"
+}

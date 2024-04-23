@@ -1,0 +1,10 @@
+{
+  "build_dependencies": [
+    "SlicerOpenIGTLink",
+    "SlicerIGT"
+  ],
+  "build_subdirectory": ".",
+  "category": "IGT",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/SlicerIGT/aigt.git"
+}

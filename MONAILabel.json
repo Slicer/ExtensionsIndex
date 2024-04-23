@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "Active Learning",
+  "scm_revision": "main",
+  "scm_url": "https://github.com/Project-MONAI/MONAILabel.git"
+}

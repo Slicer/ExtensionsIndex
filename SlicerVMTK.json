@@ -1,0 +1,9 @@
+{
+  "build_dependencies": [
+    "ExtraMarkups"
+  ],
+  "build_subdirectory": "inner-build",
+  "category": "Vascular Modeling Toolkit",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/vmtk/SlicerExtension-VMTK"
+}
