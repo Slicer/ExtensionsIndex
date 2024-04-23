@@ -1,7 +1,6 @@
 {
-  "build_dependencies": [
-    "SlicerCochlea"
-  ],
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
+  "build_dependencies": ["SlicerCochlea"],
   "build_subdirectory": ".",
   "category": "VisSimTools",
   "scm_revision": "master",

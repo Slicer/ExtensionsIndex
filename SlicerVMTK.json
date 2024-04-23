@@ -1,7 +1,6 @@
 {
-  "build_dependencies": [
-    "ExtraMarkups"
-  ],
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
+  "build_dependencies": ["ExtraMarkups"],
   "build_subdirectory": "inner-build",
   "category": "Vascular Modeling Toolkit",
   "scm_revision": "master",

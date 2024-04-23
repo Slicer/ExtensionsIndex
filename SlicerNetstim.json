@@ -1,8 +1,6 @@
 {
-  "build_dependencies": [
-    "SlicerRT",
-    "MarkupsToModel"
-  ],
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
+  "build_dependencies": ["SlicerRT", "MarkupsToModel"],
   "build_subdirectory": ".",
   "category": "Netstim",
   "scm_revision": "master",

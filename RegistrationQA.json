@@ -1,7 +1,6 @@
 {
-  "build_dependencies": [
-    "SlicerRT"
-  ],
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
+  "build_dependencies": ["SlicerRT"],
   "build_subdirectory": ".",
   "category": "Registration",
   "scm_revision": "master",

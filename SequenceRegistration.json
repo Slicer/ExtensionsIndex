@@ -1,7 +1,6 @@
 {
-  "build_dependencies": [
-    "SlicerElastix"
-  ],
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
+  "build_dependencies": ["SlicerElastix"],
   "build_subdirectory": ".",
   "category": "Sequences",
   "scm_revision": "master",
