@@ -1,0 +1,9 @@
+{
+  "build_dependencies": [
+    "ModelToModelDistance"
+  ],
+  "build_subdirectory": ".",
+  "category": "Shape Analysis",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/DCBIA-OrthoLab/MeshStatisticsExtension.git"
+}

@@ -1,0 +1,10 @@
+{
+  "build_dependencies": [
+    "Sandbox",
+    "SegmentEditorExtraEffects"
+  ],
+  "build_subdirectory": "inner-build",
+  "category": "Tracking",
+  "scm_revision": "main",
+  "scm_url": "https://github.com/BrownBiomechanics/SlicerAutoscoperM.git"
+}

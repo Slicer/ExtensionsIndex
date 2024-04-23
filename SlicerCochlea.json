@@ -1,0 +1,9 @@
+{
+  "build_dependencies": [
+    "SlicerElastix"
+  ],
+  "build_subdirectory": ".",
+  "category": "VisSimTools",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/MedicalImageAnalysisTutorials/SlicerCochlea"
+}

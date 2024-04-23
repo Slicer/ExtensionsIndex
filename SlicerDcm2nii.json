@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": "inner-build",
+  "category": "Diffusion",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/SlicerDMRI/SlicerDcm2nii.git"
+}

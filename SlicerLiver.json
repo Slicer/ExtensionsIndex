@@ -1,0 +1,11 @@
+{
+  "build_dependencies": [
+    "SlicerVMTK",
+    "SegmentEditorExtraEffects",
+    "ExtraMarkups"
+  ],
+  "build_subdirectory": ".",
+  "category": "IGT",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/ALive-research/Slicer-Liver"
+}

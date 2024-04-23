@@ -1,0 +1,9 @@
+{
+  "build_dependencies": [
+    "SlicerIGT"
+  ],
+  "build_subdirectory": "inner-build",
+  "category": "Cardiac",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/SlicerHeart/SlicerHeart.git"
+}

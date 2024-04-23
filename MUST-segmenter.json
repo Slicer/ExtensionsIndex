@@ -1,0 +1,9 @@
+{
+  "build_dependencies": [
+    "SlicerRadiomics"
+  ],
+  "build_subdirectory": ".",
+  "category": "Segmentation",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/kyliekeijzer/Slicer-PET-MUST-segmenter.git"
+}

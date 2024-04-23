@@ -1,0 +1,9 @@
+{
+  "build_dependencies": [
+    "DCMQI"
+  ],
+  "build_subdirectory": ".",
+  "category": "Quantification",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/QIICR/PETLiverUptakeMeasurement"
+}

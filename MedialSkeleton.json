@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": "inner-build",
+  "category": "Shape Analysis",
+  "scm_revision": "main",
+  "scm_url": "https://github.com/JolleyLab/SlicerMedialSkeleton.git"
+}

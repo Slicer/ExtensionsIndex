@@ -1,0 +1,9 @@
+{
+  "build_dependencies": [
+    "SlicerMorph"
+  ],
+  "build_subdirectory": ".",
+  "category": "Quantification",
+  "scm_revision": "main",
+  "scm_url": "https://github.com/jmhuie/SlicerBiomech.git"
+}

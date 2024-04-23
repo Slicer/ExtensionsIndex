@@ -1,0 +1,7 @@
+{
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "Osteotomy Planning",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/KitwareMedical/OsteotomyPlanner.git"
+}

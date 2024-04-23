@@ -1,0 +1,9 @@
+{
+  "build_dependencies": [
+    "SlicerDevelopmentToolbox"
+  ],
+  "build_subdirectory": ".",
+  "category": "Informatics",
+  "scm_revision": "main",
+  "scm_url": "https://gitlab.com/flywheel-io/scientific-solutions/app/Slicerflywheelcaseiterator.git"
+}

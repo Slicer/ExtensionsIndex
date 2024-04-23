@@ -1,0 +1,9 @@
+{
+  "build_dependencies": [
+    "SlicerOpenIGTLink"
+  ],
+  "build_subdirectory": ".",
+  "category": "Developer Tools",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/PerkLab/SlicerMatlabBridge.git"
+}

@@ -1,0 +1,12 @@
+{
+  "build_dependencies": [
+    "SlicerVMTK",
+    "MarkupsToModel",
+    "SegmentEditorExtraEffects",
+    "PyTorch"
+  ],
+  "build_subdirectory": ".",
+  "category": "Segmentation",
+  "scm_revision": "main",
+  "scm_url": "https://github.com/R-Vessel-X/SlicerRVXLiverSegmentation"
+}

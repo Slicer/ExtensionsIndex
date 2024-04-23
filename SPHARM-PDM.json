@@ -1,0 +1,9 @@
+{
+  "build_dependencies": [
+    "MeshToLabelMap"
+  ],
+  "build_subdirectory": "SPHARM-PDM-build",
+  "category": "SPHARM",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/NIRALUser/SPHARM-PDM.git"
+}

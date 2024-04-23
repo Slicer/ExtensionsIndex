@@ -1,0 +1,9 @@
+{
+  "build_dependencies": [
+    "SlicerDevelopmentToolbox"
+  ],
+  "build_subdirectory": ".",
+  "category": "Informatics",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/QIICR/SlicerLayoutButtons.git"
+}

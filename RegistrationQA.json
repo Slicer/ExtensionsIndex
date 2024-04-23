@@ -1,0 +1,9 @@
+{
+  "build_dependencies": [
+    "SlicerRT"
+  ],
+  "build_subdirectory": ".",
+  "category": "Registration",
+  "scm_revision": "master",
+  "scm_url": "https://github.com/gsi-biomotion/Slicer-RegQA.git"
+}
