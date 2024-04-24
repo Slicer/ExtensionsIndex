@@ -18,7 +18,6 @@ unexpected_files=$(find . -mindepth 1 \( -type d \( \
   -path ./.github -o \
   -path ./.git -o \
   -path ./ARCHIVE -o \
-  -path ./schemas -o \
   -path ./scripts \
 \) -o -type f \( \
   -name .pre-commit-config.yaml -o \
