@@ -22,7 +22,7 @@ homepage https://github.com/lapdMouse/Slicer-lapdMouseBrowser
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Christian Bauer (University of Iowa), Melissa Krueger (University of Washington)
+contributors Christian Bauer (University of Iowa), Reinhard Beichel (University of Iowa), Melissa Krueger (University of Washington), Robb Glenny (University of Washington)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Informatics
