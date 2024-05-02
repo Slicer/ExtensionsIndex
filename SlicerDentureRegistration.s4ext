@@ -4,10 +4,10 @@
 # - the value can be blank
 #
 
-# This is source code manager (i.e. svn)
+# This is source code manager
 scm git
 scmurl https://github.com/gongmingjun/SlicerDentureRegistration.git
-scmrevision 0
+scmrevision main
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,14 +18,14 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage https://github.com/gongmingjun/SlicerDentureRegistration
+homepage https://github.com/gongmingjun/SlicerDentureRegistration#readme
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Xiaojun Chen, Mingjun Gong, Yueang Liu (SJTU)
+contributors Xiaojun Chen (SJTU), Mingjun Gong (SJTU), Yueang Liu (SJTU)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category Examples
+category Registration
 
 # url to icon (png, size 128x128 pixels)
 iconurl https://raw.githubusercontent.com/gongmingjun/SlicerDentureRegistration/master/icon.png
@@ -35,7 +35,7 @@ iconurl https://raw.githubusercontent.com/gongmingjun/SlicerDentureRegistration/
 status 
 
 # One line stating what the module does
-This is an extension module to realize the registration of patients' CT images and the corresponding denture models.
+description This is an extension module to realize the registration of patients' CT images and the corresponding denture models.
 
 # Space separated list of urls
 screenshoturls https://raw.githubusercontent.com/gongmingjun/SlicerDentureRegistration/master/DentureRegistration.jpg
