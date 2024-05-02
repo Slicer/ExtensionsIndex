@@ -6,7 +6,7 @@
 
 # This is source code manager
 scm git
-scmurl https://gitlab.kitware.com/vtk-cgal/SlicerVESPA.git
+scmurl https://gitlab.kitware.com/vtk/meshing/SlicerVESPA.git
 scmrevision master
 
 # list dependencies
@@ -28,17 +28,17 @@ contributors Alexy Pellegrini (Kitware SAS)
 category VESPA
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://gitlab.kitware.com/vtk-cgal/SlicerVESPA/-/raw/master/Data/logo.png
+iconurl https://gitlab.kitware.com/vtk/meshing/SlicerVESPA/-/raw/master/Data/logo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
 status 
 
 # One line stating what the module does
-description VESPA bridge for Slicer
+description The SlicerVESPA extension provides a range of command-line interface (CLI) modules tailored for performing diverse Boolean operations. These include Alpha wrapping, Boolean Operation, Isotropic Remesher, Mesh Subdivision, Patch Filling, and Shape Smoothing.<br><br>Powered by VESPA, an extension of the VTK, it seamlessly integrates functionalities from CGAL (Computational Geometry Algorithms Library) through VTK filters. Notably, CGAL operates under dual licensing, which implies that by default, the CLI modules are licensed under GPLV3. For more information, visit the <a href="https://gitlab.kitware.com/vtk/meshing/vespa">VESPA repository</a> or the official <a href="https://www.cgal.org/">CGAL website</a>.<br>
 
 # Space separated list of urls
-screenshoturls https://gitlab.kitware.com/vtk-cgal/SlicerVESPA/-/raw/master/Data/screenshot.png
+screenshoturls https://gitlab.kitware.com/vtk/meshing/SlicerVESPA/-/raw/master/Data/screenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
