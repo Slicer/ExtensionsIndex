@@ -27,17 +27,17 @@ homepage https://github.com/saimasafdar2021/Slicer_SurfaceModelNodesSelector
 category Surface Models
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/saimasafdar2021/Slicer_SurfaceModelNodesSelector/blob/main/sModel.png
+iconurl https://raw.githubusercontent.com/saimasafdar2021/Slicer_SurfaceModelNodesSelector/main/SurfaceModelNodesSelector.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
 status Beta
 
 # One line stating what the module does
-Supports segmentation of brain tumor for a cohort at once without any human intervention.
+description The module selects the nodes/vertices of each triangle in a surface modle and place a fiducial (3D point) at each vertex of each triangle in a surface model. The surface model can be any model.
 
 # Space separated list of urls
-screenshoturls https://github.com/saimasafdar2021/Slicer_SurfaceModelNodesSelector/blob/main/sModel.png
+screenshoturls https://raw.githubusercontent.com/saimasafdar2021/Slicer_SurfaceModelNodesSelector/main/sModel.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
