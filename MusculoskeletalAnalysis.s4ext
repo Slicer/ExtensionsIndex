@@ -35,10 +35,10 @@ iconurl https://raw.githubusercontent.com/WashUMusculoskeletalCore/Slicer-Muscul
 status Alpha
 
 # One line stating what the module does
-description Analyzes 3D musculoskeletal images and generates reports.
+description Analyzes 3D musculoskeletal images and generates reports including cortical, cancellous, and bone density analysis.
 
 # Space separated list of urls
-screenshoturls https://github.com/WashUMusculoskeletalCore/Slicer-MusculoskeletalAnalysis/blob/main/Scripted/MusculoskeletalAnalysis/Resources/Icons/Screenshot.png
+screenshoturls https://raw.githubusercontent.com/WashUMusculoskeletalCore/Slicer-MusculoskeletalAnalysis/main/Scripted/MusculoskeletalAnalysis/Resources/Icons/Screenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
