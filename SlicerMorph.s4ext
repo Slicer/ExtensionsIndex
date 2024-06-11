@@ -7,7 +7,7 @@
 # This is source code manager
 scm git
 scmurl https://github.com/SlicerMorph/SlicerMorph.git
-scmrevision master
+scmrevision 5.6
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
