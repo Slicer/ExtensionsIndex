@@ -19,6 +19,7 @@ the archive are as follows
 
 | Date       | Extension Name                | Deprecation reason  |
 |------------|-------------------------------|---------------------|
+| 2024-06-14 | iGyne                         | Unmaintained and incompatible with Slicer >- 5.2 due to its dependencies to the Annotations module. |
 | 2023-08-11 | mpReview                      | The extension is available again (it has been updated to use Segment Editor module instead of the removed Editor module). |
 | 2023-07-13 | SegmentGeometry               | Extension was [renamed to SlicerBiomech](https://github.com/Slicer/ExtensionsIndex/commit/b72fefc948e9710af3c631acd42360699211f8e4)]. |
 | 2022-03-29 | DeepInfer                     | Not updated for Python3. MONAILabel may be used instead. |
