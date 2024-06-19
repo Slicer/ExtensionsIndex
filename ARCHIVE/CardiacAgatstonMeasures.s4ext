@@ -4,10 +4,10 @@ contributors Jessica Forbes (UIowa), Hans Johnson (UIowa)
 depends NA
 description This module will auto-segment the coronary calcium in Cardiac CT scans and then calculate the Agatston score and label statistics
 enabled 1
-homepage http://brainsia.github.io/CardiacAgatstonMeasures/
-iconurl http://www.na-mic.org/Wiki/images/b/b5/CardiacAgatstonModuleIamge.png
+homepage https://brainsia.github.io/CardiacAgatstonMeasures/
+iconurl https://www.na-mic.org/Wiki/images/b/b5/CardiacAgatstonModuleIamge.png
 scm git
 scmrevision 1e5413ca66849942fa89985677faf72a26c2b5f2
 scmurl https://github.com/BRAINSia/CardiacAgatstonMeasures.git
-screenshoturls http://www.na-mic.org/Wiki/images/6/63/CardiacAgatstonMeasuresModuleScreenshot.jpg
+screenshoturls https://www.na-mic.org/Wiki/images/6/63/CardiacAgatstonMeasuresModuleScreenshot.jpg
 status

@@ -18,7 +18,7 @@ depends     DTIProcess ResampleDTIlogEuclidean
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/DTI-Reg
+homepage    https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/DTI-Reg
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -38,7 +38,7 @@ status      Release
 description DTI-Reg is an extension that performs pair-wise DTI registration, using scalar FA map to drive the registration.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/c/c5/DTI-Reg_-_Misaligned_DTIs.png http://www.slicer.org/slicerWiki/images/1/12/DTI-Reg_-_Aligned_DTIs_-_Coronal.png
+screenshoturls https://www.slicer.org/slicerWiki/images/c/c5/DTI-Reg_-_Misaligned_DTIs.png https://www.slicer.org/slicerWiki/images/1/12/DTI-Reg_-_Aligned_DTIs_-_Coronal.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

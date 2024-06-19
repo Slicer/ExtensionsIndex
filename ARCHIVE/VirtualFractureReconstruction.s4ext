@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/VirtualFractureReconstruction
+homepage https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/VirtualFractureReconstruction
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Karl Fritscher(BWH,MGH,UMIT), Peter Karasev (Georgia Tech)
 category Examples
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.slicer.org/slicerWiki/images/5/5a/Fracture_icon.png
+iconurl https://www.slicer.org/slicerWiki/images/5/5a/Fracture_icon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status Beta. Slicer version of fracture reconstruction pipeline. Due to restrict
 description This extension can be used to virtually reconstruct complex bone fractures
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/4/4c/VirtualFractureReconstruction_Screen.png
+screenshoturls https://www.slicer.org/slicerWiki/images/4/4c/VirtualFractureReconstruction_Screen.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

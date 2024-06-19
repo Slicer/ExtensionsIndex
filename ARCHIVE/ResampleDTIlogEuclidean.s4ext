@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/ResampleDTIlogEuclidean
+homepage https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/ResampleDTIlogEuclidean
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,17 +28,17 @@ contributors Francois Budin (UNC), Sylvain Bouix (PNL)
 category Diffusion
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.slicer.org/slicerWiki/images/1/13/ResampleDTIlogEuclidean-128x128-icon.png
+iconurl https://www.slicer.org/slicerWiki/images/1/13/ResampleDTIlogEuclidean-128x128-icon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
 status
 
 # One line stating what the module does
-description ResampleDTIlogEuclidean resamples Diffusion Tensor Images (DTI) in the log-euclidean framework. More information is available in the Insight Journal: http://www.insight-journal.org/browse/publication/742
+description ResampleDTIlogEuclidean resamples Diffusion Tensor Images (DTI) in the log-euclidean framework. More information is available in the Insight Journal: https://www.insight-journal.org/browse/publication/742
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/4/41/ResampleDTI-Slice_extracted_from_a_real_Diffusion_Tensor_Image_-_No_transformation.png
+screenshoturls https://www.slicer.org/slicerWiki/images/4/41/ResampleDTI-Slice_extracted_from_a_real_Diffusion_Tensor_Image_-_No_transformation.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

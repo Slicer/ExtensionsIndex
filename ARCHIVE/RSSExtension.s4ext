@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/RobustStatisticsSegmenter
+homepage    https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/RobustStatisticsSegmenter
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Yi Gao (UAB), Ron Kikinis (BWH), Sylvain Bouix (BWH), Martha Shento
 category    Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://viewvc.slicer.org/viewvc.cgi/Slicer4/trunk/Extensions/Testing/RSSExtension/RSSExtension.png?revision=21746&view=co
+iconurl     https://viewvc.slicer.org/viewvc.cgi/Slicer4/trunk/Extensions/Testing/RSSExtension/RSSExtension.png?revision=21746&view=co
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -38,7 +38,7 @@ status      0.9
 description User draw some initial seeds, this module perform an interative segmentation in 3D volume.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/f/f1/MeningiomaCase1RSSLabel.png
+screenshoturls https://www.slicer.org/slicerWiki/images/f/f1/MeningiomaCase1RSSLabel.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

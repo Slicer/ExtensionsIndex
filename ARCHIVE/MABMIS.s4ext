@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://wiki.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/MABMIS
+homepage    https://wiki.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/MABMIS
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Xiaofeng Liu (GE GLobal Research), Minjeong Kim (UNC), Dinggang She
 category    Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://wiki.slicer.org/slicerWiki/images/e/e2/MABMIS_Icon.png
+iconurl     https://wiki.slicer.org/slicerWiki/images/e/e2/MABMIS_Icon.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -38,7 +38,7 @@ status
 description Multi-Atlas Based Group Segmentation
 
 # Space separated list of urls
-screenshoturls http://wiki.slicer.org/slicerWiki/images/2/2c/MABMIS_trainning_GUI.png http://wiki.slicer.org/slicerWiki/images/6/64/MABMIS_testing_GUI.png http://wiki.slicer.org/slicerWiki/images/c/c3/MABMIS_algorithm.png
+screenshoturls https://wiki.slicer.org/slicerWiki/images/2/2c/MABMIS_trainning_GUI.png https://wiki.slicer.org/slicerWiki/images/6/64/MABMIS_testing_GUI.png https://wiki.slicer.org/slicerWiki/images/c/c3/MABMIS_algorithm.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

@@ -19,7 +19,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/IASEM
+homepage    https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/IASEM
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -29,7 +29,7 @@ contributors Bradley Lowekamp
 category    Microscopy
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://raw.github.com/blowekamp/Slicer-IASEM/master/IASEM.png
+iconurl     https://raw.github.com/blowekamp/Slicer-IASEM/master/IASEM.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -39,7 +39,7 @@ status      Experimental
 description
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/c/cd/IASEM-Screenshot1.png
+screenshoturls https://www.slicer.org/slicerWiki/images/c/cd/IASEM-Screenshot1.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

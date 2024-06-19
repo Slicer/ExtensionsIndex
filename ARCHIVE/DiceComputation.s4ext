@@ -15,7 +15,7 @@ scmrevision 11e62e2337252aa0214189c17489a89d5ad4d9ef
 depends NA
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/DiceComputation
+homepage    https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/DiceComputation
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -25,7 +25,7 @@ contributors Laurent Chauvin (BWH)
 category    Quantification
 
 # url to icon (png, size 128x128 pixels)
-iconurl    http://wiki.slicer.org/slicerWiki/images/7/79/DiceSimilarityCoefficient.png
+iconurl    https://wiki.slicer.org/slicerWiki/images/7/79/DiceSimilarityCoefficient.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -35,4 +35,4 @@ status      Beta
 description Compute Dice's Similarity Coefficient (DSC) for several registered label map images.
 
 # Space separated list of urls
-screenshoturls http://wiki.slicer.org/slicerWiki/images/1/1d/Slicer4-DiceComputation-GUI.png
+screenshoturls https://wiki.slicer.org/slicerWiki/images/1/1d/Slicer4-DiceComputation-GUI.png

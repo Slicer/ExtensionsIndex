@@ -11,13 +11,13 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage  http://eigen.tuxfamily.org
+homepage  https://eigen.tuxfamily.org
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Developer tools
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://eigen.tuxfamily.org/index.php?title=Main_Page
+iconurl https://eigen.tuxfamily.org/index.php?title=Main_Page
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?

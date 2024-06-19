@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/4.1/Extensions/FacetedVisualizer
+homepage    https://www.slicer.org/slicerWiki/index.php/Documentation/4.1/Extensions/FacetedVisualizer
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Harini Veeraraghavan (GE)
 category    Informatics
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://wiki.slicer.org/slicerWiki/images/9/9b/FacetedVisualizer.png
+iconurl     https://wiki.slicer.org/slicerWiki/images/9/9b/FacetedVisualizer.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -38,7 +38,7 @@ status      Beta
 description Faceted visualizer that combines ontology with a 3D atlas
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/5/50/ComplexQueryWithImage.jpg http://www.slicer.org/slicerWiki/images/0/00/ComplexQueryAPI.jpg http://www.slicer.org/slicerWiki/images/f/f0/LimbicSystemWithImage.jpg
+screenshoturls https://www.slicer.org/slicerWiki/images/5/50/ComplexQueryWithImage.jpg https://www.slicer.org/slicerWiki/images/0/00/ComplexQueryAPI.jpg https://www.slicer.org/slicerWiki/images/f/f0/LimbicSystemWithImage.jpg
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

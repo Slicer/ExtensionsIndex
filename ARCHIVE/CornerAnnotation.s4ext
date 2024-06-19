@@ -4,10 +4,10 @@ contributors Atsushi Yamada (Shiga University of Medical Science, Japan)
 depends NA
 description This is an module to display annotations, time count, node elements on each panels on the Slicer user interface
 enabled 1
-homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/CornerAnnotation
-iconurl http://www.slicer.org/slicerWiki/images/e/e1/CornerAnnotationIcon.png
+homepage https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/CornerAnnotation
+iconurl https://www.slicer.org/slicerWiki/images/e/e1/CornerAnnotationIcon.png
 scm git
 scmrevision ae11992a4860b01b69b05548d99e1f666cf80d13
 scmurl https://github.com/ayamada0614/CornerAnnotation.git
-screenshoturls http://www.slicer.org/slicerWiki/images/2/2a/CA-1.png
+screenshoturls https://www.slicer.org/slicerWiki/images/2/2a/CA-1.png
 status

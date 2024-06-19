@@ -18,7 +18,7 @@ depends NA
 build_subdirectory inner-build
 
 # homepage
-homepage http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerIMSTK
+homepage https://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerIMSTK
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -39,7 +39,7 @@ description SlicerIMSTK provides Slicer with an interface to the iMSTK simulatio
 For more information about iMSTK see https://gitlab.kitware.com/iMSTK/iMSTK
 
 # Space separated list of urls
-screenshoturls http://www.example.com/Slicer/Extensions/SlicerIMSTK/Screenshots/1.png
+screenshoturls https://www.example.com/Slicer/Extensions/SlicerIMSTK/Screenshots/1.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

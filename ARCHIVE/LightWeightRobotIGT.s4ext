@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/LightWeightRobotIGT
+homepage    https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/LightWeightRobotIGT
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Sebastian Tauscher (LUH), Junichi Tokuda (BWH)
 category    IGT
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/5/58/LightWeightRobotIGT.png
+iconurl     https://www.slicer.org/slicerWiki/images/5/58/LightWeightRobotIGT.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description 3D Slicer module for communication between 3D Slicer and LightWeight robot.
 
 # Space separated list of urls
-screenshoturls http://wiki.slicer.org/slicerWiki/images/4/42/Slicer-r19441-LightWeightRobotIGT-screenshot.png
+screenshoturls https://wiki.slicer.org/slicerWiki/images/4/42/Slicer-r19441-LightWeightRobotIGT-screenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

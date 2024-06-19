@@ -18,7 +18,7 @@ depends AnomalousFiltersExtension
 build_subdirectory .
 
 # homepage
-homepage http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/LesionSpotlight
+homepage https://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/LesionSpotlight
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -35,7 +35,7 @@ iconurl https://www.slicer.org/w/images/7/71/LesionSpotlight-logo.png
 status
 
 # One line stating what the module does
-description This extension provides an recent image segmentation and enhancement approaches in order to highlight abnormal white matter voxels in magnetic resonance images. At moment, there are available the LS Segmenter module (specific for hyperintense Multiple Sclerosis lesion segmentation on T2-FLAIR images) and LS Contrast Enhancement Module (specific to increase the contrast of abnormal voxels of the same T2-FLAIR images). The LS Segmenter module implements a hyperintense T2-FLAIR lesion segmentation based on a hybrid segmentation algorithm, published by Senra Filho, A.C. (http://dx.doi.org/10.1007/s11517-017-1747-2). In addition, a simple implementation of another recent MS lesion segmentation algorithm is provided, being the method described in Cabezas M. et al. (http://dx.doi.org/10.1016/j.cmpb.2014.04.006)
+description This extension provides an recent image segmentation and enhancement approaches in order to highlight abnormal white matter voxels in magnetic resonance images. At moment, there are available the LS Segmenter module (specific for hyperintense Multiple Sclerosis lesion segmentation on T2-FLAIR images) and LS Contrast Enhancement Module (specific to increase the contrast of abnormal voxels of the same T2-FLAIR images). The LS Segmenter module implements a hyperintense T2-FLAIR lesion segmentation based on a hybrid segmentation algorithm, published by Senra Filho, A.C. (https://dx.doi.org/10.1007/s11517-017-1747-2). In addition, a simple implementation of another recent MS lesion segmentation algorithm is provided, being the method described in Cabezas M. et al. (https://dx.doi.org/10.1016/j.cmpb.2014.04.006)
 
 # Space separated list of urls
 screenshoturls https://www.slicer.org/w/images/9/9b/T2FLAIR_patient.png https://www.slicer.org/w/images/b/b4/T2FLAIR_patient_lesionLabel.png https://www.slicer.org/w/images/7/7a/Lesion3DRender.png https://www.slicer.org/w/images/5/52/T2FLAIR_beforeContrast.png https://www.slicer.org/w/images/0/04/T2FLAIR_afterContrast.png https://www.slicer.org/w/images/c/c8/T2FLAIR_patient_AFT.png https://www.slicer.org/w/images/1/1c/T2FLAIR_patient_lesionLabel_AFT.png

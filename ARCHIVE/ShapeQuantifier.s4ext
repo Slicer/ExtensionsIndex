@@ -18,7 +18,7 @@ depends CMFreg ModelToModelDistance ShapePopulationViewer
 build_subdirectory .
 
 # homepage
-homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/ShapeQuantifier
+homepage https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/ShapeQuantifier
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -38,7 +38,7 @@ status
 description This extension contains different modules that allow the user to either quantify differences between two models or make measurements on the shape of a model.
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/DCBIA-OrthoLab/AnglePlanes-Extension/master/AnglePlanes.png https://raw.githubusercontent.com/DCBIA-OrthoLab/EasyClip-Extension/master/EasyClip.png http://https://raw.githubusercontent.com/DCBIA-OrthoLab/MeshStatisticsExtension/master/MeshStatistics/Resources/Icons/MeshStatistics.png https://raw.githubusercontent.com/DCBIA-OrthoLab/PickAndPaintExtension/master/PickAndPaint/Resources/Icons/PickAndPaint.png https://raw.githubusercontent.com/DCBIA-OrthoLab/Q3DCExtension/master/Q3DC.png
+screenshoturls https://raw.githubusercontent.com/DCBIA-OrthoLab/AnglePlanes-Extension/master/AnglePlanes.png https://raw.githubusercontent.com/DCBIA-OrthoLab/EasyClip-Extension/master/EasyClip.png https://raw.githubusercontent.com/DCBIA-OrthoLab/MeshStatisticsExtension/master/MeshStatistics/Resources/Icons/MeshStatistics.png https://raw.githubusercontent.com/DCBIA-OrthoLab/PickAndPaintExtension/master/PickAndPaint/Resources/Icons/PickAndPaint.png https://raw.githubusercontent.com/DCBIA-OrthoLab/Q3DCExtension/master/Q3DC.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

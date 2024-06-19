@@ -18,7 +18,7 @@ depends     SlicerOpenCV
 build_subdirectory .
 
 # homepage
-homepage    http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerPathology
+homepage    https://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerPathology
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -38,7 +38,7 @@ status alpha
 description This extensionis intended to assist in segmentation of nuclei from digital pathology
 
 # Space separated list of urls
-screenshoturls http://wiki.na-mic.org/Wiki/images/3/3b/SlicerPathologybeginworkweek2016.png
+screenshoturls https://wiki.na-mic.org/Wiki/images/3/3b/SlicerPathologybeginworkweek2016.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://capulet.med.utah.edu/namic/cmrslicer/
+homepage    https://capulet.med.utah.edu/namic/cmrslicer/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Alan Morris (CARMA), Salma Bengali (CARMA), Josh Cates (CARMA), Rob
 category    Cardiac MRI toolkit
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://capulet.med.utah.edu/namic/images/CMRTK-logo.png
+iconurl     https://capulet.med.utah.edu/namic/images/CMRTK-logo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -38,7 +38,7 @@ status      Beta
 description The Cardiac MRI Toolkit includes modules for the Utah Afib DBP
 
 # Space separated list of urls
-screenshoturls http://wiki.na-mic.org/Wiki/images/d/d1/Carma_afib_inhomogeneity_correction.png http://wiki.na-mic.org/Wiki/images/7/7a/Carma_afib_auto_scar.png
+screenshoturls https://wiki.na-mic.org/Wiki/images/d/d1/Carma_afib_inhomogeneity_correction.png https://wiki.na-mic.org/Wiki/images/7/7a/Carma_afib_auto_scar.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

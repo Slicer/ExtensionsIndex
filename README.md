@@ -15,7 +15,7 @@ A website referred to as the [extensions catalog][] provides Slicer users with a
 The following diagram depicts how `extensions catalog`, `extensions server`, [CDash][] and the
 slicer factory interact.
 
-<img width="80%" src="http://www.slicer.org/slicerWiki/images/a/ab/Extensions-Index-to-Catalog-cycle.png"/>
+<img width="80%" src="https://www.slicer.org/slicerWiki/images/a/ab/Extensions-Index-to-Catalog-cycle.png"/>
 
 Build instructions
 ------------------

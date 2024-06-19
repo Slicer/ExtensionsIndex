@@ -18,7 +18,7 @@ depends     NA
 build_subdirectory .
 
 # homepage
-homepage    http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/WindowLevelEffect
+homepage    https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/WindowLevelEffect
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Andrey Fedorov (SPL), Steve Pieper (SPL)
 category    Editor Effects
 
 # url to icon (png, size 128x128 pixels)
-iconurl     http://www.slicer.org/slicerWiki/images/3/39/WindowLevelEffectLogo.png
+iconurl     https://www.slicer.org/slicerWiki/images/3/39/WindowLevelEffectLogo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
@@ -38,7 +38,7 @@ status      Experimental
 description Use this tool to change window/level of background/foreground volumes based on the intensity range of the selected rectangle. Normal mode: use primary mouse button to adjust window level. Depending on the selection, Foreground, Background or both layers are affected. Rectangle mode: Left Click and Drag: sweep out an outline that will draw when the button is released. The outline will define the rectangle for calculating the new window/level settings for the selected layers.
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/c/c1/WindowLevelEffectScreenShot.png
+screenshoturls https://www.slicer.org/slicerWiki/images/c/c1/WindowLevelEffectScreenShot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

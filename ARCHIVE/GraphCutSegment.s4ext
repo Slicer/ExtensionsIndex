@@ -28,7 +28,7 @@ contributors Daphne Chen (Western University), Andras Lasso (PerkLab)
 category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.example.com/Slicer/Extensions/GraphCutSegment.png
+iconurl https://www.example.com/Slicer/Extensions/GraphCutSegment.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?

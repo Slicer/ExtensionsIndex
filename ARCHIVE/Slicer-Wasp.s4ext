@@ -7,9 +7,9 @@ description A module to perform a series of ITK watershed segmentation (without 
 An isosurface model will also be generated.
 enabled 1
 homepage https://github.com/Tomnl/Slicer-Wasp
-iconurl http://www.slicer.org/slicerWiki/images/5/5b/Slicer-Wasp.png
+iconurl https://www.slicer.org/slicerWiki/images/5/5b/Slicer-Wasp.png
 scm git
 scmrevision d622449c4d52cc87b4940e48b21779d1b68047d2
 scmurl https://github.com/Tomnl/Slicer-Wasp.git
-screenshoturls http://wiki.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/Wasp
+screenshoturls https://wiki.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/Wasp
 status

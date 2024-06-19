@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/OpenCAD
+homepage https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/OpenCAD
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 contributors Vivek Narayan (BWH), Jayender Jagadeesan (BWH)
@@ -27,7 +27,7 @@ contributors Vivek Narayan (BWH), Jayender Jagadeesan (BWH)
 category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl http://www.slicer.org/slicerWiki/images/2/2e/OpenCAD.PNG
+iconurl https://www.slicer.org/slicerWiki/images/2/2e/OpenCAD.PNG
 
 # Give people an idea what to expect from this code
 # - Is it just a test or something you stand beind?
@@ -37,7 +37,7 @@ status Beta
 description Tumor Segmentation from DCE-MRI and image heterogeneity quantification
 
 # Space separated list of urls
-screenshoturls http://www.slicer.org/slicerWiki/images/e/ef/SegmentCAD-Output.png
+screenshoturls https://www.slicer.org/slicerWiki/images/e/ef/SegmentCAD-Output.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
