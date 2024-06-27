@@ -4,5 +4,5 @@
   "build_subdirectory": ".",
   "category": "Simulation",
   "scm_revision": "main",
-  "scm_url": "https://github.com/RafaelPalomar/Slicer-SOFA.git"
+  "scm_url": "https://github.com/RafaelPalomar/SlicerSOFA.git"
 }
