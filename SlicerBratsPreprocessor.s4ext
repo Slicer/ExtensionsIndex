@@ -38,7 +38,7 @@ status Beta
 Supports image preprocessing steps and is based on the brats toolkit preprocessor. 
 
 # Space separated list of urls
-screenshoturls https://github.com/UWA-Medical-Physics/SlicerBatchBrainMRTumorSegmentation/blob/main/Screenshot%20from%202024-02-06%2012-11-03.png
+screenshoturls https://github.com/UWA-Medical-Physics/SlicerBratsPreprocessor/blob/main/SlicerBratsPreprocessor.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
