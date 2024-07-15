@@ -25,7 +25,7 @@ homepage https://github.com/UWA-Medical-Physics/SlicerBratsPreprocessor
 contributors Saima Safdar (The University of Western Australia)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category Slicer-Bratstoolkit
+category Slicer-BratsToolkit
 
 # url to icon (png, size 128x128 pixels)
 iconurl https://github.com/UWA-Medical-Physics/SlicerBatchBrainMRTumorSegmentation/blob/main/BatchBrainMRTumorSegmentation.png
