@@ -1,0 +1,44 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
+scm git
+scmurl https://github.com/UWA-Medical-Physics/SlicerBratsSegmentator
+scmrevision main
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends NA
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# homepage
+homepage https://github.com/UWA-Medical-Physics/SlicerBratsSegmentator
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: 
+contributors Saima Safdar (The University of Western Australia)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Slicer-Bratstoolkit
+
+# url to icon (png, size 128x128 pixels)
+iconurl https://github.com/UWA-Medical-Physics/SlicerBatchBrainMRTumorSegmentation/blob/main/BatchBrainMRTumorSegmentation.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand behind?
+status Beta
+
+# One line stating what the module does
+Supports image segmentation steps and is based on the brats toolkit segmentator. 
+
+# Space separated list of urls
+screenshoturls https://github.com/UWA-Medical-Physics/SlicerBatchBrainMRTumorSegmentation/blob/main/Screenshot%20from%202024-02-06%2012-11-03.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
