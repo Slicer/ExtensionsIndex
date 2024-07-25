@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "homepage": "https://github.com/SlicerMorph/SlicerEditor",
   "category": ["Python Scripting"],
-  "scmurl": "https://github.com/SlicerMorph/SlicerEditor.git"
+  "scmurl": "https://github.com/SlicerMorph/SlicerEditor.git",
   "contributors": ["Oshane Thomas (SCRI), Steve Pieper (Isomic, Inc.), Sara Rolfe (SCRI), Murat Maga (UW)"],
   "dependencies": [],
   "repository_type": "git",
