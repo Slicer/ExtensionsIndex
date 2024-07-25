@@ -4,7 +4,8 @@
   "description": "The SlicerEditor extension provides the open-source Monaco editor as a module inside the Slicer. It supports auto-completion, and syntax highlighting and allows the scripts to be directly sent to the 3D Slicer's built-in Python console.",
   "version": "1.0.0",
   "homepage": "https://github.com/SlicerMorph/SlicerEditor",
-  "categories": ["Python Scripting"],
+  "category": ["Python Scripting"],
+  "scmurl": "https://github.com/SlicerMorph/SlicerEditor.git"
   "contributors": ["Oshane Thomas (SCRI), Steve Pieper (Isomic, Inc.), Sara Rolfe (SCRI), Murat Maga (UW)"],
   "dependencies": [],
   "repository_type": "git",
