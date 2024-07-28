@@ -3,6 +3,6 @@
   "build_dependencies": [],
   "build_subdirectory": ".",
   "category": "Python Scripting",
-  "scm_revision": "master",
+  "scm_revision": "main",
   "scm_url": "https://github.com/SlicerMorph/SlicerEditor"
 }
