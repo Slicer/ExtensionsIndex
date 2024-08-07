@@ -25,14 +25,14 @@ homepage https://github.com/SlicerMorph/SlicerEditor
 contributors Oshane Thomas (SCRI), Steve Pieper (Isomics, Inc.), Sara Rolfe (SCRI)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category 
+category Python Scripting
 
 # url to icon (png, size 128x128 pixels)
 iconurl https://raw.githubusercontent.com/SlicerMorph/SlicerEditor/main/SlicerEditor.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status 
+status Stable
 
 # One line stating what the module does
 description Slicer Editor is a tool for editing and running Python scripts directly within the 3D Slicer interactor environment. It leverages the Monaco Editor for an easier coding experience.
