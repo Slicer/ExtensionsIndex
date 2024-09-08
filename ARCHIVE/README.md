@@ -19,6 +19,7 @@ the archive are as follows
 
 | Date       | Extension Name                | Deprecation reason  |
 |------------|-------------------------------|---------------------|
+| 2024-09-08 | SlicerOpenCV                  | Extension failing build and no longer needed https://discourse.slicer.org/t/opencv-extension-build-fails-since-june-itk-upgrade/38158/2 |
 | 2024-06-14 | iGyne                         | Unmaintained and incompatible with Slicer >- 5.2 due to its dependencies to the Annotations module. |
 | 2023-08-11 | mpReview                      | The extension is available again (it has been updated to use Segment Editor module instead of the removed Editor module). |
 | 2023-07-13 | SegmentGeometry               | Extension was [renamed to SlicerBiomech](https://github.com/Slicer/ExtensionsIndex/commit/b72fefc948e9710af3c631acd42360699211f8e4)]. |
@@ -91,3 +92,4 @@ the archive are as follows
 | 2013-10-23 | iGynePy                       | Removed because source code not available anymore. |
 | 2013-05-08 | VolumeResliceDriver           | Moved under `SlicerIGT` extension. |
 | 2012-10-24 | SpatialObjects                | Removed because `TubeTK` will be added and will provide the functionality. |
+
