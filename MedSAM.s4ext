@@ -1,0 +1,47 @@
+
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager
+scm git
+scmurl https://github.com/bowang-lab/MedSAMSlicer.git
+scmrevision main
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends PyTorch
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# homepage
+homepage https://github.com/bowang-lab/MedSAMSlicer
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Reza Asakereh (University Health Network), Jun Ma (University Health Network), Andrew Qiao (University Health Network)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Segmentation
+
+# url to icon (png, size 128x128 pixels)
+iconurl https://raw.githubusercontent.com/bowang-lab/MedSAMSlicer/main/MedSAM.png
+
+
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand behind?
+status
+
+# One line stating what the module does
+description This module implements MedSAMLite and several of its variant for universal 2D and 3D image segmentation.
+
+# Space separated list of urls
+screenshoturls https://raw.githubusercontent.com/bowang-lab/MedSAMSlicer/main/MedSAMLite/Resources/Icons/Screenshot.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
