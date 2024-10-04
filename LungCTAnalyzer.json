@@ -8,5 +8,5 @@
   "build_subdirectory": ".",
   "category": "Chest Imaging Platform",
   "scm_revision": "master",
-  "scm_url": "https://github.com/rbumm/SlicerLungCTAnalyzer"
+  "scm_url": "https://github.com/Slicer/SlicerLungCTAnalyzer"
 }
