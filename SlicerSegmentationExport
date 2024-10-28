@@ -4,5 +4,5 @@
   "build_subdirectory": ".",
   "category": "Segmentation",
   "scm_revision": "master",
-  "scm_url": "https://github.com/Slicer/SlicerSegmentationExport"
+  "scm_url": " https://github.com/cagatayalptekinNN/SlicerSegmentationExport"
 }
