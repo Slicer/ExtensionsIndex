@@ -12,7 +12,7 @@ scmrevision 5.6
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends     SegmentEditorExtraEffects
+depends     SegmentEditorExtraEffects Sandbox SurfaceMarkup
 
 # Inner build directory (default is .)
 build_subdirectory .
