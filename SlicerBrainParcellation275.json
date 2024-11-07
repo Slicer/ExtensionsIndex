@@ -6,9 +6,9 @@
     "scm_revision": "master",
     "scm_url": "https://github.com/ErenArkun/SlicerBrainParcellation275.git",
     "name": "SlicerBrainParcellation275",
-    "description": "Bu uzantı, MR görüntülerinde beyni 275 bölgeye ayırarak her bir bölgenin hacmini mm³ cinsinden hesaplar.",
+    "description": "This extension segments the brain into 275 regions and calculates the volume of each region in mm³.",
     "author": "Eren Arkun, İdris Deniz, Niyazi Acer",
     "version": "1.0.0",
-    "downloadUrl": "https://github.com/ErenArkun/SlicerBrainParcellation275/archive/refs/heads/master.zip", 
+    "downloadUrl": "https://github.com/ErenArkun/SlicerBrainParcellation275/archive/refs/heads/master.zip",
     "tags": ["labelmaping", "region", "brain", "MRI", "parcellation", "275 regions", "volume"]
   }
