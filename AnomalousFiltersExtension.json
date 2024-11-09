@@ -3,6 +3,6 @@
   "build_dependencies": [],
   "build_subdirectory": ".",
   "category": "Filtering",
-  "scm_revision": "master",
-  "scm_url": "https://github.com/lassoan/AnomalousFiltersExtension.git"
+  "scm_revision": "main",
+  "scm_url": "https://github.com/CSIM-Toolkits/AnomalousFiltersExtension.git"
 }
