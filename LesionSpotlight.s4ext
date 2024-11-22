@@ -1,0 +1,44 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager
+scm git
+scmurl https://github.com/CSIM-Toolkits/LesionSpotlightExtension.git
+scmrevision 5.6
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends AnomalousFiltersExtension
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# homepage
+homepage https://lesionspotlightextension.readthedocs.io/en/latest/
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Antonio Carlos da Silva Senra Filho (University of Sao Paulo), Luiz Otavio Murta Junior (University of Sao Paulo)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Segmentation
+
+# url to icon (png, size 128x128 pixels)
+iconurl https://raw.githubusercontent.com/CSIM-Toolkits/LesionSpotlightExtension/refs/heads/main/LesionSpotlight.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand behind?
+status 
+
+# One line stating what the module does
+description This extension provides an recent image segmentation and enhancement approaches in order to highlight abnormal white matter voxels in magnetic resonance images. At moment, there are available the LS Segmenter module (specific for hyperintense Multiple Sclerosis lesion segmentation on T2-FLAIR images) and LS Contrast Enhancement Module (specific to increase the contrast of abnormal voxels of the same T2-FLAIR images). The LS Segmenter module implements a hyperintense T2-FLAIR lesion segmentation based on a hybrid segmentation algorithm, published by Senra Filho, A.C. (http://dx.doi.org/10.1007/s11517-017-1747-2). In addition, a simple implementation of another recent MS lesion segmentation algorithm is provided, being the method described in Cabezas M. et al. (http://dx.doi.org/10.1016/j.cmpb.2014.04.006)
+
+# Space separated list of urls
+screenshoturls https://raw.githubusercontent.com/CSIM-Toolkits/LesionSpotlightExtension/refs/heads/main/docs/assets/T2FLAIR_patient.png https://raw.githubusercontent.com/CSIM-Toolkits/LesionSpotlightExtension/refs/heads/main/docs/assets/T2FLAIR_patient_lesionLabel.png https://raw.githubusercontent.com/CSIM-Toolkits/LesionSpotlightExtension/refs/heads/main/docs/assets/Lesion3DRender.png https://raw.githubusercontent.com/CSIM-Toolkits/LesionSpotlightExtension/refs/heads/main/docs/assets/T2FLAIR_beforeContrast.png https://raw.githubusercontent.com/CSIM-Toolkits/LesionSpotlightExtension/refs/heads/main/docs/assets/T2FLAIR_afterContrast.pnghttps://raw.githubusercontent.com/CSIM-Toolkits/LesionSpotlightExtension/refs/heads/main/docs/assets/T2FLAIR_patient_AFT.png https://raw.githubusercontent.com/CSIM-Toolkits/LesionSpotlightExtension/refs/heads/main/docs/assets/T2FLAIR_patient_lesionLabel_AFT.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
