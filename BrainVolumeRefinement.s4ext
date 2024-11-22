@@ -6,8 +6,8 @@
 
 # This is source code manager
 scm git
-scmurl https://github.com/jamesobutler/SlicerBrainVolumeRefinement.git
-scmrevision main
+scmurl https://github.com/CSIM-Toolkits/SlicerBrainVolumeRefinement.git
+scmrevision 5.6
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -18,7 +18,7 @@ depends NA
 build_subdirectory .
 
 # homepage
-homepage https://www.slicer.org/wiki/Documentation/Nightly/Extensions/BrainVolumeRefinement
+homepage https://slicerbrainvolumerefinement.readthedocs.io/en/latest/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,17 +28,17 @@ contributors Antonio Carlos da S. Senra Filho, Fabricio H. Simozo, Luiz Otavio M
 category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://www.slicer.org/w/images/2/2c/BVeR-logo.png
+iconurl https://raw.githubusercontent.com/CSIM-Toolkits/SlicerBrainVolumeRefinement/refs/heads/master/BrainVolumeRefinement.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status
+status 
 
 # One line stating what the module does
 description This extension offers algorithms to performs brain volume refinements due to previous image processing that results on small data artifacts. For instance, the BVeR method is designed to correct small oversegmentation found at brain extraction methods such as FSL-BET, FreeSurfer, AFNI, ROBEX and others.
 
 # Space separated list of urls
-screenshoturls https://www.slicer.org/w/images/4/47/T1-FS.png https://www.slicer.org/w/images/f/f4/T1-FS-BVeR.png https://www.slicer.org/w/images/2/2f/BVeR-3D-Anterior.png https://www.slicer.org/w/images/2/29/BVeR-3D-Lateral.png https://www.slicer.org/w/images/e/ee/BVeR-3D-FreeView.png
+screenshoturls https://raw.githubusercontent.com/CSIM-Toolkits/SlicerBrainVolumeRefinement/refs/heads/main/docs/assets/T1-FS.png https://raw.githubusercontent.com/CSIM-Toolkits/SlicerBrainVolumeRefinement/refs/heads/main/docs/assets/T1-FS-BVeR.png https://raw.githubusercontent.com/CSIM-Toolkits/SlicerBrainVolumeRefinement/refs/heads/main/docs/assets/BVeR-3D-Anterior.png https://raw.githubusercontent.com/CSIM-Toolkits/SlicerBrainVolumeRefinement/refs/heads/main/docs/assets/BVeR-3D-Lateral.png https://raw.githubusercontent.com/CSIM-Toolkits/SlicerBrainVolumeRefinement/refs/heads/main/docs/assets/BVeR-3D-FreeView.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
