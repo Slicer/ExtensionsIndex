@@ -1,0 +1,44 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager
+scm git
+scmurl https://github.com/CSIM-Toolkits/Slicer-LesionSimulatorExtension.git
+scmrevision 5.6
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends NA
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# homepage
+homepage https://slicer-lesionsimulatorextension.readthedocs.io/en/latest/
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Antonio Carlos da Silva Senra Filho (University of Sao Paulo), Fabrício Henrique Simozo (University of Sao Paulo)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Simulation
+
+# url to icon (png, size 128x128 pixels)
+iconurl https://raw.githubusercontent.com/CSIM-Toolkits/Slicer-LesionSimulatorExtension/refs/heads/main/LesionSimulator.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand behind?
+status 
+
+# One line stating what the module does
+description This extension offer a set of tools for brain lesion simulation, based on MRI images. At moment, the modules MS Lesion Simulator and MS Longitudinal Lesion Simulator are available, where it can simulate both baseline scan lesion volumes (given a lesion load) and longitudinal image simulations, respectively. In summary, a statistical lesion database is generated based on a set of manual lesion mark-ups, being non-linearly registered to MNI152 space (isotropic 1mm of voxel resolution). Using a small set of parameters (lesion load, lesion homogeneity, lesion intensity indenpendence and lesion variability), it is possible to generate a broad range of MS lesions patterns in multimodal MRI imaging techniques (at moment, T1, T2, T2-FLAIR, PD, DTI-FA and DTI-ADC images are provided). For more details about this project, please see the original paper (DOI: ) and the wiki page.
+
+# Space separated list of urls
+screenshoturls https://raw.githubusercontent.com/CSIM-Toolkits/Slicer-LesionSimulatorExtension/refs/heads/main/docs/assets/LesionLoad_2mL.png https://raw.githubusercontent.com/CSIM-Toolkits/Slicer-LesionSimulatorExtension/refs/heads/main/docs/assets/LesionLoad_5mL.png https://raw.githubusercontent.com/CSIM-Toolkits/Slicer-LesionSimulatorExtension/refs/heads/main/docs/assets/LesionLoad_40mL.png https://raw.githubusercontent.com/CSIM-Toolkits/Slicer-LesionSimulatorExtension/refs/heads/main/docs/assets/3DLesionsOverlay.png https://raw.githubusercontent.com/CSIM-Toolkits/Slicer-LesionSimulatorExtension/refs/heads/main/docs/assets/MNI152_orig.png https://raw.githubusercontent.com/CSIM-Toolkits/Slicer-LesionSimulatorExtension/refs/heads/main/docs/assets/MNI152_lesionload40mL.png https://raw.githubusercontent.com/CSIM-Toolkits/Slicer-LesionSimulatorExtension/refs/heads/main/docs/assets/MNI152_orig_sag.png https://raw.githubusercontent.com/CSIM-Toolkits/Slicer-LesionSimulatorExtension/refs/heads/main/docs/assets/MNI152_lesionload40mL_sag.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
