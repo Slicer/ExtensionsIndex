@@ -1,0 +1,44 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager
+scm git
+scmurl https://github.com/LOAMRI/Slicer-DTI-ALPS.git
+scmrevision 5.6
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends NA
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# homepage
+homepage https://slicer-dti-alps.readthedocs.io/en/latest/
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Antonio Senra Filho (State University of Campinas), André M. Paschoal (State University of Campinas)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Diffusion
+
+# url to icon (png, size 128x128 pixels)
+iconurl https://raw.githubusercontent.com/LOAMRI/Slicer-DTI-ALPS/main/DTI_ALPS.png
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand behind?
+status 
+
+# One line stating what the module does
+description Slicer extension to provide a module that calculates the diffusion tensor image analysis along the perivascular space (DTI-ALPS) index
+
+# Space separated list of urls
+screenshoturls https://raw.githubusercontent.com/LOAMRI/Slicer-DTI-ALPS/refs/heads/main/docs/assets/DTI-ALPS-NMO-patients.png https://raw.githubusercontent.com/LOAMRI/Slicer-DTI-ALPS/refs/heads/main/docs/assets/DTI-ALPS-sc-2.png
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
