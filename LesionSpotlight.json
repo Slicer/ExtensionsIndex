@@ -1,8 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
   "build_dependencies": ["AnomalousFiltersExtension"],
   "build_subdirectory": ".",
   "category": "Segmentation",
   "scm_revision": "main",
-  "scm_url": "https://github.com/CSIM-Toolkits/Slicer-LesionSpotlightExtension.git"
+  "scm_url": "https://github.com/CSIM-Toolkits/Slicer-LesionSpotlightExtension.git",
+  "tier": 3
 }
