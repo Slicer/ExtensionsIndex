@@ -1,10 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
-  "name": "SlicerBrainParcellation275",
-  "description": "This extension segments the brain into 275 regions and calculates the volume of each region in mm³.",
-  "author": "Eren Arkun, İdris Deniz, Niyazi Acer",
-  "version": "1.0.0",
-  "downloadUrl": "https://github.com/ErenArkun/SlicerBrainParcellation275/archive/refs/heads/master.zip",
   "category": "Segmentation",
-  "scm_url": "https://github.com/ErenArkun/SlicerBrainParcellation275.git"
+  "scm_url": "https://github.com/ErenArkun/SlicerBrainParcellation275.git",
+  "scm_revision": "master",
+  "scm_type": "git",
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "enabled": true
 }
