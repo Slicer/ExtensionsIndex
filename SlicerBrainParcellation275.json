@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
+  "category": "Segmentation",
+  "scm_url": "https://github.com/ErenArkun/SlicerBrainParcellation275.git",
+  "scm_revision": "master",
+  "scm_type": "git",
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "enabled": true
+}
