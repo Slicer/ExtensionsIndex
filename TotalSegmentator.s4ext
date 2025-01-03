@@ -7,7 +7,7 @@
 # This is source code manager
 scm git
 scmurl https://github.com/lassoan/SlicerTotalSegmentator
-scmrevision main
+scmrevision 5.6
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -28,7 +28,7 @@ contributors Andras Lasso (PerkLab, Queen's University)
 category Segmentation
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://raw.githubusercontent.com/lassoan/SlicerTotalSegmentator/main/TotalSegmentator.png
+iconurl https://raw.githubusercontent.com/lassoan/SlicerTotalSegmentator/5.6/TotalSegmentator.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description Fully automatic whole-body CT segmentation of 104 structures, using TotalSegmentator AI model.
 
 # Space separated list of urls
-screenshoturls https://raw.githubusercontent.com/lassoan/SlicerTotalSegmentator/main/Screenshot01.jpg
+screenshoturls https://raw.githubusercontent.com/lassoan/SlicerTotalSegmentator/5.6/Screenshot01.jpg
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
