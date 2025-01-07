@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
   "build_dependencies": [
     "PyTorch",
     "SegmentEditorExtraEffects",
@@ -8,5 +8,6 @@
   "build_subdirectory": ".",
   "category": "Chest Imaging Platform",
   "scm_revision": "master",
-  "scm_url": "https://github.com/rbumm/SlicerLungCTAnalyzer"
+  "scm_url": "https://github.com/Slicer/SlicerLungCTAnalyzer",
+  "tier": 3
 }

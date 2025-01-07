@@ -1,8 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
   "build_dependencies": [],
   "build_subdirectory": ".",
   "category": "Utilities",
   "scm_revision": "master",
-  "scm_url": "https://github.com/pieper/SlicerParallelProcessing"
+  "scm_url": "https://github.com/pieper/SlicerParallelProcessing",
+  "tier": 5
 }

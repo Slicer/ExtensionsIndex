@@ -33,7 +33,7 @@ repos:
         args:
           [
             "--schemafile",
-            "https://cdn.jsdelivr.net/gh/Slicer/Slicer@main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json",
+            "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json",
           ]
       - id: check-dependabot
       - id: check-github-workflows

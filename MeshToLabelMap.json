@@ -1,8 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
   "build_dependencies": [],
   "build_subdirectory": ".",
   "category": "Shape Analysis",
   "scm_revision": "master",
-  "scm_url": "https://github.com/NIRALUser/MeshToLabelMap.git"
+  "scm_url": "https://github.com/NIRALUser/MeshToLabelMap.git",
+  "tier": 1
 }
