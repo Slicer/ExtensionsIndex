@@ -1,9 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
-  "build_dependencies": [],
+  "build_dependencies": ["QuantitativeReporting"],
   "build_subdirectory": ".",
   "category": "Examples",
   "scm_revision": "main",
-  "scm_url": "https://github.com/MHubAI/SlicerMRunner",
+  "scm_url": "https://github.com/LennyN95/SlicerMHubRunner",
   "tier": 3
 }
