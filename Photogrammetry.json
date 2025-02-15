@@ -1,10 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/master/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
   "build_dependencies": ["PyTorch", "SlicerMorph"],
   "build_subdirectory": ".",
   "category": "Photogrammetry",
   "scm_revision": "master",
   "scm_url": "https://github.com/SlicerMorph/SlicerPhotogrammetry.git",
-  "scm_type": "git",
   "tier": 1
 }
