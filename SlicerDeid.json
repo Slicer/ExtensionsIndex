@@ -4,6 +4,6 @@
   "build_subdirectory": ".",
   "category": "Utilities",
   "scm_revision": "main",
-  "scm_url": "https://github.com/payabvashlab/deid",
+  "scm_url": "https://github.com/payabvashlab/SlicerDeid",
   "tier": 1
 }
