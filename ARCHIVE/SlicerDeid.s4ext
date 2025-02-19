@@ -6,7 +6,7 @@
 
 # This is source code manager
 scm local
-scmurl https://github.com/payabvashlab/deid
+scmurl https://github.com/payabvashlab/SlicerDeid
 scmrevision NA
 
 # list dependencies
@@ -18,7 +18,7 @@ depends pandas PyTorch opencv-python openpyxl
 build_subdirectory .
 
 # homepage
-homepage https://github.com/payabvashlab/deid
+homepage https://github.com/payabvashlab/SlicerDeid
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
@@ -28,7 +28,7 @@ contributors Anh Tran (Sam Lab)
 category Utilities
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/payabvashlab/deid/blob/main/deid/Resources/Icons/deid.png
+iconurl https://github.com/payabvashlab/SlicerDeid/blob/main/deid/Resources/Icons/deid.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
@@ -38,7 +38,7 @@ status
 description remove all identification fro dicom
 
 # Space separated list of urls
-screenshoturls https://github.com/payabvashlab/deid/blob/main/screenshot.png
+screenshoturls https://github.com/payabvashlab/SlicerDeid/blob/main/screenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
