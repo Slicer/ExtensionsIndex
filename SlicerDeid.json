@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
-  "build_dependencies": [pandas, opencv-python, openpyxl, gdcm, pylibjpeg, pylibjpeg-libjpeg, pylibjpeg-openjpeg, pydicom, scikit-image],
+  "build_dependencies": [],
   "build_subdirectory": ".",
   "category": "Utilities",
   "scm_revision": "main",
