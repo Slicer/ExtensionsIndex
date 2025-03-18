@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
   "build_dependencies": [],
   "build_subdirectory": ".",
-  "category": "SlicerBrats",
+  "category": "Segmentation",
   "scm_revision": "main",
   "scm_url": "https://github.com/UWA-Medical-Physics/SlicerBrats.git"
 }
