@@ -1,9 +1,0 @@
-{
-  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
-  "build_dependencies": [],
-  "build_subdirectory": "inner-build",
-  "category": "Libraries",
-  "scm_revision": "master",
-  "scm_url": "https://github.com/SlicerDMRI/SlicerWMA",
-  "tier": 3
-}
