@@ -6,8 +6,7 @@
     "SlicerFreeSurfer",
     "SlicerDcm2nii",
     "SlicerDMRI",
-    "HDBrainExtraction",
-    "SlicerWMA"
+    "HDBrainExtraction"
   ],
   "build_subdirectory": ".",
   "category": "Neuroimaging",
