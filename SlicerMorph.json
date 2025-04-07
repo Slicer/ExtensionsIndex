@@ -3,7 +3,7 @@
   "build_dependencies": ["SegmentEditorExtraEffects", "SurfaceMarkup"],
   "build_subdirectory": ".",
   "category": "SlicerMorph",
-  "scm_revision": "master",
+  "scm_revision": "5.8",
   "scm_url": "https://github.com/SlicerMorph/SlicerMorph.git",
   "tier": 5
 }
