@@ -4,6 +4,6 @@
   "build_subdirectory": ".",
   "category": "Segmentation",
   "scm_revision": "main",
-  "scm_url": "https://github.com/coendevente/nninteractive-slicer.git",
+  "scm_url": "https://github.com/coendevente/SlicerNNInteractive.git",
   "tier": 3
 }
