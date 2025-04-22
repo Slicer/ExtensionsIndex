@@ -4,6 +4,6 @@
   "build_subdirectory": ".",
   "category": "Utilities",
   "scm_revision": "main",
-  "scm_url": "https://github.com/payabvashlab/HeadCTDeid",
+  "scm_url": "https://github.com/payabvashlab/SlicerHeadCTDeid",
   "tier": 1
 }
