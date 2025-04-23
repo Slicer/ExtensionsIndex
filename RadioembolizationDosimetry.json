@@ -1,9 +1,0 @@
-{
-  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
-  "build_dependencies": [],
-  "build_subdirectory": ".",
-  "category": "Nuclear Medicine",
-  "scm_revision": "main",
-  "scm_url": "https://github.com/4burakfe/SlicerRadioembolizationDosimetry",
-  "tier": 1
-}
