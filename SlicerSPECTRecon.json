@@ -5,4 +5,5 @@
   "category": "Tomographic Reconstruction",
   "scm_revision": "main",
   "scm_url": "https://github.com/PyTomography/slicer_spect_recon.git"
+  "tier": 3
 }
