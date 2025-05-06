@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
   "build_dependencies": [
     "SlicerVMTK",
     "SegmentEditorExtraEffects",
@@ -8,5 +8,6 @@
   "build_subdirectory": ".",
   "category": "IGT",
   "scm_revision": "master",
-  "scm_url": "https://github.com/ALive-research/Slicer-Liver"
+  "scm_url": "https://github.com/ALive-research/Slicer-Liver",
+  "tier": 3
 }

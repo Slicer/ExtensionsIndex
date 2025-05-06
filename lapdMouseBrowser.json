@@ -1,8 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
   "build_dependencies": [],
-  "build_subdirectory": "inner-build",
-  "category": "Libraries",
+  "build_subdirectory": ".",
+  "category": "Informatics",
   "scm_revision": "master",
-  "scm_url": "https://github.com/SlicerDMRI/SlicerWMA"
+  "scm_url": "https://github.com/lapdMouse/Slicer-lapdMouseBrowser.git"
 }

@@ -19,6 +19,8 @@ the archive are as follows
 
 | Date       | Extension Name                | Deprecation reason  |
 |------------|-------------------------------|---------------------|
+| 2025-04-02 | SlicerWMA                  | Extension prevented Slicer from starting https://discourse.slicer.org/t/slicer-doesnt-open-after-installing-slicerwma-extension/42356|
+| 2024-11-16 | SlicerOpenCV                  | Extension failing build and no longer needed https://discourse.slicer.org/t/opencv-extension-build-fails-since-june-itk-upgrade/38158/2 |
 | 2024-06-14 | iGyne                         | Unmaintained and incompatible with Slicer >- 5.2 due to its dependencies to the Annotations module. |
 | 2023-08-11 | mpReview                      | The extension is available again (it has been updated to use Segment Editor module instead of the removed Editor module). |
 | 2023-07-13 | SegmentGeometry               | Extension was [renamed to SlicerBiomech](https://github.com/Slicer/ExtensionsIndex/commit/b72fefc948e9710af3c631acd42360699211f8e4)]. |
