@@ -1,13 +1,16 @@
 {
   "extension_id": "LabelNameGenerator",
-  "name": "Label Name Generator",
+  "extension_name": "Label Name Generator",
   "description": "A simple extension to create, save, and apply label groups for segmentation in 3D Slicer.",
   "author": "Heo Eunseo (esheo-skia)",
   "homepage": "https://github.com/esheo-skia/Slicer-LabelNameGenerator",
   "category": "Segmentation",
   "icon_url": "https://raw.githubusercontent.com/esheo-skia/Slicer-LabelNameGenerator/main/Resources/Icons/LabelNameGenerator.png",
-  "repository_type": "git",
-  "repository_url": "https://github.com/esheo-skia/Slicer-LabelNameGenerator.git",
-  "repository_branch": "main",
-  "license": "MIT"
+  "scm": "git",
+  "scm_url": "https://github.com/esheo-skia/Slicer-LabelNameGenerator.git",
+  "scm_revision": "main",
+  "license": "MIT",
+  "enabled": true,
+  "status": "stable"
 }
+
