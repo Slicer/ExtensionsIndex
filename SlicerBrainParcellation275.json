@@ -3,6 +3,6 @@
   "build_dependencies": ["SlicerVol"],
   "build_subdirectory": ".",
   "category": "Segmentation",
-  "scm_revision": "main", 
+  "scm_revision": "main",
   "scm_url": "https://github.com/ErenArkun/SlicerBrainParcellation275.git"
 }
