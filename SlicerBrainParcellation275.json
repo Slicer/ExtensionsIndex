@@ -1,5 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
+  "title": "Slicer Brain Parcellation 275",
+  "enabled": true,
   "build_dependencies": ["SlicerVol"],
   "build_subdirectory": ".",
   "category": "Segmentation",
