@@ -3,7 +3,7 @@
   "build_dependencies": [],
   "build_subdirectory": "inner-build",
   "category": "Simulation",
-  "scm_revision": "main",
+  "scm_revision": "preview",
   "scm_url": "https://github.com/Slicer/SlicerSOFA",
   "tier": 3
 }
