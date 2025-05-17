@@ -11,6 +11,12 @@
   "scm_revision": "main",
   "license": "MIT",
   "enabled": true,
-  "status": "stable"
+  "status": "stable",
+  "screenshoturls": [
+    "https://raw.githubusercontent.com/esheo-skia/Slicer-LabelNameGenerator/main/Resources/Screenshots/step1_save_label_group.png",
+    "https://raw.githubusercontent.com/esheo-skia/Slicer-LabelNameGenerator/main/Resources/Screenshots/step2_confirm_apply.png",
+    "https://raw.githubusercontent.com/esheo-skia/Slicer-LabelNameGenerator/main/Resources/Screenshots/step3_segment_editor_result.png"
+  ]
 }
+
 
