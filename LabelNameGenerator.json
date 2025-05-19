@@ -1,22 +1,20 @@
 {
-  "extension_id": "LabelNameGenerator",
-  "extension_name": "Label Name Generator",
-  "description": "A simple extension to create, save, and apply label groups for segmentation in 3D Slicer.",
-  "author": "Heo Eunseo (esheo-skia)",
-  "homepage": "https://github.com/esheo-skia/Slicer-LabelNameGenerator",
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
   "category": "Segmentation",
-  "icon_url": "https://raw.githubusercontent.com/esheo-skia/Slicer-LabelNameGenerator/main/Resources/Icons/LabelNameGenerator.png",
   "scm": "git",
   "scm_url": "https://github.com/esheo-skia/Slicer-LabelNameGenerator.git",
   "scm_revision": "main",
-  "license": "MIT",
-  "enabled": true,
-  "status": "stable",
+  "build_subdirectory": ".",
+  "build_dependencies": [],
+  "tier": 1,
+  "icon_url": "https://raw.githubusercontent.com/esheo-skia/Slicer-LabelNameGenerator/main/Resources/Icons/LabelNameGenerator.png",
   "screenshoturls": [
     "https://raw.githubusercontent.com/esheo-skia/Slicer-LabelNameGenerator/main/Resources/Screenshots/step1_save_label_group.png",
     "https://raw.githubusercontent.com/esheo-skia/Slicer-LabelNameGenerator/main/Resources/Screenshots/step2_confirm_apply.png",
     "https://raw.githubusercontent.com/esheo-skia/Slicer-LabelNameGenerator/main/Resources/Screenshots/step3_segment_editor_result.png"
   ]
 }
+
+
 
 
