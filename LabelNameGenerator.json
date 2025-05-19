@@ -1,18 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
-  "category": "Segmentation",
-  "scm": "git",
-  "scm_url": "https://github.com/esheo-skia/Slicer-LabelNameGenerator.git",
-  "scm_revision": "main",
-  "build_subdirectory": ".",
   "build_dependencies": [],
-  "tier": 1,
-  "icon_url": "https://raw.githubusercontent.com/esheo-skia/Slicer-LabelNameGenerator/main/Resources/Icons/LabelNameGenerator.png",
-  "screenshoturls": [
-    "https://raw.githubusercontent.com/esheo-skia/Slicer-LabelNameGenerator/main/Resources/Screenshots/step1_save_label_group.png",
-    "https://raw.githubusercontent.com/esheo-skia/Slicer-LabelNameGenerator/main/Resources/Screenshots/step2_confirm_apply.png",
-    "https://raw.githubusercontent.com/esheo-skia/Slicer-LabelNameGenerator/main/Resources/Screenshots/step3_segment_editor_result.png"
-  ]
+  "build_subdirectory": ".",
+  "category": "Segmentation",
+  "scm_revision": "main",
+  "scm_url": "https://github.com/esheo-skia/Slicer-LabelNameGenerator.git",
+  "tier": 1
 }
 
 
