@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
   "build_dependencies": [
     "AnglePlanesExtension",
     "BoneTextureExtension",
@@ -18,5 +18,6 @@
   "build_subdirectory": ".",
   "category": "SlicerCMF",
   "scm_revision": "master",
-  "scm_url": "https://github.com/DCBIA-OrthoLab/SlicerCMF.git"
+  "scm_url": "https://github.com/DCBIA-OrthoLab/SlicerCMF.git",
+  "tier": 3
 }

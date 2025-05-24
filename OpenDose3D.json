@@ -1,8 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
   "build_dependencies": ["SlicerElastix"],
   "build_subdirectory": ".",
   "category": "Radiotherapy",
   "scm_revision": "master-stable",
-  "scm_url": "https://gitlab.com/opendose/opendose3d.git"
+  "scm_url": "https://gitlab.com/opendose/opendose3d.git",
+  "tier": 3
 }

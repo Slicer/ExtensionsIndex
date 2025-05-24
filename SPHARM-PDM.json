@@ -1,8 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
   "build_dependencies": ["MeshToLabelMap"],
   "build_subdirectory": "SPHARM-PDM-build",
   "category": "SPHARM",
   "scm_revision": "master",
-  "scm_url": "https://github.com/NIRALUser/SPHARM-PDM.git"
+  "scm_url": "https://github.com/NIRALUser/SPHARM-PDM.git",
+  "tier": 3
 }

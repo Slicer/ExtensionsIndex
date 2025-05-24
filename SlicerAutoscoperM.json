@@ -1,8 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
   "build_dependencies": ["Sandbox", "SegmentEditorExtraEffects"],
   "build_subdirectory": "inner-build",
   "category": "Tracking",
   "scm_revision": "main",
-  "scm_url": "https://github.com/BrownBiomechanics/SlicerAutoscoperM.git"
+  "scm_url": "https://github.com/BrownBiomechanics/SlicerAutoscoperM.git",
+  "tier": 3
 }
