@@ -4,6 +4,6 @@
   "build_subdirectory": ".",
   "category": "Segmentation",
   "scm_revision": "main",
-  "scm_url": "https://github.com/esheo-skia/Slicer-LabelNameGenerator.git",
+  "scm_url": "https://github.com/esheo-skia/Slicer-SegTemplateEditor.git",
   "tier": 1
 }
