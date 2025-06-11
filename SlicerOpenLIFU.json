@@ -3,7 +3,7 @@
   "build_dependencies": [],
   "build_subdirectory": ".",
   "category": "Utilities",
-  "scm_revision": "v1.4.0",
+  "scm_revision": "v1.5.0",
   "scm_url": "https://github.com/OpenwaterHealth/SlicerOpenLIFU.git",
   "tier": 1
 }
