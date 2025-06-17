@@ -1,6 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
-  "build_dependencies": ["SegmentEditorExtraEffects", "SurfaceMarkup"],
+  "build_dependencies": [
+    "SegmentEditorExtraEffects",
+    "SurfaceMarkup"
+  ],
   "build_subdirectory": ".",
   "category": "SlicerMorph",
   "scm_revision": "master",

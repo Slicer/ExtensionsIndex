@@ -1,6 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
-  "build_dependencies": ["PyTorch"],
+  "build_dependencies": [
+    "PyTorch"
+  ],
   "build_subdirectory": ".",
   "category": "Segmentation",
   "scm_revision": "main",

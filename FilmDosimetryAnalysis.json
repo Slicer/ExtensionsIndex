@@ -1,6 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
-  "build_dependencies": ["SlicerRT"],
+  "build_dependencies": [
+    "SlicerRT"
+  ],
   "build_subdirectory": ".",
   "category": "Radiotherapy",
   "scm_revision": "master",
