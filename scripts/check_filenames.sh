@@ -21,6 +21,7 @@ unexpected_files=$(find . -mindepth 1 \( -type d \( \
   -path ./scripts \
 \) -o -type f \( \
   -name .pre-commit-config.yaml -o \
+  -name .prettierrc.js -o \
   -name .git-blame-ignore-revs  -o \
   -name README.md -o \
   -name "*.json" \
