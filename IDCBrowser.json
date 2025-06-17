@@ -1,6 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
-  "build_dependencies": ["QuantitativeReporting"],
+  "build_dependencies": [
+    "QuantitativeReporting"
+  ],
   "build_subdirectory": ".",
   "category": "Informatics",
   "scm_revision": "main",
