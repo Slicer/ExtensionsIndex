@@ -17,7 +17,10 @@ repos:
     rev: "v3.5.3"
     hooks:
       - id: prettier
-        types_or: [yaml, json]
+        types_or: [yaml, javascript, json]
+        additional_dependencies:
+          - "prettier@3.5.3"
+          - "prettier-plugin-multiline-arrays@4.0.3"
 
   - repo: https://github.com/Lucas-C/pre-commit-hooks
     rev: v1.5.5
