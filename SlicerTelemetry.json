@@ -4,6 +4,6 @@
   "build_subdirectory": ".",
   "category": "Informatics",
   "scm_revision": "main",
-  "scm_url": "https://github.com/BerDom-Ing/SlicerTelemetry.git",
+  "scm_url": "https://github.com/Slicer/SlicerTelemetry.git",
   "tier": 1
 }
