@@ -1,4 +1,9 @@
 {
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
+  "build_dependencies": [],
+  "build_subdirectory": ".",
   "category": "Modeling",
-  "scm_url": "https://github.com/rwic/SlicerEVARSim"
+  "scm_revision": "master",
+  "scm_url": "https://github.com/rwic/SlicerEVARSim",
+  "tier": 1
 }
