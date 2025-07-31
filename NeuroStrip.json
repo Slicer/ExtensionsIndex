@@ -4,6 +4,6 @@
   "build_subdirectory": ".",
   "category": "Segmentation",
   "scm_revision": "main",
-  "scm_url": "https://github.com/dyollb/neurostrip",
+  "scm_url": "https://github.com/dyollb/SlicerNeuroStrip",
   "tier": 1
 }
