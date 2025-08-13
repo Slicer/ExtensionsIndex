@@ -5,7 +5,7 @@
   ],
   "build_subdirectory": ".",
   "category": "SlicerMorph",
-  "scm_revision": "main",
+  "scm_revision": "abbc16c76486b3723499ff45afaa47c5ac5717ed",
   "scm_url": "https://github.com/MorphoCloud/SlicerMorphoDepot.git",
   "tier": 1
 }
