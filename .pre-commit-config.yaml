@@ -34,9 +34,10 @@ repos:
       - id: check-jsonschema
         files: ^[^/]*\.json$
         args:
+          # Using local schema file to avoid caching issues with remote URLs
           [
             "--schemafile",
-            "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json",
+            "schemas/slicer-extension-catalog-entry-schema-v1.0.1.json",
           ]
       - id: check-dependabot
       - id: check-github-workflows
