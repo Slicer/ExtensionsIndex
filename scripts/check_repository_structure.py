@@ -24,6 +24,7 @@ def check_filenames():
         '.git',
         'ARCHIVE',
         'scripts',
+        'schemas',
         '.venv',          # Python virtual environment
         'venv',           # Alternative venv name
         '__pycache__',    # Python cache
