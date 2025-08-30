@@ -1,6 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
-  "build_dependencies": ["SurfaceWrapSolidify", "MarkupsToModel", "Sandbox"],
+  "build_dependencies": [
+    "SurfaceWrapSolidify",
+    "MarkupsToModel",
+    "Sandbox",
+    "Telemetry"
+  ],
   "build_subdirectory": ".",
   "category": "Planning",
   "scm_revision": "main",
