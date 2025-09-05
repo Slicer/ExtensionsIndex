@@ -7,7 +7,7 @@
   ],
   "build_subdirectory": ".",
   "category": "IGT",
-  "scm_revision": "master",
+  "scm_revision": "preview",
   "scm_url": "https://github.com/ALive-research/Slicer-Liver",
   "tier": 3
 }
