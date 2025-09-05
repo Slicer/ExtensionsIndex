@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
+  "build_dependencies": [
+    ""
+  ],
+  "build_subdirectory": ".",
+  "category": "SlicerMorph",
+  "scm_revision": "abbc16c76486b3723499ff45afaa47c5ac5717ed",
+  "scm_url": "https://github.com/MorphoCloud/SlicerMorphoDepot.git",
+  "tier": 1
+}
