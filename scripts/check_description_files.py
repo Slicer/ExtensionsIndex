@@ -78,22 +78,39 @@ def require_metadata_key(metadata_key, value_required=True):
     return dec
 
 
-def parse_json(ext_file_path):
+def parse_json(extension_file_path):
     """Parse a Slicer extension description file.
-    :param ext_file_path: Path to a Slicer extension description file (.json).
+    :param extension_file_path: Path to a Slicer extension description file (.json).
     :return: Dictionary of extension metadata.
     """
-    with open(ext_file_path) as input_file:
+    with open(extension_file_path) as input_file:
         try:
             return json.load(input_file)
         except json.JSONDecodeError as exc:
-            extension_name = os.path.splitext(os.path.basename(ext_file_path))[0]
+            extension_name = os.path.splitext(os.path.basename(extension_file_path))[0]
             raise ExtensionParseError(
                 extension_name,
                 textwrap.dedent("""
                 Failed to parse '%s': %s
-                """ % (ext_file_path, exc)))
+                """ % (extension_file_path, exc)))
 
+def check_json_file_format(extension_name, metadata, extension_file_path):
+    """Check if the JSON file is properly formatted."""
+    check_name = "check_json_file_format"
+    try:
+        with open(extension_file_path, 'r', encoding='utf-8') as f:
+            json.load(f)
+    except json.JSONDecodeError as e:
+        raise ExtensionCheckError(
+            extension_name, check_name,
+            f"Invalid JSON format: {str(e)}")
+    # Force using LF-only line endings
+    with open(extension_file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    if '\r\n' in content or '\r' in content:
+        raise ExtensionCheckError(
+            extension_name, check_name,
+            "File contains non-LF line endings (CR or CRLF). Please convert to LF-only line endings.")
 
 def check_json_schema(extension_name, metadata):
     """Validate extension description JSON against its referenced schema."""
@@ -168,6 +185,20 @@ def check_scm_url_syntax(extension_name, metadata):
             extension_name, check_name,
             "scm_url scheme is '%s' but it should by any of %s" % (scheme, supported_schemes))
 
+def check_extension_name(extension_name, metadata):
+    check_name = "check_extension_name"
+
+    if extension_name in EXTENSION_NAME_CHECK_EXCEPTIONS:
+        return
+
+    if extension_name.lower().startswith("slicer"):
+
+        raise ExtensionCheckError(
+            extension_name, check_name,
+            textwrap.dedent("""
+            extension name should not start with 'Slicer'. Please, consider changing it to '%s'.
+            """ % (
+                extension_name[7:],)))
 
 @require_metadata_key("scm_url")
 def check_git_repository_name(extension_name, metadata):
@@ -522,6 +553,8 @@ def main():
         extension_description_checks = [
             ("Clone repository", check_clone_repository, {"cloned_repository_folder": cloned_repository_folder}),
             ("Check JSON schema", check_json_schema, {}),
+            ("Check JSON file format", check_json_file_format, {"extension_file_path": file_path}),
+            ("Check extension name", check_extension_name, {}),
             ("Check category", check_category, {}),
             ("Check git repository name", check_git_repository_name, {}),
             ("Check SCM URL syntax", check_scm_url_syntax, {}),
@@ -620,6 +653,66 @@ REPOSITORY_NAME_CHECK_EXCEPTIONS = [
     "TCIABrowser",
     "ukftractography",
     "VASSTAlgorithms",
+]
+
+EXTENSION_NAME_CHECK_EXCEPTIONS = [
+    # These extensions have name with "Slicer" prefix
+    # (they were created before usage of this prefix was discouraged)
+    "SlicerAIGT",
+    "SlicerANTs",
+    "SlicerANTsPy",
+    "SlicerAutoscoperM",
+    "SlicerBatchAnonymize",
+    "SlicerBiomech",
+    "SlicerCaseIterator",
+    "SlicerCervicalSpine",
+    "SlicerCineTrack",
+    "SlicerCMF",
+    "SlicerCochlea",
+    "SlicerConda",
+    "SlicerDcm2nii",
+    "SlicerDentalModelSeg",
+    "SlicerDevelopmentToolbox",
+    "SlicerDiffusionComplexityMap",
+    "SlicerDMRI",
+    "SlicerElastix",
+    "SlicerFab",
+    "SlicerFreeSurfer",
+    "SlicerHeadCTDeid",
+    "SlicerHeart",
+    "SlicerIGSIO",
+    "SlicerIGT",
+    "SlicerITKUltrasound",
+    "SlicerJupyter",
+    "SlicerLayoutButtons",
+    "SlicerLiver",
+    "SlicerLookingGlass",
+    "SlicerMarkupConstraints",
+    "SlicerMOOSE",
+    "SlicerMorph",
+    "SlicerMultiverSeg",
+    "SlicerNetstim",
+    "SlicerNeuro",
+    "SlicerNeuropacs",
+    "SlicerNeuroSegmentation",
+    "SlicerOpenAnatomy",
+    "SlicerOpenIGTLink",
+    "SlicerOrbitSurgerySim",
+    "SlicerPRISMRendering",
+    "SlicerProstate",
+    "SlicerProstateAblation",
+    "SlicerPythonTestRunner",
+    "SlicerRadiomics",
+    "SlicerRT",
+    "SlicerSOFA",
+    "SlicerTelemetry",
+    "SlicerThemes",
+    "SlicerToKiwiExporter",
+    "SlicerTractParcellation",
+    "SlicerTrame",
+    "SlicerVirtualMouseCursor",
+    "SlicerVirtualReality",
+    "SlicerVMTK",
 ]
 
 LICENSE_CHECK_EXCEPTIONS = [
