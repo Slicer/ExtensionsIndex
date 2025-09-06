@@ -198,7 +198,7 @@ def check_extension_name(extension_name, metadata):
             textwrap.dedent("""
             extension name should not start with 'Slicer'. Please, consider changing it to '%s'.
             """ % (
-                extension_name[7:],)))
+                extension_name[6:],)))
 
 @require_metadata_key("scm_url")
 def check_git_repository_name(extension_name, metadata):
