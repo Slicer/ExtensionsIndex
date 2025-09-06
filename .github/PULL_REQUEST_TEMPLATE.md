@@ -14,6 +14,7 @@ Thank you for contributing to 3D Slicer!
 
 Any extension that is listed in the Extensions Catalog must fulfill these requirements.
 
+- [ ] Extension has a reasonable name (not too general, not too narrow, suggests what the extension is for). The extension name should not start with `Slicer`, because it would make it more difficult to find extensions if the name of many started with the same word.
 - [ ] Repository name is Slicer+ExtensionName (except if the repository that hosts the extension can be also used without Slicer)
 - [ ] Repository is associated with `3d-slicer-extension` GitHub topic so that it is listed [here](https://github.com/topics/3d-slicer-extension). To edit topics, click the settings icon in the right side of "About" section header and enter `3d-slicer-extension` in "Topics" and click "Save changes". To learn more about topics, read https://help.github.com/en/articles/about-topics
 - [ ] Extension description summarizes in 1-2 sentences what the extension is usable (should be understandable for non-experts)
@@ -40,7 +41,6 @@ Any extension that is listed in the Extensions Catalog must fulfill these requir
 
 Community-supported extensions.
 
-- [ ] Extension has a reasonable name (not too general, not too narrow, suggests what the extension is for)
 - [ ] Documentation, tutorial, and test data are provided for most modules. A tutorial provides step-by-step description of at least the most typical use case, include a few screenshots. Any sample data sets that is used in tutorials must be registered with the Sample Data module to provide easy access to the user.
 - [ ] Follows programming and user interface conventions of 3D Slicer (e.g., GUI and logic are separated, usage of popups is minimized, no unnecessary custom GUI styling, etc.)
 - [ ] The extension can be successfully built and packaged on all supported platforms (Windows, macOS, Linux)
