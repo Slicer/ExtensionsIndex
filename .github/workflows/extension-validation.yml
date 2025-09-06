@@ -150,7 +150,7 @@ jobs:
           echo "Extension validation: $EXTENSION_RESULT"
 
           if [ "$STRUCTURE_RESULT" != "success" ] || [ "$EXTENSION_RESULT" != "success" ]; then
-            echo "❌ One or more validation steps failed"
+            echo "❌ One or more validation steps failed. Check \"Summary\" for more information."
             exit 1
           else
             echo "✅ All validation steps passed"
