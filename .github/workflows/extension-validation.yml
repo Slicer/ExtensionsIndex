@@ -150,8 +150,8 @@ jobs:
           echo "Extension validation: $EXTENSION_RESULT"
 
           if [ "$STRUCTURE_RESULT" != "success" ] || [ "$EXTENSION_RESULT" != "success" ]; then
-            echo "❌ One or more validation steps failed. Check \"Summary\" for more information."
+            echo "❌ Extension description validation failed. See workflow summary for more information: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
             exit 1
           else
-            echo "✅ All validation steps passed"
+            echo "✅ All validation steps passed. See workflow summary for more information: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           fi
