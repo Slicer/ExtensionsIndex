@@ -743,6 +743,7 @@ ACCEPTED_EXTENSION_CATEGORIES = [
     "Filtering.Morphology",
     "Filtering.Vesselness",
     "Holographic Display",
+    "Image Synthesis",
     "IGT",
     "Informatics",
     "Netstim",
