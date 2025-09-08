@@ -19,7 +19,7 @@ import shutil
 # It offers capable models for free with an OpenAI-compatible API.
 INFERENCE_URL = "https://inference.nebulablock.com/v1/chat/completions"
 INFERENCE_MODEL = "mistralai/Mistral-Small-3.2-24B-Instruct-2506"
-INFERENCE_RESPONSE_PER_MINUTE_LIMIT = 3
+INFERENCE_RESPONSE_PER_MINUTE_LIMIT = 5
 INFERENCE_API_KEY = os.getenv("NEBULA_API_KEY")
 
 QUESTIONS = [
