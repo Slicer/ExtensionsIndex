@@ -3,10 +3,6 @@ name: Extension AI Analysis
 on:
   pull_request_target:
     types: [opened, synchronize, reopened, ready_for_review]
-  push:
-    branches:
-      - main
-      - 5.*
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -21,11 +17,15 @@ jobs:
       pull-requests: write
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+      - name: Checkout the fork PR code
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
         with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
           fetch-depth: 0 # Fetch full history for git diff
 
-      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+      - name: Setup Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
         with:
           python-version: "3.12"
           cache: "pip"
@@ -47,17 +47,13 @@ jobs:
 
       - name: Get changed files
         run: |
-          echo "Event: ${{ github.event_name }}"
           mkdir -p /tmp/ai-analysis-reports
-          if [ "${{ github.event_name }}" = "pull_request" ]; then
-            # For pull requests, compare against the base branch
-            BASE_REF="${{ github.event.pull_request.base.ref }}"
-            echo "Base ref: $BASE_REF"
-            git diff --name-only "origin/$BASE_REF"...HEAD > /tmp/ai-analysis-reports/changed_files.txt 2>/dev/null
-          else
-            # For pushes, compare against the previous commit or get all JSON files if it's the first commit
-            git diff --name-only HEAD~1 HEAD > /tmp/ai-analysis-reports/changed_files.txt 2>/dev/null
-          fi
+          BASE_REF="${{ github.event.pull_request.base.ref }}"
+          git fetch origin $BASE_REF
+          echo "Base ref: $BASE_REF"
+          # List only Added (A) or Modified (M) JSON files
+          git diff --name-only --diff-filter=AM "origin/$BASE_REF"...HEAD \
+            | grep '\.json$' > /tmp/ai-analysis-reports/changed_files.txt 2>/dev/null
           echo "Changed JSON files:"
           cat /tmp/ai-analysis-reports/changed_files.txt
 
