@@ -19,9 +19,9 @@ import shutil
 # It offers capable models for free with an OpenAI-compatible API.
 INFERENCE_URL = "https://inference.nebulablock.com/v1/chat/completions"
 INFERENCE_MODEL = "mistralai/Mistral-Small-3.2-24B-Instruct-2506"
-INFERENCE_RESPONSE_PER_MINUTE_LIMIT = 5
+INFERENCE_RESPONSE_PER_MINUTE_LIMIT = 4 #  slow down to not exceed token per minute (tpm) limit of 60k
 INFERENCE_API_KEY = os.getenv("NEBULA_API_KEY")
-INFERENCE_MAX_CHARACTERS = 100000  # max characters in all files provided to the model, approximately 25k tokens
+INFERENCE_MAX_CHARACTERS = 100000  # max characters in all files provided to the model, approximately 25k tokens (limit is 32k)
 
 QUESTIONS = [
     ["Is there a EXTENSION_DESCRIPTION variable in the CMakeLists.txt file that describes what the extension does in a few sentences that can be understood by a person knowledgeable in medical image computing?", ["cmake"]],
