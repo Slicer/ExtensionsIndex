@@ -73,5 +73,9 @@ jobs:
           NEBULA_API_KEY: ${{ secrets.NEBULA_API_KEY }}
         id: ai-analysis
         run: |
-          python scripts/extension_ai_analysis.py \
-            $(cat /tmp/ai-analysis-reports/changed_files.txt | tr '\n' ' ')
+          RESULT=$(python scripts/extension_ai_analysis.py \
+            $(cat /tmp/ai-analysis-reports/changed_files.txt | tr '\n' ' '))
+          echo "$RESULT"
+          # Append result to GitHub Actions job summary
+          echo "### AI Analysis Result" >> $GITHUB_STEP_SUMMARY
+          echo "$RESULT" >> $GITHUB_STEP_SUMMARY
