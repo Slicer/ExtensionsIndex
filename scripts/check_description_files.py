@@ -223,6 +223,43 @@ def check_git_repository_name(extension_name, metadata):
             """ % (
                 repo_name, repo_name, variations)))
 
+@require_metadata_key("scm_url")
+def check_git_repository_topics(extension_name, metadata):
+    """See https://www.slicer.org/wiki/Documentation/Nightly/Developers/FAQ#Should_the_name_of_the_source_repository_match_the_name_of_the_extension_.3F
+    """
+    check_name = "check_git_repository_topics"
+
+    # Example: scm_url = "https://github.com/ciroraggio/SlicerModalityConverter.git"
+
+    scm_url = metadata["scm_url"]
+    parsed_url = urlparse.urlsplit(scm_url)
+    if parsed_url.netloc.lower() != "github.com":
+        # Only GitHub repositories are required to use the slicer-extension topic
+        print("Skipping repository topics check for non-GitHub repository:", scm_url)
+        return
+
+    owner = parsed_url.path.split("/")[1]
+    repo = os.path.splitext(parsed_url.path.split("/")[-1])[0]
+
+    import requests
+    url = f"https://api.github.com/repos/{owner}/{repo}/topics"
+    headers = {
+        "Accept": "application/vnd.github+json"
+    }
+    response = requests.get(url, headers=headers)
+    topics = []
+    if response.status_code == 200:
+        data = response.json()
+        topics = data.get("names", [])
+    else:
+        raise ValueError(f"Failed to get github topics for {owner}/{repo}: Error {response.status_code}: {response.text}")
+
+    if "3d-slicer-extension" not in topics:
+        raise ExtensionCheckError(
+            extension_name, check_name,
+            textwrap.dedent("""
+            GitHub repository does not have the '3d-slicer-extension' topic. Please, add it to the repository topics.
+            """))
 
 def validate_image_url(url, url_type, extension_name, check_name):
     """Validate that a URL points to a valid image file."""
@@ -557,6 +594,7 @@ def main():
             ("Check extension name", check_extension_name, {}),
             ("Check category", check_category, {}),
             ("Check git repository name", check_git_repository_name, {}),
+            ("Check git repository topics", check_git_repository_topics, {}),
             ("Check SCM URL syntax", check_scm_url_syntax, {}),
             ("Check CMakeLists.txt content", check_cmakelists_content, {"cloned_repository_folder": cloned_repository_folder}),
             ("Check license file", check_license_file, {"cloned_repository_folder": cloned_repository_folder}),
