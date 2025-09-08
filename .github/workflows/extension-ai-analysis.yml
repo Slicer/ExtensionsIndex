@@ -1,7 +1,8 @@
 name: Extension AI Analysis
 
 on:
-  pull_request:
+  pull_request_target:
+    types: [opened, synchronize, reopened, ready_for_review]
   push:
     branches:
       - main
@@ -14,6 +15,7 @@ concurrency:
 jobs:
   ai-analysis:
     runs-on: ubuntu-latest
+    environment: ai-analysis # 👈 requires approval from slicer-developer to avoid exposing secret (API key)
     permissions:
       contents: read
       pull-requests: write
