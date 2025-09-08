@@ -21,19 +21,20 @@ INFERENCE_URL = "https://inference.nebulablock.com/v1/chat/completions"
 INFERENCE_MODEL = "mistralai/Mistral-Small-3.2-24B-Instruct-2506"
 INFERENCE_RESPONSE_PER_MINUTE_LIMIT = 5
 INFERENCE_API_KEY = os.getenv("NEBULA_API_KEY")
+INFERENCE_MAX_CHARACTERS = 100000  # max characters in all files provided to the model, approximately 25k tokens
 
 QUESTIONS = [
-    "Is there a EXTENSION_DESCRIPTION variable in the CMakeLists.txt file that describes what the extension does in a few sentences that can be understood by a person knowledgeable in medical image computing?",
-    "Does the README.md file contain a short description, 1-2 sentences, which summarizes what the extension is usable for?",
-    "Does the README.md file contain at least one image that illustrates what the extension can do, preferably a screenshot? Ignore contents of CMakeLists.txt file.",
-    "Does the README.md file contain description of contained modules: at one sentence for each module?",
-    "Does the README.md file contain publication: link to publication and/or to PubMed reference or a 'How to cite' section?",
-    "Does the documentation contain step-by-step tutorial? Does the tutorial tell where to get sample data from?"
-    "Does this code download any executable code from the internet or uploads any data to the internet?",
-    "Is any code executed at the file scope when a module is imported?",
-    "Are any Python packages imported at the file scope that are not from the Python Standard Library and not from Slicer, vtk, SimpleITK, numpy, and scipy?",
-    "Does it directly use pip_install to install pytorch?",
-    "Does it store large amount of downloaded content on local disk other than installing Python packages? Does it provide a way for the user to remove that content?",
+    ["Is there a EXTENSION_DESCRIPTION variable in the CMakeLists.txt file that describes what the extension does in a few sentences that can be understood by a person knowledgeable in medical image computing?", ["cmake"]],
+    ["Does the README.md file contain a short description, 1-2 sentences, which summarizes what the extension is usable for?", ["doc"]],
+    ["Does the README.md file contain at least one image that illustrates what the extension can do, preferably a screenshot?", ["doc"]],
+    ["Does the README.md file contain description of contained modules: at one sentence for each module?", ["doc"]],
+    ["Does the README.md file contain publication: link to publication and/or to PubMed reference or a 'How to cite' section?", ["doc"]],
+    ["Does the documentation contain step-by-step tutorial? Does the tutorial tell where to get sample data from?", ["doc"]],
+    ["Does this code download any executable code from the internet or uploads any data to the internet?", ["source"]],
+    ["Is any code executed at the file scope when a module is imported?", ["source"]],
+    ["Are any Python packages imported at the file scope that are not from the Python Standard Library and not from Slicer, vtk, SimpleITK, numpy, and scipy?", ["source"]],
+    ["Does it directly use pip_install to install pytorch?", ["source"]],
+    ["Does it store large amount of downloaded content on local disk other than installing Python packages? Does it provide a way for the user to remove that content?", ["source"]],
 ]
 
 def parse_json(extension_file_path):
@@ -105,72 +106,126 @@ def clone_repository(metadata, cloned_repository_folder):
 
 
 def collect_analyzed_files(folder):
-    """Load all .py files in a folder, recursively."""
-    scripts = {}
+    """Load all .py files in a folder, recursively.
+    returns a dict of categories (doc, source, cmake), each containing a dict of filename->content"""
+    found_files = { "doc": {}, "source": {}, "cmake": {} }
     for root, dirs, files in os.walk(folder):
         for filename in files:
             fullpath = os.path.join(root, filename)
             relative_path = os.path.relpath(fullpath, start=folder).replace("\\", "/")
-            if filename.endswith(".py") or filename.endswith(".md") or relative_path == "CMakeLists.txt":
-                with open(fullpath, "r", encoding="utf-8") as f:
-                    # get relative path to folder, in linux-style
-                    scripts[relative_path] = f.read()
-    return scripts
+            category = None
+            if filename.endswith(".py"):
+                category = "source"
+            elif filename.endswith(".md"):
+                category = "doc"
+            elif relative_path == "CMakeLists.txt":
+                category = "cmake"
+            if category is None:
+                continue
+            with open(fullpath, "r", encoding="utf-8") as f:
+                # get relative path to folder, in linux-style
+                found_files[category][relative_path] = f.read()
+    return found_files
 
-
-def analyze_extension(extension_name, metadata, cloned_repository_folder):
-
+def ask_question(system_msg, question):
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {INFERENCE_API_KEY}"
     }
 
-    scripts = collect_analyzed_files(cloned_repository_folder)
-
-    system_msg = \
-        "You are a quality control expert that checks community-contributed files that contain code and documentation." \
-        " Do not talk about things in general, only strictly about the content provided." \
-        " Relevant files of the extension repository are provided below." \
-        " Each file is delimited by lines with '=== FILE: filename ===' and '=== END FILE: filename ==='."
-    for filename in scripts:
-        system_msg += f"\n=== FILE: {filename} ===\n"
-        system_msg += scripts[filename]
-        system_msg += f"\n=== END FILE: {filename} ===\n"
-
-    # Send the system prompt only once, then continue the conversation
     messages = [
-        {"role": "system", "content": system_msg}
+        {"role": "system", "content": system_msg},
+        {"role": "user", "content": question}
     ]
 
-    for index, question in enumerate(QUESTIONS):
-        messages.append({"role": "user", "content": question})
-        data = {
-            "messages": messages,
-            "model": INFERENCE_MODEL,
-            "max_tokens": None,
-            "temperature": 1,
-            "top_p": 0.9,
-            "stream": False
-        }
-        response = requests.post(INFERENCE_URL, headers=headers, json=data)
+    data = {
+        "messages": messages,
+        "model": INFERENCE_MODEL,
+        "max_tokens": None,
+        "temperature": 1,
+        "top_p": 0.9,
+        "stream": False
+    }
+
+    response = requests.post(INFERENCE_URL, headers=headers, json=data)
+
+    # wait according to response per minute limit
+    delay = 60 / INFERENCE_RESPONSE_PER_MINUTE_LIMIT
+    import time
+    time.sleep(delay)
+
+    try:
+        answer = response.json()["choices"][0]["message"]["content"]
+    except Exception as e:
+        raise RuntimeError(f"Error or unexpected response: {response.json()["error"]["message"]}")
+
+    return answer
+
+
+def analyze_extension(extension_name, metadata, cloned_repository_folder):
+
+    files = collect_analyzed_files(cloned_repository_folder)
+
+    for index, [question, categories] in enumerate(QUESTIONS):
+
         print("\n------------------------------------------------------")
         print(f"Question {index+1}: {question}")
         print("------------------------------------------------------")
-        try:
-            answer = response.json()["choices"][0]["message"]["content"]
 
+        file_content_batches = [""]
+
+        # Add files of the categories relevant for the question
+        # The context of each query is limited, therefore if there are too many/too large input files in the relevant categories,
+        # then we split them into batches, ask the question for each batch, and then generate a summary of the answers.
+        for category in categories:
+            files_in_category = files.get(category, {})
+            for filename in files_in_category:
+                next_file = f"\n=== FILE: {filename} ===\n" + files_in_category[filename] + f"\n=== END FILE: {filename} ===\n"
+                if len(file_content_batches[-1]) + len(next_file) < INFERENCE_MAX_CHARACTERS:
+                    # We can add this file to the current batch
+                    file_content_batches[-1] += next_file
+                else:
+                    # Start a new batch
+                    file_content_batches.append(next_file)
+
+        if not file_content_batches[0].strip():
+            print("No relevant files found for this question.")
+            continue
+
+        role_description = \
+            "You are a quality control expert that checks community-contributed files that contain code and documentation." \
+            " Do not talk about things in general, only strictly about the content provided."
+
+        answers = []
+
+        for batch_index, file_content in enumerate(file_content_batches):
+
+            system_msg = role_description
+            system_msg += " Relevant files of the extension repository are provided below."
+            system_msg += " Each file is delimited by lines with '=== FILE: filename ===' and '=== END FILE: filename ==='.\n"
+            system_msg += file_content
+
+            try:
+                answer = ask_question(system_msg, question)
+                answers.append(answer)
+            except Exception as e:
+                answers = [f"Error or unexpected response: {e}"]
+                break
+
+        if len(answers) == 1:
+            print(answers[0])
+        else:
+            # Multiple batches of files were used to answer this question, generate a summary
+            system_msg = role_description
+            question = "The answer to the question is spread over multiple parts. Please summarize the answer in a concise way, combining all relevant information from the different parts. " \
+                "Here are the different parts of the answer:\n\n"
+            for part_index, part in enumerate(answers):
+                question += f"--- PART {part_index+1} ---\n{part}\n"
+            try:
+                answer = ask_question(system_msg, question)
+            except Exception as e:
+                answer = f"Error or unexpected response: {e}"
             print(answer)
-            messages.append({"role": "assistant", "content": answer})
-        except Exception as e:
-            print("Error or unexpected response:", response.json()["error"]["message"])
-            if index == 0:
-                # if the first question fails, likely the system prompt is too long, so stop here
-                raise RuntimeError("Stopping further questions since the first question failed.")
-
-        # wait according to response per minute limit
-        delay = 60 / INFERENCE_RESPONSE_PER_MINUTE_LIMIT
-        import time
-        time.sleep(delay)
 
 
 def main():
@@ -211,7 +266,7 @@ def main():
             # Clean up temporary directory
             success_cleanup = safe_cleanup_directory(cloned_repository_folder)
 
-        print("=====================================================")
+        print("\n=====================================================\n")
 
 
 if __name__ == "__main__":
