@@ -48,14 +48,26 @@ jobs:
       - name: Get changed files
         run: |
           mkdir -p /tmp/ai-analysis-reports
+
+          # Upstream repo (base repository)
+          UPSTREAM_REPO="${{ github.event.pull_request.base.repo.full_name }}"
           BASE_REF="${{ github.event.pull_request.base.ref }}"
-          git fetch origin $BASE_REF
+          echo "Upstream repo: $UPSTREAM_REPO"
           echo "Base ref: $BASE_REF"
-          # List only Added (A) or Modified (M) JSON files
-          git diff --name-only --diff-filter=AM "origin/$BASE_REF"...HEAD \
-            | grep '\.json$' > /tmp/ai-analysis-reports/changed_files.txt 2>/dev/null
+
+          # Add upstream remote and fetch latest base branch
+          git remote add upstream "https://github.com/$UPSTREAM_REPO.git"
+          git fetch upstream $BASE_REF
+
+          # Checkout PR code
+          git checkout ${{ github.event.pull_request.head.ref }}
+
+          # Diff fork PR vs upstream base branch
+          git diff --name-only --diff-filter=AM upstream/$BASE_REF...HEAD \
+            | grep -E '\.json$' > /tmp/ai-analysis-reports/changed_files.txt || true
+
           echo "Changed JSON files:"
-          cat /tmp/ai-analysis-reports/changed_files.txt
+          cat /tmp/ai-analysis-reports/changed_files.txt || echo "(none)"
 
       - name: Run AI analysis
         env:
