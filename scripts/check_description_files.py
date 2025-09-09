@@ -745,7 +745,6 @@ EXTENSION_NAME_CHECK_EXCEPTIONS = [
     "SlicerRadiomics",
     "SlicerRT",
     "SlicerSOFA",
-    "SlicerTelemetry",
     "SlicerThemes",
     "SlicerToKiwiExporter",
     "SlicerTractParcellation",
