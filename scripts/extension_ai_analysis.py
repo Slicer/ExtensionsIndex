@@ -181,7 +181,7 @@ def analyze_extension(extension_name, metadata, cloned_repository_folder):
             files_in_category = files.get(category, {})
             for filename in files_in_category:
                 next_file = f"\n=== FILE: {filename} ===\n" + files_in_category[filename] + f"\n=== END FILE: {filename} ===\n"
-                if len(file_content_batches[-1]) + len(next_file) < INFERENCE_MAX_CHARACTERS:
+                if (not file_content_batches[-1].strip()) or (len(file_content_batches[-1]) + len(next_file) < INFERENCE_MAX_CHARACTERS):
                     # We can add this file to the current batch
                     file_content_batches[-1] += next_file
                 else:
