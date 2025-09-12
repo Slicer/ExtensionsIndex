@@ -3,7 +3,8 @@
   "build_dependencies": [
     "SurfaceWrapSolidify",
     "MarkupsToModel",
-    "Sandbox"
+    "Sandbox",
+    "Telemetry"
   ],
   "build_subdirectory": ".",
   "category": "Planning",
