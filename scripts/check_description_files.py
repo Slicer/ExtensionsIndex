@@ -264,6 +264,11 @@ def check_git_repository_topics(extension_name, metadata):
 def validate_image_url(url, url_type, extension_name, check_name):
     """Validate that a URL points to a valid image file."""
     try:
+        if not url.startswith("http"):
+            raise ExtensionCheckError(
+                extension_name, check_name,
+                f"{url_type} '{url}' should be a valid URL starting with 'http'")
+
         response = requests.get(url, timeout=10)
         response.raise_for_status()
         content_type = response.headers.get('Content-Type', '').lower()
@@ -375,6 +380,10 @@ def check_cmakelists_content(extension_name, metadata, cloned_repository_folder=
             extension_name, check_name,
             f"Failed to read CMakeLists.txt: {str(e)}")
 
+    # Many errors can be in the CMakeLists.txt file. We collect them all in this variable and report at once so that the develop
+    # can fix all of them at once.
+    errors = []
+
     extension_name_in_cmake = None
 
     # Parse CMakeLists.txt to find project() declaration
@@ -392,16 +401,12 @@ def check_cmakelists_content(extension_name, metadata, cloned_repository_folder=
         if extension_name_matches:
             extension_name_in_cmake = extension_name_matches[0].strip().strip('"').strip("'")
 
-    if not extension_name_in_cmake:
-        raise ExtensionCheckError(
-            extension_name, check_name,
-            "No project() declaration found in CMakeLists.txt")
-
-    # Check if the project name matches the extension name
-    if extension_name_in_cmake != extension_name:
-        raise ExtensionCheckError(
-            extension_name, check_name,
-            f"Extension name in CMakeLists.txt project name '{extension_name_in_cmake}' does not match extension description file name '{extension_name}'")
+    if extension_name_in_cmake:
+        # Check if the project name matches the extension name
+        if extension_name_in_cmake != extension_name:
+            errors.append(f"Extension name in CMakeLists.txt project name '{extension_name_in_cmake}' does not match extension description file name '{extension_name}'")
+    else:
+        errors.append(f"No project() declaration found in CMakeLists.txt")
 
     # Check extension icon URL
     # set(EXTENSION_ICONURL "https://raw.githubusercontent.com/jamesobutler/ModelClip/main/Resources/Icons/ModelClip.png")
@@ -410,18 +415,14 @@ def check_cmakelists_content(extension_name, metadata, cloned_repository_folder=
     icon_url_matches = re.findall(icon_url_pattern, cmake_content, re.IGNORECASE | re.MULTILINE)
     if icon_url_matches:
         extension_icon_url = icon_url_matches[0].strip()
-        if not extension_icon_url.startswith("http"):
-            raise ExtensionCheckError(
-                extension_name, check_name,
-                f"EXTENSION_ICONURL '{extension_icon_url}' should be a valid URL starting with 'http'")
-    if not extension_icon_url:
-        raise ExtensionCheckError(
-            extension_name, check_name,
-            "No EXTENSION_ICONURL found in CMakeLists.txt.")
-
-    # Validate the icon URL
-    validate_image_url(extension_icon_url, "EXTENSION_ICONURL", extension_name, check_name)
-    print(f"- :white_check_mark: Extension icon URL: {extension_icon_url}\n")
+        # Validate the icon URL
+        try:
+            validate_image_url(extension_icon_url, "EXTENSION_ICONURL", extension_name, check_name)
+            print(f"- :white_check_mark: Extension icon URL: {extension_icon_url}\n")
+        except ExtensionCheckError as e:
+            errors.append(str(e))
+    else:
+        errors.append("No EXTENSION_ICONURL found in CMakeLists.txt.")
 
     # Check screenshot URLS
     # set(EXTENSION_SCREENSHOTURLS "https://raw.githubusercontent.com/SlicerProstate/SlicerZFrameRegistration/master/Screenshots/1.png https://raw.githubusercontent.com/SlicerProstate/SlicerZFrameRegistration/master/Screenshots/2.png")
@@ -431,18 +432,19 @@ def check_cmakelists_content(extension_name, metadata, cloned_repository_folder=
     if screenshot_urls_matches:
         extension_screenshot_urls = [url.strip() for url in screenshot_urls_matches[0].split()]
         for url in extension_screenshot_urls:
-            if not url.startswith("http"):
-                raise ExtensionCheckError(
-                    extension_name, check_name,
-                    f"EXTENSION_SCREENSHOTURLS '{url}' should be a valid URL starting with 'http'")
-    if not extension_screenshot_urls:
+            try:
+                validate_image_url(url, "EXTENSION_SCREENSHOTURLS", extension_name, check_name)
+                print(f"- :white_check_mark: Extension screenshot URL: {url}")
+            except ExtensionCheckError as e:
+                errors.append(str(e))
+    else:
+        errors.append("No EXTENSION_SCREENSHOTURLS found in CMakeLists.txt.")
+
+    # Report collected errors
+    if errors:
         raise ExtensionCheckError(
             extension_name, check_name,
-            "No EXTENSION_SCREENSHOTURLS found in CMakeLists.txt.")
-
-    for url in extension_screenshot_urls:
-        validate_image_url(url, "EXTENSION_SCREENSHOTURLS", extension_name, check_name)
-        print(f"- :white_check_mark: Extension screenshot URL: {url}")
+            " ".join(errors))
 
     # Log the top-level CMakeLists.txt file content
     return f"\nTop-level CMakeLists.txt content:\n```\n{cmake_content}\n```\n"
