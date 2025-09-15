@@ -196,7 +196,8 @@ def check_extension_name(extension_name, metadata):
         raise ExtensionCheckError(
             extension_name, check_name,
             textwrap.dedent("""
-            extension name should not start with 'Slicer'. Please, consider changing it to '%s'.
+            extension name *should not* start with 'Slicer'. Please, consider changing it to '%s'.
+            Note that the git repository name *should* start with 'Slicer'.
             """ % (
                 extension_name[6:],)))
 
@@ -209,20 +210,27 @@ def check_git_repository_name(extension_name, metadata):
     url = metadata["scm_url"].strip().strip("/")
     repo_name = os.path.splitext(urlparse.urlsplit(url).path.split("/")[-1])[0]
 
+    if not repo_name:
+        raise ExtensionCheckError(
+            extension_name, check_name,
+            f"Failed to determine repository name from scm_url '{url}'")
+
     if repo_name in REPOSITORY_NAME_CHECK_EXCEPTIONS:
         return
 
-    if "slicer" not in repo_name.lower():
-
-        variations = [prefix + repo_name for prefix in ["Slicer-", "Slicer_", "SlicerExtension-", "SlicerExtension_"]]
-
+    allowed_prefixes = ["Slicer", "Slicer-", "Slicer_", "SlicerExtension-", "SlicerExtension_"]
+    for prefix in allowed_prefixes:
+        if repo_name.startswith(prefix):
+            # This is an allowed prefix
+            break
+    else:
         raise ExtensionCheckError(
             extension_name, check_name,
-            textwrap.dedent("""
-            extension repository name is '%s'. Please, consider changing it to 'Slicer%s' or any of
-            these variations %s.
-            """ % (
-                repo_name, repo_name, variations)))
+            textwrap.dedent(f"""
+            git repository name *should* start with 'Slicer'. The current repository name is '{repo_name}'.
+            Please, consider changing it to start with 'Slicer' (these variations are also acceptable: '{"', '".join(allowed_prefixes[1:])}').
+            Note that the extension name (the name of the submitted .json file) *should not* start with 'Slicer'.
+            """))
 
 @require_metadata_key("scm_url")
 def check_git_repository_topics(extension_name, metadata):
