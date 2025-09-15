@@ -206,7 +206,8 @@ def check_git_repository_name(extension_name, metadata):
     """
     check_name = "check_git_repository_name"
 
-    repo_name = os.path.splitext(urlparse.urlsplit(metadata["scm_url"]).path.split("/")[-1])[0]
+    url = metadata["scm_url"].strip().strip("/")
+    repo_name = os.path.splitext(urlparse.urlsplit(url).path.split("/")[-1])[0]
 
     if repo_name in REPOSITORY_NAME_CHECK_EXCEPTIONS:
         return
