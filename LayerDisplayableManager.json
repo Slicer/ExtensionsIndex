@@ -1,11 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
-  "build_dependencies": [
-    ""
-  ],
+  "build_dependencies": [],
   "build_subdirectory": ".",
-  "category": "SlicerMorph",
+  "category": "Developer Tools",
   "scm_revision": "main",
-  "scm_url": "https://github.com/MorphoCloud/SlicerMorphoDepot.git",
-  "tier": 1
+  "scm_url": "https://github.com/KitwareMedical/SlicerLayerDisplayableManager",
+  "tier": 5
 }
