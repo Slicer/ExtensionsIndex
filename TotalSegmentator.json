@@ -3,7 +3,7 @@
   "build_dependencies": ["PyTorch", "NNUNet"],
   "build_subdirectory": ".",
   "category": "Segmentation",
-  "scm_revision": "main",
+  "scm_revision": "5.8",
   "scm_url": "https://github.com/lassoan/SlicerTotalSegmentator",
   "tier": 5
 }
