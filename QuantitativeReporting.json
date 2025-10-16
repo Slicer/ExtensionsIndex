@@ -7,7 +7,7 @@
   ],
   "build_subdirectory": ".",
   "category": "Informatics",
-  "scm_revision": "master",
+  "scm_revision": "2c0112785c9ba3af9be6a1f86d5ed7bb8b700705",
   "scm_url": "https://github.com/QIICR/QuantitativeReporting.git",
   "tier": 5
 }
