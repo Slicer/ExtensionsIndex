@@ -1,0 +1,8 @@
+[extension]
+extension_name = SliceStat
+extension_author = Sowwn (User)
+extension_description = This extension exports the slice numbers for each segment in a segmentation node to a CSV file.
+extension_category = VsData
+extension_homepage = https://github.com/sowwnn/Slicer_SliceStat
+extension_scm_url = https://github.com/sowwnn/Slicer_SliceStat.git
+extension_scm = git
