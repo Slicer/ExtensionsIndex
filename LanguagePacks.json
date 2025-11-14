@@ -4,6 +4,6 @@
   "build_subdirectory": ".",
   "category": "Utilities",
   "scm_revision": "main",
-  "scm_url": "https://github.com/Slicer/SlicerLanguagePacks",
+  "scm_url": "https://github.com/SoniaPujolLab/SlicerLanguagePacks",
   "tier": 5
 }
