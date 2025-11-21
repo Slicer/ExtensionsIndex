@@ -1,0 +1,10 @@
+{
+  "name": "MuscleMap",
+  "description": "MuscleMap provides automated whole-body muscle segmentation directly inside 3D Slicer.",
+  "category": "Segmentation",
+  "scm_url": "https://github.com/Eddowesselink/Slicer3D_MuscleMap.git",
+  "scm_type": "git",
+  "scm_revision": "main",
+  "build_dependencies": [],
+  "enabled": true
+}
