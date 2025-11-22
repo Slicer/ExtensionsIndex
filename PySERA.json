@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
+  "category": "Analysis",
+  "scm_url": "https://github.com/radiuma-com/SlicerPySERA",
+  "scm_type": "git",
+  "scm_revision": "main",
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "tier": 1
+}
