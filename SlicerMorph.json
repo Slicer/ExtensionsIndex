@@ -6,7 +6,7 @@
   ],
   "build_subdirectory": ".",
   "category": "SlicerMorph",
-  "scm_revision": "master",
+  "scm_revision": "geomorphTab",
   "scm_url": "https://github.com/SlicerMorph/SlicerMorph.git",
   "tier": 5
 }
