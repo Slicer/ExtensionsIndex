@@ -1,9 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
   "build_dependencies": [],
-  "build_subdirectory": "inner-build",
+  "build_subdirectory": ".",
   "category": "Radiomics",
+  "screenshots": ["https://github.com/radiuma-com/SlicerPySERA/raw/main/Resources/Screenshots/0_screenshot_title_with_categories.png"],
+  "scm": "git",
   "scm_revision": "main",
   "scm_url": "https://github.com/radiuma-com/SlicerPySERA.git",
   "tier": 1
 }
+
