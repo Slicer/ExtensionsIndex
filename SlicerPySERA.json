@@ -4,7 +4,7 @@
   "extension_name": "Slicer PySERA",
   "description": "PySERA is an extension for radiomics and segmentation analysis.",
   "contributors": [
-    "Dr. Mohammad Salmanpour"
+    "Dr. Mohammad R. Salmanpour"
   ],
   "category": "Radiomics",
   "screenshots": [
@@ -17,3 +17,4 @@
   "build_subdirectory": ".",
   "tier": 1
 }
+
