@@ -6,6 +6,6 @@
   "build_subdirectory": ".",
   "category": "Segmentation",
   "scm_revision": "main",
-  "scm_url": "https://github.com/Eddowesselink/Slicer3D_MuscleMap.git",
+  "scm_url": "https://github.com/Eddowesselink/SlicerMuscleMap",
   "tier": 1
 }
