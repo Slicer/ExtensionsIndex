@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
-  "extension_id": "SlicerPySERA",
-  "extension_name": "Slicer PySERA",
+  "extension_id": "PySERA",
+  "extension_name": "PySERA",
   "description": "PySERA is an extension for radiomics and segmentation analysis.",
   "contributors": [
     "Dr. Mohammad R. Salmanpour"
@@ -17,3 +17,4 @@
   "build_subdirectory": ".",
   "tier": 1
 }
+
