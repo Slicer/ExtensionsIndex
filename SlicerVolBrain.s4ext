@@ -18,4 +18,8 @@ description 3D Slicer extension for comprehensive brain structure volume calcula
 
 screenshoturls https://raw.githubusercontent.com/niyaziacer/SlicerVolBrain/main/Screenshots/interface.png https://raw.githubusercontent.com/niyaziacer/SlicerVolBrain/main/Screenshots/3d_visualization.png
 
+<<<<<<< HEAD
 enabled 1
+=======
+enabled 1
+>>>>>>> b2dbe2cc77728b959d7ffebe0ea086c982d4a4b9
