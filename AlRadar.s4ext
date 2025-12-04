@@ -1,3 +1,9 @@
+#
+# Extension: AlRadar
+# Description: Professional MONAI Label client for 3D Slicer.
+# Category: Segmentation
+#
+
 scm git
 scmurl https://github.com/ArArgeSolutions/AlRadar.git
 scmrevision main
