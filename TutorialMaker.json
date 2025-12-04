@@ -4,6 +4,6 @@
   "build_subdirectory": ".",
   "category": "Developer Tools",
   "scm_revision": "main",
-  "scm_url": "https://github.com/SlicerLatinAmerica/SlicerTutorialMaker.git",
+  "scm_url": "https://github.com/SoniaPujolLab/SlicerTutorialMaker.git",
   "tier": 1
 }
