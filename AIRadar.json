@@ -1,0 +1,9 @@
+{
+  "scm": "git",
+  "scmurl": "https://github.com/ArArgeSolutions/AlRadar.git",
+  "scmrevision": "main",
+  "homepage": "https://github.com/ArArgeSolutions/AlRadar",
+  "iconurl": "https://raw.githubusercontent.com/ArArgeSolutions/AlRadar/main/Resources/Icons/AlRadar.png",
+  "category": "Segmentation",
+  "status": "Active"
+}
