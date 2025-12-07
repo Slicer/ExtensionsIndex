@@ -6,7 +6,7 @@
   ],
   "build_subdirectory": ".",
   "category": "Photogrammetry",
-  "scm_revision": "master",
+  "scm_revision": "stable-5.10",
   "scm_url": "https://github.com/SlicerMorph/SlicerPhotogrammetry.git",
   "tier": 1
 }
