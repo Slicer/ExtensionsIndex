@@ -11,8 +11,9 @@
   "scm": "git",
   "scmurl": "https://github.com/Atakanisik/SlicerIVIMFit",
   "scmrevision": "main",
-  "tier": 1
+  "tier": 1,
   "depends": "NA"
 }
+
 
 
