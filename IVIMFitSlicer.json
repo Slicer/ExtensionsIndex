@@ -5,9 +5,9 @@
   "scm_revision": "main",
   "category": "Diffusion",
   "build_dependencies": [],
-  "build_subdirectory": ".",
-  "enabled": 1
+  "build_subdirectory": "."
 }
+
 
 
 
