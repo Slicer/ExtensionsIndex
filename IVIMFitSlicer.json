@@ -1,9 +1,13 @@
 {
   "category": "Diffusion",
-  "contributors": "Atakan Isik (Baskent University)",
-  "description": "Advanced IVIM Analysis tool with ROI-based fitting, auto-scaling",
+  "contributors": ["Atakan Isik (Baskent University)"],
+  "description": "Advanced IVIM Analysis tool with ROI-based fitting.",
   "homepage": "https://github.com/Atakanisik/SlicerIVIMFit",
   "iconurl": "https://raw.githubusercontent.com/Atakanisik/SlicerIVIMFit/main/IVIMFitSlicer/Resources/Icons/IVIMFitSlicer.png",
+  "screenshots": [
+    "https://raw.githubusercontent.com/Atakanisik/SlicerIVIMFit/main/Screenshots/MainInterface.png",
+    "https://raw.githubusercontent.com/Atakanisik/SlicerIVIMFit/main/Screenshots/Map_Plot_Screen.png"
+  ],
   "scm": "git",
   "scmurl": "https://github.com/Atakanisik/SlicerIVIMFit.git",
   "scmrevision": "main",
