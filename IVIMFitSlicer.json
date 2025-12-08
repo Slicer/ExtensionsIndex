@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
   "scm": "git",
   "scmurl": "https://github.com/Atakanisik/SlicerIVIMFit.git",
   "scmrevision": "main",
@@ -13,13 +14,13 @@
     "https://raw.githubusercontent.com/Atakanisik/SlicerIVIMFit/main/Screenshots/MainInterface.png",
     "https://raw.githubusercontent.com/Atakanisik/SlicerIVIMFit/main/Screenshots/Map_Plot_Screen.png"
   ],
-  "depends": [
-    "NA"
-  ],
+  "build_dependencies": [],
+  "build_subdirectory": ".",
   "enabled": 1,
   "status": "Active",
   "tier": 1
 }
+
 
 
 
