@@ -1,0 +1,14 @@
+#
+# Extension Description File
+#
+
+category: Diffusion
+contributors: Atakan Isik (Baskent University)
+description: Advanced IVIM Analysis tool with ROI-based fitting, auto-scaling.
+homepage: https://github.com/Atakanisik/SlicerIVIMFit
+iconurl: https://raw.githubusercontent.com/Atakanisik/SlicerIVIMFit/main/IVIMFitSlicer/Resources/Icons/IVIMFitSlicer.png
+scm: git
+scmurl: https://github.com/Atakanisik/SlicerIVIMFit.git
+scmrevision: main
+
+depends: NA
