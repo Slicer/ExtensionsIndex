@@ -1,0 +1,19 @@
+{
+  "scm": "git",
+  "scmurl": "https://github.com/niyaziacer/SlicerVolBrain.git",
+  "scmrevision": "main",
+  "build_subdirectory": ".",
+  "name": "SlicerVolBrain",
+  "description": "3D Slicer extension for comprehensive brain structure volume calculation and 3D visualization from volBrain segmentation outputs. Supports 108+ cortical regions, tissue classification, lobes, and macrostructures.",
+  "iconurl": "https://raw.githubusercontent.com/niyaziacer/SlicerVolBrain/main/VolBrainIcon.png",
+  "category": "Quantification",
+  "contributors": ["Niyazi Acer (Sanko University)"],
+  "dependencies": [],
+  "screenshoturls": [
+    "https://raw.githubusercontent.com/niyaziacer/SlicerVolBrain/main/Screenshots/interface.png",
+    "https://raw.githubusercontent.com/niyaziacer/SlicerVolBrain/main/Screenshots/3d_visualization.png"
+  ],
+  "enabled": true,
+  "homepage": "https://github.com/niyaziacer/SlicerVolBrain",
+  "status": "stable"
+}
