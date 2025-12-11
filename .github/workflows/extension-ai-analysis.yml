@@ -70,7 +70,7 @@ jobs:
 
       - name: Run AI analysis
         env:
-          NEBULA_API_KEY: ${{ secrets.NEBULA_API_KEY }}
+          MEGANOVA_API_KEY: ${{ secrets.MEGANOVA_API_KEY }}
         id: ai-analysis
         run: |
           RESULT=$(python scripts/extension_ai_analysis.py \
