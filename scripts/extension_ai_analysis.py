@@ -241,8 +241,6 @@ def main():
 
     print("AI analysis of 3D Slicer extensions\n")
 
-    print(f"INFERENCE_API_KEY: {INFERENCE_API_KEY[0:4]}...{INFERENCE_API_KEY[-1:]}")
-
     success = True
 
     for file_path in args.extension_description_files:
