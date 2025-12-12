@@ -1,0 +1,10 @@
+{
+  "name": "AIRadar",
+  "scm": "git",
+  "scmurl": "https://github.com/ArArgeSolutions/AIRadarExtension.git",
+  "scmrevision": "main",
+  "homepage": "https://github.com/ArArgeSolutions/AIRadarExtension",
+  "iconurl": "https://raw.githubusercontent.com/ArArgeSolutions/AIRadarExtension/main/Resources/Icons/AIRadar.png",
+  "category": "Segmentation",
+  "status": "Active"
+}
