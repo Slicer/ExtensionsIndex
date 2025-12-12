@@ -4,5 +4,5 @@
   "build_subdirectory": ".",
   "category": "Segmentation",
   "scm_revision": "main",
-  "scm_url": "https://github.com/ArArgeSolutions/AIRadarExtension.git"
+  "scm_url": "https://github.com/ArArgeSolutions/Slicer-AIRadarExtension.git"
 }
