@@ -1,10 +1,8 @@
 {
-  "name": "AIRadar",
-  "scm": "git",
-  "scmurl": "https://github.com/ArArgeSolutions/AIRadarExtension.git",
-  "scmrevision": "main",
-  "homepage": "https://github.com/ArArgeSolutions/AIRadarExtension",
-  "iconurl": "https://raw.githubusercontent.com/ArArgeSolutions/AIRadarExtension/main/Resources/Icons/AIRadar.png",
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.0.json#",
+  "build_dependencies": [],
+  "build_subdirectory": ".",
   "category": "Segmentation",
-  "status": "Active"
+  "scm_revision": "main",
+  "scm_url": "https://github.com/ArArgeSolutions/AIRadarExtension.git"
 }
