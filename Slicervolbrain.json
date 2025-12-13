@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
+  "extension_name": "Slicervolbrain",
+  "scm": "git",
+  "scm_url": "https://github.com/niyaziacer/SlicerVolBrain.git",
+  "scm_revision": "main",
+  "homepage": "https://github.com/niyaziacer/SlicerVolBrain",
+  "category": "Quantification",
+  "description": "3D Slicer extension for comprehensive brain structure volume calculation and 3D visualization from volBrain segmentation outputs",
+  "screenshot_urls": [
+    "https://raw.githubusercontent.com/niyaziacer/SlicerVolBrain/main/Screenshots/interface.png"
+  ],
+  "icon_url": "https://raw.githubusercontent.com/niyaziacer/SlicerVolBrain/main/Resources/Icons/SlicerVolBrain.png",
+  "contributors": [
+    {
+      "name": "Niyazi Acer",
+      "email": "acerniyazi@gmail.com",
+      "organization": "Gaziantep University"
+    }
+  ]
+}
