@@ -105,9 +105,10 @@ def check_json_file_format(extension_name, metadata, extension_file_path):
             extension_name, check_name,
             f"Invalid JSON format: {str(e)}")
     # Force using LF-only line endings
-    with open(extension_file_path, 'r', encoding='utf-8') as f:
+    # Must open in binary mode to detect line endings
+    with open(extension_file_path, 'rb') as f:
         content = f.read()
-    if '\r\n' in content or '\r' in content:
+    if b'\r\n' in content or b'\r' in content:
         raise ExtensionCheckError(
             extension_name, check_name,
             "File contains non-LF line endings (CR or CRLF). Please convert to LF-only line endings.")
