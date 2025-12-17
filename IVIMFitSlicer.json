@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
   "scm_type": "git",
   "scm_url": "https://github.com/Atakanisik/SlicerIVIMFit.git",
-  "scm_revision": "main",
+  "scm_revision": "bfdb1a755d41ddf45c850ed48a5f61ce6c74a06a",
   "category": "Diffusion",
   "build_dependencies": [],
   "build_subdirectory": "."
