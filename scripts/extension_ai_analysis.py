@@ -30,6 +30,7 @@ if not INFERENCE_API_KEY:
 INFERENCE_RESPONSE_PER_MINUTE_LIMIT = 10 #  slow down to not exceed token per minute (tpm) limit
 INFERENCE_MAX_CHARACTERS = 400000  # max characters in all files provided to the model, approximately 100k tokens
 
+print(f"Using inference server: {INFERENCE_URL} with model: {INFERENCE_MODEL}, with API key: {'*' * (len(INFERENCE_API_KEY)-3) + INFERENCE_API_KEY[-3:]}    ")
 
 QUESTIONS = [
     ["Is there a EXTENSION_DESCRIPTION variable in the CMakeLists.txt file that describes what the extension does in a few sentences that can be understood by a person knowledgeable in medical image computing?", ["cmake"]],
@@ -138,7 +139,9 @@ def collect_analyzed_files(folder):
 def ask_question(system_msg, question):
     headers = {
         "Content-Type": "application/json",
-        "Authorization": f"Bearer {INFERENCE_API_KEY}"
+        "Authorization": f"Bearer {INFERENCE_API_KEY}",
+        "HTTP-Referer": "slicer.org", # Optional. Site URL for rankings on openrouter.ai.
+        "X-Title": "3D Slicer", # Optional. Site title for rankings on openrouter.ai.
     }
 
     messages = [
@@ -167,6 +170,7 @@ def ask_question(system_msg, question):
     except Exception as e:
         import traceback
         traceback.print_exc()
+        print(data)
         raise RuntimeError(f"Error or unexpected response: {response.json()["error"]["message"]}")
 
     return answer
@@ -219,8 +223,6 @@ def analyze_extension(extension_name, metadata, cloned_repository_folder):
                 answer = ask_question(system_msg, question)
                 answers.append(answer)
             except Exception as e:
-                import traceback
-                traceback.print_exc()
                 answers = [f"Error or unexpected response: {e}"]
                 break
 
@@ -236,8 +238,6 @@ def analyze_extension(extension_name, metadata, cloned_repository_folder):
             try:
                 answer = ask_question(system_msg, question)
             except Exception as e:
-                import traceback
-                traceback.print_exc()
                 answer = f"Error or unexpected response: {e}"
             print(answer)
 
