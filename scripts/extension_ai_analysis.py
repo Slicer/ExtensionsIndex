@@ -30,8 +30,6 @@ if not INFERENCE_API_KEY:
 INFERENCE_RESPONSE_PER_MINUTE_LIMIT = 10 #  slow down to not exceed token per minute (tpm) limit
 INFERENCE_MAX_CHARACTERS = 400000  # max characters in all files provided to the model, approximately 100k tokens
 
-print(f"Using inference server: {INFERENCE_URL} with model: {INFERENCE_MODEL}, with API key: {'*' * (len(INFERENCE_API_KEY)-3) + INFERENCE_API_KEY[-3:]}    ")
-
 QUESTIONS = [
     ["Is there a EXTENSION_DESCRIPTION variable in the CMakeLists.txt file that describes what the extension does in a few sentences that can be understood by a person knowledgeable in medical image computing?", ["cmake"]],
     ["Does the README.md file contain a short description, 1-2 sentences, which summarizes what the extension is usable for?", ["doc"]],
