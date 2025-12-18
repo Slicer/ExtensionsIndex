@@ -170,7 +170,9 @@ def ask_question(system_msg, question):
     except Exception as e:
         import traceback
         traceback.print_exc()
-        print(data)
+        print(f"Request data: {data}", file=sys.stderr)
+        print(f"Response status code: {response.status_code}", file=sys.stderr)
+        print(f"Response content: {response.text}", file=sys.stderr)
         raise RuntimeError(f"Error or unexpected response: {response.json()["error"]["message"]}")
 
     return answer
