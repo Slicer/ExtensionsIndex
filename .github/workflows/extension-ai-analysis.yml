@@ -70,7 +70,9 @@ jobs:
 
       - name: Run AI analysis
         env:
-          MEGANOVA_API_KEY: ${{ secrets.MEGANOVA_API_KEY }}
+          INFERENCE_URL: ${{ secrets.INFERENCE_URL }}
+          INFERENCE_MODEL: ${{ secrets.INFERENCE_MODEL }}
+          INFERENCE_API_KEY: ${{ secrets.INFERENCE_API_KEY }}
         id: ai-analysis
         run: |
           RESULT=$(python scripts/extension_ai_analysis.py \

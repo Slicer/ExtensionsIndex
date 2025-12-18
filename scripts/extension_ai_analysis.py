@@ -15,16 +15,21 @@ import time
 import subprocess
 import shutil
 
-# Use MegaNova API endpoint for chat completions.
-# It offers capable models for free with an OpenAI-compatible API.
-INFERENCE_URL = "https://inference.meganova.ai/v1/chat/completions"
-INFERENCE_MODEL = "mistralai/Mistral-Small-3.2-24B-Instruct-2506"
-INFERENCE_RESPONSE_PER_MINUTE_LIMIT = 4 #  slow down to not exceed token per minute (tpm) limit of 60k
-INFERENCE_API_KEY = os.getenv("MEGANOVA_API_KEY")
-INFERENCE_MAX_CHARACTERS = 100000  # max characters in all files provided to the model, approximately 25k tokens (limit is 32k)
 
+# Get inference server configuration from environment variables
+INFERENCE_URL = os.getenv("INFERENCE_URL")
+if not INFERENCE_URL:
+    raise ValueError("INFERENCE_URL environment variable is not set. Please set it before running the script.")
+INFERENCE_MODEL = os.getenv("INFERENCE_MODEL")
+if not INFERENCE_MODEL:
+    raise ValueError("INFERENCE_MODEL environment variable is not set. Please set it before running the script.")
+INFERENCE_API_KEY = os.getenv("INFERENCE_API_KEY")
 if not INFERENCE_API_KEY:
-    raise ValueError("MEGANOVA_API_KEY environment variable is not set. Please set it before running the script.")
+    raise ValueError("INFERENCE_API_KEY environment variable is not set. Please set it before running the script.")
+
+INFERENCE_RESPONSE_PER_MINUTE_LIMIT = 10 #  slow down to not exceed token per minute (tpm) limit
+INFERENCE_MAX_CHARACTERS = 400000  # max characters in all files provided to the model, approximately 100k tokens
+
 
 QUESTIONS = [
     ["Is there a EXTENSION_DESCRIPTION variable in the CMakeLists.txt file that describes what the extension does in a few sentences that can be understood by a person knowledgeable in medical image computing?", ["cmake"]],
