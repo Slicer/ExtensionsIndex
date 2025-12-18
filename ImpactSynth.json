@@ -4,7 +4,7 @@
     "KonfAI"
   ],
   "build_subdirectory": ".",
-  "category": "Synthesis",
+  "category": "Image Synthesis",
   "scm_revision": "main",
   "scm_url": "https://github.com/vboussot/SlicerImpactSynth",
   "tier": 3
