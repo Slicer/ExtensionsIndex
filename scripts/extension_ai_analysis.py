@@ -165,6 +165,8 @@ def ask_question(system_msg, question):
     try:
         answer = response.json()["choices"][0]["message"]["content"]
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         raise RuntimeError(f"Error or unexpected response: {response.json()["error"]["message"]}")
 
     return answer
@@ -217,6 +219,8 @@ def analyze_extension(extension_name, metadata, cloned_repository_folder):
                 answer = ask_question(system_msg, question)
                 answers.append(answer)
             except Exception as e:
+                import traceback
+                traceback.print_exc()
                 answers = [f"Error or unexpected response: {e}"]
                 break
 
@@ -232,6 +236,8 @@ def analyze_extension(extension_name, metadata, cloned_repository_folder):
             try:
                 answer = ask_question(system_msg, question)
             except Exception as e:
+                import traceback
+                traceback.print_exc()
                 answer = f"Error or unexpected response: {e}"
             print(answer)
 
