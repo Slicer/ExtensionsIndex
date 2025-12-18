@@ -70,8 +70,8 @@ jobs:
 
       - name: Run AI analysis
         env:
-          INFERENCE_URL: ${{ secrets.INFERENCE_URL }}
-          INFERENCE_MODEL: ${{ secrets.INFERENCE_MODEL }}
+          INFERENCE_URL: ${{ vars.INFERENCE_URL }}
+          INFERENCE_MODEL: ${{ vars.INFERENCE_MODEL }}
           INFERENCE_API_KEY: ${{ secrets.INFERENCE_API_KEY }}
         id: ai-analysis
         run: |
