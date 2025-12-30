@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
+  "category": "Analysis",
+  "tier": 1,
+  "scm_url": "https://github.com/radiuma-com/SlicerPySERA",
+  "scm_type": "git",
+  "scm_revision": "main",
+  "homepage": "https://github.com/radiuma-com/SlicerPySERA",
+  "icon_url": "https://raw.githubusercontent.com/radiuma-com/SlicerPySERA/main/Resources/Icons/SlicerPySERA_png_icon.png",
+  "screenshot_urls": [
+    "https://raw.githubusercontent.com/radiuma-com/SlicerPySERA/main/Resources/Screenshots/screenshoturls.png"
+  ],
+  "description": "PySERA radiomics extraction library integrated into 3D Slicer.",
+  "contributors": [
+    "Mohammad R. Salmanpour",
+    "Sirwan Barichin"
+  ],
+  "build_dependencies": [],
+  "build_subdirectory": "."
+}
