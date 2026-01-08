@@ -1,8 +1,8 @@
 {
+  "$schema": "https://slicer.org/schemas/extensions/v1/description.schema.json",
   "build_dependencies": [],
   "build_subdirectory": ".",
   "category": "Segmentation",
   "scm_revision": "main",
-  "scm_url": "https://github.com/cuneytozdemir/FootSegmentation",
-  "scm": "git"
+  "scm_url": "https://github.com/cuneytozdemir/FootSegmentation"
 }
