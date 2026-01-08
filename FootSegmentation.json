@@ -4,5 +4,5 @@
   "build_subdirectory": ".",
   "category": "Segmentation",
   "scm_revision": "main",
-  "scm_url": "https://github.com/cuneytozdemir/FootSegmentation"
+  "scm_url": "https://github.com/cuneytozdemir/SlicerFootSegmentation"
 }
