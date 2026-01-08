@@ -11,4 +11,4 @@ contributors Cuneyt Ozdemir (Siirt University), Mehmet Ali Gedik (Kutahya Health
 category Segmentation
 iconurl https://raw.githubusercontent.com/cuneytozdemir/FootSegmentation/main/FootSegmentation/Resources/Icons/FootSegmentation.png
 screenshoturls https://raw.githubusercontent.com/cuneytozdemir/FootSegmentation/main/FootSegmentation/Resources/fig_segmentation_examples.png
-description AI-powered 3D foot segmentation from medical images using deep learning (3D U-Net + ONNX).
+description AI-powered 3D foot segmentation from medical images using deep learning (3D U-Net + ONNX)
