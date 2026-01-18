@@ -3,7 +3,7 @@
   "build_dependencies": [],
   "build_subdirectory": "dcmqi-build",
   "category": "DICOM",
-  "scm_revision": "v1.5.0",
+  "scm_revision": "37e7ec7c43ece52491ea450f437486d2398d8e43",
   "scm_url": "https://github.com/QIICR/dcmqi.git",
   "tier": 5
 }
