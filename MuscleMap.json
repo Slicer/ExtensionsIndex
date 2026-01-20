@@ -1,11 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
   "build_dependencies": [
-    "QuantitativeReporting"
+    "PyTorch"
   ],
   "build_subdirectory": ".",
-  "category": "Examples",
+  "category": "Segmentation",
   "scm_revision": "main",
-  "scm_url": "https://github.com/MHubAI/SlicerMHubRunner",
-  "tier": 3
+  "scm_url": "https://github.com/Eddowesselink/SlicerMuscleMap",
+  "tier": 1
 }
