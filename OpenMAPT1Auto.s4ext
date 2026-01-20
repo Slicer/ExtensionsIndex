@@ -1,0 +1,42 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager
+scm git
+scmurl https://github.com/niyaziacer/OpenMAPT1Auto.git
+scmrevision main
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends NA
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# Homepage
+homepage https://github.com/niyaziacer/OpenMAPT1Auto
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
+contributors Niyazi Acer (Erciyes University)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Segmentation
+
+# url to icon (png, size 128x128 pixels)
+iconurl https://raw.githubusercontent.com/niyaziacer/OpenMAPT1Auto/main/Resources/Icons/OpenMAPT1Auto.png
+
+# Give people an idea what to expect from this code
+status Beta
+
+# One line stating what the module does
+description This extension provides automated brain MRI parcellation using OpenMAP-T1 deep learning model. It segments T1-weighted MRI images into 280 anatomical regions covering the whole brain. Model files must be downloaded separately from official OpenMAP-T1 repository.
+
+# Space separated list of urls
+screenshoturls https://raw.githubusercontent.com/niyaziacer/OpenMAPT1Auto/main/Screenshots/Screenshot1.png https://raw.githubusercontent.com/niyaziacer/OpenMAPT1Auto/main/Screenshots/Screenshot2.png
+
+# 0 or 1: Define if the extension should be enabled after its build
+enabled 1
