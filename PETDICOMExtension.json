@@ -3,7 +3,7 @@
   "build_dependencies": [],
   "build_subdirectory": ".",
   "category": "Converters",
-  "scm_revision": "master",
+  "scm_revision": "061273b8f39f7d4ee75ede8e7b9337bea8050af3",
   "scm_url": "https://github.com/QIICR/Slicer-PETDICOMExtension.git",
   "tier": 3
 }
