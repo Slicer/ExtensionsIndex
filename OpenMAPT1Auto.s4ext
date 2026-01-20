@@ -21,7 +21,7 @@ build_subdirectory .
 homepage https://github.com/niyaziacer/OpenMAPT1Auto
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
-contributors Niyazi Acer (Erciyes University)
+contributors Niyazi Acer (Sanko University)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Segmentation
