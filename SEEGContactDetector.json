@@ -6,7 +6,7 @@
   "scm_type": "git",
   "scm_revision": "main",
   "build_dependencies": [
-    "HDBrainExtractionTool"
+    "HDBrainExtraction"
   ],
   "build_subdirectory": "."
 }
