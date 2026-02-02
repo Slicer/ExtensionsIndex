@@ -1,9 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
-  "build_dependencies": [],
+  "build_dependencies": [
+    "QuantitativeReporting"
+  ],
   "build_subdirectory": ".",
-  "category": "Utilities",
+  "category": "Segmentation",
   "scm_revision": "main",
-  "scm_url": "https://github.com/SoniaPujolLab/SlicerTutorialMaker.git",
+  "scm_url": "https://github.com/ImagingDataCommons/SlicerCrossSegmentationExplorer",
   "tier": 1
 }
