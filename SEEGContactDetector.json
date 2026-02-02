@@ -5,6 +5,8 @@
   "scm_url": "https://github.com/EpiReC-ISARG/SlicerSEEGContactDetector",
   "scm_type": "git",
   "scm_revision": "main",
-  "build_dependencies": ["HDBrainExtractionTool"],
+  "build_dependencies": [
+    "HDBrainExtractionTool"
+  ],
   "build_subdirectory": "."
 }
