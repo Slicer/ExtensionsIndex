@@ -1,0 +1,17 @@
+{
+  "name": "PcatMeasureExtension",
+  "homepage": "https://github.com/hattori222yu/PcatMeasureExtension",
+  "description": "Pericoronary Adipose Tissue (PCAT) measurement and coronary centerline-based cross-sectional analysis for research use.",
+  "category": "Cardiovascular",
+  "contributors": [
+    "Masayuki Hattori",
+    "Daisuke Kinoshita"
+  ],
+  "icon_url": "https://raw.githubusercontent.com/hattori222yu/PcatMeasureExtension/Docs/icon.png",
+  "screenshots": [
+    "https://raw.githubusercontent.com/hattori222yu/PcatMeasureExtension/Docs/PcatMeasure_colormap.png"
+  ],
+  "repository_type": "git",
+  "repository_url": "https://github.com/hattori222yu/PcatMeasureExtension.git",
+  "revision": "main"
+}
