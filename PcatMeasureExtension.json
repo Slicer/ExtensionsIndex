@@ -1,8 +1,8 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Slicer/ExtensionsIndex/master/schemas/extension-description.schema.json",
-  "scm_url": "https://github.com/hattori222yu/PcatMeasureExtension.git",
-  "scm_revision": "main",
-  "homepage": "https://github.com/hattori222yu/PcatMeasureExtension",
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
   "category": "Cardiovascular",
-  "description": "Pericoronary Adipose Tissue (PCAT) measurement and coronary centerline-based cross-sectional analysis for research use."
+  "scm_url": "https://github.com/hattori222yu/PcatMeasureExtension",
+  "scm_revision": "main",
+  "build_subdirectory": ".",
+  "tier": 3
 }
