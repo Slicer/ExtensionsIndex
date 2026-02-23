@@ -1,0 +1,7 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
+  "build_dependencies": [],
+  "category": "ForaLABS",
+  "scm_revision": "main",
+  "scm_url": "https://github.com/HarlleyHauradou/SlicerForaLABS.git"
+}
