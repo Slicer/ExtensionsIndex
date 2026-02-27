@@ -6,5 +6,5 @@
   "scm_revision": "master",
   "scm_url": "https://github.com/SlicerRt/SlicerRT.git",
   "tier": 5,
-  "dicom_support_rule": "Modality == 'RTDOSE' or Modality == 'RTSTRUCT' or Modality == 'RTPLAN' or Modality == 'RTIMAGE' or SOPClassUID == '1.2.840.10008.5.1.4.1.1.66.1' or SOPClassUID == '1.2.840.10008.5.1.4.1.1.66.2' or SOPClassUID == '1.2.840.10008.5.1.4.1.1.66.3'"
+  "dicom_support_rule": "Modality == 'RTDOSE' or Modality == 'RTSTRUCT' or Modality == 'RTPLAN' or Modality == 'RTIMAGE' or Modality == 'REG' or SOPClassUID == '1.2.840.10008.5.1.4.1.1.66.1' or SOPClassUID == '1.2.840.10008.5.1.4.1.1.66.2' or SOPClassUID == '1.2.840.10008.5.1.4.1.1.66.3'"
 }
