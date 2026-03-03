@@ -1,10 +1,11 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.2.json#",
   "build_dependencies": [
     "SlicerIGT"
   ],
   "build_subdirectory": "inner-build",
   "category": "Cardiac",
+  "dicom_support_rule": "SOPClassUID == '1.2.840.113543.6.6.1.3.10002' or SOPClassUID == '1.2.840.10008.5.1.4.1.1.3.1' or SOPClassUID == '1.2.840.10008.5.1.4.1.1.6.1'",
   "scm_revision": "master",
   "scm_url": "https://github.com/SlicerHeart/SlicerHeart.git",
   "tier": 5

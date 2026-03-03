@@ -575,9 +575,12 @@ def main():
         if file_extension != '.json':
             # not an extension description file, ignore it
             continue
+        if os.path.dirname(file_path) not in ('', '.'):
+            # not a file in the extensions descriptions folder, ignore it
+            continue
         full_path = os.path.join(extension_descriptions_folder, file_path)
         if not os.path.isfile(full_path):
-            # not a file in the extensions descriptions folder, ignore it
+            # file does not exist, ignore it
             continue
         extension_name = os.path.splitext(os.path.basename(file_path))[0]
         found_extensions.append(extension_name)

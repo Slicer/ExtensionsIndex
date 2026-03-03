@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.2.json#",
   "build_dependencies": [
     "SlicerDevelopmentToolbox",
     "DCMQI",
@@ -9,5 +9,6 @@
   "category": "Informatics",
   "scm_revision": "master",
   "scm_url": "https://github.com/QIICR/QuantitativeReporting.git",
-  "tier": 5
+  "tier": 5,
+  "dicom_support_rule": "(Modality == 'SEG') or (SOPClassUID == '1.2.840.10008.5.1.4.1.1.30') or (Modality == 'SR' and (SOPClassUID == '1.2.840.10008.5.1.4.1.1.88.22' or SOPClassUID == '1.2.840.10008.5.1.4.1.1.88.33' or SOPClassUID == '1.2.840.10008.5.1.4.1.1.88.34')) or (Modality == 'M3D')"
 }
