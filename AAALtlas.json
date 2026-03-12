@@ -1,18 +1,15 @@
 {
-  "schema_version": "1.0.0",
-  "name": "AAALtlas",
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
   "scm": "git",
   "scmurl": "https://github.com/niyaziacer/AAALtlas",
   "scmrevision": "main",
   "category": "Informatics",
-  "description": "AAAL Atlas - Anatomic atlas module for 3D Slicer",
+  "description": "AAAL Atlas - Anatomical atlas module for 3D Slicer",
   "homepage": "https://github.com/niyaziacer/AAALtlas",
   "iconurl": "https://raw.githubusercontent.com/niyaziacer/AAALtlas/main/Screenshots/AAALtlas.png",
   "screenshoturls": [
     "https://raw.githubusercontent.com/niyaziacer/AAALtlas/main/Screenshots/1.png"
   ],
-  "contributors": ["Niyazi Acer, Mustafa Sakci"],
-  "dependencies": [],
-  "enabled": true
+  "contributors": "Niyazi Acer, Mustafa Sakci",
+  "depends": "SlicerElastix"
 }
-
