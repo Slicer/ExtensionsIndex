@@ -5,7 +5,7 @@
     "SlicerConda"
   ],
   "build_subdirectory": ".",
-  "category": "Segmentation",
+  "category": "SlicerCMF",
   "scm_revision": "main",
   "scm_url": "https://github.com/DCBIA-OrthoLab/SlicerAutomatedDentalTools.git",
   "tier": 3
