@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
+  "category": "IGT",
+  "tier": 3,
+  "scm_url": "https://github.com/EpiReC-ISARG/SlicerSEEGContactDetector",
+  "scm_type": "git",
+  "scm_revision": "main",
+  "build_dependencies": [
+    "HDBrainExtraction"
+  ],
+  "build_subdirectory": "."
+}
