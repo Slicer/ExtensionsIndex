@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
-  "category": "Atlases, Neuroimaging",
-  "scm_url": "https://github.com/niyaziacer/SlicerAAALtlas",
+  "category": "Neuroimaging",
+  "scm_url": "https://github.com/niyaziacer/SlicerAAL3BrainLabeling",
   "scm_revision": "main",
   "scm_type": "git",
   "build_dependencies": [
