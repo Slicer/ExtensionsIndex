@@ -6,6 +6,6 @@
   "build_subdirectory": ".",
   "category": "Segmentation",
   "scm_revision": "main",
-  "scm_url": "https://github.com/MuscleMap/SlicerMuscleMap",
-  "tier": 1
+  "scm_url": "https://github.com/lassoan/SlicerVoxTell",
+  "tier": 5
 }

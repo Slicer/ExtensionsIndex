@@ -1,9 +1,10 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.2.json#",
   "build_dependencies": [],
   "build_subdirectory": "inner-build",
   "category": "Radiotherapy",
   "scm_revision": "master",
   "scm_url": "https://github.com/SlicerRt/SlicerRT.git",
-  "tier": 5
+  "tier": 5,
+  "dicom_support_rule": "Modality == 'RTDOSE' or Modality == 'RTSTRUCT' or Modality == 'RTPLAN' or Modality == 'RTIMAGE' or Modality == 'REG' or SOPClassUID == '1.2.840.10008.5.1.4.1.1.66.1' or SOPClassUID == '1.2.840.10008.5.1.4.1.1.66.2' or SOPClassUID == '1.2.840.10008.5.1.4.1.1.66.3'"
 }

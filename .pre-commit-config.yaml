@@ -37,7 +37,7 @@ repos:
           # Using local schema file to avoid caching issues with remote URLs
           [
             "--schemafile",
-            "schemas/slicer-extension-catalog-entry-schema-v1.0.1.json",
+            "schemas/slicer-extension-catalog-entry-schema-v1.0.2.json",
           ]
       - id: check-dependabot
       - id: check-github-workflows
