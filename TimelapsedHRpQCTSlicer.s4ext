@@ -1,0 +1,20 @@
+# Slicer extension description template for ExtensionsIndex submission.
+# Copy this file into Slicer/ExtensionsIndex and keep fields in sync with this repository.
+
+scm git
+scmurl https://github.com/wallematthias/TimelapsedHRpQCTSlicer.git
+scmrevision main
+
+depends NA
+build_subdirectory .
+
+homepage https://github.com/wallematthias/TimelapsedHRpQCTSlicer
+category Bone
+contributors Matthias Walle (University of Calgary)
+status Experimental
+
+iconurl https://raw.githubusercontent.com/wallematthias/TimelapsedHRpQCTSlicer/main/resources/icon.png
+screenshoturls https://raw.githubusercontent.com/wallematthias/TimelapsedHRpQCTSlicer/main/resources/TimelapsedHRpQCTSlicer.png
+
+description 3D Slicer GUI wrapper for timelapsed-hrpqct longitudinal HR-pQCT workflows.
+enabled 1
