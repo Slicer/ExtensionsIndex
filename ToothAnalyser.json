@@ -1,11 +1,7 @@
 {
   "category": "Segmentation",
   "scm_revision": "main",
-  "description": "This extension provides specialized preprocessing, segmentation, and analysis features tailored for the analysis of tooth anatomy and pathology starting from microCT.",
-  "scm_url": "https://github.com/lukaskonietzka/SlicerToothAnalyser",
-  "iconurl": "https://raw.githubusercontent.com/lukaskonietzka/SlicerToothAnalyser/main/SlicerToothAnalyser.png",
-  "screenshoturl": "https://raw.githubusercontent.com/lukaskonietzka/SlicerToothAnalyser/main/Screenshots/fullView.png",
-  "homepage": "https://github.com/lukaskonietzka/SlicerToothAnalyser",
+  "scm_url": "https://github.com/lukaskonietzka/SlicerToothAnalyser", 
   "build_dependencies": [],
-  "contributors": "Lukas Konietzka (THA), Simon Hofmann (THA), Dr. Elias Walter (LMU), Prof. Dr. Peter Roesch (THA)"
+  "build_subdirectory": "."
 }
