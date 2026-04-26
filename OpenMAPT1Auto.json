@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
-  "category": "Quantification",
-  "scm_url": "https://github.com/niyaziacer/SlicerVolBrain.git",
+  "category": "Segmentation",
+  "scm_url": "https://github.com/niyaziacer/SlicerOpenMAPT1Auto.git",
   "scm_revision": "main",
   "scm_type": "git",
   "tier": 1
