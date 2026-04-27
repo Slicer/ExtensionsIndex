@@ -19,6 +19,8 @@ the archive are as follows
 
 | Date       | Extension Name                | Deprecation reason  |
 |------------|-------------------------------|---------------------|
+| 2026-05-04 | DCMQI                      | Moved to core application, see https://github.com/Slicer/Slicer/pull/9114 |
+| 2026-05-04 | PETLiverUptakeMeasurement  | Original maintainers are no longer supporting this extension, while updates are needed to update dependency on the DCMQI, no longer available as an extension. May be added back in the future pending resources availability. |
 | 2025-04-02 | SlicerWMA                  | Extension prevented Slicer from starting https://discourse.slicer.org/t/slicer-doesnt-open-after-installing-slicerwma-extension/42356|
 | 2024-11-16 | SlicerOpenCV                  | Extension failing build and no longer needed https://discourse.slicer.org/t/opencv-extension-build-fails-since-june-itk-upgrade/38158/2 |
 | 2024-06-14 | iGyne                         | Unmaintained and incompatible with Slicer >- 5.2 due to its dependencies to the Annotations module. |
