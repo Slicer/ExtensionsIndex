@@ -3,7 +3,7 @@
   "build_dependencies": [],
   "build_subdirectory": ".",
   "category": "Quantification",
-  "scm_url": "https://github.com/fbrewster/SlicerSegmentTools.git",
+  "scm_url": "https://github.com/fbrewster/SlicerSegmentComparison.git",
   "scm_revision": "main",
   "tier": 3
 }
