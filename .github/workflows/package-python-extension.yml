@@ -47,7 +47,8 @@ jobs:
                   continue
               repo = scm_url.split("github.com/")[1].rstrip("/")
               name = os.path.splitext(os.path.basename(f))[0]
-              extensions.append({"name": name, "repo": repo, "revision": scm_revision})
+              has_dependencies = bool(data.get("build_dependencies", []))
+              extensions.append({"name": name, "repo": repo, "revision": scm_revision, "has_dependencies": has_dependencies})
 
           output = json.dumps(extensions)
           with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
@@ -79,11 +80,14 @@ jobs:
           repository: ${{ matrix.extension.repo }}
           ref: ${{ matrix.extension.revision }}
 
-      - name: Check for C++ source files
+      - name: Check for C++ source files or build dependencies
         id: check-cpp
         shell: bash
         run: |
-          if find . \( -name "*.cxx" -o -name "*.h" \) | grep -q .; then
+          if [ "${{ matrix.extension.has_dependencies }}" = "true" ]; then
+            echo "Extension has build dependencies - skipping packaging test"
+            echo "skip=true" >> $GITHUB_OUTPUT
+          elif find . \( -name "*.cxx" -o -name "*.h" \) | grep -q .; then
             echo "C++ source files found - skipping packaging test"
             echo "skip=true" >> $GITHUB_OUTPUT
           else
