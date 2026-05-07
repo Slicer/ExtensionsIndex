@@ -42,13 +42,12 @@ jobs:
               with open(f) as fh:
                   data = json.load(fh)
               scm_url = data.get("scm_url", "")
-              scm_revision = data.get("scm_revision", "main")
-              if "github.com/" not in scm_url:
+              if not scm_url:
                   continue
-              repo = scm_url.split("github.com/")[1].rstrip("/")
+              scm_revision = data.get("scm_revision", "main")
               name = os.path.splitext(os.path.basename(f))[0]
               has_dependencies = bool(data.get("build_dependencies", []))
-              extensions.append({"name": name, "repo": repo, "revision": scm_revision, "has_dependencies": has_dependencies})
+              extensions.append({"name": name, "scm_url": scm_url, "revision": scm_revision, "has_dependencies": has_dependencies})
 
           output = json.dumps(extensions)
           with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
@@ -75,10 +74,10 @@ jobs:
           #   name: macOS
     steps:
       - name: Checkout extension
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-        with:
-          repository: ${{ matrix.extension.repo }}
-          ref: ${{ matrix.extension.revision }}
+        shell: bash
+        run: |
+          git clone "${{ matrix.extension.scm_url }}" .
+          git checkout "${{ matrix.extension.revision }}"
 
       - name: Check for C++ source files or build dependencies
         id: check-cpp
