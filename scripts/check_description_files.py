@@ -460,6 +460,29 @@ def check_cmakelists_content(extension_name, metadata, cloned_repository_folder=
     return f"\nTop-level CMakeLists.txt content:\n```\n{cmake_content}\n```\n"
 
 
+def check_repository_size(extension_name, _metadata, cloned_repository_folder=None):
+    """Check that the total checked-out repository size does not exceed the limit."""
+    check_name = "check_repository_size"
+    size_limit_mb = 100
+
+    if not cloned_repository_folder:
+        raise ExtensionCheckError(extension_name, check_name, "Repository is not available.")
+
+    total_bytes = sum(
+        f.stat().st_size
+        for f in Path(cloned_repository_folder).rglob('*')
+        if f.is_file()
+    )
+    total_mb = total_bytes / (1024 * 1024)
+
+    if total_mb > size_limit_mb:
+        raise ExtensionCheckError(
+            extension_name, check_name,
+            f"Repository size {total_mb:.1f} MB exceeds the {size_limit_mb} MB limit.")
+
+    print(f"- :white_check_mark: Repository size: {total_mb:.1f} MB (limit: {size_limit_mb} MB)\n")
+
+
 def check_license_file(extension_name, metadata, cloned_repository_folder):
     # Find license file
     license_file_path = None
@@ -604,6 +627,7 @@ def main():
 
         extension_description_checks = [
             ("Clone repository", check_clone_repository, {"cloned_repository_folder": cloned_repository_folder}),
+            ("Check repository size", check_repository_size, {"cloned_repository_folder": cloned_repository_folder}),
             ("Check JSON schema", check_json_schema, {}),
             ("Check JSON file format", check_json_file_format, {"extension_file_path": file_path}),
             ("Check extension name", check_extension_name, {}),
