@@ -1,16 +1,9 @@
 {
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.2.json#",
+  "build_dependencies": ["SlicerRT", "PETDICOMExtension"],
+  "build_subdirectory": ".",
   "category": "Nuclear Medicine",
-  "contributors": ["Lilian LORGEOU (ICMUB - IFTIM)", "Tien Phong Pham", "Felix Quinton", "Adam Fragkiadakis"],
-  "description": "Clinical decision-support extension for nuclear medicine supporting liver tumor treatment workflows with SPECT/CT and PET/CT imaging. Provides three integrated modules: automatic AI-based liver and tumor segmentation (SegModule), multimodal image registration (RecModule), and patient-specific dosimetry computation using LDM/VDK physical models (DosiModule).",
-  "homepage": "https://gitlab.in2p3.fr/iftim/public-projects/delineate",
-  "icon_url": "https://gitlab.in2p3.fr/iftim/public-projects/delineate/-/raw/master/DELINEATE.png",
-  "license": "Apache 2.0",
-  "name": "DELINEATE",
-  "repository": "https://gitlab.in2p3.fr/iftim/public-projects/delineate",
-  "revision": "master",
-  "screenshots": [
-    "https://gitlab.in2p3.fr/iftim/public-projects/delineate/-/raw/master/DosiModule/Resources/Icons/Screenshot_DosiModule.png",
-    "https://gitlab.in2p3.fr/iftim/public-projects/delineate/-/raw/master/RecModule/Resources/Icons/Screenshot_RecModule.png",
-    "https://gitlab.in2p3.fr/iftim/public-projects/delineate/-/raw/master/SegModule/Resources/Icons/Screenshot_SegModule.png"
-  ]
+  "scm_revision": "master",
+  "scm_url": "https://gitlab.in2p3.fr/iftim/public-projects/delineate.git",
+  "tier": 1
 }
