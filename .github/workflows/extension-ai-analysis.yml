@@ -1,42 +1,38 @@
 name: Extension AI Analysis
 
-# SECURITY: This workflow holds the INFERENCE_API_KEY secret and is the only place
-# where it is used. It is triggered by workflow_run (not pull_request_target), so it
-# always executes in the context of the base repository — never the contributor's fork.
+# SECURITY: This workflow uses pull_request_target so it has access to secrets
+# and always executes scripts from the BASE repository, never from the contributor's fork.
 #
 # Code path with access to secrets:
-#   - scripts/extension_ai_analysis.py — checked out from the BASE repository only.
+#   - scripts/extension_ai_analysis.py — checked out from the BASE repository only
+#     (the default actions/checkout with no repository/ref override).
 #
-# Code path without access to secrets (handled by the companion prepare workflow):
-#   - The contributor's fork code (checked out under pull_request, no secrets available).
-#   - The changed JSON files are passed as a plain artifact; they are data, not code.
+# Data fetched from the fork (no code executed):
+#   - The changed *.json extension description files are fetched from the fork's
+#     commit via "git fetch + git checkout <files>" — they are read as data by the
+#     script, not executed.
 #
 # Do NOT change the checkout step to reference the fork's repository or ref,
-# as that would re-expose the secret to untrusted code.
+# as that would replace the trusted scripts with untrusted fork code.
 
 on:
-  workflow_run:
-    workflows: ["Extension AI Analysis - Prepare"]
-    types: [completed]
+  pull_request_target:
+    types: [opened, synchronize, reopened, ready_for_review]
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.event.workflow_run.head_sha }}
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 jobs:
   ai-analysis:
     runs-on: ubuntu-latest
-    # Only run when the prepare job succeeded and was triggered by a pull_request event
-    if: >
-      github.event.workflow_run.event == 'pull_request' &&
-      github.event.workflow_run.conclusion == 'success'
     permissions:
       contents: read
-      actions: read # required to download artifacts from the prepare workflow run
     timeout-minutes: 30
     steps:
       - name: Checkout base repository
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        # No repository/ref override — checks out the BASE repo with trusted scripts.
 
       - name: Setup Python
         uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
@@ -54,20 +50,28 @@ jobs:
           echo "Verifying installed packages:"
           pip list | grep -E "(jsonschema|requests)"
 
-      - name: Download analysis data
-        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
-        with:
-          name: ai-analysis-data
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          run-id: ${{ github.event.workflow_run.id }}
-          path: /tmp/ai-analysis-data
-
-      - name: Copy changed JSON files to working directory
+      - name: Fetch changed JSON files from PR
         run: |
-          echo "Changed files:"
-          cat /tmp/ai-analysis-data/changed_files.txt || echo "(none)"
-          # Make changed JSON files available in the repo root where the script looks for them
-          cp /tmp/ai-analysis-data/json_files/*.json . 2>/dev/null || true
+          FORK_REPO="${{ github.event.pull_request.head.repo.full_name }}"
+          HEAD_SHA="${{ github.event.pull_request.head.sha }}"
+          BASE_REF="${{ github.event.pull_request.base.ref }}"
+
+          # Fetch only the fork's HEAD commit (not the full fork history)
+          git fetch "https://github.com/$FORK_REPO" "$HEAD_SHA" --depth=1
+
+          # Find added/modified JSON files in the repo root
+          git diff --name-only --diff-filter=AM "origin/$BASE_REF" FETCH_HEAD \
+            | grep -E '^[^/]+\.json$' > /tmp/changed_files.txt || true
+
+          echo "Changed JSON files:"
+          cat /tmp/changed_files.txt || echo "(none)"
+
+          # Checkout only the JSON files from the fork's commit.
+          # These are extension description files treated as data, not executed code.
+          CHANGED_FILES=$(cat /tmp/changed_files.txt | tr '\n' ' ')
+          if [ -n "$CHANGED_FILES" ]; then
+            git checkout FETCH_HEAD -- $CHANGED_FILES
+          fi
 
       - name: Run AI analysis
         env:
@@ -76,7 +80,7 @@ jobs:
           INFERENCE_API_KEY: ${{ secrets.INFERENCE_API_KEY }}
         run: |
           RESULT=$(python scripts/extension_ai_analysis.py \
-            $(cat /tmp/ai-analysis-data/changed_files.txt | tr '\n' ' '))
+            $(cat /tmp/changed_files.txt | tr '\n' ' '))
           echo "$RESULT"
           echo "### AI Analysis Result" >> $GITHUB_STEP_SUMMARY
           echo "$RESULT" >> $GITHUB_STEP_SUMMARY
