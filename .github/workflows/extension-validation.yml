@@ -70,6 +70,9 @@ jobs:
       - name: Run extension validation
         id: extension-validation
         continue-on-error: true
+        env:
+          # Used by scripts/check_description_files.py for authenticated GitHub topics API requests.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p /tmp/validation-reports
           python scripts/check_description_files.py \

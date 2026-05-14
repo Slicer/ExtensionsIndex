@@ -256,13 +256,36 @@ def check_git_repository_topics(extension_name, metadata):
     headers = {
         "Accept": "application/vnd.github+json"
     }
-    response = requests.get(url, headers=headers)
+
+    # Use authenticated requests when available to reduce rate-limit issues in CI.
+    github_token = os.environ.get("GITHUB_TOKEN")
+    if github_token:
+        headers["Authorization"] = f"Bearer {github_token}"
+
+    try:
+        response = requests.get(url, headers=headers, timeout=30)
+    except requests.RequestException as exc:
+        return textwrap.dedent(f"""
+        Skipping repository topics check for {owner}/{repo}: Failed to query GitHub API ({exc}).
+        """)
+
     topics = []
     if response.status_code == 200:
         data = response.json()
         topics = data.get("names", [])
+    elif response.status_code in (403, 429):
+        try:
+            message = response.json().get("message", response.text)
+        except ValueError:
+            message = response.text
+        return textwrap.dedent(f"""
+        Skipping repository topics check for {owner}/{repo}: GitHub API rate limit reached ({response.status_code}: {message}).
+        To enforce this check in CI, set GITHUB_TOKEN for authenticated API requests.
+        """)
     else:
-        raise ValueError(f"Failed to get github topics for {owner}/{repo}: Error {response.status_code}: {response.text}")
+        raise ExtensionCheckError(
+            extension_name, check_name,
+            f"Failed to get github topics for {owner}/{repo}: Error {response.status_code}: {response.text}")
 
     if "3d-slicer-extension" not in topics:
         raise ExtensionCheckError(
