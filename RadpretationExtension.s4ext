@@ -1,0 +1,14 @@
+scm git
+scmurl https://github.com/bhavyradpretation/Radpretation-Slicer-Plugin.git
+scmrevision main
+
+depends NA
+build_subdirectory .
+
+homepage https://github.com/bhavyradpretation/Radpretation-Slicer-Plugin
+category Informatics
+contributors Bhavy Raheja
+description AI-powered radiology workflow extension for 3D Slicer with Orthanc and DICOMWeb integration.
+iconurl https://raw.githubusercontent.com/bhavyradpretation/Radpretation-Slicer-Plugin/main/RadpretationExtension.png
+status Beta
+enabled 1
