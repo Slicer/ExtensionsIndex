@@ -4,6 +4,6 @@
   "build_subdirectory": ".",
   "category": "Informatics",
   "scm_revision": "main",
-  "scm_url": "https://github.com/bhavyradpretation/Radpretation-Slicer-Plugin",
+  "scm_url": "https://github.com/bhavyradpretation/SlicerRadpretation",
   "tier": 1
 }
