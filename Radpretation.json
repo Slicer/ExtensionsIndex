@@ -3,7 +3,6 @@
   "build_dependencies": [],
   "build_subdirectory": ".",
   "category": "Informatics",
-  "description": "Radiology workflow integration and Orthanc PACS interoperability extension for 3D Slicer",
   "scm_revision": "main",
   "scm_url": "https://github.com/bhavyradpretation/Radpretation-Slicer-Plugin",
   "tier": 1
