@@ -1,10 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
+  "build_dependencies": [
+    "SlicerRT"
+  ],
+  "build_subdirectory": ".",
   "category": "Radiotherapy",
-  "tier": 1,
-  "scm_url": "https://github.com/gslle924/SlicerMRGelDosimetry",
-  "scm_type": "git",
   "scm_revision": "main",
-  "build_dependencies": [],
-  "build_subdirectory": "."
+  "scm_url": "https://github.com/gslle924/SlicerMRGelDosimetry",
+  "tier": 1
 }
