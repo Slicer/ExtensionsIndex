@@ -1,5 +1,20 @@
 name: Extension AI Analysis
 
+# SECURITY: This workflow uses pull_request_target so it has access to secrets
+# and always executes scripts from the BASE repository, never from the contributor's fork.
+#
+# Code path with access to secrets:
+#   - scripts/extension_ai_analysis.py — checked out from the BASE repository only
+#     (the default actions/checkout with no repository/ref override).
+#
+# Data fetched from the fork (no code executed):
+#   - The changed *.json extension description files are fetched from the fork's
+#     commit via "git fetch + git checkout <files>" — they are read as data by the
+#     script, not executed.
+#
+# Do NOT change the checkout step to reference the fork's repository or ref,
+# as that would replace the trusted scripts with untrusted fork code.
+
 on:
   pull_request_target:
     types: [opened, synchronize, reopened, ready_for_review]
@@ -13,27 +28,18 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      pull-requests: write
     timeout-minutes: 30
     steps:
-      - name: Checkout the fork PR code
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-        with:
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-          ref: ${{ github.event.pull_request.head.ref }}
-          fetch-depth: 0 # Fetch full history for git diff
+      - name: Checkout base repository
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        # No repository/ref override — checks out the BASE repo with trusted scripts.
 
       - name: Setup Python
-        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
         with:
           python-version: "3.12"
           cache: "pip"
           cache-dependency-path: scripts/requirements.txt
-
-      - name: Configure git
-        run: |
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"
 
       - name: Install dependencies
         run: |
@@ -44,40 +50,37 @@ jobs:
           echo "Verifying installed packages:"
           pip list | grep -E "(jsonschema|requests)"
 
-      - name: Get changed files
+      - name: Fetch changed JSON files from PR
         run: |
-          mkdir -p /tmp/ai-analysis-reports
-
-          # Upstream repo (base repository)
-          UPSTREAM_REPO="${{ github.event.pull_request.base.repo.full_name }}"
+          FORK_REPO="${{ github.event.pull_request.head.repo.full_name }}"
+          HEAD_SHA="${{ github.event.pull_request.head.sha }}"
           BASE_REF="${{ github.event.pull_request.base.ref }}"
-          echo "Upstream repo: $UPSTREAM_REPO"
-          echo "Base ref: $BASE_REF"
 
-          # Add upstream remote and fetch latest base branch
-          git remote add upstream "https://github.com/$UPSTREAM_REPO.git"
-          git fetch upstream $BASE_REF
+          # Fetch only the fork's HEAD commit (not the full fork history)
+          git fetch "https://github.com/$FORK_REPO" "$HEAD_SHA" --depth=1
 
-          # Checkout PR code
-          git checkout ${{ github.event.pull_request.head.ref }}
-
-          # Diff fork PR vs upstream base branch
-          git diff --name-only --diff-filter=AM upstream/$BASE_REF...HEAD \
-            | grep -E '\.json$' > /tmp/ai-analysis-reports/changed_files.txt || true
+          # Find added/modified JSON files in the repo root
+          git diff --name-only --diff-filter=AM "origin/$BASE_REF" FETCH_HEAD \
+            | grep -E '^[^/]+\.json$' > /tmp/changed_files.txt || true
 
           echo "Changed JSON files:"
-          cat /tmp/ai-analysis-reports/changed_files.txt || echo "(none)"
+          cat /tmp/changed_files.txt || echo "(none)"
+
+          # Checkout only the JSON files from the fork's commit.
+          # These are extension description files treated as data, not executed code.
+          CHANGED_FILES=$(cat /tmp/changed_files.txt | tr '\n' ' ')
+          if [ -n "$CHANGED_FILES" ]; then
+            git checkout FETCH_HEAD -- $CHANGED_FILES
+          fi
 
       - name: Run AI analysis
         env:
           INFERENCE_URL: ${{ vars.INFERENCE_URL }}
           INFERENCE_MODEL: ${{ vars.INFERENCE_MODEL }}
           INFERENCE_API_KEY: ${{ secrets.INFERENCE_API_KEY }}
-        id: ai-analysis
         run: |
           RESULT=$(python scripts/extension_ai_analysis.py \
-            $(cat /tmp/ai-analysis-reports/changed_files.txt | tr '\n' ' '))
+            $(cat /tmp/changed_files.txt | tr '\n' ' '))
           echo "$RESULT"
-          # Append result to GitHub Actions job summary
           echo "### AI Analysis Result" >> $GITHUB_STEP_SUMMARY
           echo "$RESULT" >> $GITHUB_STEP_SUMMARY
