@@ -1,0 +1,21 @@
+scm git
+
+scmurl https://github.com/xristosand/GliomaAI.git
+
+scmrevision v1.0.1
+
+depends NA
+
+homepage https://github.com/xristosand/GliomaAI
+
+contributors Christos Andrianos (University of West Attica)
+
+category Radiology
+
+iconurl https://raw.githubusercontent.com/xristosand/GliomaAI/main/GliomaAI.png
+
+description 3D Slicer extension for automated glioma grading from T1CE and FLAIR MRI using deep learning models with integrated explainable AI visualization.
+
+screenshoturls https://raw.githubusercontent.com/xristosand/GliomaAI/main/docs/screenshots/classification.png https://raw.githubusercontent.com/xristosand/GliomaAI/main/docs/screenshots/preprocessing.png https://raw.githubusercontent.com/xristosand/GliomaAI/main/docs/screenshots/results.png
+
+enabled 1
