@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
+  "category": "Analysis",
+  "scm_url": "https://github.com/MarkDanielArndt/SlicerZebrafishEmbryoAnalyzer.git",
+  "scm_revision": "main",
+  "scm_type": "git",
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "enabled": true,
+  "tier": 1
+}
