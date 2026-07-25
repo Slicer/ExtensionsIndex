@@ -4,7 +4,10 @@
     "SurfaceWrapSolidify",
     "MarkupsToModel",
     "Sandbox",
-    "Telemetry"
+    "Telemetry",
+    "SlicerMOOSE",
+    "NNUNet",
+    "DentalSegmentator"
   ],
   "build_subdirectory": ".",
   "category": "Planning",
