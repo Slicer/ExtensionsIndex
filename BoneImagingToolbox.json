@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.2.json#",
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "Quantification",
+  "enabled": true,
+  "scm_revision": "main",
+  "scm_type": "git",
+  "scm_url": "https://github.com/wallematthias/SlicerBoneImagingToolbox",
+  "tier": 1
+}
