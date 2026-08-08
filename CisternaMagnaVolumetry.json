@@ -4,6 +4,6 @@
   "build_subdirectory": ".",
   "category": "Segmentation",
   "scm_revision": "main",
-  "scm_url": "https://github.com/niyaziacer/CisternaMagnaVolumetry.git",
+  "scm_url": "https://github.com/niyaziacer/SlicerCisternaVolumetry.git",
   "tier": 3
 }
