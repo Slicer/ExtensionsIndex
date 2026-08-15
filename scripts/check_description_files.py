@@ -256,13 +256,21 @@ def check_git_repository_topics(extension_name, metadata):
     headers = {
         "Accept": "application/vnd.github+json"
     }
+    # Authenticate if a token is available: unauthenticated GitHub API requests
+    # are limited to 60/hour per IP address, which is shared with other tenants
+    # on GitHub-hosted runners and therefore often already exhausted.
+    token = os.environ.get("GITHUB_TOKEN", None)
+    if token:
+        headers["Authorization"] = f"token {token}"
     response = requests.get(url, headers=headers)
     topics = []
     if response.status_code == 200:
         data = response.json()
         topics = data.get("names", [])
     else:
-        raise ValueError(f"Failed to get github topics for {owner}/{repo}: Error {response.status_code}: {response.text}")
+        raise ExtensionCheckError(
+            extension_name, check_name,
+            f"Failed to get GitHub topics for {owner}/{repo}: Error {response.status_code}: {response.text}")
 
     if "3d-slicer-extension" not in topics:
         raise ExtensionCheckError(
