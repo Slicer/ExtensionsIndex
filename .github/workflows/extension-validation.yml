@@ -55,14 +55,16 @@ jobs:
         run: |
           echo "Event: ${{ github.event_name }}"
           mkdir -p /tmp/validation-reports
+          # Collect added/modified/renamed files; exclude deletions
+          # (--name-only reports a renamed file under its new path)
           if [ "${{ github.event_name }}" = "pull_request" ]; then
             # For pull requests, compare against the base branch
             BASE_REF="${{ github.event.pull_request.base.ref }}"
             echo "Base ref: $BASE_REF"
-            git diff --name-only "origin/$BASE_REF"...HEAD > /tmp/validation-reports/changed_files.txt 2>/dev/null
+            git diff --name-only --diff-filter=AMR "origin/$BASE_REF"...HEAD > /tmp/validation-reports/changed_files.txt 2>/dev/null
           else
             # For pushes, compare against the previous commit or get all JSON files if it's the first commit
-            git diff --name-only HEAD~1 HEAD > /tmp/validation-reports/changed_files.txt 2>/dev/null
+            git diff --name-only --diff-filter=AMR HEAD~1 HEAD > /tmp/validation-reports/changed_files.txt 2>/dev/null
           fi
           echo "Changed JSON files:"
           cat /tmp/validation-reports/changed_files.txt
