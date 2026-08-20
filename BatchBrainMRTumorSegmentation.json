@@ -3,7 +3,7 @@
   "build_dependencies": [],
   "build_subdirectory": ".",
   "category": "Segmentation",
-  "scm_revision": "fix/extension-publication",
-  "scm_url": "https://github.com/bmcmoolpaad/SlicerBatchBrainMRTumorSegmentation.git",
+  "scm_revision": "main",
+  "scm_url": "https://github.com/UWA-Medical-Physics/SlicerBatchBrainMRTumorSegmentation.git",
   "tier": 1
 }
