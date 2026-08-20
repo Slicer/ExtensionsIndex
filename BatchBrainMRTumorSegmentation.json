@@ -1,0 +1,9 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
+  "build_dependencies": [],
+  "build_subdirectory": ".",
+  "category": "Segmentation",
+  "scm_revision": "fix/extension-publication",
+  "scm_url": "https://github.com/bmcmoolpaad/SlicerBatchBrainMRTumorSegmentation.git",
+  "tier": 1
+}
