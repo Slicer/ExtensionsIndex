@@ -3,7 +3,9 @@
   "category": "Segmentation",
   "scm_url": "https://github.com/dhnihaoya/SlicerGastricConduit",
   "scm_revision": "main",
-  "build_dependencies": ["NNUNet"],
+  "build_dependencies": [
+    "NNUNet"
+  ],
   "build_subdirectory": ".",
   "tier": 1
 }
