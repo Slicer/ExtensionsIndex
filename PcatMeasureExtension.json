@@ -1,0 +1,8 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
+  "category": "Quantification",
+  "scm_url": "https://github.com/hattori222yu/SlicerPcatMeasure",
+  "scm_revision": "main",
+  "build_subdirectory": ".",
+  "tier": 3
+}
