@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.2.json#",
+  "category": "Segmentation",
+  "scm_url": "https://github.com/gefeichen/SlicerPETTumorSegmentation.git",
+  "scm_revision": "master",
+  "build_subdirectory": ".",
+  "build_dependencies": [],
+  "tier": 1,
+  "dicom_support_rule": "Modality == 'PT' or Modality == 'NM'"
+}
