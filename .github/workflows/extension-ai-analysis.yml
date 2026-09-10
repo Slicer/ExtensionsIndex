@@ -31,11 +31,11 @@ jobs:
     timeout-minutes: 30
     steps:
       - name: Checkout base repository
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         # No repository/ref override — checks out the BASE repo with trusted scripts.
 
       - name: Setup Python
-        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.12"
           cache: "pip"
@@ -59,12 +59,17 @@ jobs:
           # Fetch only the fork's HEAD commit (not the full fork history)
           git fetch "https://github.com/$FORK_REPO" "$HEAD_SHA" --depth=1
 
-          # Find added/modified JSON files in the repo root
-          git diff --name-only --diff-filter=AM "origin/$BASE_REF" FETCH_HEAD \
+          # Find added/modified/renamed JSON files in the repo root
+          # (--name-only reports a renamed file under its new path)
+          git diff --name-only --diff-filter=AMR "origin/$BASE_REF" FETCH_HEAD \
             | grep -E '^[^/]+\.json$' > /tmp/changed_files.txt || true
 
           echo "Changed JSON files:"
           cat /tmp/changed_files.txt || echo "(none)"
+
+          if [ ! -s /tmp/changed_files.txt ]; then
+            echo "::warning::No added, modified, or renamed extension description files found in this PR - AI analysis will be skipped."
+          fi
 
           # Checkout only the JSON files from the fork's commit.
           # These are extension description files treated as data, not executed code.
