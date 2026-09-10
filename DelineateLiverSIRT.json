@@ -3,7 +3,7 @@
   "build_dependencies": [
     "SlicerRT",
     "PETDICOMExtension",
-    "PyTorch"
+    "PyTorch",
   ],
   "build_subdirectory": ".",
   "category": "Nuclear Medicine",
