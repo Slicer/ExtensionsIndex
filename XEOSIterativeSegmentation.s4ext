@@ -1,0 +1,13 @@
+scm git
+scmurl https://github.com/YazdanSalimi/XEOSIterativeSegmentation.git
+scmrevision main
+
+build_subdirectory .
+
+homepage https://github.com/YazdanSalimi/XEOSIterativeSegmentation
+category Quantification
+iconurl
+description Iterative PET lesion segmentation with plateau-detection thresholding, interactive convergence curve, MIP GIF export, and Excel metrics. Loads DICOM directly in 3D Slicer.
+contributors Yazdan Salimi
+status
+depends NA
