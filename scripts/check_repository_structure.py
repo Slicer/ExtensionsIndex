@@ -36,6 +36,7 @@ def check_filenames():
         '.pre-commit-config.yaml',
         '.prettierrc.js',
         '.git-blame-ignore-revs',
+        'AGENTS.md',
         'README.md'
     }
 
