@@ -59,12 +59,17 @@ jobs:
           # Fetch only the fork's HEAD commit (not the full fork history)
           git fetch "https://github.com/$FORK_REPO" "$HEAD_SHA" --depth=1
 
-          # Find added/modified JSON files in the repo root
-          git diff --name-only --diff-filter=AM "origin/$BASE_REF" FETCH_HEAD \
+          # Find added/modified/renamed JSON files in the repo root
+          # (--name-only reports a renamed file under its new path)
+          git diff --name-only --diff-filter=AMR "origin/$BASE_REF" FETCH_HEAD \
             | grep -E '^[^/]+\.json$' > /tmp/changed_files.txt || true
 
           echo "Changed JSON files:"
           cat /tmp/changed_files.txt || echo "(none)"
+
+          if [ ! -s /tmp/changed_files.txt ]; then
+            echo "::warning::No added, modified, or renamed extension description files found in this PR - AI analysis will be skipped."
+          fi
 
           # Checkout only the JSON files from the fork's commit.
           # These are extension description files treated as data, not executed code.

@@ -24,7 +24,8 @@ jobs:
         id: get-extensions
         run: |
           BASE_REF="${{ github.event.pull_request.base.ref }}"
-          git diff --name-only --diff-filter=AM "origin/$BASE_REF"...HEAD \
+          # Include renamed files (--name-only reports them under their new path)
+          git diff --name-only --diff-filter=AMR "origin/$BASE_REF"...HEAD \
             | grep -E '\.json$' > /tmp/changed_files.txt || true
           echo "Changed JSON files:"
           cat /tmp/changed_files.txt || echo "(none)"
