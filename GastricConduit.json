@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
+  "category": "Segmentation",
+  "scm_url": "https://github.com/dhnihaoya/SlicerGastricConduit",
+  "scm_revision": "main",
+  "build_dependencies": [
+    "NNUNet"
+  ],
+  "build_subdirectory": ".",
+  "tier": 1
+}
