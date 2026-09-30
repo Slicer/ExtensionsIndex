@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
   "build_dependencies": [],
   "category": "Segmentation",
-  "scm_revision": "984c135c83f84c2a52a0a840c49b2567b1a5f6e5",
+  "scm_revision": "main",
   "scm_url": "https://github.com/DeepReasoningAI/SlicerDRAISegmentation.git",
   "tier": 1
 }
