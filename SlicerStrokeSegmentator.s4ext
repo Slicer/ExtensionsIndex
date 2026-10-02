@@ -1,0 +1,12 @@
+scmurl https://github.com/parvezamu/SlicerStrokeSegmentator
+scmrevision main
+depends NA
+build_subdirectory .
+homepage https://github.com/parvezamu/SlicerStrokeSegmentator
+contributors Parvez Ahmad (Auckland Bioengineering Institute, University of Auckland)
+category Segmentation
+iconurl https://raw.githubusercontent.com/parvezamu/SlicerStrokeSegmentator/main/SlicerStrokeSegmentator/Resources/Icons/SlicerStrokeSegmentator.png
+status
+description Automated chronic ischemic stroke lesion segmentation on T1-weighted MRI. Input must be T1w MRI registered to MNI152 1mm isotropic space. Model weights available upon request (p.ahmad@auckland.ac.nz).
+screenshoturls
+enabled 1
