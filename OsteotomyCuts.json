@@ -1,8 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.1.json#",
   "build_dependencies": [],
-  "category": "Segmentation",
+  "build_subdirectory": ".",
+  "category": "Planning",
   "scm_revision": "main",
-  "scm_url": "https://github.com/DeepReasoningAI/SlicerDRAISegmentation.git",
+  "scm_url": "https://github.com/cmfsx/SlicerOsteotomyCuts.git",
   "tier": 1
 }

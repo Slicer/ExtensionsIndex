@@ -8,6 +8,6 @@
   "build_subdirectory": ".",
   "category": "Nuclear Medicine",
   "scm_revision": "master",
-  "scm_url": "https://gitlab.in2p3.fr/iftim/public-projects/SlicerDelineateLiverRT.git",
+  "scm_url": "https://gitlab.in2p3.fr/iftim/public-projects/SlicerDelineateLiverSIRT.git",
   "tier": 1
 }
