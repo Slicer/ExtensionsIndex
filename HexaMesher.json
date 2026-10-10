@@ -4,6 +4,6 @@
   "build_subdirectory": ".",
   "category": "Utilities",
   "scm_revision": "main",
-  "scm_url": "https://github.com/DomenicoRiggio/SlicerModelsVoxelization.git",
+  "scm_url": "https://github.com/DomenicoRiggio/SlicerHexaMesher.git",
   "tier": 3
 }
