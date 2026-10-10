@@ -4,7 +4,7 @@
     "PyTorch"
   ],
   "build_subdirectory": ".",
-  "category": "Reconstruction",
+  "category": "DICOM",
   "scm_revision": "main",
   "scm_url": "https://github.com/4burakfe/SlicerDICOMCBCTRecon.git",
   "tier": 1
