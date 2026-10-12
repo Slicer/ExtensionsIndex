@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.2.json#",
   "build_dependencies": [],
   "build_subdirectory": ".",
-  "category": "Visualization",
+  "category": "Rendering",
   "enabled": true,
   "scm_revision": "main",
   "scm_type": "git",
