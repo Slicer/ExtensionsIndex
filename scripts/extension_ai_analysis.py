@@ -29,6 +29,7 @@ if not INFERENCE_API_KEY:
 
 INFERENCE_RESPONSE_PER_MINUTE_LIMIT = 10 #  slow down to not exceed token per minute (tpm) limit
 INFERENCE_MAX_CHARACTERS = 400000  # max characters in all files provided to the model, approximately 100k tokens
+INFERENCE_TIMEOUT_SECONDS = (30, 600)  # (connect, read); a stalled request must not consume the job's whole budget
 
 QUESTIONS = [
     ["Is there a EXTENSION_DESCRIPTION variable in the CMakeLists.txt file that describes what the extension does in a few sentences that can be understood by a person knowledgeable in medical image computing?", ["cmake"]],
@@ -134,6 +135,20 @@ def collect_analyzed_files(folder):
                 found_files[category][relative_path] = f.read()
     return found_files
 
+def throttle():
+    """Sleep only as long as the response-per-minute limit still requires.
+
+    A request that already took longer than the minimum interval needs no wait,
+    and the wait must not be paid after the last request of the run.
+    """
+    interval = 60 / INFERENCE_RESPONSE_PER_MINUTE_LIMIT
+    elapsed = time.monotonic() - throttle.last_request_time if throttle.last_request_time else interval
+    if elapsed < interval:
+        time.sleep(interval - elapsed)
+    throttle.last_request_time = time.monotonic()
+
+throttle.last_request_time = None
+
 def ask_question(system_msg, question):
     headers = {
         "Content-Type": "application/json",
@@ -156,12 +171,8 @@ def ask_question(system_msg, question):
         "stream": False
     }
 
-    response = requests.post(INFERENCE_URL, headers=headers, json=data)
-
-    # wait according to response per minute limit
-    delay = 60 / INFERENCE_RESPONSE_PER_MINUTE_LIMIT
-    import time
-    time.sleep(delay)
+    throttle()
+    response = requests.post(INFERENCE_URL, headers=headers, json=data, timeout=INFERENCE_TIMEOUT_SECONDS)
 
     try:
         answer = response.json()["choices"][0]["message"]["content"]
