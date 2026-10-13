@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-    timeout-minutes: 30
+    timeout-minutes: 60
     steps:
       - name: Checkout base repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -84,8 +84,11 @@ jobs:
           INFERENCE_MODEL: ${{ vars.INFERENCE_MODEL }}
           INFERENCE_API_KEY: ${{ secrets.INFERENCE_API_KEY }}
         run: |
-          RESULT=$(python scripts/extension_ai_analysis.py \
-            $(cat /tmp/changed_files.txt | tr '\n' ' '))
-          echo "$RESULT"
+          # Stream the analysis to the log as it runs rather than capturing it in a
+          # variable: a job that is cancelled on timeout otherwise reports nothing.
+          # pipefail keeps the step failing when the script does, despite the pipe.
+          set -o pipefail
+          python scripts/extension_ai_analysis.py \
+            $(cat /tmp/changed_files.txt | tr '\n' ' ') | tee /tmp/ai_analysis_result.txt
           echo "### AI Analysis Result" >> $GITHUB_STEP_SUMMARY
-          echo "$RESULT" >> $GITHUB_STEP_SUMMARY
+          cat /tmp/ai_analysis_result.txt >> $GITHUB_STEP_SUMMARY
