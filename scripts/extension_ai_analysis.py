@@ -41,7 +41,8 @@ QUESTIONS = [
     ["Does this code download any executable code from the internet or uploads any data to the internet?", ["source"]],
     ["Is any code executed at the file scope when a module is imported?", ["source"]],
     ["Are any Python packages imported at the file scope that are not from the Python Standard Library and not from Slicer, vtk, SimpleITK, numpy, and scipy?", ["source"]],
-    ["Does it directly use pip_install to install pytorch?", ["source"]],
+    ["Does it install PyTorch in any way other than through the Slicer PyTorch extension (PyTorchUtils), for example pip_install of torch, light-the-torch, a PyTorch index URL, an exact torch version pin, or a package such as nnunetv2 that pulls torch from PyPI?", ["source"]],
+    ["Does it install, upgrade, downgrade, or exactly pin packages that Slicer bundles (such as numpy, scipy, SimpleITK, pydicom, vtk), or install packages that bundle their own Qt (such as opencv-python instead of opencv-python-headless)?", ["source"]],
     ["Does it store large amount of downloaded content on local disk other than installing Python packages? Does it provide a way for the user to remove that content?", ["source"]],
 ]
 
