@@ -690,6 +690,7 @@ REPOSITORY_NAME_CHECK_EXCEPTIONS = [
     "CarreraSlice",
     "ChangeTrackerPy",
     "CMFreg",
+    "collageradiomics",  # Also a standalone Python library and CLI.
     "CurveMaker",
     "DatabaseInteractorExtension",
     "dcmqi",
