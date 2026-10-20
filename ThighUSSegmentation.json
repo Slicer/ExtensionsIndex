@@ -4,6 +4,6 @@
   "build_subdirectory": ".",
   "category": "Segmentation",
   "scm_revision": "main",
-  "scm_url": "https://github.com/UPNa-Biomedical-Engineering-Group/ThighUSSegmentation.git",
+  "scm_url": "https://github.com/UPNa-Biomedical-Engineering-Group/SlicerThighUSSegmentation.git",
   "tier": 1
 }
