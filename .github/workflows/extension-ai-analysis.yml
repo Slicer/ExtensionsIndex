@@ -28,6 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+      pull-requests: read # to list the files changed by the pull request
     timeout-minutes: 60
     steps:
       - name: Checkout base repository
@@ -51,18 +52,24 @@ jobs:
           pip list | grep -E "(jsonschema|requests)"
 
       - name: Fetch changed JSON files from PR
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           FORK_REPO="${{ github.event.pull_request.head.repo.full_name }}"
           HEAD_SHA="${{ github.event.pull_request.head.sha }}"
-          BASE_REF="${{ github.event.pull_request.base.ref }}"
+          PR_NUMBER="${{ github.event.pull_request.number }}"
 
           # Fetch only the fork's HEAD commit (not the full fork history)
           git fetch "https://github.com/$FORK_REPO" "$HEAD_SHA" --depth=1
 
-          # Find added/modified/renamed JSON files in the repo root
-          # (--name-only reports a renamed file under its new path)
-          git diff --name-only --diff-filter=AMR "origin/$BASE_REF" FETCH_HEAD \
-            | grep -E '^[^/]+\.json$' > /tmp/changed_files.txt || true
+          # List the root-level JSON files this pull request adds, modifies or renames,
+          # as GitHub reports them (renamed files appear under their new path).
+          # Diffing the base branch tip against the fork's commit instead would also
+          # pick up every file changed on the base branch since the fork branched off,
+          # so a stale branch would analyze unrelated (even archived) extensions.
+          gh api --paginate "repos/${{ github.repository }}/pulls/$PR_NUMBER/files" \
+            --jq '.[] | select(.status != "removed") | .filename' \
+            | grep -E '^[A-Za-z0-9._-]+\.json$' > /tmp/changed_files.txt || true
 
           echo "Changed JSON files:"
           cat /tmp/changed_files.txt || echo "(none)"

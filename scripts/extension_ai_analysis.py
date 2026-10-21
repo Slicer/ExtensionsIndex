@@ -286,15 +286,31 @@ def main():
         cloned_repository_folder = tempfile.mkdtemp(prefix=f"extension_check_{extension_name}_")
 
         try:
-            clone_repository(metadata, cloned_repository_folder)
-            analyze_extension(extension_name, metadata, cloned_repository_folder)
+            try:
+                clone_repository(metadata, cloned_repository_folder)
+            except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
+                # Report the failure and continue with the remaining extensions
+                # instead of aborting the whole analysis.
+                success = False
+                command = " ".join(e.cmd) if isinstance(e.cmd, (list, tuple)) else str(e.cmd)
+                if isinstance(e, subprocess.TimeoutExpired):
+                    print(f"Error: failed to get the source code of {extension_name}: '{command}' timed out after {e.timeout} seconds.")
+                else:
+                    print(f"Error: failed to get the source code of {extension_name}: '{command}' exited with status {e.returncode}.")
+                error_output = e.stderr.decode(errors="replace") if isinstance(e.stderr, bytes) else e.stderr
+                if error_output:
+                    print(error_output.strip())
+            else:
+                analyze_extension(extension_name, metadata, cloned_repository_folder)
         finally:
             # Clean up temporary directory
             success_cleanup = safe_cleanup_directory(cloned_repository_folder)
 
         print("\n=====================================================\n")
 
+    return success
+
 
 if __name__ == "__main__":
     import sys
-    main()
+    sys.exit(0 if main() else 1)
