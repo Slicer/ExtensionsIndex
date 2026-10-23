@@ -29,6 +29,7 @@ if not INFERENCE_API_KEY:
 
 INFERENCE_RESPONSE_PER_MINUTE_LIMIT = 10 #  slow down to not exceed token per minute (tpm) limit
 INFERENCE_MAX_CHARACTERS = 400000  # max characters in all files provided to the model, approximately 100k tokens
+INFERENCE_TIMEOUT_SECONDS = (30, 600)  # (connect, read); a stalled request must not consume the job's whole budget
 
 QUESTIONS = [
     ["Is there a EXTENSION_DESCRIPTION variable in the CMakeLists.txt file that describes what the extension does in a few sentences that can be understood by a person knowledgeable in medical image computing?", ["cmake"]],
@@ -40,7 +41,8 @@ QUESTIONS = [
     ["Does this code download any executable code from the internet or uploads any data to the internet?", ["source"]],
     ["Is any code executed at the file scope when a module is imported?", ["source"]],
     ["Are any Python packages imported at the file scope that are not from the Python Standard Library and not from Slicer, vtk, SimpleITK, numpy, and scipy?", ["source"]],
-    ["Does it directly use pip_install to install pytorch?", ["source"]],
+    ["Does it install PyTorch in any way other than through the Slicer PyTorch extension (PyTorchUtils), for example pip_install of torch, light-the-torch, a PyTorch index URL, an exact torch version pin, or a package such as nnunetv2 that pulls torch from PyPI?", ["source"]],
+    ["Does it install, upgrade, downgrade, or exactly pin packages that Slicer bundles (such as numpy, scipy, SimpleITK, pydicom, vtk), or install packages that bundle their own Qt (such as opencv-python instead of opencv-python-headless)?", ["source"]],
     ["Does it store large amount of downloaded content on local disk other than installing Python packages? Does it provide a way for the user to remove that content?", ["source"]],
 ]
 
@@ -134,6 +136,20 @@ def collect_analyzed_files(folder):
                 found_files[category][relative_path] = f.read()
     return found_files
 
+def throttle():
+    """Sleep only as long as the response-per-minute limit still requires.
+
+    A request that already took longer than the minimum interval needs no wait,
+    and the wait must not be paid after the last request of the run.
+    """
+    interval = 60 / INFERENCE_RESPONSE_PER_MINUTE_LIMIT
+    elapsed = time.monotonic() - throttle.last_request_time if throttle.last_request_time else interval
+    if elapsed < interval:
+        time.sleep(interval - elapsed)
+    throttle.last_request_time = time.monotonic()
+
+throttle.last_request_time = None
+
 def ask_question(system_msg, question):
     headers = {
         "Content-Type": "application/json",
@@ -156,12 +172,8 @@ def ask_question(system_msg, question):
         "stream": False
     }
 
-    response = requests.post(INFERENCE_URL, headers=headers, json=data)
-
-    # wait according to response per minute limit
-    delay = 60 / INFERENCE_RESPONSE_PER_MINUTE_LIMIT
-    import time
-    time.sleep(delay)
+    throttle()
+    response = requests.post(INFERENCE_URL, headers=headers, json=data, timeout=INFERENCE_TIMEOUT_SECONDS)
 
     try:
         answer = response.json()["choices"][0]["message"]["content"]
@@ -274,15 +286,31 @@ def main():
         cloned_repository_folder = tempfile.mkdtemp(prefix=f"extension_check_{extension_name}_")
 
         try:
-            clone_repository(metadata, cloned_repository_folder)
-            analyze_extension(extension_name, metadata, cloned_repository_folder)
+            try:
+                clone_repository(metadata, cloned_repository_folder)
+            except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
+                # Report the failure and continue with the remaining extensions
+                # instead of aborting the whole analysis.
+                success = False
+                command = " ".join(e.cmd) if isinstance(e.cmd, (list, tuple)) else str(e.cmd)
+                if isinstance(e, subprocess.TimeoutExpired):
+                    print(f"Error: failed to get the source code of {extension_name}: '{command}' timed out after {e.timeout} seconds.")
+                else:
+                    print(f"Error: failed to get the source code of {extension_name}: '{command}' exited with status {e.returncode}.")
+                error_output = e.stderr.decode(errors="replace") if isinstance(e.stderr, bytes) else e.stderr
+                if error_output:
+                    print(error_output.strip())
+            else:
+                analyze_extension(extension_name, metadata, cloned_repository_folder)
         finally:
             # Clean up temporary directory
             success_cleanup = safe_cleanup_directory(cloned_repository_folder)
 
         print("\n=====================================================\n")
 
+    return success
+
 
 if __name__ == "__main__":
     import sys
-    main()
+    sys.exit(0 if main() else 1)

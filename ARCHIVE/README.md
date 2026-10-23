@@ -19,6 +19,7 @@ the archive are as follows
 
 | Date       | Extension Name                | Deprecation reason  |
 |------------|-------------------------------|---------------------|
+| 2026-10-09 | LayerDisplayableManager    | Moved to core application, see https://github.com/Slicer/Slicer/pull/9184 |
 | 2026-05-04 | DCMQI                      | Moved to core application, see https://github.com/Slicer/Slicer/pull/9114 |
 | 2026-05-04 | PETLiverUptakeMeasurement  | Original maintainers are no longer supporting this extension, while updates are needed to update dependency on the DCMQI, no longer available as an extension. May be added back in the future pending resources availability. |
 | 2025-04-02 | SlicerWMA                  | Extension prevented Slicer from starting https://discourse.slicer.org/t/slicer-doesnt-open-after-installing-slicerwma-extension/42356|
