@@ -693,6 +693,7 @@ REPOSITORY_NAME_CHECK_EXCEPTIONS = [
     "MeshStatisticsExtension",
     "MeshToLabelMap",
     "ModelClip",
+    "monai-physio-slicer",
     "MONAILabel",
     "mpReview",
     "NeedleFinder",
