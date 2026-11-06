@@ -1,0 +1,13 @@
+{
+  "name": "SlicerConnect",
+  "category": "Collaboration",
+  "description": "Real-time multi-user collaboration for medical image segmentation.",
+  "scm_url": "https://github.com/pka420/SlicerConnect.git",
+  "scm_revision": "main",
+  "scm_type": "git",
+  "contributors": "Piyush Khurana (Delhi University)",
+  "homepage": "https://github.com/pka420/SlicerConnect",
+  "icon_url": "https://raw.githubusercontent.com/pka420/SlicerConnect/main/SlicerConnect.png",
+  "build_dependencies": [],
+  "enabled": true
+}
