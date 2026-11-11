@@ -4,6 +4,6 @@
   "build_subdirectory": ".",
   "category": "Informatics",
   "scm_revision": "main",
-  "scm_url": "https://github.com/mbellehumeur/SlicerHub.git",
+  "scm_url": "https://github.com/mbellehumeur/SlicerWebSub.git",
   "tier": 1
 }
