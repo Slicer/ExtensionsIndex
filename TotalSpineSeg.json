@@ -1,0 +1,1 @@
+{"category":"Segmentation","scm_url":"https://github.com/yw7/SlicerTotalSpineSeg","scm_revision":"main","build_dependencies":["PyTorch","NNUNet"]}
