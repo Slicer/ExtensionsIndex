@@ -4,6 +4,6 @@
   "build_subdirectory": ".",
   "category": "Segmentation",
   "scm_revision": "main",
-  "scm_url": "https://github.com/zapaishchykova/SegmentationReview",
+  "scm_url": "https://github.com/annazielke/SegmentationReview",
   "tier": 3
 }
