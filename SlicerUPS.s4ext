@@ -1,0 +1,37 @@
+#
+# First token of each non-comment line is the keyword and the rest of the line
+# (including spaces) is the value.
+# - the value can be blank
+#
+
+# This is source code manager (i.e. svn)
+scm git
+scmurl https://github.com/clicker71/SlicerUPS.git
+scmrevision 642501248a07359ac06cf7a93c1b3a92615521b7
+
+# list dependencies
+# - These should be names of other modules that have .s4ext files
+# - The dependencies will be built first
+depends NA
+
+# Inner build directory (default is ".")
+build_subdirectory .
+
+# homepage
+homepage https://github.com/clicker71/SlicerUPS
+
+# Firstname1 Lastname1 ([SubOrg1, ]Org1), ...
+contributors Daniil Solgalov (Clarus PACS)
+
+# Match category in the xml description of the module (where it shows up in Modules menu)
+category Informatics
+
+# Give people an idea what to expect from this code
+#  - Is it just a test or something you stand behind?
+status Alpha
+
+# One line stating what the module does
+description CLI-first DICOMweb UPS-RS (PS3.18) task requester and watcher.
+
+# 0 or 1: Define if the extension should be enabled after its installation.
+enabled 1
