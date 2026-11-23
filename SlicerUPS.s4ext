@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/clicker71/SlicerUPS.git
-scmrevision 655aabb4741ed50caca1ee7c427806b562269d7e
+scmrevision 8a9909b0033b036f477edf2e81f7e8502149cd25
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
