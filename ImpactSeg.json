@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Slicer/Slicer/main/Schemas/slicer-extension-catalog-entry-schema-v1.0.2.json#",
+  "build_dependencies": [
+    "KonfAI"
+  ],
+  "build_subdirectory": ".",
+  "category": "Segmentation",
+  "enabled": true,
+  "scm_revision": "main",
+  "scm_type": "git",
+  "scm_url": "https://github.com/vboussot/SlicerImpactSeg",
+  "tier": 3
+}
